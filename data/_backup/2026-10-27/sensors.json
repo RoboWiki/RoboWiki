@@ -1,7 +1,7 @@
 [
  {
   "id": "sens-bosch-bmi088",
-  "category": "sensor",
+  "category": "imu",
   "subtype": "imu",
   "vendor": "Bosch",
   "vendor_cn": null,
@@ -35,7 +35,7 @@
  },
  {
   "id": "sens-tdk-invensense-icm-42688-p",
-  "category": "sensor",
+  "category": "imu",
   "subtype": "imu",
   "vendor": "TDK InvenSense",
   "vendor_cn": null,
@@ -69,7 +69,7 @@
  },
  {
   "id": "sens-bosch-bmi270",
-  "category": "sensor",
+  "category": "imu",
   "subtype": "imu",
   "vendor": "Bosch",
   "vendor_cn": null,
@@ -103,7 +103,7 @@
  },
  {
   "id": "sens-tdk-invensense-icm-20948",
-  "category": "sensor",
+  "category": "imu",
   "subtype": "imu",
   "vendor": "TDK InvenSense",
   "vendor_cn": null,
@@ -137,7 +137,7 @@
  },
  {
   "id": "sens-analog-devices-adis16470",
-  "category": "sensor",
+  "category": "imu",
   "subtype": "imu",
   "vendor": "Analog Devices",
   "vendor_cn": null,
@@ -171,7 +171,7 @@
  },
  {
   "id": "sens-xsens-mti-3",
-  "category": "sensor",
+  "category": "imu",
   "subtype": "imu",
   "vendor": "Xsens",
   "vendor_cn": null,
@@ -205,7 +205,7 @@
  },
  {
   "id": "sens-intel-realsense-d435i",
-  "category": "sensor",
+  "category": "camera",
   "subtype": "camera",
   "vendor": "Intel",
   "vendor_cn": null,
@@ -239,7 +239,7 @@
  },
  {
   "id": "sens-intel-realsense-d455",
-  "category": "sensor",
+  "category": "camera",
   "subtype": "camera",
   "vendor": "Intel",
   "vendor_cn": null,
@@ -273,7 +273,7 @@
  },
  {
   "id": "sens-奥比中光-orbbec-gemini-335",
-  "category": "sensor",
+  "category": "camera",
   "subtype": "camera",
   "vendor": "奥比中光 Orbbec",
   "vendor_cn": null,
@@ -307,7 +307,7 @@
  },
  {
   "id": "sens-luxonis-oak-d-pro",
-  "category": "sensor",
+  "category": "camera",
   "subtype": "camera",
   "vendor": "Luxonis",
   "vendor_cn": null,
@@ -341,7 +341,7 @@
  },
  {
   "id": "sens-stereolabs-zed-2i",
-  "category": "sensor",
+  "category": "camera",
   "subtype": "camera",
   "vendor": "Stereolabs",
   "vendor_cn": null,
@@ -375,7 +375,7 @@
  },
  {
   "id": "sens-livox-mid-360",
-  "category": "sensor",
+  "category": "lidar",
   "subtype": "lidar",
   "vendor": "Livox",
   "vendor_cn": null,
@@ -409,7 +409,7 @@
  },
  {
   "id": "sens-速腾-robosense-airy",
-  "category": "sensor",
+  "category": "lidar",
   "subtype": "lidar",
   "vendor": "速腾 RoboSense",
   "vendor_cn": null,
@@ -443,7 +443,7 @@
  },
  {
   "id": "sens-interlink-fsr402-薄膜压力",
-  "category": "sensor",
+  "category": "module",
   "subtype": "force",
   "vendor": "Interlink",
   "vendor_cn": null,
@@ -477,7 +477,7 @@
  },
  {
   "id": "sens-宇立-sri-m35xx-六维力",
-  "category": "sensor",
+  "category": "module",
   "subtype": "force",
   "vendor": "宇立 SRI",
   "vendor_cn": null,
@@ -511,7 +511,7 @@
  },
  {
   "id": "sens-ati-mini45",
-  "category": "sensor",
+  "category": "module",
   "subtype": "force",
   "vendor": "ATI",
   "vendor_cn": null,
@@ -545,7 +545,7 @@
  },
  {
   "id": "sens-ams-osram-as5047p",
-  "category": "sensor",
+  "category": "module",
   "subtype": "encoder",
   "vendor": "ams OSRAM",
   "vendor_cn": null,
@@ -579,7 +579,7 @@
  },
  {
   "id": "sens-ams-osram-as5600",
-  "category": "sensor",
+  "category": "module",
   "subtype": "encoder",
   "vendor": "ams OSRAM",
   "vendor_cn": null,
@@ -613,7 +613,7 @@
  },
  {
   "id": "sens-magntek-麦歌恩-mt6835",
-  "category": "sensor",
+  "category": "module",
   "subtype": "encoder",
   "vendor": "MagnTek 麦歌恩",
   "vendor_cn": null,
@@ -647,7 +647,7 @@
  },
  {
   "id": "sens-多摩川-tamagawa-ts5700n8501",
-  "category": "sensor",
+  "category": "module",
   "subtype": "encoder",
   "vendor": "多摩川 Tamagawa",
   "vendor_cn": null,
