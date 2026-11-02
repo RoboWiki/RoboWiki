@@ -19,7 +19,7 @@ ADR-002/003 在 2026-10-30 裁定“暂不拆仓”，触发条件是：体量�
 
 ## 裁定
 
-- `RoboWiki/robowiki`：核心数据仓。
+- `RoboWiki/RoboWiki`：核心数据仓。
   - `data/`、`schema/`、`assets/parts/`
   - `pipeline/` 只做校验与入库，不生成站点
   - `tools/export_data.py` 发布 `data-vYYYY.MM.N`

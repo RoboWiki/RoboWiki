@@ -24,8 +24,8 @@ tools = [
 
 [project.urls]
 Homepage = "https://robowiki.github.io/"
-Repository = "https://github.com/RoboWiki/robowiki"
-Issues = "https://github.com/RoboWiki/robowiki/issues"
+Repository = "https://github.com/RoboWiki/RoboWiki"
+Issues = "https://github.com/RoboWiki/RoboWiki/issues"
 
 [project.scripts]
 robowiki-data = "pipeline.__main__:main"

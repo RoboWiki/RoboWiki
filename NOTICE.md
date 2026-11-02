@@ -31,6 +31,6 @@
 
 ## 引用格式
 
-> RoboWiki Data, `<data_version>`, https://github.com/RoboWiki/robowiki
+> RoboWiki Data, `<data_version>`, https://github.com/RoboWiki/RoboWiki
 
 并记录 `MANIFEST.json` 中的 `parts/robots/software/ids/semantics_version/assets`。
