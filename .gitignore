@@ -13,6 +13,7 @@ console/dist/
 shot-*.*
 _dev.log
 _*.py
+!pipeline/__main__.py
 _*.js
 _*.txt
 audit-*.png
