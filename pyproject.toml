@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "RoboWiki 核心数据仓：部件、整机、软件、渠道、关系与图片来源"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "GPL-3.0-only" }
+license = "GPL-3.0-only"
 authors = [{ name = "zeitvex" }]
 keywords = ["robotics", "actuator", "quadruped", "catalog", "open-data"]
 
@@ -29,6 +29,10 @@ Issues = "https://github.com/RoboWiki/robowiki/issues"
 
 [project.scripts]
 robowiki-data = "pipeline.__main__:main"
+
+[tool.setuptools]
+# 只打包 pipeline；data/assets/schema 是数据，不是 Python 包。
+packages = ["pipeline"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
