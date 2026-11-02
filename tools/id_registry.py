@@ -20,6 +20,7 @@
 
 命名空间（谁带前缀、谁不带）：
     data/catalog/*/*.json、data/robots/*.json   → 裸 id（部件与整机的老命名，历史包袱，不改）
+    data/materials/*.json                       → 裸 id（mat-* / proc-*，前缀已互斥）
     data/software.json                          → software:<id>
     data/suppliers.json                         → supplier:<id>
     data/protocols.json                         → protocol:<id>
@@ -88,6 +89,12 @@ def collect(root: pathlib.Path = ROOT) -> tuple[dict[str, dict], list[str]]:
             if isinstance(r, dict) and r.get("id"):
                 add(r["id"], {"category": r.get("category"), "model": r.get("model")},
                     f"robots/{f.name}")
+    for f in sorted((root / "data" / "materials").glob("*.json")):
+        rows = read(f)
+        for r in rows if isinstance(rows, list) else []:
+            if isinstance(r, dict) and r.get("id"):
+                add(r["id"], {"category": r.get("category"), "model": r.get("name")},
+                    f"materials/{f.name}")
 
     sw = root / "data" / "software.json"
     if sw.exists():

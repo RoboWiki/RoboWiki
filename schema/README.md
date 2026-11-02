@@ -26,7 +26,8 @@
 base.schema.json          实体基座：公共字段的定义与约束（单一事实源）
   ├── robot.schema.json     data/robots/<厂商>.json 中的一条整机
   ├── software.schema.json  data/software.json items[] 中的一条软件/库
-  └── supplier.schema.json  data/suppliers.json 中的一条供应商
+  ├── supplier.schema.json  data/suppliers.json 中的一条供应商
+  └── material.schema.json  data/materials/<分组>.json 中的一条材料或加工工艺
 ```
 
 `base.schema.json` 定的是**目标形态**：所有实体最终都应有

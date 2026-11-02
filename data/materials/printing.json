@@ -1,0 +1,324 @@
+[
+  {
+    "id": "mat-pla",
+    "category": "material",
+    "group": "printing",
+    "group_label": "3D 打印材料",
+    "family": "pla",
+    "family_label": "PLA",
+    "name": "PLA 聚乳酸",
+    "name_en": "Polylactic acid (PLA)",
+    "model": "PLA Basic",
+    "title": "PLA 聚乳酸（FDM 线材）",
+    "aliases": ["PLA", "聚乳酸", "PLA 线材", "拓竹 PLA", "Bambu PLA"],
+    "url": "https://bambulab.cn/zh-cn/filament-guide",
+    "sources": [
+      {
+        "url": "https://bambulab.cn/zh-cn/filament-guide",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Polylactic_acid",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Bambu Lab 耗材指南 + PLA 公开资料整理（2026-11-02）；不同品牌/配色线材的实测值有差异",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "modulus_GPa": 2.75,
+      "tensile_MPa": 35,
+      "yield_MPa": null,
+      "elongation_pct": 12,
+      "hardness": null,
+      "service_temp_C": 55,
+      "low_temp_C": null,
+      "melting_C": 165,
+      "thermal_cond_W_mK": 0.13,
+      "cte_um_mK": 68,
+      "price_level": "低",
+      "price_note": "线材按卷计价，常见 1 kg/卷；基础色最便宜，特殊效果线材加价",
+      "sim_note": "密度 1240 kg/m³；模量约 2.75 GPa。打印件层间强度明显低于层内，仿真按打印方向取等效值，耐温只按 55°C 左右考虑。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://bambulab.cn/zh-cn/filament-guide"
+    },
+    "forms": [
+      { "form": "线材", "spec": "1.75 mm（少量 2.85 mm）", "note": "FDM/FFF 最常用；开封后防潮" },
+      { "form": "定制件", "spec": "逐层挤出", "note": "外观件、原型、低负载夹具" }
+    ],
+    "processes": ["proc-fdm"],
+    "applications": [
+      "外观原型",
+      "桌面夹具/工装",
+      "教学模型",
+      "外壳验证",
+      "大尺寸低负载件"
+    ],
+    "pros": "最易打印、翘边和气味小、细节好、价格低；拓竹等消费机开箱即用。",
+    "cons": "耐热只有约 55°C、脆、抗冲击差；户外和潮湿环境会降解；层间强度弱。",
+    "notes": "最常用的 FDM 线材。易打印、细节好、价格低，适合外观原型、教学模型和低负载夹具；耐热只有约 55°C，不能用于电机附近或承力结构。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-pla-cf",
+    "category": "material",
+    "group": "printing",
+    "group_label": "3D 打印材料",
+    "family": "pla",
+    "family_label": "PLA",
+    "name": "PLA-CF 碳纤维增强线材",
+    "name_en": "Carbon fiber reinforced PLA (PLA-CF)",
+    "model": "PLA-CF",
+    "title": "PLA-CF 碳纤维增强线材",
+    "aliases": ["PLA-CF", "PLA CF", "碳纤维 PLA", "碳纤增强 PLA", "Bambu PLA-CF"],
+    "url": "https://bambulab.cn/zh-cn/filament-guide",
+    "sources": [
+      {
+        "url": "https://bambulab.cn/zh-cn/filament-guide",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://3dmart.com.tw/shop/bambu-lab-pla-cf-filament-series",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Bambu Lab 耗材指南 + 3DMart PLA-CF 数据表整理（2026-11-02）；纤维含量与基材牌号不同，数值有差异",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "modulus_GPa": 3.95,
+      "tensile_MPa": 38,
+      "yield_MPa": null,
+      "elongation_pct": 8.4,
+      "hardness": null,
+      "service_temp_C": 55,
+      "low_temp_C": null,
+      "melting_C": 165,
+      "thermal_cond_W_mK": 0.13,
+      "cte_um_mK": 68,
+      "price_level": "中",
+      "price_note": "比普通 PLA 贵；需硬化喷嘴，长期使用还要算喷嘴磨损",
+      "sim_note": "密度 1220 kg/m³；数据表给的弯曲模量约 3.95 GPa。短切纤维提升刚度但层间仍弱，仿真按打印方向取等效值，耐温仍按 55°C 左右。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://bambulab.cn/zh-cn/filament-guide"
+    },
+    "forms": [
+      { "form": "线材", "spec": "1.75 mm", "note": "需硬化喷嘴（0.4/0.6 mm）" },
+      { "form": "定制件", "spec": "逐层挤出", "note": "支架、夹具、轻量化外观件" }
+    ],
+    "processes": ["proc-fdm"],
+    "applications": [
+      "轻量化支架",
+      "夹具/工装",
+      "无人机小件",
+      "机器人外观件",
+      "原型验证"
+    ],
+    "pros": "刚度明显高于普通 PLA、尺寸稳定、打印细节好；外观有哑光碳纤质感。",
+    "cons": "仍脆、层间强度弱；耐热只有约 55°C；磨喷嘴、线材贵；纤维分布不均导致性能波动。",
+    "notes": "短切碳纤维增强的 PLA。刚度和尺寸稳定性比普通 PLA 好，适合轻量化支架和夹具；本质仍是 PLA，耐热和层间强度没有质变，不能替代工程塑料承力件。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-petg",
+    "category": "material",
+    "group": "printing",
+    "group_label": "3D 打印材料",
+    "family": "petg",
+    "family_label": "PETG",
+    "name": "PETG 线材",
+    "name_en": "Polyethylene terephthalate glycol (PETG)",
+    "model": "PETG Basic",
+    "title": "PETG 线材（FDM）",
+    "aliases": ["PETG", "PET-G", "改性 PET", "拓竹 PETG", "Bambu PETG"],
+    "url": "https://bambulab.cn/zh-cn/filament-guide",
+    "sources": [
+      {
+        "url": "https://bambulab.cn/zh-cn/filament-guide",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Bambu Lab 耗材指南 PETG 典型值整理（2026-11-02）；不同品牌 PETG 的韧性与打印温度有差异",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "modulus_GPa": 2.05,
+      "tensile_MPa": 30,
+      "yield_MPa": null,
+      "elongation_pct": 8,
+      "hardness": null,
+      "service_temp_C": 65,
+      "low_temp_C": null,
+      "melting_C": 230,
+      "thermal_cond_W_mK": 0.2,
+      "cte_um_mK": 70,
+      "price_level": "低",
+      "price_note": "线材按卷计价，与 PLA 接近；透明/特殊色略贵",
+      "sim_note": "密度 1270 kg/m³；模量约 2.05 GPa。PETG 韧性好于 PLA 但刚度略低，仿真按打印方向取等效值。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://bambulab.cn/zh-cn/filament-guide"
+    },
+    "forms": [
+      { "form": "线材", "spec": "1.75 mm", "note": "FDM 常用；打印前建议干燥" },
+      { "form": "定制件", "spec": "逐层挤出", "note": "外壳、透明件、耐潮件" }
+    ],
+    "processes": ["proc-fdm"],
+    "applications": [
+      "设备外壳",
+      "透明/半透明件",
+      "耐潮夹具",
+      "机器人外观件",
+      "原型验证"
+    ],
+    "pros": "韧性好于 PLA、耐潮、层间结合较好、可做半透明；打印温度适中。",
+    "cons": "易拉丝、表面易刮花；耐热只有约 65°C；吸湿后打印起泡；刚度低于 PLA。",
+    "notes": "PETG 是 FDM 的常用韧性材料。比 PLA 耐潮、抗冲击好，适合外壳和半透明件；易拉丝、表面软，外观件要调好回抽和温度。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-abs-fdm",
+    "category": "material",
+    "group": "printing",
+    "group_label": "3D 打印材料",
+    "family": "abs",
+    "family_label": "ABS",
+    "name": "ABS 线材",
+    "name_en": "Acrylonitrile butadiene styrene (ABS)",
+    "model": "ABS",
+    "title": "ABS 线材（FDM）",
+    "aliases": ["ABS", "丙烯腈-丁二烯-苯乙烯", "ABS 线材", "拓竹 ABS", "Bambu ABS"],
+    "url": "https://bambulab.cn/zh-cn/filament-guide",
+    "sources": [
+      {
+        "url": "https://bambulab.cn/zh-cn/filament-guide",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Bambu Lab 耗材指南 + ABS 公开资料整理（2026-11-02）；不同牌号丁二烯含量不同，韧性差异大",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "modulus_GPa": 2.3,
+      "tensile_MPa": 40,
+      "yield_MPa": null,
+      "elongation_pct": 20,
+      "hardness": null,
+      "service_temp_C": 85,
+      "low_temp_C": null,
+      "melting_C": 220,
+      "thermal_cond_W_mK": 0.18,
+      "cte_um_mK": 80,
+      "price_level": "低",
+      "price_note": "线材按卷计价，与 PLA 接近；需封闭机箱和过滤，设备成本另算",
+      "sim_note": "密度 1040 kg/m³；模量约 2.3 GPa。ABS 打印件层间弱、收缩大，仿真按打印方向取等效值。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://bambulab.cn/zh-cn/filament-guide"
+    },
+    "forms": [
+      { "form": "线材", "spec": "1.75 mm", "note": "FDM 用；需封闭机箱减少翘边" },
+      { "form": "粒料", "spec": "注塑级", "note": "批量件注塑更稳定" },
+      { "form": "板材", "spec": "厚度 1–50 mm", "note": "stock shape，可机加工" },
+      { "form": "定制件", "spec": "逐层挤出", "note": "外壳、耐温夹具、功能件" }
+    ],
+    "processes": ["proc-fdm", "proc-injection", "proc-cnc"],
+    "applications": [
+      "设备外壳",
+      "耐温夹具",
+      "汽车/机器人内饰件",
+      "原型功能件",
+      "批量注塑件验证"
+    ],
+    "pros": "耐热高于 PLA/PETG、抗冲击较好、可打磨/丙酮抛光；注塑和 FDM 都成熟。",
+    "cons": "打印翘边和气味明显、需封闭机箱；紫外线会老化；层间强度弱、收缩大。",
+    "notes": "ABS 是 FDM 的功能材料。耐热约 85°C、抗冲击好，适合外壳和耐温夹具；打印翘边和气味明显，需要封闭机箱和通风过滤。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-photopolymer",
+    "category": "material",
+    "group": "printing",
+    "group_label": "3D 打印材料",
+    "family": "photopolymer",
+    "family_label": "光敏树脂",
+    "name": "光敏树脂",
+    "name_en": "Photopolymer resin (SLA)",
+    "model": "Clear Resin",
+    "title": "光敏树脂（SLA/DLP）",
+    "aliases": ["光敏树脂", "SLA 树脂", "DLP 树脂", "光固化树脂", "Clear Resin"],
+    "url": "https://formlabs.com/products/materials/",
+    "sources": [
+      {
+        "url": "https://formlabs.com/products/materials/",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://formlabs.com/cn/applications/investment-casting/",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Formlabs Clear Resin 公开数据 + 光固化树脂典型值整理（2026-11-02）；不同树脂牌号性能跨度很大",
+    "specs": {
+      "density_g_cm3": 1.13,
+      "modulus_GPa": 2.8,
+      "tensile_MPa": 65,
+      "yield_MPa": null,
+      "elongation_pct": 6.2,
+      "hardness": "Shore D 80",
+      "service_temp_C": 60,
+      "low_temp_C": null,
+      "melting_C": null,
+      "thermal_cond_W_mK": 0.2,
+      "cte_um_mK": 70,
+      "price_level": "中高",
+      "price_note": "树脂按公斤计价；清洗液、后固化设备和废液处理另算",
+      "sim_note": "密度 1130 kg/m³；模量约 2.8 GPa。光固化件脆、长期强度会衰减，仿真按线弹性取值并留安全系数。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://formlabs.com/products/materials/"
+    },
+    "forms": [
+      { "form": "液体", "spec": "405 nm 光固化", "note": "SLA/DLP/LCD 机型；需避光保存" },
+      { "form": "定制件", "spec": "光固化成型", "note": "高细节、透明件、小批量" }
+    ],
+    "processes": ["proc-sla"],
+    "applications": [
+      "高细节外观件",
+      "透明/半透明件",
+      "手板模型",
+      "夹具/工装",
+      "小批量精密件"
+    ],
+    "pros": "细节和表面质量最好的 3D 打印方式、可做透明件、尺寸精度高；小批量快。",
+    "cons": "脆、抗冲击差；耐热只有约 60°C；长期紫外线会老化；树脂和后处理有气味与废液问题。",
+    "notes": "SLA/DLP 用光敏树脂。细节和表面质量优于 FDM/SLS，适合手板、透明件和小批量精密件；材料脆、耐热约 60°C，不能直接替代工程塑料承力件。",
+    "suppliers": []
+  }
+]
