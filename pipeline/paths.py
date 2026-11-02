@@ -1,10 +1,9 @@
-"""数据与站点路径的唯一入口。
+"""核心仓路径的唯一入口。
 
-拆分前：data/、schema/ 与站点同仓，直接读 ROOT。
-拆分后：站点仓不再保存数据，由核心仓的发布物提供；本地开发可以指向
-../robowiki-core/data，CI 可以指向解压后的 release。
+data/、schema/、assets/ 都在本仓；下游前端通过环境变量指向解压后的
+数据发布物（见 docs/DATA-VERSIONING.md）。
 
-只改这里，不在各 build_*.py 里散落 os.environ。
+只改这里，不在各脚本里散落 os.environ。
 """
 from __future__ import annotations
 
@@ -24,5 +23,4 @@ def _resolve(env_name: str, default: Path) -> Path:
 
 DATA_DIR = _resolve("ROBOWIKI_DATA_DIR", ROOT / "data")
 SCHEMA_DIR = _resolve("ROBOWIKI_SCHEMA_DIR", ROOT / "schema")
-# 单仓模式图片在 console/public/parts；拆分后由核心仓的 assets/parts 提供。
-ASSETS_DIR = _resolve("ROBOWIKI_ASSETS_DIR", ROOT / "console" / "public" / "parts")
+ASSETS_DIR = _resolve("ROBOWIKI_ASSETS_DIR", ROOT / "assets" / "parts")
