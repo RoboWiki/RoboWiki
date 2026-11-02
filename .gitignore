@@ -61,3 +61,4 @@ ui-*.png
 # 走 GitHub Release 分发，不进仓库历史。规则见 docs/DATA-VERSIONING.md
 dist/
 .tmp-data-export/
+*.egg-info/
