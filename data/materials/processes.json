@@ -1,0 +1,554 @@
+[
+  {
+    "id": "proc-cnc",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "machining",
+    "family_label": "减材加工",
+    "name": "CNC 加工",
+    "name_en": "CNC machining",
+    "model": "CNC",
+    "title": "CNC 加工",
+    "aliases": ["CNC", "数控加工", "铣削", "车削", "机加工"],
+    "url": "https://www.protolabs.com/services/cnc-machining/",
+    "sources": [
+      {
+        "url": "https://www.protolabs.com/services/cnc-machining/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://www.hubs.com/manufacture/cnc-machining/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Protolabs / Hubs 公开 CNC 能力页整理（2026-11-02）；具体公差与表面按厂商报价单",
+    "specs": {
+      "tolerance_mm": 0.05,
+      "tolerance_note": "标准 ±0.05–0.13 mm，视尺寸/材料/机床；高精度可到 ±0.01 mm",
+      "surface_ra_um": 3.2,
+      "layer_height_mm": null,
+      "min_wall_mm": 0.5,
+      "max_size": "常见 1000×600×500 mm，视机床",
+      "cost_level": "中高",
+      "lead_time": "3–10 天（视批量与工序）",
+      "materials": [
+        "mat-alu-6061-t6",
+        "mat-alu-7075-t6",
+        "mat-alu-adc12",
+        "mat-alu-alsi10mg",
+        "mat-ti-tc4",
+        "mat-steel-42crmo",
+        "mat-steel-40crnimoa",
+        "mat-steel-sus304",
+        "mat-steel-440c",
+        "mat-mg-az91d",
+        "mat-peek-450g",
+        "mat-pps-gf40",
+        "mat-pa66",
+        "mat-pa12",
+        "mat-pc-abs",
+        "mat-pom",
+        "mat-abs-fdm",
+        "mat-uhmwpe",
+        "mat-cfrp-t300",
+        "mat-gfrp"
+      ]
+    },
+    "forms": [
+      { "form": "板材", "spec": "按图纸下料", "note": "铣外形、型腔、孔系" },
+      { "form": "棒材", "spec": "按图纸下料", "note": "车轴、法兰、接头" },
+      { "form": "管材", "spec": "按图纸下料", "note": "管端、槽、孔加工" },
+      { "form": "型材", "spec": "按图纸下料", "note": "框架件二次加工" },
+      { "form": "定制件", "spec": "3/4/5 轴", "note": "复杂曲面与薄壁件" }
+    ],
+    "applications": [
+      "关节连接板",
+      "电机安装座",
+      "法兰与轴类",
+      "夹具/工装",
+      "碳纤维板切割与钻孔"
+    ],
+    "pros": "精度高、材料范围广、表面质量好、可小批量；尺寸一致性好。",
+    "cons": "复杂内腔/深孔受限；材料利用率低；单价高；需编程、夹具与后处理。",
+    "notes": "最通用的精密加工方式。适合金属、工程塑料和碳纤维板的二次加工；公差与表面按报价单确认，薄壁件和钛合金要单独评估变形与刀具。",
+    "suppliers": [
+      {
+        "supplier_id": "sup-24b5c3dd",
+        "role": "CNC/车铣",
+        "note": "价格低，精度自述 0.05 mm；交期要天天催，适合精度不敏感的件"
+      },
+      {
+        "supplier_id": "sup-ceb0f46c",
+        "role": "激光切管",
+        "note": "可激光切铝管，材料需自备；适合管件下料"
+      },
+      {
+        "supplier_id": "sup-5e0c4763",
+        "role": "激光切割",
+        "note": "不做表面处理，社区反馈激光切割首选、价格低"
+      }
+    ]
+  },
+  {
+    "id": "proc-sls",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "additive",
+    "family_label": "增材制造",
+    "name": "3D 打印 SLS",
+    "name_en": "Selective laser sintering (SLS)",
+    "model": "SLS",
+    "title": "3D 打印 SLS（选择性激光烧结）",
+    "aliases": ["SLS", "选择性激光烧结", "激光烧结", "尼龙打印", "粉末床"],
+    "url": "https://formlabs.com/3d-printers/fuse-1/",
+    "sources": [
+      {
+        "url": "https://formlabs.com/3d-printers/fuse-1/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://www.protolabs.com/services/3d-printing/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Formlabs / Protolabs 公开 SLS 能力页整理（2026-11-02）；粉末牌号与机台影响数值",
+    "specs": {
+      "tolerance_mm": 0.3,
+      "tolerance_note": "常见 ±0.3 mm 或 ±0.3%，视尺寸与摆放方向",
+      "surface_ra_um": 10,
+      "layer_height_mm": 0.1,
+      "min_wall_mm": 0.8,
+      "max_size": "常见 300×300×300 mm，工业机更大",
+      "cost_level": "中",
+      "lead_time": "3–7 天",
+      "materials": ["mat-pa12"]
+    },
+    "forms": [
+      { "form": "粉末", "spec": "PA12/PA11 为主", "note": "未烧结粉末可部分回收" },
+      { "form": "定制件", "spec": "无支撑成型", "note": "复杂内腔、点阵、小批量" }
+    ],
+    "applications": [
+      "复杂支架",
+      "外壳/罩壳",
+      "夹具/工装",
+      "点阵/轻量化结构",
+      "小批量功能件"
+    ],
+    "pros": "无需支撑、复杂几何自由度高、小批量经济、各向异性小于 FDM。",
+    "cons": "表面粗糙、尺寸精度低于 CNC、材料选择有限；粉末回收比例影响性能。",
+    "notes": "粉末床激光烧结。适合 PA12/PA11 类尼龙，做复杂支架、外壳和小批量功能件；精度和表面不如 CNC，装配面通常还要二次加工。PEEK 等高温粉末需专用高温机台，不在本表材料清单内。",
+    "suppliers": []
+  },
+  {
+    "id": "proc-fdm",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "additive",
+    "family_label": "增材制造",
+    "name": "3D 打印 FDM",
+    "name_en": "Fused deposition modeling (FDM)",
+    "model": "FDM",
+    "title": "3D 打印 FDM（熔融沉积）",
+    "aliases": ["FDM", "FFF", "熔融沉积", "挤出打印", "线材打印"],
+    "url": "https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/fdm-technology/",
+    "sources": [
+      {
+        "url": "https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/fdm-technology/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://www.protolabs.com/services/3d-printing/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Stratasys / Protolabs 公开 FDM 能力页整理（2026-11-02）；消费机与工业机差异大",
+    "specs": {
+      "tolerance_mm": 0.3,
+      "tolerance_note": "常见 ±0.2–0.5 mm，视机台、材料与摆放方向",
+      "surface_ra_um": 15,
+      "layer_height_mm": 0.2,
+      "min_wall_mm": 0.8,
+      "max_size": "常见 300×300×300 mm，工业机更大",
+      "cost_level": "低",
+      "lead_time": "1–3 天",
+      "materials": [
+        "mat-pa12",
+        "mat-pa66",
+        "mat-pla",
+        "mat-pla-cf",
+        "mat-petg",
+        "mat-abs-fdm",
+        "mat-tpu"
+      ]
+    },
+    "forms": [
+      { "form": "线材", "spec": "1.75/2.85 mm", "note": "PLA/PETG/ABS/PA/PA-CF 等" },
+      { "form": "定制件", "spec": "逐层挤出", "note": "需支撑；层间强度弱于层内" }
+    ],
+    "applications": [
+      "原型验证",
+      "夹具/工装",
+      "外壳/非承力件",
+      "快速迭代",
+      "大尺寸低精度件"
+    ],
+    "pros": "便宜快、材料广、设备普及；可打印连续纤维/高温材料（高端机）。",
+    "cons": "各向异性明显、层间强度低、表面有纹路、精度低；长丝需干燥。",
+    "notes": "熔融沉积打印。适合原型、夹具和外壳；层间强度明显低于层内，承力件要按打印方向评估。PEEK 等高温材料需要高温腔体机型。",
+    "suppliers": []
+  },
+  {
+    "id": "proc-injection",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "molding",
+    "family_label": "成型",
+    "name": "注塑成型",
+    "name_en": "Injection molding",
+    "model": "注塑",
+    "title": "注塑成型",
+    "aliases": ["注塑", "注射成型", "模具成型", "LSR 注塑"],
+    "url": "https://www.protolabs.com/services/injection-molding/",
+    "sources": [
+      {
+        "url": "https://www.protolabs.com/services/injection-molding/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Protolabs 公开注塑能力页整理（2026-11-02）；模具与批量决定实际单价",
+    "specs": {
+      "tolerance_mm": 0.1,
+      "tolerance_note": "常见 ±0.05–0.2 mm，视材料收缩率与模具精度",
+      "surface_ra_um": 1.6,
+      "layer_height_mm": null,
+      "min_wall_mm": 1.0,
+      "max_size": "视模具，常见 < 500 mm",
+      "cost_level": "视批量",
+      "lead_time": "开模 2–6 周；量产 1–3 周",
+      "materials": [
+        "mat-peek-450g",
+        "mat-pps-gf40",
+        "mat-pa66",
+        "mat-pa12",
+        "mat-pc-abs",
+        "mat-pom",
+        "mat-abs-fdm",
+        "mat-silicone-vmq",
+        "mat-epdm",
+        "mat-tpu"
+      ]
+    },
+    "forms": [
+      { "form": "粒料", "spec": "热塑性塑料", "note": "需干燥与料筒温度曲线" },
+      { "form": "液体", "spec": "LSR 液态硅胶", "note": "双组分计量混合" },
+      { "form": "定制件", "spec": "钢模/铝模", "note": "拔模角、壁厚、浇口设计决定良率" }
+    ],
+    "applications": [
+      "齿轮/滑轮",
+      "外壳/端盖",
+      "连接器",
+      "密封件（LSR）",
+      "批量结构件"
+    ],
+    "pros": "批量单价低、一致性好、表面好、可做复杂结构；材料选择多。",
+    "cons": "开模费高、设计变更贵；壁厚/拔模/浇口限制；小批量不划算。",
+    "notes": "批量塑料件的首选。开模后单件成本低、一致性好；小批量或频繁改结构时不划算。PEEK、PPS、PA 和液态硅胶都能注塑，但工艺窗口差别很大。",
+    "suppliers": []
+  },
+  {
+    "id": "proc-pultrusion",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "composite",
+    "family_label": "复合材料成型",
+    "name": "拉挤成型",
+    "name_en": "Pultrusion",
+    "model": "Pultrusion",
+    "title": "拉挤成型（碳纤维管/棒/型材）",
+    "aliases": ["拉挤", "Pultrusion", "碳管拉挤", "连续成型", "碳杆"],
+    "url": "https://www.strongwell.com/the-pultrusion-process/",
+    "sources": [
+      {
+        "url": "https://www.strongwell.com/the-pultrusion-process/",
+        "kind": "process",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Strongwell 拉挤工艺公开资料整理（2026-11-02）；碳纤维拉挤参数以供应商为准",
+    "specs": {
+      "tolerance_mm": 0.3,
+      "tolerance_note": "常见 ±0.2–0.5 mm，视截面与模具",
+      "surface_ra_um": 3.2,
+      "layer_height_mm": null,
+      "min_wall_mm": 0.8,
+      "max_size": "等截面连续生产，长度按卷/根",
+      "cost_level": "中",
+      "lead_time": "2–4 周（含开模/排产）",
+      "materials": ["mat-cfrp-t300", "mat-gfrp"]
+    },
+    "forms": [
+      { "form": "管材", "spec": "圆管/方管", "note": "连续拉挤，长度可定制" },
+      { "form": "棒材", "spec": "圆棒/异形棒", "note": "高轴向强度" },
+      { "form": "型材", "spec": "等截面异型", "note": "需开拉挤模" }
+    ],
+    "applications": [
+      "碳杆",
+      "碳方管",
+      "机器人连杆",
+      "框架型材",
+      "无人机管件"
+    ],
+    "pros": "连续生产、纤维体积分数高、轴向强度/刚度高；成本低于铺层/热压罐。",
+    "cons": "只能做等截面；横向强度和层间强度低；表面富树脂；弯曲/扭转性能一般。",
+    "notes": "连续拉挤成型，适合碳纤维圆管、方管、棒和等截面型材。轴向性能强、成本低于铺层工艺；只能做等截面，连接处通常要加金属接头或胶接。",
+    "suppliers": []
+  },
+  {
+    "id": "proc-die-casting",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "casting",
+    "family_label": "压铸",
+    "name": "压铸（高压）",
+    "name_en": "High-pressure die casting (HPDC)",
+    "model": "HPDC",
+    "title": "压铸（铝合金/镁合金）",
+    "aliases": ["压铸", "高压压铸", "Die casting", "HPDC", "ADC12 压铸", "镁合金压铸"],
+    "url": "https://en.wikipedia.org/wiki/Die_casting",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Die_casting",
+        "kind": "process",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "高压压铸公开资料整理（2026-11-02）；公差、壁厚与交期随模具、合金和批量变化",
+    "specs": {
+      "tolerance_mm": 0.1,
+      "tolerance_note": "常见 ±0.1 mm，视尺寸与模具；配合面通常还要 CNC 精加工",
+      "surface_ra_um": 3.2,
+      "layer_height_mm": null,
+      "min_wall_mm": 1.0,
+      "max_size": "常见 ≤600 mm，视锁模力与模具",
+      "cost_level": "低-中（批量）",
+      "lead_time": "开模 12–20 天；量产 2–4 周",
+      "materials": ["mat-alu-adc12", "mat-mg-az91d"]
+    },
+    "forms": [
+      { "form": "定制件", "spec": "钢模高压压铸", "note": "壁厚均匀、拔模角与浇口设计决定良率" },
+      { "form": "定制件", "spec": "后加工", "note": "配合面、螺纹孔和密封面通常需 CNC 二次加工" }
+    ],
+    "applications": [
+      "电机端盖",
+      "减速器壳体",
+      "传感器支架",
+      "散热外壳",
+      "批量结构件"
+    ],
+    "pros": "批量单价低、尺寸一致、表面好、可做薄壁复杂形状；铝合金/镁合金都能压。",
+    "cons": "开模费高、小批量不划算；气孔与缩孔风险；壁厚/拔模/浇口限制；后加工和表面处理另算。",
+    "notes": "批量铝合金/镁合金件的首选成型方式。开模后单件成本低、一致性好；模具费高，结构变更贵，小批量应先用 CNC 或 3D 打印验证。",
+    "suppliers": []
+  },
+  {
+    "id": "proc-slm",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "additive",
+    "family_label": "增材制造",
+    "name": "3D 打印 SLM",
+    "name_en": "Selective laser melting (SLM)",
+    "model": "SLM",
+    "title": "3D 打印 SLM（金属激光熔化）",
+    "aliases": ["SLM", "金属 3D 打印", "激光熔化", "选区激光熔化", "DMLS"],
+    "url": "https://en.wikipedia.org/wiki/Selective_laser_melting",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Selective_laser_melting",
+        "kind": "process",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://www.xometry.asia/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "SLM/DMLS 公开能力资料整理（2026-11-02）；机台、粉末牌号与摆放方向影响实际数值",
+    "specs": {
+      "tolerance_mm": 0.1,
+      "tolerance_note": "常见 ±0.1 mm，视尺寸与摆放方向；配合面通常要 CNC 后加工",
+      "surface_ra_um": 8,
+      "layer_height_mm": 0.03,
+      "min_wall_mm": 0.4,
+      "max_size": "常见 250×250×300 mm；工业机可达 380 mm 级",
+      "cost_level": "高",
+      "lead_time": "5–10 天",
+      "materials": ["mat-ti-tc4", "mat-alu-alsi10mg"]
+    },
+    "forms": [
+      { "form": "粉末", "spec": "TC4 / AlSi10Mg 等", "note": "需专用机台与粉末管理；未熔粉末可回收" },
+      { "form": "定制件", "spec": "逐层激光熔化", "note": "复杂内腔、点阵、轻量化金属件" }
+    ],
+    "applications": [
+      "钛合金轻量化接头",
+      "点阵/拓扑优化结构",
+      "小批量金属功能件",
+      "随形冷却流道",
+      "定制夹具"
+    ],
+    "pros": "复杂几何自由度高、可做点阵和内部流道、材料利用率高；钛合金/铝合金都能成型。",
+    "cons": "设备和粉末成本高、单件贵；表面粗糙、需支撑和后处理；残余应力与各向异性要评估。",
+    "notes": "金属粉末床激光熔化。适合钛合金和铝合金的复杂轻量化件、点阵结构与随形流道；单价高，通常只在小批量或传统加工做不出来的形状上使用。",
+    "suppliers": []
+  },
+  {
+    "id": "proc-sla",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "additive",
+    "family_label": "增材制造",
+    "name": "3D 打印 SLA",
+    "name_en": "Stereolithography (SLA)",
+    "model": "SLA",
+    "title": "3D 打印 SLA（光固化）",
+    "aliases": ["SLA", "DLP", "LCD", "光固化", "立体光刻", "树脂打印"],
+    "url": "https://en.wikipedia.org/wiki/Stereolithography",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stereolithography",
+        "kind": "process",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://formlabs.com/products/materials/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "SLA/DLP 公开能力资料 + Formlabs 树脂数据整理（2026-11-02）；机台分辨率与树脂牌号影响实际数值",
+    "specs": {
+      "tolerance_mm": 0.2,
+      "tolerance_note": "常见 ±0.2 mm，视机台分辨率、树脂收缩与摆放方向",
+      "surface_ra_um": 3.2,
+      "layer_height_mm": 0.05,
+      "min_wall_mm": 0.5,
+      "max_size": "标准机 145×145×185 mm；工业机可达 736×635×533 mm",
+      "cost_level": "中高",
+      "lead_time": "3–7 天",
+      "materials": ["mat-photopolymer"]
+    },
+    "forms": [
+      { "form": "液体", "spec": "405 nm 光敏树脂", "note": "需避光保存；不同树脂性能跨度大" },
+      { "form": "定制件", "spec": "光固化成型", "note": "高细节、透明件、小批量精密件" }
+    ],
+    "applications": [
+      "高细节手板",
+      "透明/半透明件",
+      "外观验证模型",
+      "精密夹具",
+      "小批量注塑验证件"
+    ],
+    "pros": "细节和表面质量最好、尺寸精度高、可做透明件；小批量交付快。",
+    "cons": "树脂脆、耐热低；后处理（清洗/二次固化）繁琐；树脂和废液有气味与环保要求；大件成本高。",
+    "notes": "光固化 3D 打印。细节和表面质量优于 FDM/SLS，适合手板、透明件和精密夹具；材料脆、耐热约 60°C，不能直接替代工程塑料承力件。",
+    "suppliers": []
+  },
+  {
+    "id": "proc-layup",
+    "category": "process",
+    "group": "process",
+    "group_label": "加工工艺",
+    "family": "composite",
+    "family_label": "复合材料成型",
+    "name": "铺层/缠绕成型",
+    "name_en": "Hand layup / filament winding",
+    "model": "Layup/Winding",
+    "title": "铺层/缠绕成型（碳纤维/玻纤）",
+    "aliases": ["铺层", "手糊", "缠绕", "Filament winding", "Layup", "预浸料成型"],
+    "url": "https://en.wikipedia.org/wiki/Filament_winding",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Filament_winding",
+        "kind": "process",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Composite_material",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "铺层/缠绕工艺公开资料整理（2026-11-02）；铺层方向、树脂体系和固化方式决定最终性能",
+    "specs": {
+      "tolerance_mm": 0.5,
+      "tolerance_note": "常见 ±0.5 mm，视模具与后加工；配合面通常要 CNC 修整",
+      "surface_ra_um": 3.2,
+      "layer_height_mm": null,
+      "min_wall_mm": 0.8,
+      "max_size": "长度可达数米；受芯模/缠绕机行程限制",
+      "cost_level": "中高",
+      "lead_time": "7–20 天（含模具/固化）",
+      "materials": ["mat-cfrp-t300", "mat-gfrp"]
+    },
+    "forms": [
+      { "form": "板材", "spec": "预浸料/织物层压", "note": "铺层方向决定强度与刚度" },
+      { "form": "管材", "spec": "缠绕成型", "note": "圆管/锥管，纤维沿主应力方向铺放" },
+      { "form": "型材", "spec": "模压/层压", "note": "异形件需模具" },
+      { "form": "定制件", "spec": "手糊/真空袋压", "note": "小批量、大尺寸异形壳体" }
+    ],
+    "applications": [
+      "机械臂连杆",
+      "无人机机架",
+      "管件/压力容器",
+      "异形壳体",
+      "小批量复材件"
+    ],
+    "pros": "铺层方向可按受力设计、纤维体积分数高、适合大尺寸和异形件；模具成本低于热压罐。",
+    "cons": "人工依赖大、批次一致性不如拉挤/注塑；层间强度低、易分层；固化周期长，后加工粉尘需防护。",
+    "notes": "铺层和缠绕是复材的通用成型方式。适合大尺寸、异形或受力方向明确的碳纤维/玻纤件；一致性依赖工艺控制，承力件要做铺层设计和验证。",
+    "suppliers": []
+  }
+]

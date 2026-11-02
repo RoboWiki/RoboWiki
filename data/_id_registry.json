@@ -1201,6 +1201,141 @@
    "category": "lidar",
    "model": "Mid-70"
   },
+  "mat-abs-fdm": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "ABS 线材"
+  },
+  "mat-alu-6061-t6": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "6061-T6 铝合金"
+  },
+  "mat-alu-7075-t6": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "7075-T6 铝合金"
+  },
+  "mat-alu-adc12": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "ADC12 压铸铝合金"
+  },
+  "mat-alu-alsi10mg": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "AlSi10Mg 铝合金（SLM）"
+  },
+  "mat-cfrp-t300": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "碳纤维 T300 复合材料"
+  },
+  "mat-epdm": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "EPDM 三元乙丙橡胶"
+  },
+  "mat-gfrp": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "玻璃纤维环氧复合材料"
+  },
+  "mat-mg-az91d": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "AZ91D 镁合金"
+  },
+  "mat-pa12": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PA12 尼龙"
+  },
+  "mat-pa66": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PA66 尼龙"
+  },
+  "mat-pc-abs": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PC/ABS 合金"
+  },
+  "mat-peek-450g": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PEEK 450G"
+  },
+  "mat-petg": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PETG 线材"
+  },
+  "mat-photopolymer": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "光敏树脂"
+  },
+  "mat-pla": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PLA 聚乳酸"
+  },
+  "mat-pla-cf": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PLA-CF 碳纤维增强线材"
+  },
+  "mat-pom": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "POM 聚甲醛"
+  },
+  "mat-pps-gf40": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "PPS GF40 聚苯硫醚"
+  },
+  "mat-silicone-vmq": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "硅胶 VMQ"
+  },
+  "mat-steel-40crnimoa": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "40CrNiMoA 合金钢"
+  },
+  "mat-steel-42crmo": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "42CrMo 合金钢"
+  },
+  "mat-steel-440c": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "440C 马氏体不锈钢"
+  },
+  "mat-steel-sus304": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "SUS304 不锈钢"
+  },
+  "mat-ti-tc4": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "TC4 钛合金"
+  },
+  "mat-tpu": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "TPU 热塑性聚氨酯"
+  },
+  "mat-uhmwpe": {
+   "added": "2026-11-02",
+   "category": "material",
+   "model": "UHMWPE 超高分子量聚乙烯"
+  },
   "mit-3phase-integrated": {
    "added": "2026-11-01",
    "category": "controller_low",
@@ -1275,6 +1410,51 @@
    "added": "2026-11-01",
    "category": "controller_low",
    "model": "Teensy 4.1"
+  },
+  "proc-cnc": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "CNC 加工"
+  },
+  "proc-die-casting": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "压铸（高压）"
+  },
+  "proc-fdm": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "3D 打印 FDM"
+  },
+  "proc-injection": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "注塑成型"
+  },
+  "proc-layup": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "铺层/缠绕成型"
+  },
+  "proc-pultrusion": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "拉挤成型"
+  },
+  "proc-sla": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "3D 打印 SLA"
+  },
+  "proc-slm": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "3D 打印 SLM"
+  },
+  "proc-sls": {
+   "added": "2026-11-02",
+   "category": "process",
+   "model": "3D 打印 SLS"
   },
   "protocol:dji-c610": {
    "added": "2026-10-31",

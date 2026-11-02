@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/RoboWiki/RoboWiki.github.io/schema/material.schema.json",
+  "title": "材质库（data/materials/<分组>.json 中的一条材料或工艺）",
+  "description": "材料记录（category=material）与加工工艺记录（category=process）共用外壳字段。物理属性必须带单位后缀；典型值来自公开资料时统一 source_tier=B、verified=0，并在 origin/notes 写明状态与浮动范围。",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "group",
+    "group_label",
+    "family",
+    "family_label",
+    "name",
+    "title",
+    "source_tier",
+    "verified",
+    "last_checked",
+    "origin",
+    "specs",
+    "forms",
+    "applications",
+    "pros",
+    "cons",
+    "notes"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "$ref": "base.schema.json#/properties/id" },
+    "title": { "$ref": "base.schema.json#/properties/title" },
+    "source_tier": { "$ref": "base.schema.json#/properties/source_tier" },
+    "verified": { "$ref": "base.schema.json#/properties/verified" },
+    "last_checked": { "$ref": "base.schema.json#/properties/last_checked" },
+    "origin": { "$ref": "base.schema.json#/properties/origin" },
+    "url": { "$ref": "base.schema.json#/properties/url" },
+    "sources": { "$ref": "base.schema.json#/properties/sources" },
+    "notes": { "$ref": "base.schema.json#/properties/notes" },
+    "category": {
+      "enum": ["material", "process"],
+      "description": "material=材料本体；process=加工工艺。"
+    },
+    "group": {
+      "enum": ["metal", "engineering_plastic", "printing", "composite", "elastomer", "process"],
+      "description": "展示分组。metal / engineering_plastic / printing / composite / elastomer 对应材料类别，process 单独成组。"
+    },
+    "group_label": { "type": "string", "minLength": 1 },
+    "family": {
+      "type": "string",
+      "minLength": 1,
+      "description": "细分族，如 aluminum / titanium / alloy_steel / stainless_steel / magnesium / peek / pps / pa / abs / pc_abs / pom / pla / petg / photopolymer / cfrp / gfrp / uhmwpe / silicone / epdm / tpu / machining / additive / molding / casting / composite。"
+    },
+    "family_label": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "name_en": { "type": ["string", "null"] },
+    "model": { "type": "string", "minLength": 1, "description": "材料牌号/工艺简称，详情页 slug 的来源。" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "forms": {
+      "type": "array",
+      "description": "可获得的形态规格：板材/管材（碳杆）/棒材/型材等。",
+      "items": {
+        "type": "object",
+        "required": ["form", "spec"],
+        "additionalProperties": true,
+        "properties": {
+          "form": { "type": "string", "minLength": 1 },
+          "spec": { "type": "string", "minLength": 1 },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "processes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "材料适用的加工工艺 id（proc-*）。工艺记录不写此字段。"
+    },
+    "applications": { "type": "array", "items": { "type": "string" } },
+    "pros": { "type": "string" },
+    "cons": { "type": "string" },
+    "suppliers": {
+      "type": "array",
+      "description": "渠道库联动：supplier_id 必须存在于 data/suppliers.json。没有可靠渠道时留空数组，不要编造。",
+      "items": {
+        "type": "object",
+        "required": ["supplier_id", "role"],
+        "additionalProperties": true,
+        "properties": {
+          "supplier_id": { "type": "string", "pattern": "^sup-[a-z0-9]+$" },
+          "role": { "type": "string", "minLength": 1 },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "specs": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "density_g_cm3": { "type": ["number", "null"], "description": "密度，g/cm³。MuJoCo 换算：×1000 = kg/m³。" },
+        "modulus_GPa": { "type": ["number", "null"], "description": "弹性模量，GPa。MuJoCo 换算：×1e9 = Pa。" },
+        "tensile_MPa": { "type": ["number", "null"], "description": "抗拉强度，MPa。MuJoCo 换算：×1e6 = Pa。" },
+        "yield_MPa": { "type": ["number", "null"], "description": "屈服强度，MPa。" },
+        "elongation_pct": { "type": ["number", "null"] },
+        "hardness": { "type": ["string", "null"] },
+        "service_temp_C": { "type": ["number", "null"], "description": "长期工作温度上限，°C。" },
+        "low_temp_C": { "type": ["number", "null"], "description": "低温下限，°C。" },
+        "melting_C": { "type": ["number", "null"] },
+        "thermal_cond_W_mK": { "type": ["number", "null"] },
+        "cte_um_mK": { "type": ["number", "null"] },
+        "price_level": { "enum": ["低", "低-中", "中", "中高", "高", null] },
+        "price_note": { "type": ["string", "null"] },
+        "sim_note": { "type": ["string", "null"], "description": "给仿真软件用的换算/取值提示。" },
+        "image_url": { "type": ["string", "null"] },
+        "image_source": { "type": ["string", "null"], "description": "只有官方型号图才写；无图留 null。" },
+        "doc_url": { "type": ["string", "null"] },
+        "tolerance_mm": { "type": ["number", "null"], "description": "工艺：可达公差，mm。" },
+        "tolerance_note": { "type": ["string", "null"] },
+        "surface_ra_um": { "type": ["number", "null"], "description": "工艺：表面粗糙度 Ra，µm。" },
+        "layer_height_mm": { "type": ["number", "null"], "description": "工艺：层高，mm；非增材为 null。" },
+        "min_wall_mm": { "type": ["number", "null"] },
+        "max_size": { "type": ["string", "null"] },
+        "cost_level": { "type": ["string", "null"] },
+        "lead_time": { "type": ["string", "null"] },
+        "materials": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "工艺：可加工材料 id（mat-*）反向引用。"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "category": { "const": "material" } } },
+      "then": {
+        "required": ["processes"],
+        "properties": {
+          "specs": {
+            "required": ["density_g_cm3", "modulus_GPa", "tensile_MPa"]
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "category": { "const": "process" } } },
+      "then": {
+        "properties": {
+          "specs": {
+            "required": ["tolerance_mm", "cost_level", "materials"]
+          }
+        }
+      }
+    }
+  ]
+}

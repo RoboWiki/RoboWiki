@@ -1,0 +1,668 @@
+[
+  {
+    "id": "mat-alu-6061-t6",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "aluminum",
+    "family_label": "铝合金",
+    "name": "6061-T6 铝合金",
+    "name_en": "Aluminium 6061-T6",
+    "model": "6061-T6",
+    "title": "6061-T6 铝合金",
+    "aliases": ["6061", "AL6061", "6061T6", "6061-T651"],
+    "url": "https://langhe-industry.com/zh/6061-t6-aluminum/",
+    "sources": [
+      {
+        "url": "https://langhe-industry.com/zh/6061-t6-aluminum/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "6061-T6 公开技术资料典型值整理（2026-11-02）；未逐项回查原厂质保书",
+    "specs": {
+      "density_g_cm3": 2.7,
+      "modulus_GPa": 68.9,
+      "tensile_MPa": 310,
+      "yield_MPa": 276,
+      "elongation_pct": 12,
+      "hardness": "HB 95",
+      "service_temp_C": 150,
+      "low_temp_C": null,
+      "melting_C": 582,
+      "thermal_cond_W_mK": 167,
+      "cte_um_mK": 23.6,
+      "price_level": "低-中",
+      "price_note": "板材/棒材按规格与表面处理计价；以本地加工商报价为准",
+      "sim_note": "密度 2700 kg/m³；弹性模量 68.9 GPa。MuJoCo 刚体仿真用密度算质量与惯量，模量主要用于柔性体或接触参数。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://langhe-industry.com/zh/6061-t6-aluminum/"
+    },
+    "forms": [
+      { "form": "板材", "spec": "厚度 1–300 mm", "note": "常见 6061-T651 预拉伸板，切削变形更小" },
+      { "form": "棒材", "spec": "直径 Ø5–300 mm", "note": "圆棒、方棒均可零切" },
+      { "form": "管材", "spec": "外径 Ø6–250 mm", "note": "无缝管/挤压管；激光切管需自备材料" },
+      { "form": "型材", "spec": "定制截面", "note": "挤压模开模后按米计价" }
+    ],
+    "processes": ["proc-cnc"],
+    "applications": [
+      "机器人框架与底盘",
+      "电机安装座",
+      "关节连接板",
+      "传感器/电控支架",
+      "CNC 夹具"
+    ],
+    "pros": "易加工、可焊、耐蚀、成本低、供应广；T6 状态强度与塑性平衡好。",
+    "cons": "强度低于 7075；耐磨一般；长期潮湿或外观件建议阳极氧化。",
+    "notes": "最通用的机器人结构材料。板材、棒材、管材和挤压型材都容易买到，CNC 切削性好，适合做电机座、关节连接板和底盘框架。强度不如 7075，但焊接性与耐蚀性更好，成本也更低。",
+    "suppliers": [
+      {
+        "supplier_id": "sup-ceb0f46c",
+        "role": "激光切铝管",
+        "note": "可激光切铝管，材料需自备；店主提示他家铝方管原材料偏贵"
+      },
+      {
+        "supplier_id": "sup-5e0c4763",
+        "role": "激光切割",
+        "note": "不做表面处理，社区反馈激光切割首选、价格低"
+      }
+    ]
+  },
+  {
+    "id": "mat-alu-7075-t6",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "aluminum",
+    "family_label": "铝合金",
+    "name": "7075-T6 铝合金",
+    "name_en": "Aluminium 7075-T6",
+    "model": "7075-T6",
+    "title": "7075-T6 铝合金",
+    "aliases": ["7075", "AL7075", "7075T6", "7075-T651", "航空铝"],
+    "url": "https://www.modulusmetal.com/aluminum-7075-t6-material-data-sheet/",
+    "sources": [
+      {
+        "url": "https://www.modulusmetal.com/aluminum-7075-t6-material-data-sheet/",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://baike.baidu.com/item/7075-T6%E9%93%9D%E5%90%88%E9%87%91/551771",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Modulus Metal 7075-T6 数据表 + 公开资料典型值整理（2026-11-02）；不同厚板/锻件状态会浮动",
+    "specs": {
+      "density_g_cm3": 2.81,
+      "modulus_GPa": 71,
+      "tensile_MPa": 524,
+      "yield_MPa": 455,
+      "elongation_pct": 11,
+      "hardness": "HB 150",
+      "service_temp_C": 150,
+      "low_temp_C": null,
+      "melting_C": 475,
+      "thermal_cond_W_mK": 130,
+      "cte_um_mK": 23.6,
+      "price_level": "中",
+      "price_note": "比 6061 贵一档；厚板/进口料与零切价格差异大",
+      "sim_note": "密度 2810 kg/m³；弹性模量 71 GPa。T6/T651 状态数据接近，但厚截面强度会下降。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://www.modulusmetal.com/aluminum-7075-t6-material-data-sheet/"
+    },
+    "forms": [
+      { "form": "板材", "spec": "厚度 1–200 mm", "note": "T651 预拉伸板更适合大件 CNC" },
+      { "form": "棒材", "spec": "直径 Ø5–300 mm", "note": "圆棒、方棒；零切供应常见" },
+      { "form": "管材", "spec": "外径 Ø6–200 mm", "note": "无缝管/挤压管" },
+      { "form": "型材", "spec": "定制截面", "note": "挤压型材供应少于 6061" }
+    ],
+    "processes": ["proc-cnc"],
+    "applications": [
+      "高载荷关节连杆",
+      "机械臂大臂/小臂",
+      "竞赛机器人承力框架",
+      "高强度夹具",
+      "航空/无人机结构件"
+    ],
+    "pros": "抗拉强度约为 6061-T6 的 1.7 倍；比刚度高、疲劳性能好、易切削。",
+    "cons": "耐蚀性差，需阳极氧化/包铝；焊接性差；有应力腐蚀开裂倾向；成本更高。",
+    "notes": "以强度换耐蚀性的高强度铝合金。抗拉强度约为 6061-T6 的 1.8 倍，适合高载荷连杆和竞赛机器人的承力框架；切削性尚可，但焊接性差，长期潮湿环境要做表面处理。",
+    "suppliers": [
+      {
+        "supplier_id": "sup-24b5c3dd",
+        "role": "CNC 加工",
+        "note": "价格低，精度自述 0.05 mm；交期要天天催，适合精度不敏感的件"
+      }
+    ]
+  },
+  {
+    "id": "mat-ti-tc4",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "titanium",
+    "family_label": "钛合金",
+    "name": "TC4 钛合金",
+    "name_en": "Ti-6Al-4V (Grade 5) Titanium",
+    "model": "TC4 / Ti-6Al-4V",
+    "title": "TC4 钛合金",
+    "aliases": ["TC4", "Ti-6Al-4V", "Ti6Al4V", "Grade 5", "GR5"],
+    "url": "https://chinametalsupply.com/zh-CN/grade-5-titanium/",
+    "sources": [
+      {
+        "url": "https://chinametalsupply.com/zh-CN/grade-5-titanium/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://www.tsm-titanium.com/info/ti-6al-4v-vs-ti-6al-4v-eli-103115800.html",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Ti-6Al-4V 公开数据表与国标口径整理（2026-11-02）；退火/固溶时效状态数值不同",
+    "specs": {
+      "density_g_cm3": 4.43,
+      "modulus_GPa": 113.8,
+      "tensile_MPa": 950,
+      "yield_MPa": 880,
+      "elongation_pct": 10,
+      "hardness": "HV 349（退火）",
+      "service_temp_C": 350,
+      "low_temp_C": null,
+      "melting_C": 1668,
+      "thermal_cond_W_mK": 6.7,
+      "cte_um_mK": 8.6,
+      "price_level": "高",
+      "price_note": "原材料与加工都贵；小批量零切溢价明显",
+      "sim_note": "密度 4430 kg/m³；弹性模量 113.8 GPa。比刚度高，但导热差，仿真热分析时要单独给导热参数。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://chinametalsupply.com/zh-CN/grade-5-titanium/"
+    },
+    "forms": [
+      { "form": "板材", "spec": "厚度 0.5–60 mm", "note": "轧制板；薄板需确认交货状态" },
+      { "form": "棒材", "spec": "直径 Ø3–150 mm", "note": "退火态圆棒常见" },
+      { "form": "管材", "spec": "外径 Ø6–114 mm", "note": "无缝管，供应规格少于铝" },
+      { "form": "定制件", "spec": "锻件/异形", "note": "锻造后需去应力与表面处理" }
+    ],
+    "processes": ["proc-cnc", "proc-slm"],
+    "applications": [
+      "高端关节连接杆",
+      "承力接头",
+      "轻量化连杆",
+      "耐蚀/户外结构件",
+      "精密传动件"
+    ],
+    "pros": "比强度高、耐蚀性极好、耐温优于铝；弹性模量约为铝的 1.6 倍。",
+    "cons": "难加工、导热差、刀具磨损快；焊接需惰性气体保护；价格高。",
+    "notes": "钛合金里的通用牌号（Ti-6Al-4V）。比强度高、耐蚀性好，适合对重量和可靠性都苛刻的关节连接杆与承力接头；难加工、导热差，CNC 工时和刀具磨损都明显高于铝。",
+    "suppliers": [
+      {
+        "supplier_id": "sup-24b5c3dd",
+        "role": "CNC 加工",
+        "note": "先确认钛合金刀具与加工经验；他家价格低但交期要催"
+      }
+    ]
+  },
+  {
+    "id": "mat-steel-42crmo",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "alloy_steel",
+    "family_label": "合金钢",
+    "name": "42CrMo 合金钢",
+    "name_en": "42CrMo / AISI 4140 Alloy Steel",
+    "model": "42CrMo",
+    "title": "42CrMo 合金钢",
+    "aliases": ["42CrMo", "4140", "SCM440", "42CrMo4", "AISI 4140"],
+    "url": "https://www.caishuku.com/material/detail.php?mid=azhlNWIxMjg5NDA=",
+    "sources": [
+      {
+        "url": "https://www.caishuku.com/material/detail.php?mid=azhlNWIxMjg5NDA=",
+        "kind": "standard",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://zgtsteel.com/zh-CN/scm440-4140-42crmo/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "GB/T 17107-1997 42CrMo 力学性能 + 供应商典型值整理（2026-11-02）；数值随截面与热处理变化",
+    "specs": {
+      "density_g_cm3": 7.85,
+      "modulus_GPa": 205,
+      "tensile_MPa": 1080,
+      "yield_MPa": 930,
+      "elongation_pct": 12,
+      "hardness": "HB 197–229（退火）",
+      "service_temp_C": 400,
+      "low_temp_C": null,
+      "melting_C": null,
+      "thermal_cond_W_mK": 42,
+      "cte_um_mK": 11.5,
+      "price_level": "中",
+      "price_note": "按钢种、截面与热处理状态计价；调质件另算工时",
+      "sim_note": "密度 7850 kg/m³；弹性模量 205 GPa。做轻量化结构时先按密度算重量，钢件通常只用在传动/承力局部。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://www.caishuku.com/material/detail.php?mid=azhlNWIxMjg5NDA="
+    },
+    "forms": [
+      { "form": "板材", "spec": "厚度 6–300 mm", "note": "调质板/热轧板" },
+      { "form": "棒材", "spec": "直径 Ø10–500 mm", "note": "圆钢、方钢；大截面需确认淬透性" },
+      { "form": "管材", "spec": "外径 Ø20–500 mm", "note": "无缝管，常用于轴套/传动" },
+      { "form": "定制件", "spec": "锻件/法兰", "note": "锻后退火+调质" }
+    ],
+    "processes": ["proc-cnc"],
+    "applications": [
+      "传动轴",
+      "重载关节轴",
+      "齿轮毛坯",
+      "法兰与联轴器",
+      "承重杆"
+    ],
+    "pros": "调质后强度与韧性兼顾、淬透性好、抗疲劳；成本低于钛。",
+    "cons": "密度约为铝的 2.9 倍；需防锈；焊接性差；切削前常需退火。",
+    "notes": "中碳合金钢，调质后强度与韧性兼顾。常用于传动轴、重载关节轴和齿轮毛坯；密度是铝的约 2.9 倍，做结构件时要先算重量，表面需防锈处理。",
+    "suppliers": [
+      {
+        "supplier_id": "sup-24b5c3dd",
+        "role": "CNC/车铣",
+        "note": "重载轴类建议先确认材料、热处理与检测口径"
+      }
+    ]
+  },
+  {
+    "id": "mat-alu-adc12",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "aluminum",
+    "family_label": "铝合金",
+    "name": "ADC12 压铸铝合金",
+    "name_en": "ADC12 die-casting aluminium alloy",
+    "model": "ADC12",
+    "title": "ADC12 压铸铝合金",
+    "aliases": ["ADC12", "A380", "压铸铝", "AlSi9Cu3", "铝硅铜合金"],
+    "url": "https://www.elecfans.com/zt/129279/",
+    "sources": [
+      {
+        "url": "https://www.elecfans.com/zt/129279/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "ADC12 压铸铝公开资料典型值整理（2026-11-02）；抗拉/延伸率随压铸状态与热处理变化",
+    "specs": {
+      "density_g_cm3": 2.7,
+      "modulus_GPa": 71,
+      "tensile_MPa": 230,
+      "yield_MPa": 160,
+      "elongation_pct": 3,
+      "hardness": "HB 75–85",
+      "service_temp_C": 150,
+      "low_temp_C": null,
+      "melting_C": 580,
+      "thermal_cond_W_mK": 96,
+      "cte_um_mK": 21.5,
+      "price_level": "低-中",
+      "price_note": "按压铸件重量、模具与后加工计价；小批量开模费占比高",
+      "sim_note": "密度 2700 kg/m³；弹性模量约 71 GPa。压铸件常有气孔与壁厚差异，仿真按名义壁厚取值，承力面需确认致密度。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://www.elecfans.com/zt/129279/"
+    },
+    "forms": [
+      { "form": "压铸毛坯", "spec": "按模具定制", "note": "适合复杂薄壁壳体，拔模角与壁厚均匀性关键" },
+      { "form": "锭料", "spec": "ADC12 合金锭", "note": "压铸厂原料，按牌号与批次验收" },
+      { "form": "后加工件", "spec": "CNC 精加工", "note": "轴承位/密封面留余量后加工" }
+    ],
+    "processes": ["proc-die-casting", "proc-cnc"],
+    "applications": [
+      "一体化底座",
+      "复杂外壳",
+      "电机端盖",
+      "关节壳体",
+      "批量结构件"
+    ],
+    "pros": "压铸流动性好、薄壁复杂件一体成型、批量单价低、尺寸一致、导热好。",
+    "cons": "开模费高、小批量不划算；气孔/缩孔风险；延展性低；耐蚀一般，需表面处理。",
+    "notes": "最常用的压铸铝合金之一，适合批量做复杂外壳、底座和关节壳体。压铸态抗拉约 230 MPa，延伸率只有约 3%，不要按变形铝的塑性去设计；承力面和精密配合面通常留余量后 CNC。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-alu-alsi10mg",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "aluminum",
+    "family_label": "铝合金",
+    "name": "AlSi10Mg 铝合金（SLM）",
+    "name_en": "AlSi10Mg aluminium alloy (SLM)",
+    "model": "AlSi10Mg",
+    "title": "AlSi10Mg 铝合金（SLM）",
+    "aliases": ["AlSi10Mg", "AlSi10Mg-0403", "EOS AlSi10Mg", "SLM 铝", "增材铝"],
+    "url": "https://www.3djiagong.com/a/cailiao/587.html",
+    "sources": [
+      {
+        "url": "https://www.3djiagong.com/a/cailiao/587.html",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://m.wiiboox.net/3d-printer-slm280.php?act=material",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "EOS AlSi10Mg 沉积态数据 + SLM 设备商公开参数整理（2026-11-02）；热处理与打印方向影响数值",
+    "specs": {
+      "density_g_cm3": 2.67,
+      "modulus_GPa": 75,
+      "tensile_MPa": 460,
+      "yield_MPa": 270,
+      "elongation_pct": 9,
+      "hardness": "HB 120",
+      "service_temp_C": 150,
+      "low_temp_C": null,
+      "melting_C": 570,
+      "thermal_cond_W_mK": 120,
+      "cte_um_mK": 21,
+      "price_level": "中高",
+      "price_note": "按粉末、机台工时与后处理计价；小批量单件成本高",
+      "sim_note": "密度 2670 kg/m³；弹性模量约 75 GPa。SLM 件有明显方向性与残余应力，仿真取打印方向对应的等效值。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://www.3djiagong.com/a/cailiao/587.html"
+    },
+    "forms": [
+      { "form": "粉末", "spec": "15–53 µm 球形粉", "note": "SLM 专用，需控制氧含量与回收比例" },
+      { "form": "定制件", "spec": "SLM 近净成形", "note": "适合拓扑优化、点阵与复杂流道" },
+      { "form": "后加工件", "spec": "CNC/抛光/热处理", "note": "装配面与轴承位通常需二次加工" }
+    ],
+    "processes": ["proc-slm", "proc-cnc"],
+    "applications": [
+      "拓扑优化支架",
+      "轻量化关节壳体",
+      "复杂流道/点阵",
+      "小批量金属件",
+      "散热结构"
+    ],
+    "pros": "SLM 成形复杂几何、比强度高、导热好、工艺成熟、粉末供应广。",
+    "cons": "各向异性与残余应力；表面粗糙、需支撑；热处理后强度下降；粉末与机台成本高。",
+    "notes": "SLM 最常用的铝合金之一。EOS 口径沉积态抗拉约 460 MPa、屈服约 270 MPa、延伸率约 9%；去应力或热处理后强度会下降、塑性提高。打印方向影响 Z 向性能，承力件要按方向取値。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-steel-40crnimoa",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "alloy_steel",
+    "family_label": "合金钢",
+    "name": "40CrNiMoA 合金钢",
+    "name_en": "40CrNiMoA / AISI 4340 alloy steel",
+    "model": "40CrNiMoA",
+    "title": "40CrNiMoA 合金钢",
+    "aliases": ["40CrNiMoA", "4340", "AISI 4340", "SNCM439", "40CrNiMo"],
+    "url": "https://www.astmsteel.com/product/4340-steel-aisi/",
+    "sources": [
+      {
+        "url": "https://www.astmsteel.com/product/4340-steel-aisi/",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "AISI 4340（40CrNiMoA 对应牌号）公开数据 + 国标口径整理（2026-11-02）；调质/渗碳状态数值不同",
+    "specs": {
+      "density_g_cm3": 7.85,
+      "modulus_GPa": 205,
+      "tensile_MPa": 980,
+      "yield_MPa": 835,
+      "elongation_pct": 12,
+      "hardness": "HB 269–321（调质）",
+      "service_temp_C": 400,
+      "low_temp_C": null,
+      "melting_C": null,
+      "thermal_cond_W_mK": 44.5,
+      "cte_um_mK": 12.3,
+      "price_level": "中",
+      "price_note": "按钢种、截面与热处理状态计价；调质/渗碳另算工时",
+      "sim_note": "密度 7850 kg/m³；弹性模量约 205 GPa。重载传动件按调质态取值，表面渗碳/淬火会改变表层硬度而非整体模量。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://www.astmsteel.com/product/4340-steel-aisi/"
+    },
+    "forms": [
+      { "form": "棒材", "spec": "直径 Ø10–500 mm", "note": "圆钢/方钢；大截面需确认淬透性" },
+      { "form": "板材", "spec": "厚度 6–300 mm", "note": "调质板/热轧板" },
+      { "form": "管材", "spec": "外径 Ø20–500 mm", "note": "无缝管，常用于轴套/传动" },
+      { "form": "定制件", "spec": "锻件/齿坯", "note": "锻后退火+调质，按零件流线设计" }
+    ],
+    "processes": ["proc-cnc"],
+    "applications": [
+      "减速器柔轮/齿轮",
+      "传动轴",
+      "重载关节轴",
+      "高强度紧固件",
+      "渗碳/调质件"
+    ],
+    "pros": "淬透性好、调质后强度与韧性兼顾、抗疲劳；适合重载传动。",
+    "cons": "密度高、需热处理与防锈；焊接性差；切削前常需退火；热处理变形要留余量。",
+    "notes": "国内常用的中碳合金钢，对应 AISI 4340。调质后抗拉约 980 MPa、屈服约 835 MPa，适合减速器齿轮、传动轴和重载关节轴；性能高度依赖热处理，图纸要写清硬度、渗层与检测口径。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-steel-sus304",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "stainless_steel",
+    "family_label": "不锈钢",
+    "name": "SUS304 不锈钢",
+    "name_en": "SUS304 / AISI 304 stainless steel",
+    "model": "SUS304",
+    "title": "SUS304 不锈钢",
+    "aliases": ["SUS304", "304", "AISI 304", "06Cr19Ni10", "1.4301"],
+    "url": "https://www.modulusmetal.com/aisi-304-stainless-steel-data-sheet/",
+    "sources": [
+      {
+        "url": "https://www.modulusmetal.com/aisi-304-stainless-steel-data-sheet/",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "AISI 304 公开数据表典型值整理（2026-11-02）；冷加工/固溶状态与批次会改变强度",
+    "specs": {
+      "density_g_cm3": 7.93,
+      "modulus_GPa": 193,
+      "tensile_MPa": 515,
+      "yield_MPa": 205,
+      "elongation_pct": 40,
+      "hardness": "HB ≤201",
+      "service_temp_C": 800,
+      "low_temp_C": null,
+      "melting_C": 1400,
+      "thermal_cond_W_mK": 16.2,
+      "cte_um_mK": 17.3,
+      "price_level": "中",
+      "price_note": "按板材/棒材规格与表面计价；比碳钢贵，加工硬化后加工费上升",
+      "sim_note": "密度 7930 kg/m³；弹性模量约 193 GPa。奥氏体不锈钢无磁性、韧性好；冷加工会显著提高屈服强度。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://www.modulusmetal.com/aisi-304-stainless-steel-data-sheet/"
+    },
+    "forms": [
+      { "form": "板材", "spec": "厚度 0.3–100 mm", "note": "2B/拉丝/镜面等表面可选" },
+      { "form": "棒材", "spec": "直径 Ø3–300 mm", "note": "圆棒/六角棒，易加工硬化" },
+      { "form": "管材", "spec": "外径 Ø6–300 mm", "note": "无缝管/焊接管" },
+      { "form": "型材", "spec": "角钢/扁钢/定制", "note": "框架与支撑件" }
+    ],
+    "processes": ["proc-cnc"],
+    "applications": [
+      "精密紧固件",
+      "防腐蚀轴承座",
+      "导轨/支撑件",
+      "食品/医疗设备结构",
+      "户外结构"
+    ],
+    "pros": "耐蚀、韧性好、加工焊接成熟、供应广；低温韧性好。",
+    "cons": "强度低于沉淀硬化/马氏体不锈钢；易加工硬化；氯离子环境可能点蚀；价格高于碳钢。",
+    "notes": "通用奥氏体不锈钢。耐蚀和韧性好，适合紧固件、导轨、轴承座和户外结构；强度不高、易加工硬化，不能靠冷加工大幅提高承载，深孔/薄壁加工要控制进给。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-steel-440c",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "stainless_steel",
+    "family_label": "不锈钢",
+    "name": "440C 马氏体不锈钢",
+    "name_en": "AISI 440C martensitic stainless steel",
+    "model": "440C",
+    "title": "440C 马氏体不锈钢",
+    "aliases": ["440C", "AISI 440C", "9Cr18Mo", "X105CrMo17", "1.4125"],
+    "url": "https://virgamet.com/offer/x90crmov18-x105crmo17-aisi-440b-440c-440f-stainless-steel",
+    "sources": [
+      {
+        "url": "https://virgamet.com/offer/x90crmov18-x105crmo17-aisi-440b-440c-440f-stainless-steel",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "AISI 440C 公开数据表与热处理典型值整理（2026-11-02）；硬度/韧性随淬回火工艺变化",
+    "specs": {
+      "density_g_cm3": 7.7,
+      "modulus_GPa": 215,
+      "tensile_MPa": 758,
+      "yield_MPa": 448,
+      "elongation_pct": 14,
+      "hardness": "HRC 57–60（淬火回火）",
+      "service_temp_C": 250,
+      "low_temp_C": null,
+      "melting_C": null,
+      "thermal_cond_W_mK": 15,
+      "cte_um_mK": 10.4,
+      "price_level": "中高",
+      "price_note": "按棒材/板材与热处理计价；淬火回火和磨削会增加成本",
+      "sim_note": "密度 7700 kg/m³；弹性模量约 215 GPa。淬火态硬度高、韧性低，仿真若只取模量会低估脆性风险。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://virgamet.com/offer/x90crmov18-x105crmo17-aisi-440b-440c-440f-stainless-steel"
+    },
+    "forms": [
+      { "form": "棒材", "spec": "直径 Ø3–200 mm", "note": "退火态供货，淬回火后磨削" },
+      { "form": "板材", "spec": "厚度 1–50 mm", "note": "刀具/耐磨板" },
+      { "form": "管材", "spec": "外径 Ø6–100 mm", "note": "轴承套/耐磨管" },
+      { "form": "定制件", "spec": "热处理+精磨", "note": "尺寸稳定性和磨削裂纹要控制" }
+    ],
+    "processes": ["proc-cnc"],
+    "applications": [
+      "轴承",
+      "耐磨轴套",
+      "刀具/导轨",
+      "精密紧固件",
+      "耐蚀耐磨件"
+    ],
+    "pros": "淬火后硬度高、耐磨、耐蚀优于碳钢；适合轴承和耐磨件。",
+    "cons": "韧性低于奥氏体不锈钢；焊接性差；需控制热处理；磨削/加工难度高。",
+    "notes": "高碳马氏体不锈钢，淬火回火后可达 HRC 57–60。适合轴承、耐磨轴套和刀具；韧性不如 304，焊接性差，承力冲击件要谨慎，热处理后通常还要精磨。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-mg-az91d",
+    "category": "material",
+    "group": "metal",
+    "group_label": "金属材料",
+    "family": "magnesium",
+    "family_label": "镁合金",
+    "name": "AZ91D 镁合金",
+    "name_en": "AZ91D magnesium alloy",
+    "model": "AZ91D",
+    "title": "AZ91D 镁合金",
+    "aliases": ["AZ91D", "AZ91", "镁合金", "Mg-Al-Zn"],
+    "url": "https://mag-cast.com/magnesium-alloy-properties-strength-to-weight/",
+    "sources": [
+      {
+        "url": "https://mag-cast.com/magnesium-alloy-properties-strength-to-weight/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "AZ91D 压铸镁合金公开资料典型值整理（2026-11-02）；压铸状态与表面处理影响耐蚀/强度",
+    "specs": {
+      "density_g_cm3": 1.82,
+      "modulus_GPa": 45,
+      "tensile_MPa": 250,
+      "yield_MPa": 160,
+      "elongation_pct": 7,
+      "hardness": "HB 63–75",
+      "service_temp_C": 120,
+      "low_temp_C": null,
+      "melting_C": 596,
+      "thermal_cond_W_mK": 72,
+      "cte_um_mK": 26,
+      "price_level": "中",
+      "price_note": "按压铸件重量、模具与表面处理计价；镁锭价格波动大",
+      "sim_note": "密度 1820 kg/m³；弹性模量约 45 GPa。比铝轻约 33%，但模量低、耐蚀差，仿真只取密度会忽略蠕变与表面处理影响。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://mag-cast.com/magnesium-alloy-properties-strength-to-weight/"
+    },
+    "forms": [
+      { "form": "压铸毛坯", "spec": "按模具定制", "note": "薄壁复杂壳体优先" },
+      { "form": "锭料", "spec": "AZ91D 合金锭", "note": "压铸厂原料，需控 Fe/Ni/Cu 杂质" },
+      { "form": "后加工件", "spec": "CNC 精加工", "note": "加工面需及时防氧化/涂装" }
+    ],
+    "processes": ["proc-die-casting", "proc-cnc"],
+    "applications": [
+      "轻量化外壳",
+      "非高冲击支撑件",
+      "无人机/机器人框架",
+      "电机端盖",
+      "便携设备结构"
+    ],
+    "pros": "密度约 1.82 g/cm³，比铝轻约 33%；压铸流动性好、比强度高、减振好。",
+    "cons": "耐蚀差，必须涂装/表面处理；高温蠕变与燃烧风险；冲击韧性低于铝；加工需专用防护。",
+    "notes": "最常用的压铸镁合金。密度只有铝的约 2/3，适合非高冲击的外壳和支撑件；耐蚀性差，必须做涂装或表面处理，镁屑有燃烧风险，加工要有专用防护。",
+    "suppliers": []
+  }
+]

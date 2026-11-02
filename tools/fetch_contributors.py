@@ -6,10 +6,13 @@
     · 与本站「数据可追溯」的口径一致：页面上的数字有生成时间戳
 
 取法：优先用已登录的 gh CLI（额度高），失败再退回匿名 REST。
+拆仓后 GitHub API 只数默认分支，数不到 ccc / ccc_dt 上的工作；
+因此再用本地双仓的全分支提交做校正，按作者+时间+标题去重。
 """
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 import pathlib
 import subprocess
@@ -41,28 +44,52 @@ def via_rest() -> list[dict]:
 
 
 
-def local_commit_counts() -> dict[str, int]:
-    """按作者名数本地 main 的提交（用于校正 GitHub API 的缓存滞后）。"""
-    try:
-        r = subprocess.run(["git", "log", "--format=%an", "HEAD"],
-                           capture_output=True, text=True, cwd=str(Path(__file__).resolve().parents[1]))
-    except Exception:
-        return {}
-    out: dict[str, int] = {}
-    for line in (r.stdout or "").splitlines():
-        name = line.strip()
-        if name:
-            out[name] = out.get(name, 0) + 1
+def _repo_paths() -> list[Path]:
+    paths = [ROOT]
+    site = os.environ.get("ROBOWIKI_SITE_REPO")
+    site_path = Path(site) if site else ROOT.parent / REPO
+    if site_path.exists() and (site_path / ".git").exists():
+        paths.append(site_path)
+    return paths
+
+
+def local_commit_counts() -> dict[str, dict[str, set[tuple[str, str, str]]]]:
+    """按作者名数双仓全分支提交；同一提交在拆分迁移后可能换 SHA，用
+    作者邮箱 + 作者时间 + 标题做指纹去重。"""
+    out: dict[str, dict[str, set[tuple[str, str, str]]]] = {}
+    for repo in _repo_paths():
+        try:
+            r = subprocess.run(
+                ["git", "log", "--all", "--format=%an%x00%ae%x00%at%x00%s"],
+                capture_output=True, text=True, encoding="utf-8", cwd=str(repo))
+        except Exception:
+            continue
+        for line in (r.stdout or "").splitlines():
+            parts = line.split("\x00")
+            if len(parts) != 4:
+                continue
+            name, email, ts, subject = (x.strip() for x in parts)
+            if not name:
+                continue
+            out.setdefault(name.lower(), {}).setdefault(repo.name, set()).add(
+                (email.lower(), ts, subject))
     return out
+
+
+def _git_stats(counts: dict[str, dict[str, set[tuple[str, str, str]]]],
+               login: str) -> tuple[int, dict[str, int]]:
+    repos = counts.get(login.lower()) or {}
+    unique = len(set().union(*repos.values())) if repos else 0
+    return unique, {name: len(fps) for name, fps in repos.items()}
 
 
 def main() -> None:
     try:
         raw = via_gh()
-        src = "GitHub Contributors（gh api）"
+        src = "GitHub Contributors（gh api）+ 双仓全分支 git 统计"
     except Exception:
         raw = via_rest()
-        src = "GitHub Contributors（REST，匿名）"
+        src = "GitHub Contributors（REST，匿名）+ 双仓全分支 git 统计"
 
     people = []
     for it in raw:
@@ -94,9 +121,10 @@ def main() -> None:
     git_counts = local_commit_counts()
     for p_ in people:
         p_["api_contributions"] = p_["contributions"]
-        g = git_counts.get(p_["login"]) or git_counts.get(p_.get("name") or "")
+        g, by_repo = _git_stats(git_counts, p_["login"])
         if g:
             p_["git_commits"] = g
+            p_["git_repos"] = by_repo
             p_["contributions"] = max(p_["contributions"], g)
         prev = old.get(p_["login"].lower(), {})
         p_["baseline"] = prev.get("baseline", 0)
@@ -111,10 +139,15 @@ def main() -> None:
             continue
         if low not in logins:
             keep = dict(prev)
-            keep["contributions"] = int(keep.get("contributions") or 0)
+            g, by_repo = _git_stats(git_counts, low)
+            keep["contributions"] = max(int(keep.get("contributions") or 0), g)
+            if g:
+                keep["git_commits"] = g
+                keep["git_repos"] = by_repo
             keep["contribution_total"] = int(keep.get("baseline") or 0) + keep["contributions"]
             people.append(keep)
 
+    people.sort(key=lambda p: p.get("contribution_total") or p["contributions"], reverse=True)
     total_c = sum(p.get("contribution_total") or p["contributions"] for p in people)
     data = {
         "repo": f"{OWNER}/{REPO}",

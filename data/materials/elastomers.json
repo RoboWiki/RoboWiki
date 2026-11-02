@@ -1,0 +1,194 @@
+[
+  {
+    "id": "mat-silicone-vmq",
+    "category": "material",
+    "group": "elastomer",
+    "group_label": "弹性体",
+    "family": "silicone",
+    "family_label": "硅胶",
+    "name": "硅胶 VMQ",
+    "name_en": "Silicone rubber (VMQ)",
+    "model": "VMQ",
+    "title": "硅胶 VMQ（甲基乙烯基硅橡胶）",
+    "aliases": ["VMQ", "硅胶", "硅橡胶", "Silicone", "甲基乙烯基硅橡胶"],
+    "url": "https://www.elkem.com/products/silicones/heat-cured-rubber/silicone-rubber/",
+    "sources": [
+      {
+        "url": "https://www.elkem.com/products/silicones/heat-cured-rubber/silicone-rubber/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://baike.baidu.com/item/VMQ/4551477",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "Elkem 硅橡胶公开资料 + VMQ 公开数据整理（2026-11-02）；配方不同硬度/强度差异大",
+    "specs": {
+      "density_g_cm3": 1.15,
+      "modulus_GPa": 0.005,
+      "tensile_MPa": 8,
+      "yield_MPa": null,
+      "elongation_pct": 400,
+      "hardness": "Shore A 50（25–80）",
+      "service_temp_C": 200,
+      "low_temp_C": -60,
+      "melting_C": null,
+      "thermal_cond_W_mK": 0.2,
+      "cte_um_mK": 250,
+      "price_level": "中",
+      "price_note": "按公斤/件计价；液态硅胶（LSR）与定制件另算模具费",
+      "sim_note": "密度 1150 kg/m³；模量约 5 MPa（0.005 GPa）。超弹性材料，MuJoCo 里通常用软接触参数近似，不要直接当线弹性体。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://www.elkem.com/products/silicones/heat-cured-rubber/silicone-rubber/"
+    },
+    "forms": [
+      { "form": "板材", "spec": "厚度 0.5–50 mm", "note": "可模压/裁切" },
+      { "form": "管材", "spec": "内径 Ø1–100 mm", "note": "密封/护套用" },
+      { "form": "型材", "spec": "定制截面", "note": "密封条/减振条" },
+      { "form": "液体", "spec": "RTV/LSR", "note": "灌封、包胶、模具浇注" },
+      { "form": "定制件", "spec": "模压/注塑", "note": "机器人皮肤、夹爪垫" }
+    ],
+    "processes": ["proc-injection"],
+    "applications": [
+      "机器人皮肤",
+      "密封圈/O 型圈",
+      "减振垫",
+      "线缆护套",
+      "夹爪垫"
+    ],
+    "pros": "宽温域（-60~200°C）、耐候、电绝缘、生理惰性、柔软回弹好。",
+    "cons": "抗撕和耐磨弱、不耐油、强度低；尺寸精度和承载能力有限。",
+    "notes": "有机硅弹性体（VMQ）。宽温域、耐候、电绝缘和生理惰性，适合机器人皮肤、密封圈和减振垫；抗撕和耐磨弱，不耐油，受力设计要留余量。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-epdm",
+    "category": "material",
+    "group": "elastomer",
+    "group_label": "弹性体",
+    "family": "epdm",
+    "family_label": "EPDM",
+    "name": "EPDM 三元乙丙橡胶",
+    "name_en": "Ethylene propylene diene monomer rubber (EPDM)",
+    "model": "EPDM",
+    "title": "EPDM 三元乙丙橡胶",
+    "aliases": ["EPDM", "三元乙丙橡胶", "乙丙橡胶"],
+    "url": "https://en.wikipedia.org/wiki/EPDM_rubber",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/EPDM_rubber",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "EPDM 公开资料与密封件典型值整理（2026-11-02）；配方与含胶率不同，硬度和强度差异大",
+    "specs": {
+      "density_g_cm3": 1.15,
+      "modulus_GPa": 0.008,
+      "tensile_MPa": 15,
+      "yield_MPa": null,
+      "elongation_pct": 400,
+      "hardness": "Shore A 60–70",
+      "service_temp_C": 120,
+      "low_temp_C": -40,
+      "melting_C": null,
+      "thermal_cond_W_mK": 0.25,
+      "cte_um_mK": 160,
+      "price_level": "低",
+      "price_note": "密封条/胶板按公斤计价；定制截面需开模",
+      "sim_note": "密度 1150 kg/m³；模量约 8 MPa（0.008 GPa）。超弹性材料，仿真用软接触或超弹性本构，不要按线弹性取值。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://en.wikipedia.org/wiki/EPDM_rubber"
+    },
+    "forms": [
+      { "form": "板材", "spec": "厚度 1–50 mm", "note": "胶板裁切/模压" },
+      { "form": "管材", "spec": "内径 Ø3–100 mm", "note": "密封/护套用" },
+      { "form": "型材", "spec": "定制截面", "note": "密封条、门窗条" },
+      { "form": "定制件", "spec": "模压/挤出", "note": "垫片、护套、减振块" }
+    ],
+    "processes": ["proc-injection"],
+    "applications": [
+      "密封条/门窗条",
+      "O 型圈/垫片",
+      "线缆护套",
+      "减振垫",
+      "户外防护件"
+    ],
+    "pros": "耐候和耐臭氧极好、耐水耐蒸汽、电绝缘、价格低；宽温域（-40~120°C）。",
+    "cons": "不耐油和芳香烃溶剂；抗撕一般、粘接困难；强度低于硅胶，压缩永久变形要评估。",
+    "notes": "三元乙丙橡胶。耐候、耐臭氧和耐水性突出，适合户外密封条、垫片和线缆护套；不耐油，接触润滑脂的场合要改用丁腈或氟橡胶。",
+    "suppliers": []
+  },
+  {
+    "id": "mat-tpu",
+    "category": "material",
+    "group": "elastomer",
+    "group_label": "弹性体",
+    "family": "tpu",
+    "family_label": "TPU",
+    "name": "TPU 热塑性聚氨酯",
+    "name_en": "Thermoplastic polyurethane (TPU)",
+    "model": "TPU 95A/55D",
+    "title": "TPU 热塑性聚氨酯",
+    "aliases": ["TPU", "热塑性聚氨酯", "聚氨酯弹性体", "TPU 95A"],
+    "url": "https://en.wikipedia.org/wiki/Thermoplastic_polyurethane",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thermoplastic_polyurethane",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
+      }
+    ],
+    "source_tier": "B",
+    "verified": 0,
+    "last_checked": "2026-11-02",
+    "origin": "TPU 公开资料与 95A/55D 典型值整理（2026-11-02）；软段/硬段配比不同，硬度与模量跨度很大",
+    "specs": {
+      "density_g_cm3": 1.2,
+      "modulus_GPa": 0.05,
+      "tensile_MPa": 40,
+      "yield_MPa": null,
+      "elongation_pct": 450,
+      "hardness": "Shore 55D",
+      "service_temp_C": 90,
+      "low_temp_C": -40,
+      "melting_C": 180,
+      "thermal_cond_W_mK": 0.2,
+      "cte_um_mK": 150,
+      "price_level": "中",
+      "price_note": "FDM 线材按公斤计价；注塑级与医用级更贵",
+      "sim_note": "密度 1200 kg/m³；模量约 50 MPa（0.05 GPa）。软硬段配比决定模量，仿真按具体 Shore 硬度取超弹性参数。",
+      "image_url": null,
+      "image_source": null,
+      "doc_url": "https://en.wikipedia.org/wiki/Thermoplastic_polyurethane"
+    },
+    "forms": [
+      { "form": "线材", "spec": "1.75/2.85 mm", "note": "FDM 柔性件常用 95A" },
+      { "form": "板材", "spec": "厚度 1–50 mm", "note": "耐磨衬板/缓冲垫" },
+      { "form": "管材", "spec": "内径 Ø2–100 mm", "note": "软管/护套" },
+      { "form": "定制件", "spec": "注塑/浇注", "note": "夹爪垫、密封件、滚轮" }
+    ],
+    "processes": ["proc-fdm", "proc-injection"],
+    "applications": [
+      "柔性夹爪/夹爪垫",
+      "机器人皮肤",
+      "耐磨滚轮",
+      "减振垫",
+      "可穿戴结构"
+    ],
+    "pros": "耐磨和抗撕优于硅胶、硬度跨度大、回弹好、可 FDM 打印也可注塑；耐油性优于 EPDM。",
+    "cons": "耐热只有约 90°C；吸湿后性能变化；FDM 打印速度慢、支撑难拆；长期压缩会蠕变。",
+    "notes": "热塑性聚氨酯。软硬段配比可调，从 95A 软胶到 55D 硬质都能做；柔性夹爪、耐磨滚轮和减振垫常用。FDM 打印柔性件要降速，注塑件性能更稳定。",
+    "suppliers": []
+  }
+]

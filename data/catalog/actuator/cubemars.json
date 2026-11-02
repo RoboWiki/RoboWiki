@@ -65,7 +65,7 @@
   "url": "https://www.cubemars.com/cn/product/ak70-10-kv100-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 中文站产品页（2026-10-31 抓取）",
   "notes": "10:1 行星减速、支持位置/速度/力矩/MIT 混合模式、驱动与编码器集成；24/48 V 双电压。 官方对比表型号写作 AK70-10 KV100。",
@@ -83,8 +83,8 @@
    "doc_pdf": null,
    "repo_urls": null,
    "repo_license": null,
-   "image_url": null,
-   "image_source": null
+   "image_url": "/parts/cubemars-ak70-10.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK70-10 产品页，2026-11-02）"
   }
  },
  {
@@ -96,10 +96,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK10-9 V3.0 KV60",
   "title": "CubeMars AK10-9 V3.0 KV60",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak10-9-v3-0-kv60-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 235 N·m / 峰值 320 N·m、减速比 940、重量 Ф98*61.7 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -118,7 +118,9 @@
    "l_mm": 61.7,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak10-9-v3-0-kv60-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak10-9-v3.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK10-9 V3.0 KV60 产品页，2026-11-02）"
   }
  },
  {
@@ -130,10 +132,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK10-9 V2.0 KV60",
   "title": "CubeMars AK10-9 V2.0 KV60",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak10-9-v2-0-kv60-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 109/228 N·m / 峰值 160/320 N·m、减速比 960、重量 Ф98*61.7 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -150,7 +152,9 @@
    "l_mm": 61.7,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak10-9-v2-0-kv60-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak10-9-v2.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK10-9 V2.0 KV60 产品页，2026-11-02）"
   }
  },
  {
@@ -162,10 +166,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK80-9 V3.0 KV100",
   "title": "CubeMars AK80-9 V3.0 KV100",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak80-9-v3-0-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 390 N·m / 峰值 570 N·m、减速比 490、重量 Ф98*38.5 g、驱动板有、编码器 单编。双电压型号按官网原文记录，不取平均。",
@@ -184,7 +188,9 @@
    "l_mm": 38.5,
    "encoder": "单编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak80-9-v3-0-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak80-9-v3.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK80-9 V3.0 KV100 产品页，2026-11-02）"
   }
  },
  {
@@ -196,10 +202,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK80-8 KV60",
   "title": "CubeMars AK80-8 KV60",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak80-8-kv60-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 243 N·m / 峰值 360 N·m、减速比 575、重量 Ф98*43.9 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -218,7 +224,9 @@
    "l_mm": 43.9,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak80-8-kv60-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak80-8-kv60.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK80-8 KV60 产品页，2026-11-02）"
   }
  },
  {
@@ -230,10 +238,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK45-10 V3.0 KV75",
   "title": "CubeMars AK45-10 V3.0 KV75",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak45-10-v3-0-kv75-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 120 N·m / 峰值 180 N·m、减速比 262、重量 φ53*45.2 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -252,7 +260,9 @@
    "l_mm": 45.2,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak45-10-v3-0-kv75-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak45-10-v3-0-kv75.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK45-10 V3.0 KV75 产品页，2026-11-02）"
   }
  },
  {
@@ -264,10 +274,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK45-36 V3.0 KV80",
   "title": "CubeMars AK45-36 V3.0 KV80",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak45-36-v3-0-kv80-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 40 N·m / 峰值 52 N·m、减速比 349、重量 φ55*56.5 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -286,7 +296,9 @@
    "l_mm": 56.5,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak45-36-v3-0-kv80.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK45-36 V3.0 KV80 产品页，2026-11-02）"
   }
  },
  {
@@ -298,10 +310,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK40-10 V3.0 KV170",
   "title": "CubeMars AK40-10 V3.0 KV170",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak40-10-v3-0-kv170-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 370 N·m / 峰值 435 N·m、减速比 190、重量 φ53*40.2 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -320,7 +332,9 @@
    "l_mm": 40.2,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak40-10-v3-0-kv170-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak40-10-v3-0-kv170.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK40-10 V3.0 KV170 产品页，2026-11-02）"
   }
  },
  {
@@ -332,10 +346,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK80-64 KV80",
   "title": "CubeMars AK80-64 KV80",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak80-64-kv80-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 23/48 N·m / 峰值 37/75 N·m、减速比 850、重量 Ф98*61.9 g、驱动板有、编码器 单编。双电压型号按官网原文记录，不取平均。",
@@ -352,7 +366,9 @@
    "l_mm": 61.9,
    "encoder": "单编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak80-64-kv80-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak80-64.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK80-64 KV80 产品页，2026-11-02）"
   }
  },
  {
@@ -364,10 +380,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK70-9 V3.0 KV60",
   "title": "CubeMars AK70-9 V3.0 KV60",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak70-9-v3-0-kv60-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 260 N·m / 峰值 320 N·m、减速比 540、重量 Ф89*49 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -386,7 +402,9 @@
    "l_mm": 49.0,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak70-9-v3-0-kv60-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak70-9-v3-0-kv60.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK70-9 V3.0 KV60 产品页，2026-11-02）"
   }
  },
  {
@@ -398,10 +416,10 @@
   "vendor_cn": "CubeMars",
   "model": "AKH70-48 V1.0 KV41",
   "title": "CubeMars AKH70-48 V1.0 KV41",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/akh70-48-v-1-0-kv41-hollow-shaft-planetary-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 28 N·m / 峰值 35 N·m、减速比 1396、重量 φ90*81.5 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -420,7 +438,9 @@
    "l_mm": 81.5,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/akh70-48-v-1-0-kv41-hollow-shaft-planetary-actuator.html",
+   "image_url": "/parts/cubemars-akh70-48-v1-0-kv41.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AKH70-48 V1.0 KV41 产品页，2026-11-02）"
   }
  },
  {
@@ -432,10 +452,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK60-39 V3.0 KV80",
   "title": "CubeMars AK60-39 V3.0 KV80",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak60-39-v3-0-kv80-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 70 N·m / 峰值 98 N·m、减速比 750、重量 Ф79*67 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -454,7 +474,9 @@
    "l_mm": 67.0,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak60-39-v3-0-kv80-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak60-39-v3-0-kv80.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK60-39 V3.0 KV80 产品页，2026-11-02）"
   }
  },
  {
@@ -466,10 +488,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK60-6 V3.0 KV80",
   "title": "CubeMars AK60-6 V3.0 KV80",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak60-6-v3-0-kv80-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 233/490 N·m / 峰值 320/640 N·m、减速比 380、重量 Ф79*43 g、驱动板有、编码器 单编。双电压型号按官网原文记录，不取平均。",
@@ -485,7 +507,9 @@
    "l_mm": 43.0,
    "encoder": "单编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak60-6-v3-0-kv80-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak60-6.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK60-6 V3.0 KV80 产品页，2026-11-02）"
   }
  },
  {
@@ -497,10 +521,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK60-6 V1.1 KV140",
   "title": "CubeMars AK60-6 V1.1 KV140",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak60-6-v1-1-kv140-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 420 N·m / 峰值 560 N·m、减速比 368、重量 Ф79*39.5 g、驱动板有、编码器 单编。双电压型号按官网原文记录，不取平均。",
@@ -519,7 +543,9 @@
    "l_mm": 39.5,
    "encoder": "单编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak60-6-v1-1-kv140-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak60-6-v1-1-kv140.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK60-6 V1.1 KV140 产品页，2026-11-02）"
   }
  },
  {
@@ -531,10 +557,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK45-36 KV80",
   "title": "CubeMars AK45-36 KV80",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/AK45-36.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 40 N·m / 峰值 52 N·m、减速比 340、重量 φ55*54 g、驱动板有、编码器 单编。双电压型号按官网原文记录，不取平均。",
@@ -553,7 +579,9 @@
    "l_mm": 54.0,
    "encoder": "单编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/AK45-36.html",
+   "image_url": "/parts/cubemars-ak45-36.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK45-36 KV80 产品页，2026-11-02）"
   }
  },
  {
@@ -565,10 +593,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK45-10 KV75",
   "title": "CubeMars AK45-10 KV75",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/AK45-10-robotic-actuatuor.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 150 N·m / 峰值 180 N·m、减速比 260、重量 Ф53*43 g、驱动板有、编码器 单编。双电压型号按官网原文记录，不取平均。",
@@ -587,7 +615,9 @@
    "l_mm": 43.0,
    "encoder": "单编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/AK45-10-robotic-actuatuor.html",
+   "image_url": "/parts/cubemars-ak45-10.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK45-10 KV75 产品页，2026-11-02）"
   }
  },
  {
@@ -599,10 +629,10 @@
   "vendor_cn": "CubeMars",
   "model": "AK40-10 KV170",
   "title": "CubeMars AK40-10 KV170",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/ak40-10-robotic-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 370 N·m / 峰值 435 N·m、减速比 185、重量 φ53*37 g、驱动板有、编码器 单编。双电压型号按官网原文记录，不取平均。",
@@ -621,7 +651,9 @@
    "l_mm": 37.0,
    "encoder": "单编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/ak40-10-robotic-actuator.html",
+   "image_url": "/parts/cubemars-ak40-10.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AK40-10 KV170 产品页，2026-11-02）"
   }
  },
  {
@@ -633,10 +665,10 @@
   "vendor_cn": "CubeMars",
   "model": "AKH70-16 V1.0 KV41",
   "title": "CubeMars AKH70-16 V1.0 KV41",
-  "url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html",
+  "url": "https://www.cubemars.com/cn/product/akh70-16-v-1-0-kv41-hollow-shaft-planetary-actuator.html",
   "source_tier": "B",
   "verified": 0,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-02",
   "price_cny": null,
   "origin": "CubeMars 官网产品对比表（cubemars.com/cn，2026-10-31 抓取）",
   "notes": "官方对比表：额定 90 N·m / 峰值 105 N·m、减速比 879、重量 φ90*60.5 g、驱动板有、编码器 双编。双电压型号按官网原文记录，不取平均。",
@@ -655,7 +687,9 @@
    "l_mm": 60.5,
    "encoder": "双编",
    "tau_basis": "peak",
-   "doc_url": "https://www.cubemars.com/cn/product/ak80-6-kv100-robotic-actuator.html"
+   "doc_url": "https://www.cubemars.com/cn/product/akh70-16-v-1-0-kv41-hollow-shaft-planetary-actuator.html",
+   "image_url": "/parts/cubemars-akh70-16-v1-0-kv41.jpg",
+   "image_source": "CubeMars 官方产品图（cubemars.com，AKH70-16 V1.0 KV41 产品页，2026-11-02）"
   }
  }
 ]
