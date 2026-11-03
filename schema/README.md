@@ -1,6 +1,6 @@
 # schema —— 人和机器之间的契约
 
-这三份 JSON Schema 是**同一个东西的三种用法**：
+这组 JSON Schema 是**同一个契约的多种用法**：
 
 | 使用方 | 怎么用 |
 |---|---|
@@ -19,6 +19,8 @@
 | `offer.schema.json` | `data/offers/<厂商>.json` 里的一条优惠 |
 | `rating.schema.json` | 评分（issue 提交 → `ratings_snapshot.json`） |
 | `review.schema.json` | 实测（issue 提交 → `reviews_snapshot.json`） |
+| `material.schema.json` | `data/materials/<group>.json` 里的一条材料或加工工艺 |
+| `robot.schema.json` / `software.schema.json` / `supplier.schema.json` | 整机 / 软件 / 渠道实体 |
 
 ## 实体分层（base + 实体 schema，ADR-005 P1）
 
@@ -45,7 +47,7 @@ base.schema.json          实体基座：公共字段的定义与约束（单一
 | supplier 用 `tier` 不是 `source_tier`，且 `kind` 语义是店铺形态 | `kind: "shop"` | `tier`→`source_tier`；`kind`→`shop_kind`，让位给实体 `kind: "supplier"` |
 
 因此当前各实体 schema 的 `required` 只收**现有数据已经具备**的字段
-（校验结果：robot 21 / software 22 / supplier 149 条全量通过），
+（校验结果：robot 21 / software 22 / supplier 207 / materials 27 + processes 9 全量通过），
 基座其余字段已定义、出现即受约束、但暂未强制。数据补齐一个，
 就把一个字段从 properties 迁进 required——**收紧只改 schema，不改字段定义**。
 

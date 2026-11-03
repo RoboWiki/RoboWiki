@@ -49,7 +49,8 @@ INCLUDE_ROOTS = ("data", "schema", "assets")
 MANIFEST_NOTE = "按版本引用数据时请一并记录本清单，便于回溯口径。"
 
 # Manifest 里与「口径/体量」有关的字段，自检时逐个比对
-COUNT_KEYS = ("parts", "robots", "software", "ids", "semantics_version", "assets")
+COUNT_KEYS = ("parts", "robots", "software", "materials", "processes", "ids",
+              "semantics_version", "assets")
 
 TAG_RE = re.compile(r"^[0-9A-Za-z][0-9A-Za-z._-]{0,80}$")
 
@@ -167,11 +168,22 @@ def _counts_from(blobs: dict[str, bytes]) -> dict:
         except KeyError:
             raise SystemExit(f"缺少必要文件：{rel}（导出中断，先确认仓库完整）")
 
+    materials = processes = 0
+    for rel, raw in blobs.items():
+        if rel.startswith("data/materials/") and rel.endswith(".json"):
+            for row in json.loads(raw):
+                if row.get("category") == "material":
+                    materials += 1
+                elif row.get("category") == "process":
+                    processes += 1
+
     assets = sum(1 for rel in blobs if rel.startswith("assets/"))
     return {
         "parts": parts,
         "robots": robots,
         "software": len(need("data/software.json")["items"]),
+        "materials": materials,
+        "processes": processes,
         "ids": len(need("data/_id_registry.json")["ids"]),
         "semantics_version": need("schema/semantics.json")["version"],
         "assets": assets,
@@ -348,7 +360,7 @@ def main(argv: list[str] | None = None) -> int:
             print(f"           · {item}", file=sys.stderr)
         return 1
 
-    print("[export] 自检通过：归档只含 data/、schema/ 与 assets/；MANIFEST 五项计数与归档内容一致")
+    print("[export] 自检通过：归档只含 data/、schema/ 与 assets/；MANIFEST 计数与归档内容一致")
     return 0
 
 

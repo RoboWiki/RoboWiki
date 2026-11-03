@@ -5,7 +5,7 @@
 网站前端在 [RoboWiki/RoboWiki.github.io](https://github.com/RoboWiki/RoboWiki.github.io)，线上地址 <https://robowiki.github.io/>。
 
 ```
-329 个部件 · 27 种材料 + 9 种工艺 · 21 台整机 · 22 个软件 · 207 家渠道 · 425 张产品图
+329 条部件数据（326 件入目录，3 条 C 级线索仅存档） · 27 种材料 + 9 种工艺 · 21 台整机 · 22 个软件 · 207 家渠道 · 425 张产品图
 ```
 
 ## 这个仓负责什么
