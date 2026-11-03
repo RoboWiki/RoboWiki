@@ -43,7 +43,7 @@ python tools/id_registry.py --check
 发布物试跑：
 
 ```bash
-python tools/export_data.py --out dist --tag data-2026.11.02
+python tools/export_data.py --out dist --tag data-v2026.11.2
 ```
 
 ## 三条硬规则

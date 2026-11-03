@@ -59,12 +59,12 @@ TAG_RE = re.compile(r"^[0-9A-Za-z][0-9A-Za-z._-]{0,80}$")
 
 
 def default_tag() -> str:
-    """data-YYYY.MM.DD，按 UTC 取日期（与 workflow 的 date -u 一致）。"""
-    return "data-" + dt.datetime.now(dt.timezone.utc).strftime("%Y.%m.%d")
+    """data-vYYYY.MM.DD，按 UTC 取日期（与 workflow 的 date -u 一致）。"""
+    return "data-v" + dt.datetime.now(dt.timezone.utc).strftime("%Y.%m.%d")
 
 
 def asset_name(tag: str) -> str:
-    """Release tag → 附件名：tag `data-2026.10.30` 出 `robowiki-data-2026.10.30.tar.gz`。
+    """Release tag → 附件名：tag `data-v2026.11.2` 出 `robowiki-data-v2026.11.2.tar.gz`。
 
     tag 自带 `data-` 前缀时先剥掉，否则会得到 `robowiki-data-data-…` 这种
     （旧 workflow 就是这么拼的，2026-10-31 改成按 tag 推导附件名）。

@@ -37,7 +37,7 @@ jobs:
           TAG="${{ github.event.inputs.tag }}"
           # tag 触发时 event.inputs.tag 是空的，取 ref 名，否则 Release 会挂到日期名上
           if [ -z "$TAG" ] && [ "${GITHUB_REF_TYPE}" = "tag" ]; then TAG="${GITHUB_REF_NAME}"; fi
-          if [ -z "$TAG" ]; then TAG="data-$(date -u +%Y.%m.%d)"; fi
+          if [ -z "$TAG" ]; then TAG="data-v$(date -u +%Y.%m.%d)"; fi
           echo "TAG=$TAG" >> "$GITHUB_ENV"
           python3 tools/export_data.py --out dist --tag "$TAG"
           # 附件名由 tag 推导（tag 自带 data- 前缀时会剥掉），这里不重复拼一遍

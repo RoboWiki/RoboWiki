@@ -18,7 +18,7 @@ PR / push main
 | 检查 | 覆盖 |
 |---|---|
 | `pipeline validate` | 字段/单位/量程、A 级键集、来源等级、ID 注册表、材料↔工艺↔渠道交叉引用 |
-| `pytest` | ID 治理、taxonomy、材料 schema、导出与 schema 一致性 |
+| `pytest` | taxonomy、连接器、评分口径、validate 冒烟与计数稳定性 |
 
 ## 发布流水线
 

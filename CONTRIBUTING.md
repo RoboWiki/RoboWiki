@@ -30,7 +30,11 @@ python tools/id_registry.py --check
 
 **唯一事实源**：`data/` 与 `schema/`。不要提交网站生成物、页面 HTML、VitePress 产物。
 
-## 四条硬规则
+新增品类/厂商时还要连带改三处：`data/taxonomy.json` 的品类/厂商登记、
+`tests/test_validate.py` 的计数断言、以及材料/工艺与供应商的双向引用
+（`processes`、`specs.materials`、`supplier_id` 必须能对上）。
+
+## 五条硬规则
 
 1. **缺失写 `null`**，不猜、不省略 key。
 2. **ID 永久**：新增登记，改名 `alias_of`，删除 `removed`；见 [docs/ID-POLICY.md](docs/ID-POLICY.md)。
