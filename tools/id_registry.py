@@ -160,6 +160,11 @@ def check(root: pathlib.Path = ROOT, reg: dict | None = None) -> list[str]:
                 out.append(f"{rid}: 非 ASCII id 只有历史遗留可以（标 legacy: true），新 id 一律英文")
         if ":" in rid and not rid.startswith(NAMESPACES):
             out.append(f"{rid}: 未知的命名空间前缀（只认 {', '.join(NAMESPACES)}）")
+        cat = meta.get("category")
+        if cat == "material" and not rid.startswith("mat-"):
+            out.append(f"{rid}: 材料 id 必须以 mat- 开头")
+        if cat == "process" and not rid.startswith("proc-"):
+            out.append(f"{rid}: 工艺 id 必须以 proc- 开头")
 
     # ④ 出口条目的完整性：alias 与 tombstone 不能半残，也不能自相矛盾
     for rid, meta in sorted(known.items()):
