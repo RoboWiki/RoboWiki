@@ -37,7 +37,8 @@
     "battery",
     "connector",
     "module",
-    "chip"
+    "chip",
+    "open_hw"
    ]
   },
   "subtype": {

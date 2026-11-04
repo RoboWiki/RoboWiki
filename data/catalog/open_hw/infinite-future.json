@@ -1,0 +1,58 @@
+[
+ {
+  "category": "open_hw",
+  "subtype": "control",
+  "subtype_label": "控制 / 扩展板",
+  "id": "oshw-infinite-future-cboard",
+  "vendor": "infinite_future",
+  "vendor_cn": "infinite_future",
+  "model": "RoboMaster C 型控制板（仿制版）",
+  "title": "infinite_future RoboMaster C 型控制板（仿制版）",
+  "url": "https://oshwhub.com/infinite_future/cban-fang-zhi-ban",
+  "source_tier": "B",
+  "verified": false,
+  "last_checked": "2026-11-04",
+  "price_cny": 50,
+  "origin": "立创开源硬件平台工程页搜索摘要（2026-11-04；页面直连失败）",
+  "notes": "￥50 为工程页标注的复刻成本，不是现货售价。MIT；STM32F407IGH6，外形与接口兼容原版 C 板，可直接烧录官方固件；CAN 扩为 2 路总线 / 8 个接口。该工程页直连失败，参数来自 2026-11-04 的搜索摘要，未逐项复核。",
+  "search": "infinite_future c板 复刻 robomaster c 型 开发板 stm32f407igh6 bmi088 can d-bus mit",
+  "specs": {
+   "package": null,
+   "iface": "6× UART；2× CAN（8 接口）；I2C；D-Bus；USB",
+   "voltage_in": null,
+   "voltage_out": null,
+   "current_out": "5 A（舵机电源）",
+   "protection": null,
+   "dims": null,
+   "weight_g": null,
+   "mcu": "STM32F407IGH6",
+   "can": 2,
+   "canfd": null,
+   "connector": "CAN 8 接口；USB MicroUSB / Type-C / MX1.25",
+   "cells": null,
+   "capacity_f": null,
+   "energy_j": null,
+   "power_w": null,
+   "license": "MIT",
+   "repo_license": "MIT",
+   "repo_urls": [
+    "https://oshwhub.com/infinite_future/cban-fang-zhi-ban"
+   ],
+   "doc_url": null,
+   "doc_pdf": null,
+   "image_url": null,
+   "image_source": null,
+   "params": {
+    "兼容性": "外形、接口与原版 C 板兼容，可直接烧录官方固件",
+    "串口": "6 路 UART",
+    "CAN": "2 路总线，8 个接口",
+    "I2C": "1 路",
+    "D-Bus": "1 路",
+    "USB": "MicroUSB / Type-C / MX1.25",
+    "IMU": "板载 BMI088",
+    "舵机": "4 路 PWM，舵机电源 5 A",
+    "GPIO": "6 路排母（SPI×1、ADC×2、定时器通道×2）"
+   }
+  }
+ }
+]

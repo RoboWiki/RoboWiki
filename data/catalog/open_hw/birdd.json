@@ -1,0 +1,58 @@
+[
+ {
+  "category": "open_hw",
+  "subtype": "power",
+  "subtype_label": "电源 / 分电模块",
+  "id": "oshw-birdd-qmini-power-board",
+  "vendor": "鸟哥",
+  "vendor_cn": "鸟哥",
+  "model": "Qmini 关节电机电源转换分电板",
+  "title": "鸟哥 Qmini 关节电机电源转换分电板",
+  "url": "https://oshwhub.com/birdd/qmini_-dian-yuan-fen-dian-ban-zi",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-04",
+  "price_cny": 60,
+  "origin": "立创开源硬件平台工程页搜索摘要（2026-11-04；页面直连失败）",
+  "notes": "￥60 为工程页标注的复刻成本，不是现货售价。GPL-3.0；24 V 输入，4 路独立 485 转 4 路 24 V 关节电机 XT30(2+2)，另经外购 TPS5450/TPS5430 模块产生 12 V 与 5 V（USB-A / XT30）。工程页未给各路口电流与整板尺寸，均留 null。作者用于宇树 Qmini 二创；焊接前需先测 24/12/5 V 对地短路，先焊 XT60 输入再测降压输出。",
+  "search": "鸟哥 birdd qmini 关节电机 电源转换 分电板 24v 12v 5v 485 xt30 tps5450 tps5430 gpl",
+  "specs": {
+   "package": null,
+   "iface": "4× RS-485 独立输入；4× 24 V 关节电机输出；12 V / 5 V 降压输出",
+   "voltage_in": "24 V",
+   "voltage_out": "24 V 直出；12 V；5 V",
+   "current_out": null,
+   "protection": null,
+   "dims": null,
+   "weight_g": null,
+   "mcu": null,
+   "can": null,
+   "canfd": null,
+   "connector": "1× XT60 输入；4× XT30(2+2) 24 V；1× XT30 5 V；USB-A 5 V；4× GH1.25 3P 485",
+   "cells": null,
+   "capacity_f": null,
+   "energy_j": null,
+   "power_w": null,
+   "license": "GPL-3.0",
+   "repo_license": "GPL-3.0",
+   "repo_urls": [
+    "https://oshwhub.com/birdd/qmini_-dian-yuan-fen-dian-ban-zi"
+   ],
+   "doc_url": null,
+   "doc_pdf": null,
+   "image_url": "/parts/oshw-birdd-qmini-power-board.webp",
+   "image_source": "立创开源硬件平台工程页封面图（鸟哥 Qmini 关节电机电源转换分电板）",
+   "params": {
+    "用途": "宇树 Qmini 二创：关节电机供电、485 分路与降压",
+    "输入": "24 V（XT60）",
+    "485": "4 路独立输入，GH1.25 3P",
+    "24V 输出": "4 路 XT30(2+2)",
+    "12V 输出": "1 路 XT30，经 TPS5450/TPS5430 模块降压",
+    "5V 输出": "USB-A + XT30，经模块降压",
+    "降压模块": "TPS5450/TPS5430 开关电源模块（外购）",
+    "复刻成本": "￥60（工程页标注，非现货价）",
+    "注意": "焊接前先测 24/12/5 V 对地短路；先焊 XT60 输入，再测降压输出"
+   }
+  }
+ }
+]

@@ -1406,6 +1406,56 @@
    "category": "camera",
    "model": "Gemini 336"
   },
+  "oshw-birdd-qmini-power-board": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "Qmini 关节电机电源转换分电板"
+  },
+  "oshw-fengl-mp2980-ultra-buckboost": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "MP2980 超小 BUCK-BOOST 升降压模块"
+  },
+  "oshw-huashuo-tps5450-module": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "TPS5450DDAR 可调降压电源模块"
+  },
+  "oshw-infinite-future-cboard": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "RoboMaster C 型控制板（仿制版）"
+  },
+  "oshw-linxiwei-mp2980-robocon-psu": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "ROBOCON 算力设备供电模块（MP2980）"
+  },
+  "oshw-oneasone-lm5148-48-24": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "LM5148 48V-24V 降压模块"
+  },
+  "oshw-qunxing-supercap-7s": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "RM2024 群星战队 7S3V1890J 超级电容组"
+  },
+  "oshw-roboticlib-exp-board": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "ROBOCON 常备 STM32 主控扩展板"
+  },
+  "oshw-roboticlib-mp2980-pc-psu": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "MP2980 电脑供电模块"
+  },
+  "oshw-roboticlib-pdb-robocon": {
+   "added": "2026-11-04",
+   "category": "open_hw",
+   "model": "ROBOCON 无缝换电分电板"
+  },
   "pjrc-teensy-4-1": {
    "added": "2026-11-01",
    "category": "controller_low",

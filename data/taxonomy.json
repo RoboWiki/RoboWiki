@@ -918,6 +918,68 @@
     "docs",
     "spec_trust"
    ]
+  },
+  {
+   "id": "open_hw",
+   "name": "开源硬件",
+   "hint": "分电 / 稳压 / 储能 / 控制扩展",
+   "subtypes": {
+    "power": "电源 / 分电模块",
+    "supercap": "超级电容",
+    "control": "控制 / 扩展板"
+   },
+   "keys": [
+    {
+     "k": "voltage_in",
+     "label": "输入电压",
+     "unit": ""
+    },
+    {
+     "k": "voltage_out",
+     "label": "输出电压",
+     "unit": ""
+    },
+    {
+     "k": "current_out",
+     "label": "输出电流",
+     "unit": ""
+    },
+    {
+     "k": "connector",
+     "label": "接头",
+     "unit": ""
+    },
+    {
+     "k": "dims",
+     "label": "尺寸",
+     "unit": ""
+    },
+    {
+     "k": "weight_g",
+     "label": "重量 (g)",
+     "unit": ""
+    }
+   ],
+   "sorts": [
+    {
+     "k": "price",
+     "label": "价格"
+    },
+    {
+     "k": "rating",
+     "label": "评分"
+    },
+    {
+     "k": "current_out",
+     "label": "输出电流"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "spec_trust"
+   ]
   }
  ],
  "vendors": {
@@ -1472,6 +1534,38 @@
   "MIT Biomimetics Robotics Lab": {
    "slug": "mit-biomimetics",
    "cn": "MIT 仿生机器人实验室"
+  },
+  "RobotIC 机器人实验室": {
+   "slug": "robotic",
+   "cn": "华南理工大学 RobotIC 机器人实验室"
+  },
+  "群星战队": {
+   "slug": "qunxing",
+   "cn": "桂林理工大学群星战队"
+  },
+  "infinite_future": {
+   "slug": "infinite-future",
+   "cn": "infinite_future"
+  },
+  "linxiwei": {
+   "slug": "linxiwei",
+   "cn": "linxiwei"
+  },
+  "fengl": {
+   "slug": "fengl",
+   "cn": "fengl"
+  },
+  "oneasone": {
+   "slug": "oneasone",
+   "cn": "oneasone"
+  },
+  "鸟哥": {
+   "slug": "birdd",
+   "cn": "鸟哥"
+  },
+  "huashuo0804": {
+   "slug": "huashuo0804",
+   "cn": "huashuo0804"
   }
  }
 }

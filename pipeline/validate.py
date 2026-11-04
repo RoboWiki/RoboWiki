@@ -164,6 +164,8 @@ KNOWN_SPEC_KEYS = {
     "v_charge_V", "mass_g", "chem",
     # 电源类芯片（立创商城采集）
     "category_cn", "lcsc_part", "params", "price_tiers", "price_lead", "stock", "stock_lead", "lead_time", "jlc_library", "tags", "fetched_at", "voltage_in", "voltage_out", "current_out", "function_type", "output_type", "polarity", "freq", "chip_function", "charge_current", "v_float", "battery_type", "cells", "switch_type", "channels", "logic", "features", "coupon",
+    # 开源硬件模块（RM / RC 开源工程）
+    "protection", "license", "repo_license", "capacity_f", "energy_j",
     # 连接器
     "positions", "positions_options", "pitch_mm", "voltage_rated_V",
     "current_basis", "contact_resistance_mohm", "insulation_resistance_mohm",
@@ -185,6 +187,7 @@ UI_KEYS = {
     "remote_controller": {"channels", "control_range_m", "image_url"},
     "controller_low": {"image_url"},
     "chip": {"package", "image_url"},
+    "open_hw": {"image_url"},
     "battery": {"capacity_mah", "voltage_V", "image_url"},
     "connector": {"positions", "pitch_mm", "current_rated_A", "voltage_rated_V",
                   "mount_type", "iface", "use_cases", "image_url"},

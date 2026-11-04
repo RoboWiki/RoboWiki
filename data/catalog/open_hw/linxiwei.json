@@ -1,0 +1,58 @@
+[
+ {
+  "category": "open_hw",
+  "subtype": "power",
+  "subtype_label": "电源 / 分电模块",
+  "id": "oshw-linxiwei-mp2980-robocon-psu",
+  "vendor": "linxiwei",
+  "vendor_cn": "linxiwei",
+  "model": "ROBOCON 算力设备供电模块（MP2980）",
+  "title": "linxiwei ROBOCON 算力设备供电模块（MP2980）",
+  "url": "https://oshwhub.com/linxiwei/project_kljzddrv",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-04",
+  "price_cny": 60,
+  "origin": "立创开源硬件平台工程页搜索摘要（2026-11-04；页面直连失败）",
+  "notes": "￥60 为工程页标注的复刻成本，不是现货售价。GPL-3.0；输入建议 22~26 V，低于 22 V 开关频率降低、纹波增大，但 17 V 时仍可 boost 维持 19 V。满载纹波 16 mV（24 V 输入），最大 89 mV（20 V 输入满载）；满载最高温度 <66℃。封面尺寸文字误写为 58cm×56cm×34cm，正文为 50×50 mm，以正文为准。",
+  "search": "linxiwei mp2980 robocon 算力设备 供电模块 24v 19v 10a buck-boost 50mm gpl",
+  "specs": {
+   "package": null,
+   "iface": "独立高侧开关；输入/输出指示灯；外接调试接口",
+   "voltage_in": "22~26 V 建议（17 V 可 boost 维持 19 V）",
+   "voltage_out": "19 V",
+   "current_out": "10 A 连续（13.74 A 平均限流）",
+   "protection": "高侧开关；13.74 A 平均限流；MP2980 OCP/SCP/OVP/UVLO",
+   "dims": "50×50 mm",
+   "weight_g": null,
+   "mcu": null,
+   "can": null,
+   "canfd": null,
+   "connector": "XT30（输入/输出，封面）",
+   "cells": null,
+   "capacity_f": null,
+   "energy_j": null,
+   "power_w": null,
+   "license": "GPL-3.0",
+   "repo_license": "GPL-3.0",
+   "repo_urls": [
+    "https://oshwhub.com/linxiwei/project_kljzddrv"
+   ],
+   "doc_url": null,
+   "doc_pdf": null,
+   "image_url": "/parts/oshw-linxiwei-mp2980-robocon-psu.webp",
+   "image_source": "立创开源硬件平台工程页封面图（linxiwei ROBOCON 算力设备供电模块）",
+   "params": {
+    "用途": "ROBOCON 算力设备 / 6S 电池平台供电",
+    "拓扑": "MP2980 同步四开关 Buck-Boost",
+    "输入": "22~26 V 建议；17 V 可维持 19 V 输出",
+    "输出": "19 V / 10 A 连续；13.74 A 平均限流",
+    "纹波": "空载 18 mV；满载 16 mV（24 V 输入）；最大 89 mV（20 V 输入满载）",
+    "体积": "50×50 mm，四周 M3 孔",
+    "散热": "电感下方开窗，可贴散热片；满载最高 <66℃",
+    "验证": "ROBOCON2026「武林探秘」交流赛",
+    "复刻成本": "￥60（工程页标注，非现货价）"
+   }
+  }
+ }
+]

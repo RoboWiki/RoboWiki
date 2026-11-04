@@ -1,0 +1,58 @@
+[
+ {
+  "category": "open_hw",
+  "subtype": "power",
+  "subtype_label": "电源 / 分电模块",
+  "id": "oshw-oneasone-lm5148-48-24",
+  "vendor": "oneasone",
+  "vendor_cn": "oneasone",
+  "model": "LM5148 48V-24V 降压模块",
+  "title": "oneasone LM5148 48V-24V 降压模块",
+  "url": "https://oshwhub.com/eda_grfvilyhv/project_bqnjfxqj",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-04",
+  "price_cny": 40,
+  "origin": "立创开源硬件平台工程页搜索摘要（2026-11-04；页面直连失败）",
+  "notes": "￥40 为工程页标注的复刻成本，不是现货售价。CC BY-NC-SA 4.0（禁止商用）；输入 30~60 V，输出 24 V，持续 15 A 以上，实际可到 20 A 以上。裸板 31 g，不焊 XT60 为 23 g，加风扇 <45 g。实测空载纹波 70 mVpp、15 A 带载 100 mVpp，峰值效率 98.2%。纯被动散热 15 A/15 min 时 MOS 表面 93℃，需加 40×40 mm 风扇。工程页展示作者为 oneasone，URL 账号为 eda_grfvilyhv。",
+  "search": "oneasone lm5148 48v 24v 降压模块 30-60v 20a 31g robomaster 无人机 cc by-nc-sa",
+  "specs": {
+   "package": null,
+   "iface": "输入/输出焊盘；可选 XT60",
+   "voltage_in": "30~60 V",
+   "voltage_out": "24 V",
+   "current_out": "15 A 连续以上；输出可到 20 A 以上",
+   "protection": "LM5148 芯片级过流、欠压锁定、热关断",
+   "dims": null,
+   "weight_g": 31,
+   "mcu": null,
+   "can": null,
+   "canfd": null,
+   "connector": "输入/输出焊盘；可选 XT60",
+   "cells": null,
+   "capacity_f": null,
+   "energy_j": null,
+   "power_w": null,
+   "license": "CC BY-NC-SA 4.0",
+   "repo_license": "CC BY-NC-SA 4.0",
+   "repo_urls": [
+    "https://oshwhub.com/eda_grfvilyhv/project_bqnjfxqj"
+   ],
+   "doc_url": null,
+   "doc_pdf": null,
+   "image_url": "/parts/oshw-oneasone-lm5148-48-24.webp",
+   "image_source": "立创开源硬件平台工程页封面图（oneasone LM5148 48V-24V 降压模块）",
+   "params": {
+    "用途": "RoboMaster 无人机 24 V 设备供电",
+    "拓扑": "LM5148 同步 Buck",
+    "输入": "30~60 V",
+    "输出": "24 V / 15 A 连续以上，最高 20 A 以上",
+    "效率": "峰值 98.2%",
+    "纹波": "空载 70 mVpp；15 A 带载 100 mVpp",
+    "重量": "裸板 31 g；不焊 XT60 23 g；加 40×40 风扇 <45 g",
+    "散热": "15 A 连续 15 min 被动散热 MOS 表面 93℃；建议加 40×40 风扇直吹",
+    "复刻成本": "￥40（工程页标注，非现货价）"
+   }
+  }
+ }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "category": "open_hw",
+  "subtype": "power",
+  "subtype_label": "电源 / 分电模块",
+  "id": "oshw-fengl-mp2980-ultra-buckboost",
+  "vendor": "fengl",
+  "vendor_cn": "fengl",
+  "model": "MP2980 超小 BUCK-BOOST 升降压模块",
+  "title": "fengl MP2980 超小 BUCK-BOOST 升降压模块",
+  "url": "https://oshwhub.com/fengl/mp2980-ultra-small-buck-boost",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-04",
+  "price_cny": 55,
+  "origin": "立创开源硬件平台工程页搜索摘要（2026-11-04；页面直连失败）",
+  "notes": "￥55 为工程页标注的复刻成本，不是现货售价。GPL-3.0；输入 6~36 V，但板载 26 V TVS，高于 26 V 需拆掉或换更高压 TVS。输出 0.5~28 V 可调，10 A 为最大值，实际受 MOS、散热片和过流采样电阻限制。峰值效率 98.1%，纹波 77 mVpp（20 V/7 A）。",
+  "search": "fengl mp2980 超小 buck-boost 升降压模块 6-36v 0.5-28v 10a 35mm 98.1% rm nuc gpl",
+  "specs": {
+   "package": null,
+   "iface": "XT30 输入/输出",
+   "voltage_in": "6~36 V（板载 26 V TVS）",
+   "voltage_out": "0.5~28 V 可调",
+   "current_out": "10 A 最大（受 MOS、散热和限流采样电阻限制）",
+   "protection": "MP2980 可配置 OCP/OVP/UVLO；板载 26 V TVS",
+   "dims": "35×35 mm",
+   "weight_g": null,
+   "mcu": null,
+   "can": null,
+   "canfd": null,
+   "connector": "XT30（输入/输出）",
+   "cells": null,
+   "capacity_f": null,
+   "energy_j": null,
+   "power_w": null,
+   "license": "GPL-3.0",
+   "repo_license": "GPL-3.0",
+   "repo_urls": [
+    "https://oshwhub.com/fengl/mp2980-ultra-small-buck-boost"
+   ],
+   "doc_url": null,
+   "doc_pdf": null,
+   "image_url": "/parts/oshw-fengl-mp2980-ultra-buckboost.webp",
+   "image_source": "立创开源硬件平台工程页封面图（fengl MP2980 超小 BUCK-BOOST 升降压模块）",
+   "params": {
+    "用途": "RM 24V→20V NUC 小电脑供电；替代传统铝壳降压模块",
+    "拓扑": "MP2980 四开关 Buck-Boost",
+    "输入": "6~36 V（26 V TVS）",
+    "输出": "0.5~28 V，10 A 最大",
+    "效率": "峰值 98.1%",
+    "纹波": "77 mVpp @20 V/7 A",
+    "体积": "35×35 mm；PCB 孔位可加底部散热片",
+    "复刻成本": "￥55（工程页标注，非现货价）"
+   }
+  }
+ }
+]
