@@ -253,6 +253,16 @@
    "category": "esc",
    "model": "C620"
   },
+  "dji-pm01": {
+   "added": "2026-11-04",
+   "category": "module",
+   "model": "RoboMaster PM01"
+  },
+  "dji-pm02": {
+   "added": "2026-11-04",
+   "category": "module",
+   "model": "RoboMaster PM02"
+  },
   "dji-rc-2": {
    "added": "2026-11-01",
    "category": "remote_controller",

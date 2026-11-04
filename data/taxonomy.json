@@ -793,9 +793,10 @@
   {
    "id": "module",
    "name": "其余模块",
-   "hint": "CAN 通信 / 力触觉 / 编码器",
+   "hint": "CAN 通信 / 电源管理 / 力触觉 / 编码器",
    "subtypes": {
-    "can": "CAN 模块"
+    "can": "CAN 模块",
+    "power": "电源管理模块"
    },
    "keys": [
     {
