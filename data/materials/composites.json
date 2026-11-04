@@ -17,6 +17,11 @@
         "url": "https://m.11467.com/product/d6764298.htm",
         "kind": "reference",
         "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
       }
     ],
     "source_tier": "B",
@@ -73,23 +78,23 @@
     "model": "T300",
     "title": "碳纤维 T300 复合材料",
     "aliases": ["T300", "碳纤维", "碳杆", "碳方管", "CFRP", "碳板"],
-    "url": "https://www.torayca.com/en/lineup/t300.html",
+    "url": "https://www.strongwell.com/the-pultrusion-process/",
     "sources": [
-      {
-        "url": "https://www.torayca.com/en/lineup/t300.html",
-        "kind": "datasheet",
-        "checked_on": "2026-11-02"
-      },
       {
         "url": "https://www.strongwell.com/the-pultrusion-process/",
         "kind": "process",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers",
+        "kind": "reference",
         "checked_on": "2026-11-02"
       }
     ],
     "source_tier": "B",
     "verified": 0,
     "last_checked": "2026-11-02",
-    "origin": "Toray T300 纤维数据 + 拉挤型材公开资料整理（2026-11-02）；铺层/纤维体积分数不同差异很大",
+    "origin": "T300 级碳纤维/环氧拉挤型材典型值整理（2026-11-02）；T300 是纤维牌号，表中为典型拉挤复材口径，铺层/纤维体积分数不同差异很大",
     "specs": {
       "density_g_cm3": 1.55,
       "modulus_GPa": 120,
@@ -107,7 +112,7 @@
       "sim_note": "密度 1550 kg/m³；沿纤维方向模量约 120 GPa、抗拉约 1000 MPa。CFRP 各向异性，MuJoCo 刚体只取密度；柔性体要按铺层给 3D 正交各向异性参数。",
       "image_url": null,
       "image_source": null,
-      "doc_url": "https://www.torayca.com/en/lineup/t300.html"
+      "doc_url": "https://www.strongwell.com/the-pultrusion-process/"
     },
     "forms": [
       { "form": "管材", "spec": "圆管 Ø3–100 mm", "note": "拉挤圆管，碳杆最常见" },
@@ -126,7 +131,7 @@
     ],
     "pros": "沿纤维方向比强度/比刚度高、抗疲劳、耐蚀、热膨胀系数低。",
     "cons": "各向异性，横向和层间弱；脆、抗冲击差；连接需胶接/机械夹持；成本高。",
-    "notes": "T300 级碳纤维增强环氧复合材料。拉挤圆管、方管和层压板在机器人上用于轻量化连杆与框架；沿纤维方向比强度/比刚度高，横向和层间弱，连接处要专门设计。下表给的是典型拉挤型材口径，铺层不同差异很大。",
+    "notes": "T300 级碳纤维增强环氧复合材料。拉挤圆管、方管和层压板在机器人上用于轻量化连杆与框架；沿纤维方向比强度/比刚度高，横向和层间弱，连接处要专门设计。T300 纤维本身约 230 GPa 模量、3530 MPa 抗拉，不能直接套到成品复材上；表中 120 GPa / 1000 MPa 是典型拉挤型材口径，铺层不同差异很大。",
     "suppliers": [
       {
         "supplier_id": "sup-d18be6a0",
@@ -157,8 +162,13 @@
     "model": "E-glass/Epoxy",
     "title": "玻璃纤维环氧复合材料（GFRP）",
     "aliases": ["GFRP", "玻璃钢", "玻纤板", "环氧玻纤", "G10", "FR-4"],
-    "url": "https://www.performance-composites.com/",
+    "url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp",
     "sources": [
+      {
+        "url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      },
       {
         "url": "https://www.performance-composites.com/",
         "kind": "reference",
@@ -168,13 +178,13 @@
     "source_tier": "B",
     "verified": 0,
     "last_checked": "2026-11-02",
-    "origin": "E-glass/环氧层压与拉挤型材公开资料整理（2026-11-02）；纤维体积分数与铺层不同数值差异大",
+    "origin": "E-glass/环氧层压与拉挤型材公开数据整理（2026-11-02）；表中按环氧玻纤层压板口径，纤维体积分数与铺层不同差异大",
     "specs": {
       "density_g_cm3": 1.9,
       "modulus_GPa": 25,
       "tensile_MPa": 440,
       "yield_MPa": null,
-      "elongation_pct": 2.5,
+      "elongation_pct": 1.75,
       "hardness": null,
       "service_temp_C": 120,
       "low_temp_C": -50,
@@ -183,10 +193,10 @@
       "cte_um_mK": 8,
       "price_level": "低-中",
       "price_note": "按板/管规格与铺层计价；比碳纤维便宜，定制拉挤模具有起订量",
-      "sim_note": "密度 1900 kg/m³；沿纤维方向模量约 25 GPa、抗拉约 440 MPa（Vf≈50%）。GFRP 同样各向异性，仿真取纤维方向等效值要注明铺层。",
+      "sim_note": "密度 1900 kg/m³；沿纤维方向模量约 25 GPa、抗拉约 440 MPa、断裂延伸率约 1.75%（Vf≈50%，环氧玻纤层压板口径）。GFRP 同样各向异性，仿真取纤维方向等效值要注明铺层。",
       "image_url": null,
       "image_source": null,
-      "doc_url": "https://www.performance-composites.com/"
+      "doc_url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp"
     },
     "forms": [
       { "form": "板材", "spec": "厚度 0.5–50 mm", "note": "G10/FR-4 绝缘板最常见" },

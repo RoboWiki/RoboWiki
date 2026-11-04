@@ -289,7 +289,7 @@
     "name_en": "Pultrusion",
     "model": "Pultrusion",
     "title": "拉挤成型（碳纤维管/棒/型材）",
-    "aliases": ["拉挤", "Pultrusion", "碳管拉挤", "连续成型", "碳杆"],
+    "aliases": ["拉挤", "Pultrusion", "碳管拉挤", "连续成型"],
     "url": "https://www.strongwell.com/the-pultrusion-process/",
     "sources": [
       {
@@ -460,19 +460,24 @@
         "url": "https://formlabs.com/products/materials/",
         "kind": "reference",
         "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://formlabs3d.cn/3d-printers/form-4l/",
+        "kind": "reference",
+        "checked_on": "2026-11-02"
       }
     ],
     "source_tier": "B",
     "verified": 0,
     "last_checked": "2026-11-02",
-    "origin": "SLA/DLP 公开能力资料 + Formlabs 树脂数据整理（2026-11-02）；机台分辨率与树脂牌号影响实际数值",
+    "origin": "SLA/DLP 公开能力资料 + Formlabs 树脂/机型数据整理（2026-11-02）；机台分辨率与树脂牌号影响实际数值",
     "specs": {
       "tolerance_mm": 0.2,
       "tolerance_note": "常见 ±0.2 mm，视机台分辨率、树脂收缩与摆放方向",
       "surface_ra_um": 3.2,
       "layer_height_mm": 0.05,
       "min_wall_mm": 0.5,
-      "max_size": "标准机 145×145×185 mm；工业机可达 736×635×533 mm",
+      "max_size": "常见 145×145×185 mm；大幅面机型（Form 4L）353×196×350 mm",
       "cost_level": "中高",
       "lead_time": "3–7 天",
       "materials": ["mat-photopolymer"]

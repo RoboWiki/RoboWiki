@@ -79,10 +79,15 @@
     "model": "GF40",
     "title": "PPS GF40 聚苯硫醚",
     "aliases": ["PPS", "GF40", "聚苯硫醚", "玻纤增强 PPS"],
-    "url": "https://www.toray.jp/plastics/en/pps/",
+    "url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html",
     "sources": [
       {
-        "url": "https://www.toray.jp/plastics/en/pps/",
+        "url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html",
+        "kind": "datasheet",
+        "checked_on": "2026-11-02"
+      },
+      {
+        "url": "https://www.plastics.toray/",
         "kind": "reference",
         "checked_on": "2026-11-02"
       }
@@ -90,25 +95,26 @@
     "source_tier": "B",
     "verified": 0,
     "last_checked": "2026-11-02",
-    "origin": "Toray PPS 公开资料 + 40% 玻纤增强牌号典型值整理（2026-11-02）；不同厂家/牌号数值有差异",
+    "origin": "Toray Torelina A504X90（PPS-GF40）数据表 + 公开资料整理（2026-11-02）；不同厂家/牌号数值有差异",
     "specs": {
-      "density_g_cm3": 1.65,
-      "modulus_GPa": 15.0,
-      "tensile_MPa": 190,
+      "density_g_cm3": 1.66,
+      "modulus_GPa": 15.5,
+      "modulus_kind": "弯曲",
+      "tensile_MPa": 200,
       "yield_MPa": null,
       "elongation_pct": 1.8,
-      "hardness": null,
+      "hardness": "Rockwell R122",
       "service_temp_C": 220,
       "low_temp_C": null,
       "melting_C": 278,
       "thermal_cond_W_mK": 0.3,
-      "cte_um_mK": 3.0,
+      "cte_um_mK": 23,
       "price_level": "中高",
       "price_note": "比普通工程塑料贵；玻纤增强牌号与阻燃牌号再加价",
-      "sim_note": "密度 1650 kg/m³；弯曲模量约 15 GPa（玻纤方向）。各向异性明显，仿真取流动方向值要注明。",
+      "sim_note": "密度 1660 kg/m³；弯曲模量约 15.5 GPa（玻纤方向）。CLTE 23 µm/(m·K)（流动）/31（垂直）；各向异性明显，仿真取流动方向值要注明。",
       "image_url": null,
       "image_source": null,
-      "doc_url": "https://www.toray.jp/plastics/en/pps/"
+      "doc_url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html"
     },
     "forms": [
       { "form": "粒料", "spec": "注塑级 GF40", "note": "最常见形态；需干燥、高温料筒" },
@@ -220,12 +226,12 @@
     "source_tier": "B",
     "verified": 0,
     "last_checked": "2026-11-02",
-    "origin": "SLS/FDM 用 PA12 公开工艺资料与典型值整理（2026-11-02）；粉末/线材牌号差异大",
+    "origin": "SLS/MJF 打印件（XY 方向）典型值 + 公开工艺资料整理（2026-11-02）；注塑/挤出件模量约 1.4 GPa、断裂伸长率 >50%，不可直接套用",
     "specs": {
       "density_g_cm3": 1.01,
       "modulus_GPa": 1.6,
       "tensile_MPa": 48,
-      "yield_MPa": 45,
+      "yield_MPa": null,
       "elongation_pct": 20,
       "hardness": null,
       "service_temp_C": 90,
@@ -235,7 +241,7 @@
       "cte_um_mK": 100,
       "price_level": "中",
       "price_note": "SLS 粉末与 FDM 线材按公斤计价；小批量打印按体积/工时报价",
-      "sim_note": "密度 1010 kg/m³；模量 1.6 GPa。SLS 件有孔隙率与层间各向异性，仿真按打印方向取等效值。",
+      "sim_note": "密度 1010 kg/m³；模量 1.6 GPa。表中为 SLS/MJF 打印件（XY 方向）口径，Z 向强度和延伸率更低；仿真按打印方向取等效值。注塑 PA12 模量约 1.4 GPa、断裂伸长率 >50%，不要混用。",
       "image_url": null,
       "image_source": null,
       "doc_url": "https://formlabs.com/3d-printers/fuse-1/"
@@ -257,7 +263,7 @@
     ],
     "pros": "吸水率低于 PA66、韧性和耐低温好、尺寸较稳定；SLS/FDM 都成熟。",
     "cons": "强度和耐热低于 PA66；粉末/线材需干燥；SLS 表面粗糙、各向异性。",
-    "notes": "低吸水的尼龙，SLS 粉末和 FDM 线材都常用。韧性和耐低温性好，尺寸比 PA66 稳定；强度和耐热低于 PA66，适合功能原型和小批量外壳。",
+    "notes": "低吸水的尼龙，SLS 粉末和 FDM 线材都常用。表中力学值按 SLS/MJF 打印件取值；韧性和耐低温性好，尺寸比 PA66 稳定，强度和耐热低于 PA66，适合功能原型和小批量外壳。注塑/挤出件的塑性和模量与打印件不同，选型时不要直接套用。",
     "suppliers": []
   },
   {
@@ -283,7 +289,7 @@
     "source_tier": "B",
     "verified": 0,
     "last_checked": "2026-11-02",
-    "origin": "Covestro Bayblend 系列公开资料 + PC/ABS 典型值整理（2026-11-02）；PC/ABS 配比不同，韧性与耐热随之变化",
+    "origin": "Covestro Bayblend T95 MF 数据表 + PC/ABS 典型值整理（2026-11-02）；PC/ABS 配比不同，韧性与耐热随之变化",
     "specs": {
       "density_g_cm3": 1.24,
       "modulus_GPa": 3.35,
@@ -295,10 +301,10 @@
       "low_temp_C": null,
       "melting_C": null,
       "thermal_cond_W_mK": 0.2,
-      "cte_um_mK": 70,
+      "cte_um_mK": 55,
       "price_level": "低-中",
       "price_note": "粒料价格低于 PC，高于 ABS；注塑件成本主要看模具与批量",
-      "sim_note": "密度 1240 kg/m³；模量约 3.35 GPa。共混物韧性好但模量随温度下降，仿真用常温等温线弹性值即可。",
+      "sim_note": "密度 1240 kg/m³；拉伸模量约 3.35 GPa。CLTE 55 µm/(m·K)（流动）/65（垂直）；HDT/B 124°C、HDT/A 136°C，100°C 是长期使用上限。共混物韧性好但模量随温度下降，仿真用常温等温线弹性值即可。",
       "image_url": null,
       "image_source": null,
       "doc_url": "https://solutions.covestro.com/en/brands/bayblend"

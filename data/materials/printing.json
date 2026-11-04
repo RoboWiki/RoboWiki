@@ -96,6 +96,7 @@
     "specs": {
       "density_g_cm3": 1.22,
       "modulus_GPa": 3.95,
+      "modulus_kind": "弯曲",
       "tensile_MPa": 38,
       "yield_MPa": null,
       "elongation_pct": 8.4,
@@ -162,12 +163,12 @@
       "hardness": null,
       "service_temp_C": 65,
       "low_temp_C": null,
-      "melting_C": 230,
+      "melting_C": null,
       "thermal_cond_W_mK": 0.2,
       "cte_um_mK": 70,
       "price_level": "低",
       "price_note": "线材按卷计价，与 PLA 接近；透明/特殊色略贵",
-      "sim_note": "密度 1270 kg/m³；模量约 2.05 GPa。PETG 韧性好于 PLA 但刚度略低，仿真按打印方向取等效值。",
+      "sim_note": "密度 1270 kg/m³；模量约 2.05 GPa。PETG 是非晶聚合物，没有明确熔点，打印温度约 230–250°C；仿真按打印方向取等效值。",
       "image_url": null,
       "image_source": null,
       "doc_url": "https://bambulab.cn/zh-cn/filament-guide"
@@ -227,12 +228,12 @@
       "hardness": null,
       "service_temp_C": 85,
       "low_temp_C": null,
-      "melting_C": 220,
+      "melting_C": null,
       "thermal_cond_W_mK": 0.18,
       "cte_um_mK": 80,
       "price_level": "低",
       "price_note": "线材按卷计价，与 PLA 接近；需封闭机箱和过滤，设备成本另算",
-      "sim_note": "密度 1040 kg/m³；模量约 2.3 GPa。ABS 打印件层间弱、收缩大，仿真按打印方向取等效值。",
+      "sim_note": "密度 1040 kg/m³；模量约 2.3 GPa。ABS 是非晶聚合物，没有明确熔点，打印温度约 230–260°C；打印件层间弱、收缩大，仿真按打印方向取等效值。",
       "image_url": null,
       "image_source": null,
       "doc_url": "https://bambulab.cn/zh-cn/filament-guide"
@@ -268,16 +269,16 @@
     "model": "Clear Resin",
     "title": "光敏树脂（SLA/DLP）",
     "aliases": ["光敏树脂", "SLA 树脂", "DLP 树脂", "光固化树脂", "Clear Resin"],
-    "url": "https://formlabs.com/products/materials/",
+    "url": "https://formlabs.com/materials/standard/clear/",
     "sources": [
       {
-        "url": "https://formlabs.com/products/materials/",
-        "kind": "datasheet",
+        "url": "https://formlabs.com/materials/standard/clear/",
+        "kind": "reference",
         "checked_on": "2026-11-02"
       },
       {
-        "url": "https://formlabs.com/cn/applications/investment-casting/",
-        "kind": "datasheet",
+        "url": "https://formlabs.com/products/materials/",
+        "kind": "reference",
         "checked_on": "2026-11-02"
       }
     ],
@@ -302,7 +303,7 @@
       "sim_note": "密度 1130 kg/m³；模量约 2.8 GPa。光固化件脆、长期强度会衰减，仿真按线弹性取值并留安全系数。",
       "image_url": null,
       "image_source": null,
-      "doc_url": "https://formlabs.com/products/materials/"
+      "doc_url": "https://formlabs.com/materials/standard/clear/"
     },
     "forms": [
       { "form": "液体", "spec": "405 nm 光固化", "note": "SLA/DLP/LCD 机型；需避光保存" },

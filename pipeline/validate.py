@@ -253,10 +253,10 @@ PLAUSIBLE = {
 # 材质库：材料物理量与工艺能力各自的量程。单位已写进键名，超范围基本是换算错。
 MATERIAL_GROUPS = {"metal", "engineering_plastic", "printing", "composite", "elastomer", "process"}
 MATERIAL_SPEC_KEYS = {
-    "density_g_cm3", "modulus_GPa", "tensile_MPa", "yield_MPa", "elongation_pct",
-    "hardness", "service_temp_C", "low_temp_C", "melting_C", "thermal_cond_W_mK",
-    "cte_um_mK", "price_level", "price_note", "sim_note", "image_url",
-    "image_source", "doc_url",
+    "density_g_cm3", "modulus_GPa", "modulus_kind", "tensile_MPa", "yield_MPa",
+    "elongation_pct", "hardness", "service_temp_C", "low_temp_C", "melting_C",
+    "thermal_cond_W_mK", "cte_um_mK", "price_level", "price_note", "sim_note",
+    "image_url", "image_source", "doc_url",
 }
 PROCESS_SPEC_KEYS = {
     "tolerance_mm", "tolerance_note", "surface_ra_um", "layer_height_mm",
@@ -425,6 +425,8 @@ def check_materials(data_dir: Path) -> tuple[list[str], list[str], list[dict]]:
         for k in ("density_g_cm3", "modulus_GPa", "tensile_MPa"):
             if specs.get(k) is None:
                 errors.append(f"{where}: 材料缺 {k}（仿真必需）")
+        if specs.get("modulus_kind") not in (None, "拉伸", "弯曲"):
+            errors.append(f"{where}: modulus_kind 只能是 拉伸/弯曲/null")
         for k, (lo, hi) in MATERIAL_PLAUSIBLE.items():
             v = specs.get(k)
             if v is None:
