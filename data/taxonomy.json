@@ -220,7 +220,6 @@
    "hint": "底层控制 / 电机驱动",
    "subtypes": {
     "mcu": "主控板",
-    "bridge": "调试桥",
     "driver": "驱动板"
    },
    "keys": [

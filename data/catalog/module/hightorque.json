@@ -1,0 +1,37 @@
+[
+ {
+  "category": "module",
+  "subtype": "can",
+  "subtype_label": "CAN 模块",
+  "id": "hightorque-4can-stack",
+  "vendor": "High Torque Robotics 高擎动力",
+  "vendor_cn": "高擎动力",
+  "model": "4路CAN叠板",
+  "title": "高擎动力 4 路 CAN 叠板（CAN 转串口 + 电机功率分配）",
+  "url": "https://lingdongfangcheng.feishu.cn/wiki/ZMnbwAklkiQ9V1kNZ72chM8Fnzf",
+  "source_tier": "B",
+  "verified": 1,
+  "last_checked": "2026-11-05",
+  "price_cny": null,
+  "origin": "广州灵动方程《电机资料库》4.3.1 4路CAN叠板（2026-11-05 核对）",
+  "notes": "资料库称「4 路 CAN 叠板」，由功率板和通信板组成；按功能属于 CAN 模块：通信板把 4 路 FDCAN 转成 4 路串口（4 Mbps），经 1× Type-C 上行给主机，功率板同时负责 4 路电机供电分配。功率板：XT60 公头 12–24 V 输入，4× XT30(2+2) 电机接口经 MOS 管与输入隔离，输出电压等于输入电压，由电机供电按钮控制；支持 FDCAN，波特率 5 Mbps。资料未给 MCU 型号、尺寸、重量、价格和串口协议细节，相关字段留空；未提集成 FOC 功率级，不含电机驱动。仅见于广州灵动方程维护的公开《电机资料库》4.3.1，高擎官网未单列该型号，厂商归属按同库高擎产品体系判断，待官方确认；产品图取自该文档「整体构成」照片（飞书公开页面，2026-11-05 下载）。",
+  "search": "高擎 hightorque 4路can 叠板 can模块 功率板 通信板 4can fdcan 转串口 usb 灵动方程",
+  "specs": {
+   "iface": "USB Type-C 上行（4 路虚拟串口）；功率板 XT60 公头 12–24 V 输入",
+   "can": 4,
+   "canfd": true,
+   "can_speed_mbps": 5,
+   "voltage_V": null,
+   "connector": "XT60 公头（12–24 V 输入）×1；XT30(2+2) 电机接口 ×4；USB Type-C ×1",
+   "isolation": null,
+   "dims": null,
+   "weight_g": null,
+   "image_url": "/parts/hightorque-4can-stack.jpg",
+   "image_source": "广州灵动方程《电机资料库》4.3.1 4路CAN叠板「整体构成」图（https://lingdongfangcheng.feishu.cn/wiki/ZMnbwAklkiQ9V1kNZ72chM8Fnzf，2026-11-05 下载）",
+   "doc_url": "https://lingdongfangcheng.feishu.cn/wiki/ZMnbwAklkiQ9V1kNZ72chM8Fnzf",
+   "doc_pdf": null,
+   "repo_urls": [],
+   "repo_license": null
+  }
+ }
+]

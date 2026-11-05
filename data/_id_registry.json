@@ -368,6 +368,21 @@
    "category": "battery",
    "model": "6S4P 21700 20000mAh（长条）"
   },
+  "hightorque-4can-box": {
+   "added": "2026-11-05",
+   "category": "controller_low",
+   "model": "4路CAN主控盒子"
+  },
+  "hightorque-4can-stack": {
+   "added": "2026-11-05",
+   "category": "module",
+   "model": "4路CAN叠板"
+  },
+  "hightorque-7can-box": {
+   "added": "2026-11-05",
+   "category": "controller_low",
+   "model": "7路 CAN 通用盒子"
+  },
   "hightorque-htcp-4531-06-cyc": {
    "added": "2026-10-31",
    "category": "actuator",
@@ -420,6 +435,16 @@
    "added": "2026-10-31",
    "category": "actuator",
    "model": "HTPW-7507-02-DNE"
+  },
+  "hightorque-robobox-7c": {
+   "added": "2026-11-05",
+   "category": "controller_low",
+   "model": "RoboBox-7C"
+  },
+  "hightorque-stm32h730vbt6": {
+   "added": "2026-11-05",
+   "category": "controller_low",
+   "model": "STM32H730VBT6"
   },
   "intel-d405": {
    "added": "2026-10-31",
