@@ -23,7 +23,7 @@ tools = [
 ]
 
 [project.urls]
-Homepage = "https://robowiki.github.io/"
+Homepage = "https://robowiki.org.cn/"
 Repository = "https://github.com/RoboWiki/RoboWiki"
 Issues = "https://github.com/RoboWiki/RoboWiki/issues"
 
