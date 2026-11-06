@@ -1,7 +1,7 @@
 [project]
 name = "robowiki-data"
 version = "0.1.0"
-description = "RoboWiki 核心数据仓：部件、整机、软件、渠道、关系与图片来源"
+description = "RoboWiki 数据仓：面向机器人制作全流程的可追溯工程知识库，承载部件、整机、材料、工艺、软件、渠道与图片来源"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "GPL-3.0-only"

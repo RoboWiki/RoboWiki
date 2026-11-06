@@ -116,14 +116,105 @@ def check_id_registry(root: Path, rows: list[dict]) -> list[str]:
 
 # ── 资源许可与出处（图片能引用，就必须说明从哪来）─────────────────
 def check_asset_provenance(rows: list[dict]) -> list[str]:
+    """图片与仓库都必须能说明来处。
+
+    注意判定的是「键是否存在」，不是「值是否为真」：
+    按 schema 约定，读不到许可时要显式写 null 表示「已查、未标注」，
+    这与「压根没填」是两种状态。原来的 `not sp.get(...)` 把 null 当缺失，
+    于是一边要求写 null、一边又为 null 报警，自相矛盾。
+    """
     out = []
     for r in rows:
         sp = r.get("specs") or {}
-        if sp.get("image_url") and not sp.get("image_source", "repo_license"):
+        if sp.get("image_url") and "image_source" not in sp:
             out.append(f"{r.get('id')}: 有 image_url 但没写 image_source —— 图必须能追溯出处")
-        if sp.get("repo_urls") and not sp.get("repo_license"):
+        if sp.get("repo_urls") and "repo_license" not in sp:
             out.append(f"{r.get('id')}: 引用了仓库但没写 repo_license —— 读不到就写 null")
     return out
+
+
+# ── 方案包：BOM / 步骤 / 交付物 ─────────────────────────────────────────────
+RECIPE_ARTIFACT_KEYS = {"urdf", "cad", "bom", "firmware", "assembly", "docs"}
+
+
+def _catalog_part_ids() -> set[str]:
+    ids: set[str] = set()
+    for f in sorted((DATA_DIR / "catalog").glob("*/*.json")):
+        try:
+            for row in json.loads(f.read_text(encoding="utf-8")):
+                if row.get("id"):
+                    ids.add(row["id"])
+        except Exception:
+            continue
+    return ids
+
+
+def check_recipe_fields(rows: list[dict]) -> tuple[list[str], list[str]]:
+    """方案包三件套：BOM、步骤、交付物。
+
+    只校验「写了就要写对」：没写不报警。21 台整机目前只有仓库与 URDF，
+    强制要求 BOM 只会逼人填假数据——空着比编一个更诚实。
+    """
+    errors: list[str] = []
+    warns: list[str] = []
+    part_ids = _catalog_part_ids()
+
+    for r in rows:
+        rid = r.get("id", "?")
+
+        bom = r.get("bom")
+        if bom is not None:
+            if not isinstance(bom, list):
+                errors.append(f"{rid}: bom 必须是数组或 null")
+            else:
+                for i, item in enumerate(bom):
+                    if not isinstance(item, dict):
+                        errors.append(f"{rid}: bom[{i}] 必须是对象")
+                        continue
+                    if not item.get("name"):
+                        errors.append(f"{rid}: bom[{i}] 缺 name（型号或物料名）")
+                    qty = item.get("qty")
+                    if not isinstance(qty, (int, float)) or isinstance(qty, bool) or qty <= 0:
+                        errors.append(f"{rid}: bom[{i}] 的 qty 必须是正数")
+                    pid = item.get("part_id")
+                    if pid and pid not in part_ids:
+                        warns.append(f"{rid}: bom[{i}] 的 part_id {pid} 不在部件库里")
+
+        steps = r.get("steps")
+        if steps is not None:
+            if not isinstance(steps, list):
+                errors.append(f"{rid}: steps 必须是数组或 null")
+            else:
+                seen_order = set()
+                for i, step in enumerate(steps):
+                    if not isinstance(step, dict):
+                        errors.append(f"{rid}: steps[{i}] 必须是对象")
+                        continue
+                    if not step.get("title"):
+                        errors.append(f"{rid}: steps[{i}] 缺 title")
+                    order = step.get("order")
+                    if order is not None:
+                        if not isinstance(order, int) or isinstance(order, bool):
+                            errors.append(f"{rid}: steps[{i}] 的 order 必须是整数")
+                        elif order in seen_order:
+                            errors.append(f"{rid}: steps 的 order 重复（{order}）")
+                        else:
+                            seen_order.add(order)
+
+        artifacts = r.get("artifacts")
+        if artifacts is not None:
+            if not isinstance(artifacts, dict):
+                errors.append(f"{rid}: artifacts 必须是对象或 null")
+            else:
+                for key, value in artifacts.items():
+                    if key not in RECIPE_ARTIFACT_KEYS:
+                        warns.append(f"{rid}: artifacts 出现未登记的键 {key}")
+                    if value is None:
+                        continue
+                    if not isinstance(value, str) or not value.startswith(("http://", "https://")):
+                        errors.append(f"{rid}: artifacts.{key} 必须是 http(s) 链接或 null")
+
+    return errors, warns
 
 
 KNOWN_SPEC_KEYS = {
@@ -718,6 +809,19 @@ def main() -> int:
                 id_rows.append({"id": f"protocol:{_it['id']}"})
     errors.extend(check_id_registry(ROOT, id_rows))
     warns.extend(check_asset_provenance(all_rows))
+    _recipe_errors, _recipe_warns = check_recipe_fields(all_rows)
+    errors.extend(_recipe_errors)
+    warns.extend(_recipe_warns)
+
+    # 方案包完整度：不报警，只报数——它是进度指标，不是合规项。
+    _robots = []
+    for _f in sorted((DATA_DIR / "robots").glob("*.json")):
+        _robots += json.loads(_f.read_text(encoding="utf-8"))
+    if _robots:
+        _bom = sum(1 for r in _robots if r.get("bom"))
+        _steps = sum(1 for r in _robots if r.get("steps"))
+        _art = sum(1 for r in _robots if r.get("artifacts"))
+        print(f"方案包完整度：{len(_robots)} 台中，BOM {_bom} 台 · 步骤 {_steps} 台 · 交付物 {_art} 台")
 
     print(f"检查了 {len(seen_ids)} 个实体 / {len(rows_by_subtype)} 个 subtype")
     for w in warns:

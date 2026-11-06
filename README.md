@@ -1,5 +1,7 @@
 # RoboWiki Data
 
+> RoboWiki 是面向机器人制作全流程的可追溯工程知识库：以「机械结构—电气与嵌入式—算法控制—系统集成」四层能力为骨架，汇聚部件选型与评价、加工与采购经验、教程、案例与开源索引，让制作经验可检索、可复现、可追溯。本仓是这个知识库的数据底座。
+
 **RoboWiki 的唯一数据事实源：部件、整机、材料、工艺、软件、渠道、评分快照与产品图。**
 
 站点代码在 [RoboWiki/RoboWiki.github.io](https://github.com/RoboWiki/RoboWiki.github.io)，线上地址 <https://robowiki.org.cn/>。

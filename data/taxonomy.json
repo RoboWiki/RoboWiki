@@ -981,6 +981,96 @@
     "docs",
     "spec_trust"
    ]
+  },
+  {
+   "id": "power",
+   "name": "电源与配电",
+   "hint": "全流程里最先被忽略、最先烧掉的一环",
+   "subtypes": {
+    "dcdc": "DC-DC 模块",
+    "bms": "保护板 / BMS",
+    "pdb": "分电板",
+    "switch": "开关与保险"
+   },
+   "keys": [
+    {
+     "k": "voltage_in",
+     "label": "输入电压",
+     "unit": " V"
+    },
+    {
+     "k": "voltage_out",
+     "label": "输出电压",
+     "unit": " V"
+    },
+    {
+     "k": "current_out",
+     "label": "输出电流",
+     "unit": " A"
+    },
+    {
+     "k": "power_w",
+     "label": "功率",
+     "unit": " W"
+    }
+   ],
+   "sorts": [
+    {
+     "k": "current_out",
+     "label": "输出电流"
+    },
+    {
+     "k": "power_w",
+     "label": "功率"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "spec_trust"
+   ]
+  },
+  {
+   "id": "structural",
+   "name": "结构件与紧固",
+   "hint": "型材、轴承、同步带与螺钉：不贵，但缺一颗就装不上",
+   "subtypes": {
+    "profile": "型材",
+    "bearing": "轴承",
+    "belt": "同步带与带轮",
+    "fastener": "螺钉与紧固",
+    "plate": "板材与加工件"
+   },
+   "keys": [
+    {
+     "k": "size_mm",
+     "label": "规格",
+     "unit": ""
+    },
+    {
+     "k": "mass_kg",
+     "label": "质量",
+     "unit": " kg"
+    },
+    {
+     "k": "material",
+     "label": "材料",
+     "unit": ""
+    }
+   ],
+   "sorts": [
+    {
+     "k": "size_mm",
+     "label": "规格"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "spec_trust"
+   ]
   }
  ],
  "vendors": {
