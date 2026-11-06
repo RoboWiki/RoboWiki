@@ -359,6 +359,50 @@ def load_suppliers() -> list[dict]:
 
 
 # ── 归并 ──────────────────────────────────────────────────────────────
+def shop_type(category: str, services: list[str], listing: str | None) -> str:
+    """把原始分类/能力收敛成用户能直接理解的店铺类型。"""
+    if category == "避雷/防护":
+        for service, label in (("钣金/激光", "钣金 / 激光切割"), ("CNC/车铣", "CNC / 车铣"),
+                               ("电子元件", "电子元件 / 模块"), ("轴承", "轴承 / 传动"),
+                               ("3D打印", "3D打印 / 手板")):
+            if service in services:
+                return label
+        return "踩雷记录"
+    if category in ("元件电商", "电子"):
+        return "电子元件 / 模块"
+    if category in ("标准件", "螺钉紧固"):
+        if "轴承" in services:
+            return "轴承 / 传动"
+        if "紧固件" in services:
+            return "标准件 / 紧固件"
+        return "标准件 / 五金"
+    if category == "轴承":
+        return "轴承 / 传动"
+    if category == "机械加工":
+        has_cnc = "CNC/车铣" in services
+        has_sheet = "钣金/激光" in services
+        if has_cnc and has_sheet:
+            return "CNC / 钣金综合"
+        if has_sheet:
+            return "钣金 / 激光切割"
+        if has_cnc:
+            return "CNC / 车铣"
+        if "3D打印" in services:
+            return "3D打印 / 手板"
+        if any(x in services for x in ("线切割", "焊接", "表面处理")):
+            return "线切割 / 焊接 / 表面处理"
+        return "机械加工 / 其他"
+    if category == "杂项":
+        if "工具/仪表" in services:
+            return "工具 / 仪表"
+        if "材料" in services:
+            return "材料 / 耗材"
+        if "包胶/轮" in services:
+            return "包胶 / 轮"
+        return "杂项 / 耗材"
+    return category or "其他"
+
+
 def finalize(records: list[dict]) -> list[dict]:
     """逐条生成面向决策的派生字段；保留来源行，避免合并时吞掉历史 ID。"""
     out = []
@@ -386,6 +430,7 @@ def finalize(records: list[dict]) -> list[dict]:
             "reason": r.get("reason"),
         }
         r.update({
+            "shop_type": shop_type(r.get("category") or "", services, listing),
             "services": services or ["其他"],
             "audiences": [] if listing == "黑榜" else audiences,
             "best_for": "" if listing == "黑榜" else best_for(audiences, services, signals),
