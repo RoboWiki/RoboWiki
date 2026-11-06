@@ -29,7 +29,7 @@ def test_counts_are_stable():
     sw = json.loads((ROOT / "data" / "software.json").read_text(encoding="utf-8"))
     assert len(sw["items"]) == 22
     sups = json.loads((ROOT / "data" / "suppliers.json").read_text(encoding="utf-8"))
-    assert len(sups) == 207
+    assert len(sups) == 208
 
 
 def test_asset_provenance_distinguishes_missing_from_explicit_null():
