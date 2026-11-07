@@ -175,6 +175,21 @@
    "category": "actuator",
    "model": "DM-G6220"
   },
+  "damiao-dm-g8518": {
+   "added": "2026-11-07",
+   "category": "actuator",
+   "model": "DM-G8518"
+  },
+  "damiao-dm-h3510": {
+   "added": "2026-11-07",
+   "category": "actuator",
+   "model": "DM-H3510"
+  },
+  "damiao-dm-h55": {
+   "added": "2026-11-07",
+   "category": "actuator",
+   "model": "DM-H55"
+  },
   "damiao-dm-h6215": {
    "added": "2026-10-31",
    "category": "actuator",
@@ -195,6 +210,11 @@
    "category": "controller_low",
    "model": "DM-MC-Board02"
   },
+  "damiao-dm-orin-nx": {
+   "added": "2026-11-07",
+   "category": "controller_high",
+   "model": "DM-ORIN NX V2.X"
+  },
   "damiao-dm-s2325-1ec": {
    "added": "2026-10-31",
    "category": "actuator",
@@ -205,6 +225,26 @@
    "category": "actuator",
    "model": "DM-S3519-1EC"
   },
+  "damiao-dm100-1e": {
+   "added": "2026-11-07",
+   "category": "controller_low",
+   "model": "DM100-1E"
+  },
+  "damiao-dm40-1e": {
+   "added": "2026-11-07",
+   "category": "controller_low",
+   "model": "DM40-1E"
+  },
+  "damiao-dm60-1e": {
+   "added": "2026-11-07",
+   "category": "controller_low",
+   "model": "DM60-1E"
+  },
+  "damiao-dm80-1e": {
+   "added": "2026-11-07",
+   "category": "controller_low",
+   "model": "DM80-1E"
+  },
   "damiao-motor-cable": {
    "added": "2026-10-31",
    "category": "connector",
@@ -212,6 +252,11 @@
    "removed": true,
    "removed_at": "2026-10-31",
    "removed_reason": "用户要求删除：无独立产品图，且整套线可由 XT30(2+2)/CAN/GH1.25 自行配线"
+  },
+  "damiao-usb2can": {
+   "added": "2026-11-07",
+   "category": "module",
+   "model": "DM-USB2CAN"
   },
   "damiao-usb2canfd": {
    "added": "2026-10-31",

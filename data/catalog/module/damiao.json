@@ -11,9 +11,9 @@
   "url": "https://gitee.com/kit-miao/usb2canfd-dual",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-10-29",
+  "last_checked": "2026-11-07",
   "price_cny": null,
-  "origin": "《DM-USB2CANFD Dual 模块使用说明书 V1.0》（达妙科技）",
+  "origin": "《DM-USB2CANFD Dual 模块使用说明书 V1.0》+ 达妙《2026 产品选型手册》P54，2026-11-07 核对",
   "notes": "两路独立 CAN FD，兼容传统 CAN 2.0B：仲裁段最高 1 Mbps，数据段最高 5 Mbps。USB 2.0 High-Speed Type-C 接口，另带一路 USB 转 UART（GH1.25 3P）方便串口调试。板载 120R 终端电阻拨码开关，每路可独立切换；支持 Windows / Linux / macOS，Linux 下可按 SocketCAN 使用。官方称百万帧连续收发不丢包。价格：截至 2026-10-29 官方仓库未标价，未找到可核对的公开报价。",
   "specs": {
    "iface": "USB 2.0 High-Speed（Type-C）",
@@ -22,8 +22,8 @@
    "can_speed_mbps": 5,
    "voltage_V": 5,
    "connector": "GH1.25 2P（CAN）×2；GH1.25 3P（UART）×1",
-   "isolation": null,
-   "dims": null,
+   "isolation": true,
+   "dims": "48×22 mm",
    "weight_g": null,
    "image_url": "/parts/damiao-usb2canfd-dual.jpg",
    "image_source": "《DM-USB2CANFD Dual 模块使用说明书 V1.0》产品图（2026-10-29 提取）",
@@ -47,9 +47,9 @@
   "url": "https://gitee.com/kit-miao/usb2canfd",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-10-29",
+  "last_checked": "2026-11-07",
   "price_cny": null,
-  "origin": "《达妙科技-USB转CANFD模块使用说明书 V1.0》（达妙科技）",
+  "origin": "《达妙科技-USB转CANFD模块使用说明书 V1.0》+ 达妙《2026 产品选型手册》P54，2026-11-07 核对",
   "notes": "单路 USB 转 CAN FD：支持 FDCAN 数据帧，最高 5 Mbps，兼容 CAN 2.0B。USB Type-C 供电与通信，另带 GH1.25 3P 调试串口。板载 120R 终端电阻默认开启（手册提示可按需关闭），支持固件升级与 SocketCAN。价格：截至 2026-10-29 官方仓库未标价，未找到可核对的公开报价。",
   "specs": {
    "iface": "USB Type-C",
@@ -58,8 +58,8 @@
    "can_speed_mbps": 5,
    "voltage_V": 5,
    "connector": "GH1.25 2P（CAN）×1；GH1.25 3P（UART）×1",
-   "isolation": null,
-   "dims": null,
+   "isolation": true,
+   "dims": "48×18 mm",
    "weight_g": null,
    "image_url": "/parts/damiao-usb2canfd.jpg",
    "image_source": "《达妙科技-USB转CANFD模块使用说明书 V1.0》产品图（2026-10-29 提取）",
@@ -67,6 +67,42 @@
    "doc_pdf": "https://gitee.com/kit-miao/usb2canfd/raw/master/%E8%BE%BE%E5%A6%99%E7%A7%91%E6%8A%80-USB%E8%BD%ACCANFD%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6V1.0.pdf",
    "repo_urls": [
     "https://gitee.com/kit-miao/dm-device-sdk"
+   ],
+   "repo_license": null
+  }
+ },
+ {
+  "category": "module",
+  "subtype": "can",
+  "subtype_label": "CAN 模块",
+  "id": "damiao-usb2can",
+  "vendor": "达妙 DAMIAO",
+  "vendor_cn": "达妙科技",
+  "model": "DM-USB2CAN",
+  "title": "达妙 DM-USB2CAN 单通道 USB-CAN 模块",
+  "url": "https://gitee.com/kit-miao/damiao",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-07",
+  "price_cny": null,
+  "origin": "达妙《2026 产品选型手册》P54 + Gitee kit-miao/damiao（USB2CAN 模块资料），2026-11-07 核对",
+  "notes": "单路 USB 转 CAN：64 KB 缓存、带 CAN 隔离，支持总线分析与定时发送；5–1000 kbps；支持 MIT 电机调试，并带 USB 转 UART。尺寸 39×18 mm。手册未公布重量，留空。",
+  "specs": {
+   "iface": "USB Type-C",
+   "can": 1,
+   "canfd": false,
+   "can_speed_mbps": 1,
+   "voltage_V": 5,
+   "connector": null,
+   "isolation": true,
+   "dims": "39×18 mm",
+   "weight_g": null,
+   "image_url": "/parts/damiao-usb2can.jpg",
+   "image_source": "达妙《2026 产品选型手册》P54 开发套件页（PDF，2026-08-10）",
+   "doc_url": "https://gitee.com/kit-miao/damiao",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://gitee.com/kit-miao/damiao"
    ],
    "repo_license": null
   }

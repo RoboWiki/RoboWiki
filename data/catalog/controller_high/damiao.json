@@ -1,0 +1,37 @@
+[
+ {
+  "category": "controller_high",
+  "subtype": "module",
+  "subtype_label": "载板",
+  "id": "damiao-dm-orin-nx",
+  "vendor": "达妙 DAMIAO",
+  "vendor_cn": "达妙科技",
+  "model": "DM-ORIN NX V2.X",
+  "title": "达妙 DM-ORIN NX V2.X 载板",
+  "url": "https://www.damiaokeji.com/index.php?c=show&id=97",
+  "source_tier": "B",
+  "verified": false,
+  "last_checked": "2026-11-07",
+  "price_cny": null,
+  "origin": "达妙《2026 产品选型手册》P56 + 官网产品页（id=97），2026-11-07 核对",
+  "notes": "面向轻量化设备的 Jetson 载板，适配 Orin NX / Orin Nano / Xavier NX，支持 Orin SUPER 模式。12–28 V 宽压（支持 6S），50×86.8×13 mm，39.2 g，工作温度 -20~50 ℃。接口：USB3.0 Type-C×3（1 路 Recovery）、USB2.0 SH1.0 5pin×2、Micro HDMI×1、网口×2（1 路 2.5G 支持 PTP）、M.2 KeyM 2230 SSD、M.2 KeyE 2230 Wi-Fi、CAN×1（最高 5 Mbps）、UART×2、CSI 22pin×2、GPIO 12pin、RTC CR1220。Xavier NX 仅支持 1 路 USB3，且不支持扩展网口。官网产品页标 36 g，手册标 39.2 g。",
+  "specs": {
+   "weight_g": 39.2,
+   "voltage_range_V": "12–28 V（支持 6S）",
+   "size_mm": "50×86.8×13",
+   "temp_range_C": "-20~50 ℃",
+   "usb": "USB3.0 Type-C×3（1 路 Recovery）+ USB2.0 SH1.0 5pin×2",
+   "eth": "SH1.0 8pin×2（1 路 2.5G，支持 PTP）",
+   "can": "GH1.25 2pin×1，最高 5 Mbps",
+   "csi": "0.5mm FPC 22pin×2",
+   "pcie": "M.2 KeyM 2230（SSD）+ M.2 KeyE 2230（Wi-Fi）",
+   "iface": "Micro HDMI×1 / UART×2 / GPIO×1 / 风扇×2 / RTC CR1220",
+   "image_url": "/parts/damiao-dm-orin-nx-v2x.jpg",
+   "image_source": "达妙《2026 产品选型手册》P56 NX 载板页（PDF，2026-08-10）",
+   "doc_url": "https://www.damiaokeji.com/index.php?c=show&id=97",
+   "doc_pdf": null,
+   "repo_urls": [],
+   "repo_license": null
+  }
+ }
+]
