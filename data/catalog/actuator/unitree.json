@@ -9,7 +9,7 @@
   "title": "Unitree GO-M8010-6",
   "url": "https://www.unitree.com/go1/motor",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 1500.0,
   "specs": {
@@ -59,7 +59,7 @@
   "title": "Unitree IM6014",
   "url": "https://www.unitree.com/mobile/IM6014/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-01",
   "price_cny": 1800.0,
   "specs": {
@@ -97,7 +97,7 @@
    "doc_pdf": null,
    "doc_url": "https://www.unitree.com/mobile/IM6014/"
   },
-  "notes": "G1 arm motor, model N6014B-12.6. Unitree publishes max torque 34.4 N.m (opposing the rotation; 31.7 N.m with it), 535 g, phi65 x 60, gear 3:38 = 12.667:1 and max no-load speed 54.2 rad/s at 60 V. That 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属活动价，可能随活动结束变化）。 产品图待补：抓到的是宇树四足整机宣传图，不是 IM6014 电机，需厂商型号页原图 【wiki.aifitlab（aifitlab 手册英文机翻镜像，2026-10-31 抓取）；待原厂中文手册复核】",
+  "notes": "G1 arm motor, model N6014B-12.6. Unitree publishes max torque 34.4 N.m (opposing the rotation; 31.7 N.m with it), 535 g, phi65 x 60, gear 3:38 = 12.667:1 and max no-load speed 54.2 rad/s at 60 V. That 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。 产品图待补：抓到的是宇树四足整机宣传图，不是 IM6014 电机，需厂商型号页原图 【wiki.aifitlab（aifitlab 手册英文机翻镜像，2026-10-31 抓取）；待原厂中文手册复核】",
   "origin": "Draft actuator_catalog.json（114 行总体）",
   "search": "unitree im6014",
   "subtype_label": "行星减速"
@@ -112,7 +112,7 @@
   "title": "Unitree A1 Motor",
   "url": "https://www.unitree.com/cn/a1/motor",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 2500.0,
   "specs": {

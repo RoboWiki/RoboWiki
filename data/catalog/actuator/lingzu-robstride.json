@@ -9,7 +9,7 @@
   "title": "灵足 EL05",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 299.0,
   "specs": {
@@ -59,7 +59,7 @@
   "title": "RobStride RS00",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 598.0,
   "specs": {
@@ -109,7 +109,7 @@
   "title": "RobStride RS01",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 599.0,
   "specs": {
@@ -159,7 +159,7 @@
   "title": "RobStride RS02",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 699.0,
   "specs": {
@@ -209,7 +209,7 @@
   "title": "RobStride RS03",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 999.0,
   "specs": {
@@ -259,7 +259,7 @@
   "title": "RobStride RS04",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 1199.0,
   "specs": {
@@ -309,7 +309,7 @@
   "title": "RobStride RS05",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 499.0,
   "specs": {
@@ -359,7 +359,7 @@
   "title": "RobStride RS06",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 849.0,
   "specs": {
@@ -409,7 +409,7 @@
   "title": "灵足 RS10",
   "url": "https://www.robstride.com/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 859.0,
   "specs": {

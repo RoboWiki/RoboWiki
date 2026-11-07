@@ -1,7 +1,7 @@
 [
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "16P 只保留 USB 2.0 与基本供电；24P 才有完整 USB 3.x/SBU/PD 通道。买座子注意沉板高度、针脚定义和外壳固定脚。",
@@ -53,7 +53,7 @@
  },
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "5.5×2.1 与 5.5×2.5 插头不通用；内正外负是常见接法但不是绝对，上电前用万用表核对。",

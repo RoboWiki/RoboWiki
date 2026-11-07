@@ -9,7 +9,7 @@
   "title": "瑞莎 Radxa ROCK 5B",
   "url": "https://radxa.com/products/rock5/5b",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-28",
   "price_cny": 884,
   "specs": {

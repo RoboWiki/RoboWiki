@@ -78,97 +78,154 @@
   "cubemars-ak10-9-v2-0-kv60": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK10-9 V2.0 KV60"
+   "model": "AK10-9 V2.0 KV60",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak10-9-v3-0-kv60": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK10-9 V3.0 KV60"
+   "model": "AK10-9 V3.0 KV60",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak40-10-kv170": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK40-10 KV170"
+   "model": "AK40-10 KV170",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak40-10-v3-0-kv170": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK40-10 V3.0 KV170"
+   "model": "AK40-10 V3.0 KV170",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak45-10-kv75": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK45-10 KV75"
+   "model": "AK45-10 KV75",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak45-10-v3-0-kv75": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK45-10 V3.0 KV75"
+   "model": "AK45-10 V3.0 KV75",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak45-36-kv80": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK45-36 KV80"
+   "model": "AK45-36 KV80",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak45-36-v3-0-kv80": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK45-36 V3.0 KV80"
+   "model": "AK45-36 V3.0 KV80",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak60-39-v3-0-kv80": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK60-39 V3.0 KV80"
+   "model": "AK60-39 V3.0 KV80",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak60-6-v1-1-kv140": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK60-6 V1.1 KV140"
+   "model": "AK60-6 V1.1 KV140",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak60-6-v3-0-kv80": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK60-6 V3.0 KV80"
+   "model": "AK60-6 V3.0 KV80",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak70-10": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK70-10"
+   "model": "AK70-10",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak70-9-v3-0-kv60": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK70-9 V3.0 KV60"
+   "model": "AK70-9 V3.0 KV60",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak80-6": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK80-6"
+   "model": "AK80-6",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak80-64-kv80": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK80-64 KV80"
+   "model": "AK80-64 KV80",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak80-8-kv60": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK80-8 KV60"
+   "model": "AK80-8 KV60",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-ak80-9-v3-0-kv100": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AK80-9 V3.0 KV100"
+   "model": "AK80-9 V3.0 KV100",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-akh70-16-v1-0-kv41": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AKH70-16 V1.0 KV41"
+   "model": "AKH70-16 V1.0 KV41",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "cubemars-akh70-48-v1-0-kv41": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "AKH70-48 V1.0 KV41"
+   "model": "AKH70-48 V1.0 KV41",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "damiao-dm-g6220": {
    "added": "2026-10-31",
@@ -228,22 +285,34 @@
   "damiao-dm100-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM100-1E"
+   "model": "DM100-1E",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "damiao-dm40-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM40-1E"
+   "model": "DM40-1E",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "damiao-dm60-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM60-1E"
+   "model": "DM60-1E",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "damiao-dm80-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM80-1E"
+   "model": "DM80-1E",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "damiao-motor-cable": {
    "added": "2026-10-31",
@@ -281,7 +350,10 @@
   "dengfoc-v3-0": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "DengFOC V3.0"
+   "model": "DengFOC V3.0",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "dji-c610": {
    "added": "2026-10-31",
@@ -301,37 +373,58 @@
   "dji-pm01": {
    "added": "2026-11-04",
    "category": "module",
-   "model": "RoboMaster PM01"
+   "model": "RoboMaster PM01",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除 PM01/PM02"
   },
   "dji-pm02": {
    "added": "2026-11-04",
    "category": "module",
-   "model": "RoboMaster PM02"
+   "model": "RoboMaster PM02",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除 PM01/PM02"
   },
   "dji-rc-2": {
    "added": "2026-11-01",
    "category": "remote_controller",
-   "model": "RC 2"
+   "model": "RC 2",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "dji-rc-n1": {
    "added": "2026-11-01",
    "category": "remote_controller",
-   "model": "RC-N1"
+   "model": "RC-N1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "dji-rc-n3": {
    "added": "2026-11-01",
    "category": "remote_controller",
-   "model": "RC-N3"
+   "model": "RC-N3",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "dji-rc-plus": {
    "added": "2026-11-01",
    "category": "remote_controller",
-   "model": "RC Plus"
+   "model": "RC Plus",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "dji-rc-pro-2": {
    "added": "2026-11-01",
    "category": "remote_controller",
-   "model": "RC Pro 2"
+   "model": "RC Pro 2",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "dji-rm-board-a": {
    "added": "2026-10-31",
@@ -416,7 +509,10 @@
   "hightorque-4can-box": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "4路CAN主控盒子"
+   "model": "4路CAN主控盒子",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "hightorque-4can-stack": {
    "added": "2026-11-05",
@@ -426,7 +522,10 @@
   "hightorque-7can-box": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "7路 CAN 通用盒子"
+   "model": "7路 CAN 通用盒子",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "hightorque-htcp-4531-06-cyc": {
    "added": "2026-10-31",
@@ -484,12 +583,18 @@
   "hightorque-robobox-7c": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "RoboBox-7C"
+   "model": "RoboBox-7C",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "hightorque-stm32h730vbt6": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "STM32H730VBT6"
+   "model": "STM32H730VBT6",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "intel-d405": {
    "added": "2026-10-31",
@@ -514,27 +619,42 @@
   "jlc-c10081": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "GL5528(10-20)"
+   "model": "GL5528(10-20)",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c110926": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "LIS2DH12TR"
+   "model": "LIS2DH12TR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c11299": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "GL5506（4-7K）"
+   "model": "GL5506（4-7K）",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c11334": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "REF3025AIDBZR"
+   "model": "REF3025AIDBZR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c11341": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "REF5025AIDR"
+   "model": "REF5025AIDR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c114425": {
    "added": "2026-10-31",
@@ -544,12 +664,18 @@
   "jlc-c116592": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS563201DDCR"
+   "model": "TPS563201DDCR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c117051": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "DHT11"
+   "model": "DHT11",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c126672": {
    "added": "2026-10-31",
@@ -559,37 +685,58 @@
   "jlc-c127949": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "MCP9700AT-E/TT"
+   "model": "MCP9700AT-E/TT",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c13564": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NCP18XH103F03RB"
+   "model": "NCP18XH103F03RB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c13879": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "MF52A103F3950 (A1)"
+   "model": "MF52A103F3950 (A1)",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c141836": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TLV62569DBVR"
+   "model": "TLV62569DBVR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c14289": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "HT7533-1"
+   "model": "HT7533-1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c146233": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "ALS-PT19-315C/L177/TR8"
+   "model": "ALS-PT19-315C/L177/TR8",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c15134": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "LIS3DHTR"
+   "model": "LIS3DHTR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c15639": {
    "added": "2026-10-31",
@@ -599,72 +746,114 @@
   "jlc-c15651": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "RT9193-33GB"
+   "model": "RT9193-33GB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c162670": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NCU18XH103F6SRB"
+   "model": "NCU18XH103F6SRB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c16581": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TP4056-42-ESOP8"
+   "model": "TP4056-42-ESOP8",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c189624": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "LIS2DW12TR"
+   "model": "LIS2DW12TR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c191884": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS54202DDCR"
+   "model": "TPS54202DDCR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c19274408": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "SC7A20HTR"
+   "model": "SC7A20HTR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c2071056": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AP63205WU-7"
+   "model": "AP63205WU-7",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c209893": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "B57332V5103F360"
+   "model": "B57332V5103F360",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c209959": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NTCG103JF103FT1"
+   "model": "NTCG103JF103FT1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c21706": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "CJ7805 3%"
+   "model": "CJ7805 3%",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c22391138": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "BMP580"
+   "model": "BMP580",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c22428347": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "TMP119AIYBGR"
+   "model": "TMP119AIYBGR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c22459454": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "ICM-45686"
+   "model": "ICM-45686",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c23380830": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AP2112K-3.3TRG1"
+   "model": "AP2112K-3.3TRG1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c23892": {
    "added": "2026-10-31",
@@ -679,12 +868,18 @@
   "jlc-c2655100": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "LSM6DSOTR"
+   "model": "LSM6DSOTR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c2655101": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "ISM330DHCXTR"
+   "model": "ISM330DHCXTR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c2682616": {
    "added": "2026-10-31",
@@ -694,7 +889,10 @@
   "jlc-c2687423": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SHT30-DIS-B10KS"
+   "model": "SHT30-DIS-B10KS",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c2757850": {
    "added": "2026-10-31",
@@ -714,37 +912,58 @@
   "jlc-c2848306": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SHT40-AD1B-R3"
+   "model": "SHT40-AD1B-R3",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c2862740": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS7A2033PDBVR"
+   "model": "TPS7A2033PDBVR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c2887190": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "QMA6100P"
+   "model": "QMA6100P",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c2889048": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "CMFA 103F3435"
+   "model": "CMFA 103F3435",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c2892547": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "KNTC0603/10KF3950"
+   "model": "KNTC0603/10KF3950",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c2892549": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "KNTC0805/10KF3950"
+   "model": "KNTC0805/10KF3950",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c28927": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "TMP112AIDRLR"
+   "model": "TMP112AIDRLR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c2909890": {
    "added": "2026-10-31",
@@ -754,12 +973,18 @@
   "jlc-c3000141": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "MT52B103F3950F01000"
+   "model": "MT52B103F3950F01000",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c3012622": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "AHT20-F"
+   "model": "AHT20-F",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c3021082": {
    "added": "2026-10-31",
@@ -769,22 +994,34 @@
   "jlc-c30589048": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SPA06-003"
+   "model": "SPA06-003",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c3113": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "CJ431"
+   "model": "CJ431",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c311983": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS54302DDCR"
+   "model": "TPS54302DDCR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c316397": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SDNT1608X103F3380FTF"
+   "model": "SDNT1608X103F3380FTF",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c3178291": {
    "added": "2026-10-31",
@@ -794,12 +1031,18 @@
   "jlc-c31966": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS54560DDAR"
+   "model": "TPS54560DDAR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c3232508": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "DPS368XTSA1"
+   "model": "DPS368XTSA1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c3235557": {
    "added": "2026-10-31",
@@ -809,22 +1052,34 @@
   "jlc-c3288646": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "ICM-42670-P"
+   "model": "ICM-42670-P",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c332361": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "5D-9"
+   "model": "5D-9",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c333993": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NCU15XH103F6SRC"
+   "model": "NCU15XH103F6SRC",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c338606": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "CMFA103J3950HANT"
+   "model": "CMFA103J3950HANT",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c347222": {
    "added": "2026-10-31",
@@ -834,12 +1089,18 @@
   "jlc-c347223": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AMS1117-5.0"
+   "model": "AMS1117-5.0",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c347256": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AMS1117-3.3S"
+   "model": "AMS1117-3.3S",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c347258": {
    "added": "2026-10-31",
@@ -849,7 +1110,10 @@
   "jlc-c347278": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "78M05"
+   "model": "78M05",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c347376": {
    "added": "2026-10-31",
@@ -864,7 +1128,10 @@
   "jlc-c36658": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "REF3033AIDBZR"
+   "model": "REF3033AIDBZR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c376006": {
    "added": "2026-10-31",
@@ -874,7 +1141,10 @@
   "jlc-c3790": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NTC 10D-9"
+   "model": "NTC 10D-9",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c38423": {
    "added": "2026-10-31",
@@ -884,7 +1154,10 @@
   "jlc-c394024": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "MF52D 103F3950-100"
+   "model": "MF52D 103F3950-100",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c404027": {
    "added": "2026-10-31",
@@ -894,12 +1167,18 @@
   "jlc-c406719": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NTCG163JF103FT1S"
+   "model": "NTCG163JF103FT1S",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c42371121": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "HX 0805-C2"
+   "model": "HX 0805-C2",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c42422127": {
    "added": "2026-10-31",
@@ -909,17 +1188,26 @@
   "jlc-c42441843": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "MT9700-N"
+   "model": "MT9700-N",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c47773": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "RT9013-33GB"
+   "model": "RT9013-33GB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c477928": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "LM5164DDAR"
+   "model": "LM5164DDAR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c479074": {
    "added": "2026-10-31",
@@ -934,72 +1222,114 @@
   "jlc-c485517": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TLV75733PDBVR"
+   "model": "TLV75733PDBVR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c49247665": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "HNTC0603-103F3450FA"
+   "model": "HNTC0603-103F3450FA",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c49247666": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "HNTC0603-103F3950FB"
+   "model": "HNTC0603-103F3950FB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c49247668": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "HNTC0603-104F3950FB"
+   "model": "HNTC0603-104F3950FB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c49247679": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "HNTC0603-104F4250FB"
+   "model": "HNTC0603-104F4250FB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c49247682": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "HNTC0402-103F3950FB"
+   "model": "HNTC0402-103F3950FB",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c51118": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AP2112K-3.3TRG1"
+   "model": "AP2112K-3.3TRG1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c5120796": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AMS1117-3.3V"
+   "model": "AMS1117-3.3V",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c51597": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "CMFB103F3950FANT"
+   "model": "CMFB103F3950FANT",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c51901042": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "FHT30-TR"
+   "model": "FHT30-TR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c5205141": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AMS1117-3.3V"
+   "model": "AMS1117-3.3V",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c524806": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS54360BDDAR"
+   "model": "TPS54360BDDAR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c525660": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SDNT1608X103F3435FTF"
+   "model": "SDNT1608X103F3435FTF",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c5267406": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "LSM6DSV16XTR"
+   "model": "LSM6DSV16XTR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c5362283": {
    "added": "2026-10-31",
@@ -1009,22 +1339,34 @@
   "jlc-c53820": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NTC10D-11"
+   "model": "NTC10D-11",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c54308212": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "ICM-42688-P(TOKMAS)"
+   "model": "ICM-42688-P(TOKMAS)",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c5446": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "XC6206P332MR-G"
+   "model": "XC6206P332MR-G",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c5451632": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "DS18B20"
+   "model": "DS18B20",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c55136": {
    "added": "2026-10-31",
@@ -1034,27 +1376,42 @@
   "jlc-c58069": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "L78M05ABDT-TR"
+   "model": "L78M05ABDT-TR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c61063": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "XL1509-5.0E1"
+   "model": "XL1509-5.0E1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c6186": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AMS1117-3.3"
+   "model": "AMS1117-3.3",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c6187": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "AMS1117-5.0"
+   "model": "AMS1117-5.0",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c695836": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "DS18B20U(UMW)"
+   "model": "DS18B20U(UMW)",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c699536": {
    "added": "2026-10-31",
@@ -1064,7 +1421,10 @@
   "jlc-c71136": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "78L05G-AB3-R"
+   "model": "78L05G-AB3-R",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c725790": {
    "added": "2026-10-31",
@@ -1074,22 +1434,34 @@
   "jlc-c725791": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TP4057"
+   "model": "TP4057",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c726001": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "ICM-20948"
+   "model": "ICM-20948",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c77130": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NCP15WF104F03RC"
+   "model": "NCP15WF104F03RC",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c77131": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NCP15XH103F03RC"
+   "model": "NCP15XH103F03RC",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c7719": {
    "added": "2026-10-31",
@@ -1099,7 +1471,10 @@
   "jlc-c779278": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "BMP388"
+   "model": "BMP388",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c780769": {
    "added": "2026-10-31",
@@ -1109,7 +1484,10 @@
   "jlc-c784817": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "LSM6DSRTR"
+   "model": "LSM6DSRTR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "jlc-c78960": {
    "added": "2026-10-31",
@@ -1119,7 +1497,10 @@
   "jlc-c78989": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "SY8113BADC"
+   "model": "SY8113BADC",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c80670": {
    "added": "2026-10-31",
@@ -1129,7 +1510,10 @@
   "jlc-c82227": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "HDC1080DMBR"
+   "model": "HDC1080DMBR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c82942": {
    "added": "2026-10-31",
@@ -1139,7 +1523,10 @@
   "jlc-c84036": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "MF52A103F3435 (A1)"
+   "model": "MF52A103F3435 (A1)",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c84817": {
    "added": "2026-10-31",
@@ -1154,22 +1541,34 @@
   "jlc-c9055": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "SPX3819M5-L-3-3/TR"
+   "model": "SPX3819M5-L-3-3/TR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c9179": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NTC 5D-11"
+   "model": "NTC 5D-11",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c919169": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SDNT1608X104F3950FTF"
+   "model": "SDNT1608X104F3950FTF",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c919459": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS61023DRLR"
+   "model": "TPS61023DRLR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c92489": {
    "added": "2026-10-31",
@@ -1184,17 +1583,26 @@
   "jlc-c95939": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SDNT1005X103F3950FTF"
+   "model": "SDNT1005X103F3950FTF",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c95968": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SDNT2012X103F3950FTF"
+   "model": "SDNT2012X103F3950FTF",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c963380": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TL431"
+   "model": "TL431",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c967633": {
    "added": "2026-10-31",
@@ -1204,12 +1612,18 @@
   "jlc-c9753": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "DS18B20+"
+   "model": "DS18B20+",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c98098": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "NCP03XH103F05RL"
+   "model": "NCP03XH103F05RL",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c9864": {
    "added": "2026-10-31",
@@ -1219,12 +1633,18 @@
   "jlc-c9865": {
    "added": "2026-10-31",
    "category": "chip",
-   "model": "TPS54331DR"
+   "model": "TPS54331DR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jlc-c99269": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "TMP102AIDRLR"
+   "model": "TMP102AIDRLR",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "jst-gh-1p25": {
    "added": "2026-10-31",
@@ -1419,42 +1839,66 @@
   "mit-3phase-integrated": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "3phase_integrated"
+   "model": "3phase_integrated",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "mjbots-moteus-r4-11": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "moteus r4.11"
+   "model": "moteus r4.11",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "myactuator-x12-320": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "X12-320"
+   "model": "X12-320",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "myactuator-x15-450": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "X15-450"
+   "model": "X15-450",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "myactuator-x2-7": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "X2-7"
+   "model": "X2-7",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "myactuator-x4-10": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "X4-10"
+   "model": "X4-10",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "myactuator-x4-36": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "X4-36"
+   "model": "X4-36",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "myactuator-x8-120": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "X8-120"
+   "model": "X8-120",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "nvidia-orin-nano-8gb": {
    "added": "2026-10-31",
@@ -1469,7 +1913,10 @@
   "odrive-s1": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "ODrive S1"
+   "model": "ODrive S1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "orbbec-gemini-305": {
    "added": "2026-10-31",
@@ -1539,7 +1986,10 @@
   "pjrc-teensy-4-1": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "Teensy 4.1"
+   "model": "Teensy 4.1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "proc-cnc": {
    "added": "2026-11-02",
@@ -1619,12 +2069,18 @@
   "radiolink-t12d": {
    "added": "2026-10-31",
    "category": "remote_controller",
-   "model": "T12D"
+   "model": "T12D",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "radiolink-t8s": {
    "added": "2026-10-31",
    "category": "remote_controller",
-   "model": "T8S"
+   "model": "T8S",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "robosense-airy-lite": {
    "added": "2026-10-31",
@@ -1686,6 +2142,11 @@
    "category": "camera",
    "model": "ZED 2i"
   },
+  "sens-tdk-icm-42686-p": {
+   "added": "2026-11-07",
+   "category": "imu",
+   "model": "ICM-42686-P"
+  },
   "sens-tdk-icm-42688-p": {
    "added": "2026-10-31",
    "category": "imu",
@@ -1699,7 +2160,10 @@
   "sens-xsens-mti-3": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "MTi-3"
+   "model": "MTi-3",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "IMU 产品线收敛"
   },
   "sens-yesense-yis320": {
    "added": "2026-10-31",
@@ -1709,7 +2173,10 @@
   "simplefoc-mini-v2-3": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "SimpleFOC Mini V2.3"
+   "model": "SimpleFOC Mini V2.3",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "software:amp": {
    "added": "2026-10-31",
@@ -1824,17 +2291,26 @@
   "st-b-g431b-esc1": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "B-G431B-ESC1"
+   "model": "B-G431B-ESC1",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "stackforce-6010": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "6010"
+   "model": "6010",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "stackforce-8108": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "8108"
+   "model": "8108",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "struct-berkeley-humanoid-lite": {
    "added": "2026-10-31",
@@ -3014,7 +3490,10 @@
   "unitree-r3": {
    "added": "2026-10-31",
    "category": "remote_controller",
-   "model": "R3"
+   "model": "R3",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "unitree-unitree-a1": {
    "added": "2026-10-31",
@@ -3024,7 +3503,10 @@
   "vesc-classic-100v": {
    "added": "2026-11-01",
    "category": "controller_low",
-   "model": "VESC Classic 100V"
+   "model": "VESC Classic 100V",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "weipu-gx12": {
    "added": "2026-10-31",
@@ -3034,7 +3516,10 @@
   "xiaomi-cybergear-micro": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "CyberGear Micro"
+   "model": "CyberGear Micro",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
   "xkb-dc-5521": {
    "added": "2026-10-31",

@@ -9,7 +9,7 @@
   "title": "地瓜机器人 RDK X3",
   "url": "https://developer.d-robotics.cc/rdkx3",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-28",
   "price_cny": 449,
   "specs": {
@@ -61,7 +61,7 @@
   "title": "地平线 RDK X5 开发板",
   "url": "https://developer.d-robotics.cc/rdk_x_doc/RDK?v=3.5.0&p=RDK+X5",
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-28",
   "price_cny": null,
   "origin": "厂商公开资料（待逐项核对）",

@@ -1,7 +1,7 @@
 [
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "SMA 内孔正脚，50Ω/6GHz；公母/内针内孔别混，拧紧力矩不要过大。",
@@ -53,7 +53,7 @@
  },
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "50Ω BNC；视频用 75Ω 版本另选，别混。",

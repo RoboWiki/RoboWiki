@@ -9,7 +9,7 @@
   "title": "香橙派 Orange Pi 5 Plus",
   "url": "http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Plus",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 795,
   "specs": {

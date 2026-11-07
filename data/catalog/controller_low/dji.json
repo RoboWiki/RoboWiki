@@ -8,7 +8,7 @@
   "title": "RoboMaster 开发板 A 型（STM32F427）",
   "url": "https://www.robomaster.com/zh-CN/products/components/general/development-board",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 429,
   "origin": "《RoboMaster 开发板 A 型使用说明》特性参数页；官方产品页",

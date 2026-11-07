@@ -71,7 +71,7 @@
  },
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-28",
   "price_cny": null,
   "notes": "手册 51 页但参数表未提取到，暂留空。定位是小型化近距离雷达，适合中小型移动平台。",

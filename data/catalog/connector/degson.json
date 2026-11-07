@@ -1,7 +1,7 @@
 [
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "3.81 是间距，不是电流等级；2EDG 系列有公母、弯直、带锁/不带锁，下单前按 PCB 封装和线规核对。",
@@ -60,7 +60,7 @@
  },
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "5.08 比 3.81 更大，常见于电源和电机；载流仍取决于线规/端子系列，别只看间距。",

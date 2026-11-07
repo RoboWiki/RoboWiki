@@ -9,7 +9,7 @@
   "title": "Silergy(矽力杰) SY8089A1AAC",
   "url": "https://www.lcsc.com/product-detail/C479074.html",
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 0.5279,
   "origin": "立创商城搜索页（2026-10-29）",
@@ -78,83 +78,6 @@
  },
  {
   "category": "chip",
-  "subtype": "dcdc",
-  "id": "jlc-c78989",
-  "vendor": "Silergy",
-  "vendor_cn": "Silergy(矽力杰)",
-  "model": "SY8113BADC",
-  "title": "Silergy(矽力杰) SY8113BADC",
-  "url": "https://www.lcsc.com/product-detail/C78989.html",
-  "source_tier": "B",
-  "verified": false,
-  "last_checked": "2026-10-31",
-  "price_cny": 1.3402,
-  "origin": "立创商城搜索页（2026-10-29）",
-  "notes": "500 kHz 同步降压 3 A，瞬态响应快；内部软启动限制浪涌。",
-  "specs": {
-   "package": "TSOT-23-6",
-   "category_cn": "DC-DC电源芯片",
-   "lcsc_part": "C78989",
-   "params": {
-    "功能类型": "降压型",
-    "工作电压": "4.5V~18V",
-    "输出电流": "3A",
-    "开关频率": "500kHz"
-   },
-   "price_tiers": [
-    {
-     "qty": 5,
-     "price": 1.3402
-    },
-    {
-     "qty": 50,
-     "price": 1.0508
-    },
-    {
-     "qty": 150,
-     "price": 0.9096
-    },
-    {
-     "qty": 500,
-     "price": 0.7836
-    },
-    {
-     "qty": 3000,
-     "price": 0.6439
-    },
-    {
-     "qty": 6000,
-     "price": 0.6231
-    }
-   ],
-   "price_lead": null,
-   "stock": "18K+",
-   "stock_lead": null,
-   "lead_time": "现货 4 小时发货",
-   "jlc_library": "扩展库",
-   "coupon": [
-    "运9元运费券",
-    "下单最高92折"
-   ],
-   "tags": [
-    "SMT补贴",
-    "运9元运费券",
-    "私有库",
-    "下单最高92折"
-   ],
-   "fetched_at": "2026-10-29",
-   "voltage_in": "4.5V~18V",
-   "current_out": "3A",
-   "function_type": "降压型",
-   "freq": "500kHz",
-   "image_url": "/parts/jlc-c78989.jpg",
-   "image_source": "立创商城商品图（C78989，2026-10-29 采集）",
-   "doc_pdf": "https://atta.szlcsc.com/upload/public/pdf/source/20231220/AC9769C08364036A6167CC3BCE05E307.pdf"
-  },
-  "subtype_label": "DC-DC 开关电源"
- },
- {
-  "category": "chip",
   "subtype": "pwr_switch",
   "id": "jlc-c55136",
   "vendor": "Silergy",
@@ -163,7 +86,7 @@
   "title": "Silergy(矽力杰) SY6280AAC",
   "url": "https://www.lcsc.com/product-detail/C55136.html",
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 0.5556,
   "origin": "立创商城搜索页（2026-10-29）",

@@ -1,7 +1,7 @@
 [
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 0.59,
   "notes": "0.5 mm FFC 有同向/反向、上接/下接、加强板厚度之分；插反或厚度不对会接触不良。24P 只是代表位数，按排线实际规格买座子。",

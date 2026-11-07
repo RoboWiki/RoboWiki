@@ -150,7 +150,7 @@
   "title": "飞特 STS3215 7.4V 19 kg·cm 串行舵机",
   "url": "https://www.feetech.cn/74v-19-kgcm-plastic-case-metal-tooth-magnetic-code-double-axis-ttl-series-steering-gear",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "origin": "飞特官方规格书《STS3215 产品规格书 A/1，2023-06-23》（Seeed 文档中心镜像的官网 PDF）；产品页 feetech.cn（本机不可达，链接仅供读者核对）",

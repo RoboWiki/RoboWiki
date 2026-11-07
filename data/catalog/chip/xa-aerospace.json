@@ -9,7 +9,7 @@
   "title": "西安航天民芯 MT2492",
   "url": "https://www.lcsc.com/product-detail/C89358.html",
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 0.3156,
   "origin": "立创商城搜索页（2026-10-29）",
@@ -88,7 +88,7 @@
   "title": "西安航天民芯 MT3608",
   "url": "https://www.lcsc.com/product-detail/C84817.html",
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 0.5833,
   "origin": "立创商城搜索页（2026-10-29）",
@@ -159,84 +159,5 @@
    "doc_pdf": "https://atta.szlcsc.com/upload/public/pdf/source/20231221/F522093DF941B85202C24CC8B72C51CD.pdf"
   },
   "subtype_label": "DC-DC 开关电源"
- },
- {
-  "category": "chip",
-  "subtype": "pwr_switch",
-  "id": "jlc-c42441843",
-  "vendor": "西安航天民芯",
-  "vendor_cn": "西安航天民芯",
-  "model": "MT9700-N",
-  "title": "西安航天民芯 MT9700-N",
-  "url": "https://www.lcsc.com/product-detail/C42441843.html",
-  "source_tier": "B",
-  "verified": false,
-  "last_checked": "2026-10-31",
-  "price_cny": 0.348,
-  "origin": "立创商城搜索页（2026-10-29）",
-  "notes": "单 P 沟道 MOS 负载开关，面向 USB 自供电/总线供电应用。",
-  "specs": {
-   "package": "SOT-23-5",
-   "category_cn": "功率电子开关",
-   "lcsc_part": "C42441843",
-   "params": {
-    "类型": "负载开关",
-    "通道数": "1",
-    "输入控制逻辑": "高电平有效",
-    "工作电压": "2.4V~5.5V"
-   },
-   "price_tiers": [
-    {
-     "qty": 1,
-     "price": 0.348
-    },
-    {
-     "qty": 10,
-     "price": 0.304
-    },
-    {
-     "qty": 30,
-     "price": 0.2814
-    },
-    {
-     "qty": 100,
-     "price": 0.2627
-    },
-    {
-     "qty": 500,
-     "price": 0.2562
-    },
-    {
-     "qty": 1000,
-     "price": 0.2518
-    }
-   ],
-   "price_lead": null,
-   "stock": "66K+",
-   "stock_lead": null,
-   "lead_time": "现货 4 小时发货",
-   "jlc_library": "扩展库",
-   "coupon": [
-    "返19%",
-    "运9元运费券",
-    "下单最高92折"
-   ],
-   "tags": [
-    "SMT补贴",
-    "返19%",
-    "运9元运费券",
-    "私有库",
-    "下单最高92折"
-   ],
-   "fetched_at": "2026-10-29",
-   "voltage_in": "2.4V~5.5V",
-   "switch_type": "负载开关",
-   "channels": "1",
-   "logic": "高电平有效",
-   "image_url": "/parts/jlc-c42441843.jpg",
-   "image_source": "立创商城商品图（C42441843，2026-10-29 采集）",
-   "doc_pdf": "https://atta.szlcsc.com/upload/public/pdf/source/20241017/622F9045F25052C857E5A9DF9FD59A9C.pdf"
-  },
-  "subtype_label": "功率电子开关"
  }
 ]

@@ -10,7 +10,7 @@
   "title": "TDK InvenSense ICM-42688-P",
   "url": "https://invensense.tdk.com/products/motion-tracking/6-axis/icm-42688-p/",
   "source_tier": "A",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-10-28",
   "price_cny": null,
   "specs": {

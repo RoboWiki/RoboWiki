@@ -1,7 +1,7 @@
 [
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "排针/排母/简牛不是一回事；3 A 是单 Pin 标称，多 Pin 同时满载要降额。2.54 mm 是最通用的原型间距，但不要拿排针做电池主回路。",
@@ -62,7 +62,7 @@
  },
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": null,
   "notes": "代表型号 Ckmtw C141882；DB9 只是外壳，RS232/RS485 引脚定义不同，先看设备手册。",
@@ -114,7 +114,7 @@
  },
  {
   "source_tier": "B",
-  "verified": false,
+  "verified": true,
   "last_checked": "2026-10-31",
   "price_cny": 9.33,
   "notes": "带网络变压器/LED，100M 商用级；不是裸 8P8C，PoE 要选带 PoE 型号。",
