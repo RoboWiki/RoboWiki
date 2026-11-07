@@ -509,10 +509,7 @@
   "hightorque-4can-box": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "4路CAN主控盒子",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "4路CAN主控盒子"
   },
   "hightorque-4can-stack": {
    "added": "2026-11-05",
@@ -522,10 +519,7 @@
   "hightorque-7can-box": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "7路 CAN 通用盒子",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "7路 CAN 通用盒子"
   },
   "hightorque-htcp-4531-06-cyc": {
    "added": "2026-10-31",
@@ -536,6 +530,21 @@
    "added": "2026-10-31",
    "category": "actuator",
    "model": "HTCP-5031-06-CYC"
+  },
+  "hightorque-htdw-3532-02-dne": {
+   "added": "2026-11-07",
+   "category": "actuator",
+   "model": "HTDW-3532-02-DNE"
+  },
+  "hightorque-htdw-4438-30-ne-jc": {
+   "added": "2026-11-07",
+   "category": "actuator",
+   "model": "HTDW-4438-30-NE-JC"
+  },
+  "hightorque-htdw-5022-02-dne": {
+   "added": "2026-11-07",
+   "category": "actuator",
+   "model": "HTDW-5022-02-DNE"
   },
   "hightorque-htdw-5036-02-cne": {
    "added": "2026-10-31",
@@ -550,10 +559,7 @@
   "hightorque-htdw-6036-02-cne": {
    "added": "2026-10-31",
    "category": "actuator",
-   "model": "HTDW-6036-02-CNE",
-   "removed": true,
-   "removed_at": "2026-10-31",
-   "removed_reason": "官网仅列空载转速、无任何扭矩值，无法参与扭矩比较，未收录"
+   "model": "HTDW-6036-02-CNE"
   },
   "hightorque-htdw-6036-02-dne": {
    "added": "2026-10-31",
@@ -583,18 +589,12 @@
   "hightorque-robobox-7c": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "RoboBox-7C",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "RoboBox-7C"
   },
   "hightorque-stm32h730vbt6": {
    "added": "2026-11-05",
    "category": "controller_low",
-   "model": "STM32H730VBT6",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "STM32H730VBT6"
   },
   "intel-d405": {
    "added": "2026-10-31",
@@ -2315,7 +2315,10 @@
   "struct-berkeley-humanoid-lite": {
    "added": "2026-10-31",
    "category": "robot",
-   "model": "Berkeley Humanoid Lite"
+   "model": "Berkeley Humanoid Lite",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "方案库收敛：删除指定机型"
   },
   "struct-deeprobotics-lite3": {
    "added": "2026-10-31",
@@ -2330,12 +2333,18 @@
   "struct-fourier-gr2": {
    "added": "2026-10-31",
    "category": "robot",
-   "model": "GR-2"
+   "model": "GR-2",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "方案库收敛：删除指定机型"
   },
   "struct-kscale-stompy": {
    "added": "2026-10-31",
    "category": "robot",
-   "model": "Stompy"
+   "model": "Stompy",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "方案库收敛：删除指定机型"
   },
   "struct-limx-tron1": {
    "added": "2026-10-31",
@@ -2345,7 +2354,10 @@
   "struct-odri-solo12": {
    "added": "2026-10-31",
    "category": "robot",
-   "model": "Solo 12"
+   "model": "Solo 12",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "方案库收敛：删除指定机型"
   },
   "struct-pollen-microduck": {
    "added": "2026-10-31",
@@ -2360,12 +2372,18 @@
   "struct-stanford-doggo": {
    "added": "2026-10-31",
    "category": "robot",
-   "model": "Doggo"
+   "model": "Doggo",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "方案库收敛：删除指定机型"
   },
   "struct-stanford-pupper-v3": {
    "added": "2026-10-31",
    "category": "robot",
-   "model": "Pupper v3"
+   "model": "Pupper v3",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "方案库收敛：删除指定机型"
   },
   "struct-unitree-a1": {
    "added": "2026-10-31",
@@ -2410,7 +2428,10 @@
   "struct-yobotics-y30": {
    "added": "2026-10-31",
    "category": "robot",
-   "model": "Y30"
+   "model": "Y30",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "方案库收敛：删除指定机型"
   },
   "struct-zex-w": {
    "added": "2026-10-31",

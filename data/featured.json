@@ -133,6 +133,10 @@
   "damiao-usb2canfd",
   "lingzu-robstride-usb-can-hub",
   "dji-tb47",
-  "dji-tb48"
+  "dji-tb48",
+  "hightorque-stm32h730vbt6",
+  "hightorque-7can-box",
+  "hightorque-robobox-7c",
+  "hightorque-4can-box"
  ]
 }

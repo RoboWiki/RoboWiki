@@ -56,7 +56,7 @@
   },
   "subtype": {
    "type": "string",
-   "description": "构型细分，如 humanoid / quadruped / wheeled_quadruped_inward_knee。受控词表见 data/taxonomy.json。"
+   "description": "构型细分，如 humanoid / quadruped / wheeled_quadruped / biped。受控词表见 data/taxonomy.json。"
   },
   "subtype_label": {
    "type": "string",

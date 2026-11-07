@@ -6,8 +6,8 @@
   "subtype_label": "四足",
   "vendor": "宇树 Unitree",
   "vendor_cn": "宇树科技",
-  "model": "Go2 EDU",
-  "title": "宇树 Go2 EDU",
+  "model": "Go2",
+  "title": "宇树 Go2",
   "url": "https://www.unitree.com/cn/go2",
   "source_tier": "A",
   "verified": 1,
@@ -42,7 +42,7 @@
    "ecosystem_id": "unitree_go2",
    "repo_license": "BSD-3-Clause"
   },
-  "notes": "Go2 家族有 AIR / PRO / X / EDU 四个版本，官网 2026-10-28 售价分别为 ¥9,997 / ¥18,600 / ¥29,999 / 联系销售，本条为 EDU。EDU 独有足端力传感器、深度相机与可选 Orin（40–100 TOPS），电池 15000 mAh、续航约 2–4 h；其余版本为 8000 mAh、约 1–2 h。载荷与速度取 EDU 列：载荷 ≈8 kg（极限 ~12 kg），速度 0–3.7 m/s（极限 ~5 m/s）。官网未给 EDU 整机售价，price_cny 留空。",
+  "notes": "Go2 家族有 AIR / PRO / X / EDU 四个版本，官网 2026-10-28 售价分别为 ¥9,997 / ¥18,600 / ¥29,999 / 联系销售，本条参数按 EDU 配置收录。EDU 独有足端力传感器、深度相机与可选 Orin（40–100 TOPS），电池 15000 mAh、续航约 2–4 h；其余版本为 8000 mAh、约 1–2 h。载荷与速度取 EDU 列：载荷 ≈8 kg（极限 ~12 kg），速度 0–3.7 m/s（极限 ~5 m/s）。官网未给 EDU 整机售价，price_cny 留空。",
   "origin": "宇树官网 Go2 产品页参数表 + 支持中心核对（2026-10-28）"
  },
  {

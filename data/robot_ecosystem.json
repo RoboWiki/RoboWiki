@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T16:55:00Z",
+ "generated_at": "2026-11-07T21:10:00Z",
  "source": "legged_studio/00_resources/_index.json",
  "note": "项目清单与文件数由上游索引机器生成；角色标签是我们按项目名/描述打的，用于「这台机器哪个环节有开源实现」。",
  "robots": {
@@ -21,19 +21,19 @@
     {
      "name": "unitreerobotics/unitree_ros",
      "role": "官方描述/资产",
-     "desc": "Go2 EDU 的 URDF / MJCF 描述文件",
+     "desc": "Go2 的 URDF / MJCF 描述文件",
      "url": "https://github.com/unitreerobotics/unitree_ros/tree/master/robots/go2_description"
     },
     {
      "name": "unitreerobotics/unitree_ros2",
      "role": "官方项目",
-     "desc": "Go2 EDU 官方仓库（驱动 / SDK / 例程）",
+     "desc": "Go2 官方仓库（驱动 / SDK / 例程）",
      "url": "https://github.com/unitreerobotics/unitree_ros2"
     },
     {
      "name": "unitreerobotics/unitree_sdk2",
      "role": "官方项目",
-     "desc": "Go2 EDU 官方仓库（驱动 / SDK / 例程）",
+     "desc": "Go2 官方仓库（驱动 / SDK / 例程）",
      "url": "https://github.com/unitreerobotics/unitree_sdk2"
     },
     {
@@ -291,7 +291,7 @@
     {
      "name": "unitree_go2_edu_movement",
      "role": "官方 SDK",
-     "desc": "Go2 EDU 视觉对接流水线（unitree_sdk2py）：AprilTag 位姿解算 + 滑窗滤波 + 梯形速度规划 + 三模式停靠判据，含前视鱼眼内参与 DDS 收发范式",
+     "desc": "Go2 视觉对接流水线（unitree_sdk2py）：AprilTag 位姿解算 + 滑窗滤波 + 梯形速度规划 + 三模式停靠判据，含前视鱼眼内参与 DDS 收发范式",
      "url": "https://github.com/shahriar193/unitree_go2_edu_movement"
     },
     {
@@ -309,7 +309,7 @@
     {
      "name": "官方文档",
      "role": "工具/资料",
-     "desc": "Go2 EDU 厂商文档页",
+     "desc": "Go2 厂商文档页",
      "url": "https://support.unitree.com/main/zh"
     }
    ],
@@ -1636,122 +1636,6 @@
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
-  "own:struct-berkeley-humanoid-lite": {
-   "label": "加州大学伯克利分校 Hybrid Robotics Berkeley Humanoid Lite",
-   "count": 3,
-   "roles": {
-    "官方描述/资产": 1,
-    "官方项目": 2
-   },
-   "projects": [
-    {
-     "name": "HybridRobotics/Berkeley-Humanoid-Lite-Assets",
-     "role": "官方描述/资产",
-     "desc": "Berkeley Humanoid Lite 的 URDF / MJCF 描述文件",
-     "url": "https://github.com/HybridRobotics/Berkeley-Humanoid-Lite-Assets/blob/main/data/robots/berkeley_humanoid/berkeley_humanoid_lite/urdf/berkeley_humanoid_lite.urdf"
-    },
-    {
-     "name": "HybridRobotics/Berkeley-Humanoid-Lite-Assets",
-     "role": "官方项目",
-     "desc": "Berkeley Humanoid Lite 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/HybridRobotics/Berkeley-Humanoid-Lite-Assets"
-    },
-    {
-     "name": "hybridrobotics/berkeley-humanoid-lite",
-     "role": "官方项目",
-     "desc": "Berkeley Humanoid Lite 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/hybridrobotics/berkeley-humanoid-lite"
-    }
-   ],
-   "note": "官方仓库 + 参考库项目（按 URL 去重）"
-  },
-  "own:struct-fourier-gr2": {
-   "label": "上海傅利叶智能科技 GR-2",
-   "count": 3,
-   "roles": {
-    "官方描述/资产": 1,
-    "官方项目": 2
-   },
-   "projects": [
-    {
-     "name": "FFTAI/Wiki-GRx-Models",
-     "role": "官方描述/资产",
-     "desc": "GR-2 的 URDF / MJCF 描述文件",
-     "url": "https://github.com/FFTAI/Wiki-GRx-Models/tree/master/GRX/GR2/GR2v3.0.1/urdf"
-    },
-    {
-     "name": "FFTAI/Wiki-GRx-Deploy",
-     "role": "官方项目",
-     "desc": "GR-2 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/FFTAI/Wiki-GRx-Deploy"
-    },
-    {
-     "name": "FFTAI/Wiki-GRx-Models",
-     "role": "官方项目",
-     "desc": "GR-2 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/FFTAI/Wiki-GRx-Models"
-    }
-   ],
-   "note": "官方仓库 + 参考库项目（按 URL 去重）"
-  },
-  "own:struct-kscale-stompy": {
-   "label": "K-Scale Labs Stompy",
-   "count": 2,
-   "roles": {
-    "官方项目": 2
-   },
-   "projects": [
-    {
-     "name": "kscalelabs/ksim_wasm",
-     "role": "官方项目",
-     "desc": "Stompy 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/kscalelabs/ksim_wasm"
-    },
-    {
-     "name": "kscalelabs/gym-stompy",
-     "role": "官方项目",
-     "desc": "Stompy 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/kscalelabs/gym-stompy"
-    }
-   ],
-   "note": "官方仓库 + 参考库项目（按 URL 去重）"
-  },
-  "own:struct-odri-solo12": {
-   "label": "Open Dynamic Robot Initiative Solo 12",
-   "count": 4,
-   "roles": {
-    "官方描述/资产": 1,
-    "官方项目": 2,
-    "工具/资料": 1
-   },
-   "projects": [
-    {
-     "name": "open-dynamic-robot-initiative/robot_properties_solo",
-     "role": "官方描述/资产",
-     "desc": "Solo 12 的 URDF / MJCF 描述文件",
-     "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo/tree/master/src/robot_properties_solo/resources/xacro"
-    },
-    {
-     "name": "open-dynamic-robot-initiative/robot_interfaces_solo",
-     "role": "官方项目",
-     "desc": "Solo 12 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/open-dynamic-robot-initiative/robot_interfaces_solo"
-    },
-    {
-     "name": "open-dynamic-robot-initiative/robot_properties_solo",
-     "role": "官方项目",
-     "desc": "Solo 12 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo"
-    },
-    {
-     "name": "官方文档",
-     "role": "工具/资料",
-     "desc": "Solo 12 厂商文档页",
-     "url": "https://github.com/open-dynamic-robot-initiative/open-dynamic-robot-initiative.github.io/wiki"
-    }
-   ],
-   "note": "官方仓库 + 参考库项目（按 URL 去重）"
-  },
   "own:struct-roboparty-roboto01": {
    "label": "RoboParty ROBOTO 01（RP1）",
    "count": 4,
@@ -1784,58 +1668,6 @@
      "role": "工具/资料",
      "desc": "ROBOTO 01（RP1） 厂商文档页",
      "url": "https://roboparty.com/documents/roboto-01"
-    }
-   ],
-   "note": "官方仓库 + 参考库项目（按 URL 去重）"
-  },
-  "own:struct-stanford-doggo": {
-   "label": "斯坦福学生机器人协会 Doggo",
-   "count": 3,
-   "roles": {
-    "官方描述/资产": 1,
-    "官方项目": 2
-   },
-   "projects": [
-    {
-     "name": "RajPShinde/Doggo_Description",
-     "role": "官方描述/资产",
-     "desc": "Doggo 的 URDF / MJCF 描述文件",
-     "url": "https://github.com/RajPShinde/Doggo_Description/tree/master/urdf"
-    },
-    {
-     "name": "Nate711/Doggo",
-     "role": "官方项目",
-     "desc": "Doggo 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/Nate711/Doggo"
-    },
-    {
-     "name": "Nate711/StanfordDoggoProject",
-     "role": "官方项目",
-     "desc": "Doggo 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/Nate711/StanfordDoggoProject"
-    }
-   ],
-   "note": "官方仓库 + 参考库项目（按 URL 去重）"
-  },
-  "own:struct-stanford-pupper-v3": {
-   "label": "斯坦福学生机器人协会 Pupper v3",
-   "count": 2,
-   "roles": {
-    "官方项目": 1,
-    "工具/资料": 1
-   },
-   "projects": [
-    {
-     "name": "stanfordroboticsclub/StanfordQuadruped",
-     "role": "官方项目",
-     "desc": "Pupper v3 官方仓库（驱动 / SDK / 例程）",
-     "url": "https://github.com/stanfordroboticsclub/StanfordQuadruped"
-    },
-    {
-     "name": "官方文档",
-     "role": "工具/资料",
-     "desc": "Pupper v3 厂商文档页",
-     "url": "https://pupper.readthedocs.io/"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
