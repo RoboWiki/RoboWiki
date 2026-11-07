@@ -45,7 +45,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/dm-D5730-1-ec/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-D5730-1EC%E7%9B%B4%E9%A9%B1%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6--2025-09-26%20%E4%BF%AE%E6%94%B9%E7%89%88.pdf",
-   "doc_url": null
+   "doc_url": "https://gitee.com/kit-miao/dm-D5730-1-ec"
   },
   "notes": "48.0 V 版本；直驱电机；额定 0.65 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 2025-09-26 修改版，2026-10-31 核对",
@@ -98,7 +98,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-D5730-1EE/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-D5730%20-1EE%20%E7%9B%B4%E9%A9%B1%E7%94%B5%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=121"
+   "doc_url": "https://gitee.com/kit-miao/DM-D5730-1EE"
   },
   "notes": "48.0 V 版本；直驱电机；额定 0.65 N·m；源文勘误：无",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书（未标版本），2026-10-31 核对",
@@ -151,7 +151,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J10010-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J10010-2EC%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.0.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=107"
+   "doc_url": "https://gitee.com/kit-miao/DM-J10010-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 40.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0，2026-10-31 核对",
@@ -204,7 +204,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J10010L-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J10010L-2EC%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.1.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=106"
+   "doc_url": "https://gitee.com/kit-miao/DM-J10010L-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 40.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1，2026-10-31 核对",
@@ -257,7 +257,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=126"
+   "doc_url": "https://gitee.com/kit-miao/DM-J10422P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 100.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-01-29）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -310,7 +310,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J3507-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J3507-2EC%20%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6V1.1%202026-04-13.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=118"
+   "doc_url": "https://gitee.com/kit-miao/DM-J3507-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 0.8 N·m；源文勘误：无 | 低压版 24 V：460.0 rpm 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-04-13），2026-10-31 核对",
@@ -363,7 +363,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=125"
+   "doc_url": "https://gitee.com/kit-miao/DM-J4310-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 3.0 N·m；源文勘误：无 | 低压版 24 V：200.0 rpm。手册见官方 Gitee 仓库 DM-J4310-2EC：说明书 V1.3（2026-09-14）。",
   "origin": "达妙官方 Gitee 仓库（kit-miao/DM-J4310-2EC）说明书 V1.3（2026-09-14）（官网无 V1.1 独立产品页；12.96 MB 超过 Gitee 匿名 raw 10 MB 限制），2026-10-31 核对",
@@ -416,7 +416,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=125"
+   "doc_url": "https://gitee.com/kit-miao/DM-J4310-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 3.5 N·m；源文勘误：无 | 低压版 24 V：200.0 rpm 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.4（2026-09-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -469,7 +469,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J4310M-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J4310M-2EC%20%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6V1.1%202026-10-21.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=148"
+   "doc_url": "https://gitee.com/kit-miao/DM-J4310M-2EC"
   },
   "notes": "24.0 V 版本；关节电机；额定 5.2 N·m；源文勘误：无",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-10-21），2026-10-31 核对",
@@ -522,7 +522,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=109"
+   "doc_url": "https://gitee.com/kit-miao/dm-j4310-p-2-ec"
   },
   "notes": "48.0 V 版本；关节电机；额定 3.5 N·m；源文勘误：无 | 低压版 24 V：200.0 rpm 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.3（2026-09-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -575,7 +575,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=135"
+   "doc_url": "https://gitee.com/kit-miao/DM-J4340-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 9.0 N·m；源文勘误：无 | 低压版 24 V：52.5 rpm 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-09-08）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -628,7 +628,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=135"
+   "doc_url": "https://gitee.com/kit-miao/DM-J4340-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 12.0 N·m；源文勘误：无 | 低压版 24 V：56.0 rpm 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.3（2026-08-13）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -681,7 +681,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=134"
+   "doc_url": "https://gitee.com/kit-miao/DM-J4340P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 9.0 N·m；源文勘误：无 | 低压版 24 V：52.5 rpm",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.2（2026-09-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -734,7 +734,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=134"
+   "doc_url": "https://gitee.com/kit-miao/DM-J4340P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 12.0 N·m；源文勘误：无 | 低压版 24 V：56.0 rpm",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.4（2026-09-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -787,7 +787,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J6006-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J6006-2EC%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.1.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=102"
+   "doc_url": "https://gitee.com/kit-miao/DM-J6006-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 4.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1，2026-10-31 核对",
@@ -840,7 +840,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/dm-j6216-l-2-ec/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J6216L-2EC%20%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.2%202026-10-21.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=143"
+   "doc_url": "https://gitee.com/kit-miao/dm-j6216-l-2-ec"
   },
   "notes": "48.0 V 版本；关节电机；额定 10.0 N·m；源文勘误：无",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.2（2026-10-21），2026-10-31 核对",
@@ -893,7 +893,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/dm-j6216-p-2-ec/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J6216P-2EC%20%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.5%202026-10-26.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=144"
+   "doc_url": "https://gitee.com/kit-miao/dm-j6216-p-2-ec"
   },
   "notes": "48.0 V 版本；关节电机；额定 10.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.5（2026-10-26），2026-10-31 核对",
@@ -946,7 +946,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J6248P-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J6248P-2EC%20%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6%20V1.4--2026-10-23.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=110"
+   "doc_url": "https://gitee.com/kit-miao/DM-J6248P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 30.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.4（2026-10-23），2026-10-31 核对",
@@ -999,7 +999,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J8006-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J8006-2EC%20V1.1%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.0.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=103"
+   "doc_url": "https://gitee.com/kit-miao/DM-J8006-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 8.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（对应 V1.1 机型），2026-10-31 核对",
@@ -1052,7 +1052,7 @@
    "dims": "Ø98×61.7 mm",
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J8009-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J8009-2EC%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.0.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=104"
+   "doc_url": "https://gitee.com/kit-miao/DM-J8009-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 20.0 N·m；官方手册 V1.0：额定 100 rpm@24 V、200 rpm@48 V，空载 160 rpm@24 V、320 rpm@48 V，相电感 61 µH@25 ℃、相电阻 0.09 Ω@25 ℃，重 896 g，14 位磁编 ×2。库内速度按 48 V 工况。价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0，2026-10-31 核对",
@@ -1105,7 +1105,7 @@
    "dims": "Ø98×61.7 mm",
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J8009P-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J8009P-2EC%20%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6%20V1.3%202026-09-10.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=137"
+   "doc_url": "https://gitee.com/kit-miao/DM-J8009P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 20.0 N·m；官方手册 V1.3：额定 100 rpm@24 V、200 rpm@48 V，空载 168 rpm@24 V、335 rpm@48 V，相电感 80 µH、相电阻 0.145 Ω，重 963 g，14 位磁编 ×2。库内速度按 48 V 工况。输出轴为交叉滚子轴承（J8009 为薄壁深沟球轴承）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.3（2026-09-10），2026-10-31 核对",
@@ -1158,7 +1158,7 @@
    "dims": "Ø98×61.7 mm",
    "i_stall_A": null,
    "doc_pdf": "https://gitee.com/kit-miao/DM-J8009P-2EC/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J8009P-2EC%20V1.1%20%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6%20V1.0%202026-09-10.pdf",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=137"
+   "doc_url": "https://gitee.com/kit-miao/DM-J8009P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 20.0 N·m；官方手册 V1.1：额定 100 rpm@24 V、200 rpm@48 V，空载 168 rpm@24 V、335 rpm@48 V，相电感 80 µH、相电阻 0.145 Ω，重 950 g，16 位磁编 ×2。库内速度按 48 V 工况。输出轴为交叉滚子轴承（J8009 为薄壁深沟球轴承）。价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（2026-09-10，对应 V1.1 机型），2026-10-31 核对",
@@ -1211,7 +1211,7 @@
    "dims": null,
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=142"
+   "doc_url": "https://gitee.com/kit-miao/DM-J8520P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 50.0 N·m；源文勘误：无",
   "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-09-22）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
@@ -1643,7 +1643,7 @@
    "l_phase_uh": 2900,
    "r_phase_ohm": 3.5,
    "mass_kg": 0.4935,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=119",
+   "doc_url": "https://gitee.com/kit-miao/DM-G6220",
    "image_url": "/parts/dm-dm-g6220.jpg",
    "image_source": "达妙官网产品图（damiaokeji.com 产品页 id=119）",
    "speed_rated_rpm": 110,
@@ -1685,7 +1685,7 @@
    "l_phase_uh": 2000,
    "r_phase_ohm": 2.5,
    "mass_kg": 0.36,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=115",
+   "doc_url": "https://gitee.com/kit-miao/DM-H6215",
    "image_url": "/parts/dm-dm-h6215.jpg",
    "image_source": "达妙官网产品图（damiaokeji.com 产品页 id=115）",
    "speed_rated_rpm": 120,
@@ -1725,7 +1725,7 @@
    "pole_pairs": 15,
    "mass_kg": 3.15,
    "encoder": "17 bit（±0.05°），单编码器",
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=116",
+   "doc_url": "https://gitee.com/kit-miao/DM-H65",
    "image_url": "/parts/dm-dm-h65-1ec.jpg",
    "image_source": "达妙官网产品图（damiaokeji.com 产品页 id=116）",
    "speed_rated_rpm": 120,
@@ -1768,7 +1768,7 @@
    "l_phase_uh": 75,
    "r_phase_ohm": 0.2915,
    "mass_kg": 0.1722,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=123",
+   "doc_url": "https://gitee.com/kit-miao/dm-s2325-1-ec",
    "image_url": "/parts/dm-dm-s2325-1ec.jpg",
    "image_source": "达妙官网产品图（damiaokeji.com 产品页 id=123）",
    "speed_rated_rpm": 380,
@@ -1810,7 +1810,7 @@
    "l_phase_uh": 55,
    "r_phase_ohm": 0.2,
    "mass_kg": 0.396,
-   "doc_url": "http://www.damiaokeji.com/index.php?c=show&id=122",
+   "doc_url": "https://gitee.com/kit-miao/DM-S3519-1EC",
    "image_url": "/parts/dm-dm-s3519-1ec.jpg",
    "image_source": "达妙官网产品图（damiaokeji.com 产品页 id=122）",
    "speed_rated_rpm": 395,
@@ -1875,7 +1875,7 @@
    "dims": "Ø96×52.5 mm",
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "https://www.damiaokeji.com/index.php?c=show&id=136"
+   "doc_url": "https://gitee.com/kit-miao/DM-G8518"
   },
   "notes": "24~48 V 宽压；中空云台直驱（1:1）。24 V：额定 1.9 N·m / 峰值 8.78 N·m，额定与空载 1000 rpm，额定 9.55 A / 峰值 36.1 A，额定功率 199 W；48 V：额定与空载 2000 rpm，额定功率 397 W。相电感 105 µH、相电阻 0.225 Ω，Ø96×52.5 mm，831 g；电感编码器（绝对值），CAN/CANFD，驱动一体。",
   "origin": "达妙《2026 产品选型手册》P38 + 官网产品页（id=136），2026-11-07 核对",
@@ -1928,7 +1928,7 @@
    "dims": "Ø42×31.5 mm",
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "https://www.damiaokeji.com/index.php?c=show&id=117"
+   "doc_url": "https://gitee.com/kit-miao/DM-H3510"
   },
   "notes": "24 V；轮毂直驱（1:1）。额定 0.18 N·m / 峰值 0.45 N·m，额定 500 rpm / 空载 1800 rpm，额定 1.1 A / 峰值 3.2 A，额定功率 9 W；相电感 1100 µH、相电阻 2.08 Ω，Ø42×31.5 mm，116 g；磁编（绝对值），CAN/CANFD，驱动一体。",
   "origin": "达妙《2026 产品选型手册》P40 + 官网产品页（id=117），2026-11-07 核对",
@@ -1981,7 +1981,7 @@
    "dims": "Ø141×66.9 mm",
    "i_stall_A": null,
    "doc_pdf": null,
-   "doc_url": "https://www.damiaokeji.com/index.php?c=show&id=129"
+   "doc_url": "https://gitee.com/kit-miao/DM-H55"
   },
   "notes": "24~48 V；轮毂直驱（1:1）。额定 3.5 N·m / 峰值 9 N·m，额定 350 rpm；空载 587 rpm@24 V、883 rpm@36 V、1185 rpm@48 V；额定 13.05 A / 峰值 33.55 A，额定功率 128 W；相电感 336 µH、相电阻 0.281 Ω，Ø141×66.9 mm，2100 g；17 位编码器（±0.03°），CAN/CANFD；驱动分体（DM6540-1EC）。 手册编码器栏标注“电感/绝对值”，官网产品页标 17 位、±0.03°；此处按官网产品页。",
   "origin": "达妙《2026 产品选型手册》P43 + 官网产品页（id=129），2026-11-07 核对",

@@ -262,6 +262,11 @@
    "category": "imu",
    "model": "DM-IMU-L1"
   },
+  "damiao-dm-linkx-4c": {
+   "added": "2026-11-07",
+   "category": "module",
+   "model": "Link4C"
+  },
   "damiao-dm-mc-board02": {
    "added": "2026-10-31",
    "category": "controller_low",
@@ -285,34 +290,22 @@
   "damiao-dm100-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM100-1E",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "DM100-1E"
   },
   "damiao-dm40-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM40-1E",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "DM40-1E"
   },
   "damiao-dm60-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM60-1E",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "DM60-1E"
   },
   "damiao-dm80-1e": {
    "added": "2026-11-07",
    "category": "controller_low",
-   "model": "DM80-1E",
-   "removed": true,
-   "removed_at": "2026-11-07",
-   "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+   "model": "DM80-1E"
   },
   "damiao-motor-cable": {
    "added": "2026-10-31",
@@ -470,6 +463,11 @@
    "added": "2026-10-31",
    "category": "connector",
    "model": "5264 3P 端子线"
+  },
+  "feetech-hd-1910-c001": {
+   "added": "2026-11-07",
+   "category": "servo",
+   "model": "HD-1910-C001"
   },
   "feetech-st-3215-c018": {
    "added": "2026-10-31",
@@ -1933,10 +1931,209 @@
    "category": "camera",
    "model": "Gemini 336"
   },
+  "oshw-033631be": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "2025ROBOCON飞身上篮硬件开源"
+  },
+  "oshw-088a3381": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "梁山派RoboMaster扩展板"
+  },
+  "oshw-095ea18c": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "2022 RoboMaster 超级电容方案"
+  },
+  "oshw-13278515": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "RoboMaster机甲大师 手持装甲板 击打反馈"
+  },
+  "oshw-189fa8f7": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON算力设备供电模块",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "与已收录的精选条目重复"
+  },
+  "oshw-1963f7f9": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "2026ROBOCON硬件开源"
+  },
+  "oshw-1ac069ab": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "中北大学ROBOCON开源企划 主控板第二版开源资料"
+  },
+  "oshw-21a53d02": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "robomaster桌面级轮腿打印摆件"
+  },
+  "oshw-22c2dd65": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "robomaster"
+  },
+  "oshw-2cda2a47": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "RoboMaster装甲板（无击打检测）"
+  },
+  "oshw-3e9863f7": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "STAR 通行证｜RoboMaster NFC PCB 周边"
+  },
+  "oshw-3ee11cbe": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON常备STM32主控扩展板",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "与已收录的精选条目重复"
+  },
+  "oshw-41e6f05b": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "中北大学ROBOCON开源企划 电源管理相关"
+  },
+  "oshw-4298ce01": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "中北大学ROBOCON开源企划 基于电感式编码器的舵向控制器"
+  },
+  "oshw-482b2b24": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "2026 ROBOCON MPS MP2980设计"
+  },
+  "oshw-4cc3a9a3": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "中北大学ROBOCON开源企划 主控板第一版"
+  },
+  "oshw-58799a9a": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "RM2026 中科大RoboMaster功率采样板"
+  },
+  "oshw-6c85fb27": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON算力设备供电模块"
+  },
+  "oshw-6e4096ef": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "中北大学ROBOCON开源DT35 IO-Link板开源资料"
+  },
+  "oshw-7bac61ba": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON无缝换电分电板",
+   "removed": true,
+   "removed_at": "2026-11-07",
+   "removed_reason": "与已收录的精选条目重复"
+  },
+  "oshw-7d359d17": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON2025主控系统-主控扩展板"
+  },
+  "oshw-7df7dda6": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "自制RoboMaster装甲支撑架"
+  },
+  "oshw-825e48ff": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "RoboMaster步兵jy60陀螺仪安装板"
+  },
+  "oshw-887acaa8": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "RoboMaster荧光充能模块"
+  },
+  "oshw-89f5ef04": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "Robomaster 1比3小灯条开源"
+  },
+  "oshw-90168a1f": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "Robomaster 1比3小装甲板"
+  },
+  "oshw-9302b44a": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON2025主控系统-PWM信号隔离小板"
+  },
+  "oshw-94f39aa6": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "23届robocon行者R1整车电路设计"
+  },
+  "oshw-95dbe894": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON算力设备供电模块"
+  },
+  "oshw-96f85b20": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "RoboMaster26无控镖带串口主控"
+  },
+  "oshw-b633dad7": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "2026ROBOCON遥控器"
+  },
   "oshw-birdd-qmini-power-board": {
    "added": "2026-11-04",
    "category": "open_hw",
    "model": "Qmini 关节电机电源转换分电板"
+  },
+  "oshw-c1039492": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "适用于robocon的MP9931算力平台供电模块"
+  },
+  "oshw-d2750ede": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "自制RoboMaster开发板C型"
+  },
+  "oshw-d602b1b2": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "中北大学ROBOCON开源企划 FOC电调"
+  },
+  "oshw-d62ed826": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON2024整车电路拓扑"
+  },
+  "oshw-ddf5ba50": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "ROBOCON2025 CAN&GPIO模块板"
+  },
+  "oshw-deee3ffb": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "2025robocon行者机器人实验室R2整车电路设计"
+  },
+  "oshw-ede94663": {
+   "added": "2026-11-07",
+   "category": "open_hw",
+   "model": "24V100A MOS开关代替继电器robocon"
   },
   "oshw-fengl-mp2980-ultra-buckboost": {
    "added": "2026-11-04",
@@ -2368,6 +2565,16 @@
    "added": "2026-10-31",
    "category": "robot",
    "model": "ROBOTO 01（RP1）"
+  },
+  "struct-so-arm100": {
+   "added": "2026-11-07",
+   "category": "robot",
+   "model": "SO-100"
+  },
+  "struct-so-arm101": {
+   "added": "2026-11-07",
+   "category": "robot",
+   "model": "SO-101"
   },
   "struct-stanford-doggo": {
    "added": "2026-10-31",
@@ -3515,6 +3722,11 @@
    "removed": true,
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+  },
+  "unitree-s288": {
+   "added": "2026-11-07",
+   "category": "servo",
+   "model": "S288"
   },
   "unitree-unitree-a1": {
    "added": "2026-10-31",

@@ -1,6 +1,6 @@
 {
  "note": "学习路线已收敛成一篇《怎么用这个网站》（wiki/docs/learn/index.md）。不设虚构的路线与步骤。",
- "updated_at": "2026-10-30",
+ "updated_at": "2026-11-07",
  "routes": [],
  "articles": [
   {
@@ -46,6 +46,51 @@
    ],
    "level": "进阶",
    "minutes": 14
+  },
+  {
+   "slug": "mechanical-transmission",
+   "title": "传动机构简述",
+   "summary": "齿轮、带、链、丝杠怎么选：模数、根切、变位与竞赛机器人传动布置。机械必读。",
+   "tags": [
+    "机械",
+    "必读"
+   ],
+   "level": "进阶",
+   "minutes": 40
+  },
+  {
+   "slug": "structural-design-logic",
+   "title": "结构设计的思维逻辑",
+   "summary": "从需求倒推结构，用逻辑链和取舍控制复杂度，而不是先画零件。机械必读。",
+   "tags": [
+    "机械",
+    "必读"
+   ],
+   "level": "进阶",
+   "minutes": 10
+  },
+  {
+   "slug": "lightweight-design",
+   "title": "轻量化设计指南",
+   "summary": "先砍结构、再减材料：标准板厚、板件减重与竞赛机器人减重取舍。机械必读。",
+   "tags": [
+    "机械",
+    "必读"
+   ],
+   "level": "进阶",
+   "minutes": 15
+  },
+  {
+   "slug": "machining-guide",
+   "title": "铨洲 CNC 活动打样指南",
+   "summary": "6061 铝件的板厚、螺纹孔、倒角与 STEP 文件规则，避免上传打样被判 NG。",
+   "tags": [
+    "机械",
+    "加工",
+    "必读"
+   ],
+   "level": "入门",
+   "minutes": 10
   }
  ],
  "reprint": {

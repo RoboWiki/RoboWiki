@@ -86,7 +86,8 @@
     "st": "ST 系列",
     "hl": "HL 系列",
     "sm": "SM 系列",
-    "other": "其他"
+    "other": "其他",
+    "brushless": "无刷总线"
    },
    "keys": [
     {
@@ -217,10 +218,9 @@
   {
    "id": "controller_low",
    "name": "下位机",
-   "hint": "底层控制 / 电机驱动",
+   "hint": "底层控制 / 主控板",
    "subtypes": {
-    "mcu": "主控板",
-    "driver": "驱动板"
+    "mcu": "主控板"
    },
    "keys": [
     {
@@ -257,6 +257,85 @@
     {
      "k": "current_loop_khz",
      "label": "电流环"
+    },
+    {
+     "k": "price",
+     "label": "价格"
+    },
+    {
+     "k": "rating",
+     "label": "评分"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "compat"
+   ]
+  },
+  {
+   "id": "motor_driver",
+   "name": "电机驱动板",
+   "hint": "关节电机配套驱动器 / 功率级",
+   "subtypes": {
+    "driver": "驱动板"
+   },
+   "keys": [
+    {
+     "k": "mcu",
+     "label": "MCU",
+     "unit": ""
+    },
+    {
+     "k": "foc_axes",
+     "label": "FOC 轴数",
+     "unit": ""
+    },
+    {
+     "k": "can",
+     "label": "CAN",
+     "unit": " 路"
+    },
+    {
+     "k": "canfd",
+     "label": "CAN FD",
+     "unit": ""
+    },
+    {
+     "k": "voltage_in_V",
+     "label": "供电",
+     "unit": " V"
+    },
+    {
+     "k": "voltage_range_V",
+     "label": "电压范围",
+     "unit": ""
+    },
+    {
+     "k": "voltage_max_V",
+     "label": "最高电压",
+     "unit": " V"
+    },
+    {
+     "k": "iface",
+     "label": "接口",
+     "unit": ""
+    },
+    {
+     "k": "encoder",
+     "label": "编码器",
+     "unit": ""
+    }
+   ],
+   "sorts": [
+    {
+     "k": "can",
+     "label": "CAN 路数"
+    },
+    {
+     "k": "voltage_max_V",
+     "label": "最高电压"
     },
     {
      "k": "price",
@@ -921,11 +1000,12 @@
   {
    "id": "open_hw",
    "name": "开源硬件",
-   "hint": "分电 / 稳压 / 储能 / 控制扩展",
+   "hint": "分电 / 稳压 / 储能 / 控制扩展 / 周边结构",
    "subtypes": {
     "power": "电源 / 分电模块",
     "supercap": "超级电容",
-    "control": "控制 / 扩展板"
+    "control": "控制 / 扩展板",
+    "accessory": "周边 / 结构件"
    },
    "keys": [
     {
@@ -1655,6 +1735,98 @@
   "huashuo0804": {
    "slug": "huashuo0804",
    "cn": "huashuo0804"
+  },
+  "Antonio": {
+   "slug": "oshw-antonio",
+   "cn": "Antonio"
+  },
+  "LiZhengyu": {
+   "slug": "oshw-socialman123",
+   "cn": "LiZhengyu"
+  },
+  "Maxwell_Huang": {
+   "slug": "oshw-maxwell-huang",
+   "cn": "Maxwell_Huang"
+  },
+  "Nazarite": {
+   "slug": "oshw-nazarite",
+   "cn": "Nazarite"
+  },
+  "RobotIC机器人实验室": {
+   "slug": "oshw-roboticlib",
+   "cn": "RobotIC机器人实验室"
+  },
+  "Steve76427": {
+   "slug": "oshw-steve76427",
+   "cn": "Steve76427"
+  },
+  "Trojan": {
+   "slug": "oshw-trojan",
+   "cn": "Trojan"
+  },
+  "abc123_zxzh": {
+   "slug": "oshw-abc123-zxzh",
+   "cn": "abc123_zxzh"
+  },
+  "abowowowa": {
+   "slug": "oshw-miliqwq",
+   "cn": "abowowowa"
+  },
+  "absan": {
+   "slug": "oshw-absan",
+   "cn": "absan"
+  },
+  "be_stronger": {
+   "slug": "oshw-be-stronger",
+   "cn": "be_stronger"
+  },
+  "ecjtu21class4Apollo": {
+   "slug": "oshw-ecjtu21class4apollo",
+   "cn": "ecjtu21class4Apollo"
+  },
+  "eeexp": {
+   "slug": "oshw-alphe",
+   "cn": "eeexp"
+  },
+  "ericyuhaotong": {
+   "slug": "oshw-ericyuhaotong",
+   "cn": "ericyuhaotong"
+  },
+  "grubaXU": {
+   "slug": "oshw-grubaxu",
+   "cn": "grubaXU"
+  },
+  "heyeu": {
+   "slug": "oshw-heyeu",
+   "cn": "heyeu"
+  },
+  "jnu_sober": {
+   "slug": "oshw-jnu-sober",
+   "cn": "jnu_sober"
+  },
+  "rain-rz": {
+   "slug": "oshw-rain-rz",
+   "cn": "rain-rz"
+  },
+  "redming": {
+   "slug": "oshw-redming",
+   "cn": "redming"
+  },
+  "ylj2000": {
+   "slug": "oshw-ylj2000",
+   "cn": "ylj2000"
+  },
+  "广白机器人队": {
+   "slug": "oshw-i-havent-thought-about-it-for-th",
+   "cn": "广白机器人队"
+  },
+  "针针扎是带啥纸": {
+   "slug": "oshw-hgf-fgh",
+   "cn": "针针扎是带啥纸"
+  },
+  "霾霾子": {
+   "slug": "oshw-ekkokoi",
+   "cn": "霾霾子"
   }
  }
 }

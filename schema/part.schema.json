@@ -29,6 +29,7 @@
     "sensor",
     "controller_high",
     "controller_low",
+    "motor_driver",
     "remote_controller",
     "esc",
     "imu",

@@ -28,7 +28,7 @@
    "iface": "Micro HDMI×1 / UART×2 / GPIO×1 / 风扇×2 / RTC CR1220",
    "image_url": "/parts/damiao-dm-orin-nx-v2x.jpg",
    "image_source": "达妙《2026 产品选型手册》P56 NX 载板页（PDF，2026-08-10）",
-   "doc_url": "https://www.damiaokeji.com/index.php?c=show&id=97",
+   "doc_url": "https://gitee.com/kit-miao/orin-board",
    "doc_pdf": null,
    "repo_urls": [],
    "repo_license": null

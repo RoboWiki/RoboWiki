@@ -277,6 +277,7 @@ UI_KEYS = {
     "module": {"can", "image_url"},
     "remote_controller": {"channels", "control_range_m", "image_url"},
     "controller_low": {"image_url"},
+    "motor_driver": {"image_url"},
     "chip": {"package", "image_url"},
     "open_hw": {"image_url"},
     "battery": {"capacity_mah", "voltage_V", "image_url"},

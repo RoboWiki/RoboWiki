@@ -1713,6 +1713,36 @@
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
+  },
+  "so_arm100": {
+   "label": "SO-ARM100 机械臂",
+   "count": 3,
+   "roles": {
+    "官方项目": 1,
+    "官方 SDK": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "TheRobotStudio/SO-ARM100",
+     "role": "官方项目",
+     "desc": "SO-100/SO-101 硬件、STL/STEP、装配与 BOM",
+     "url": "https://github.com/TheRobotStudio/SO-ARM100"
+    },
+    {
+     "name": "huggingface/lerobot",
+     "role": "官方 SDK",
+     "desc": "遥操作、数据采集、训练与部署",
+     "url": "https://github.com/huggingface/lerobot"
+    },
+    {
+     "name": "LeRobot SO-101 文档",
+     "role": "工具/资料",
+     "desc": "装配、校准、遥操作与训练教程",
+     "url": "https://huggingface.co/docs/lerobot/so101"
+    }
+   ],
+   "note": "官方仓库 + LeRobot 软件与文档（按 URL 去重）"
   }
  },
  "url_note": "项目链接统一指向公开仓库（GitHub / Gitee / HuggingFace）；不再使用本地目录或文件数。"

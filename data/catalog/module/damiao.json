@@ -30,7 +30,7 @@
    "doc_url": "https://gitee.com/kit-miao/usb2canfd-dual",
    "doc_pdf": "https://gitee.com/kit-miao/usb2canfd-dual/raw/master/DM-USB2CANFD_Dual%20%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6%20V1.0.pdf",
    "repo_urls": [
-    "https://gitee.com/kit-miao/dm-device-sdk"
+    "https://gitee.com/kit-miao/usb2canfd-dual"
    ],
    "repo_license": null
   }
@@ -66,7 +66,7 @@
    "doc_url": "https://gitee.com/kit-miao/usb2canfd",
    "doc_pdf": "https://gitee.com/kit-miao/usb2canfd/raw/master/%E8%BE%BE%E5%A6%99%E7%A7%91%E6%8A%80-USB%E8%BD%ACCANFD%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6V1.0.pdf",
    "repo_urls": [
-    "https://gitee.com/kit-miao/dm-device-sdk"
+    "https://gitee.com/kit-miao/usb2canfd"
    ],
    "repo_license": null
   }
@@ -99,10 +99,47 @@
    "weight_g": null,
    "image_url": "/parts/damiao-usb2can.jpg",
    "image_source": "达妙《2026 产品选型手册》P54 开发套件页（PDF，2026-08-10）",
-   "doc_url": "https://gitee.com/kit-miao/damiao",
+   "doc_url": "https://gitee.com/kit-miao/usb-2-can",
    "doc_pdf": null,
    "repo_urls": [
-    "https://gitee.com/kit-miao/damiao"
+    "https://gitee.com/kit-miao/usb-2-can"
+   ],
+   "repo_license": null
+  }
+ },
+ {
+  "category": "module",
+  "subtype": "can",
+  "subtype_label": "CAN 模块",
+  "id": "damiao-dm-linkx-4c",
+  "vendor": "达妙 DAMIAO",
+  "vendor_cn": "达妙科技",
+  "model": "Link4C",
+  "title": "达妙 DM-LinkX Link4C 四路 CAN/CANFD 通信模块",
+  "url": "https://gitee.com/kit-miao/dm-linkx-4c",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-07",
+  "price_cny": null,
+  "origin": "《DM-LinkX 系列模块使用说明书 V2.0》（2026-10-27）第 1–6 章，2026-11-07 核对",
+  "notes": "DM-LinkX 系列的 Link4C 四路模块，把 4 路经典 CAN / CAN FD 接到主机，USB、EtherCAT、普通 ENET 三种业务入口互斥选择。CAN0–CAN3 位率示例为仲裁 1 Mbps、数据 5 Mbps，须与目标网络一致；USB Type-C 为 USB 2.0 High-Speed，EtherCAT 为 2× RJ45 100 Mbps，普通 ENET 为 1× RJ45 100/1000 Mbps（IPv4 DHCP/UDP）。外部 XT30 供电 DC 6–52 V，额定功率 1.5 W，工作温度 0–45 ℃，外壳约 63×43×16 mm。手册对应固件 V2.0.1、配置工具 V2.0.0。",
+  "search": "达妙 damiao dm-linkx link4c linkx4c 四路 can canfd ethercat enet usb xt30 通信模块",
+  "specs": {
+   "iface": "USB Type-C（USB2.0 HS）/ EtherCAT / 普通 ENET",
+   "can": 4,
+   "canfd": true,
+   "can_speed_mbps": 5,
+   "voltage_V": null,
+   "connector": "XT30 电源；USB-C；2× RJ45 EtherCAT；1× RJ45 ENET；4× CAN",
+   "isolation": null,
+   "dims": "63×43×16 mm",
+   "weight_g": null,
+   "image_url": "/parts/damiao-dm-linkx-4c.jpg",
+   "image_source": "达妙《DM-LinkX 系列模块使用说明书 V2.0》封面产品图（2026-10-27）",
+   "doc_url": "https://gitee.com/kit-miao/dm-linkx-4c",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://gitee.com/kit-miao/dm-linkx-4c"
    ],
    "repo_license": null
   }

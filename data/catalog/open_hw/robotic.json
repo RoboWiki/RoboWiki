@@ -11,10 +11,10 @@
   "url": "https://oshwhub.com/roboticlib/wu-feng-huan-dian-fen-dian-ban",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-07",
   "price_cny": null,
   "origin": "立创开源硬件平台工程页（2026-11-04 核对）",
-  "notes": "工程页未公开价格/复刻成本。GPL-3.0；基于 MPS MP5048 电源保护方案；2 路电池输入支持无缝换电，6 路输出（4× VOUT + 2× 保险丝输出）；官方页说明已用于 ROBOCON2025 且赛季内未发生故障。参数按工程页逐项核对。",
+  "notes": "工程页未公开价格/复刻成本。GPL-3.0；基于 MPS MP5048 电源保护方案；2 路电池输入支持无缝换电，6 路输出（4× VOUT + 2× 保险丝输出）；官方页说明已用于 ROBOCON2025 且赛季内未发生故障。参数按工程页逐项核对。 OSHWHub 收藏 32 / 浏览 5280，更新于 2026-01-05。",
   "search": "roboticlib robotIC 华南理工大学 robocon 无缝换电 分电板 pdb mps mp5048 3-6s 12a gpl",
   "specs": {
    "package": null,
@@ -50,7 +50,11 @@
     "缓启动": "100 ms 插入延迟 + 24 ms 软启动",
     "保险丝": "2 个一次性保险丝位（建议 15 A）",
     "安装": "M3 孔，孔距 40 mm；适配 5 cm 风扇，装风扇后高约 25 mm",
-    "应用赛季": "ROBOCON2025"
+    "应用赛季": "ROBOCON2025",
+    "作者": "RobotIC机器人实验室",
+    "收藏": "32",
+    "浏览": "5280",
+    "更新": "2026-01-05"
    }
   }
  },
@@ -66,10 +70,10 @@
   "url": "https://oshwhub.com/roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-07",
   "price_cny": null,
   "origin": "立创开源硬件平台工程页（2026-11-04 核对）",
-  "notes": "工程页未公开价格/复刻成本。MIT；工程页描述写“反客 STM32F407ZGT6 核心板”，但页面 BOM 的 U1 为 STM32F767IGT6，两个口径都保留；核心板一般需另购。已知问题：共模电感上电瞬间可能过压击穿降压芯片、ADC 扩压电路第二版未验证、OLED 封装尺寸错误。",
+  "notes": "工程页未公开价格/复刻成本。MIT；工程页描述写“反客 STM32F407ZGT6 核心板”，但页面 BOM 的 U1 为 STM32F767IGT6，两个口径都保留；核心板一般需另购。已知问题：共模电感上电瞬间可能过压击穿降压芯片、ADC 扩压电路第二版未验证、OLED 封装尺寸错误。 OSHWHub 收藏 49 / 浏览 7120，更新于 2023-10-17。",
   "search": "roboticlib robotIC 华南理工大学 robocon 常备 stm32 主控扩展板 f407zgt6 f767igt6 ch340k esp01s mit",
   "specs": {
    "package": null,
@@ -95,8 +99,8 @@
    ],
    "doc_url": null,
    "doc_pdf": null,
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/oshw-3ee11cbe.jpg",
+   "image_source": "OSHWHub 工程封面图（RobotIC机器人实验室，2026-11-07 抓取）",
    "params": {
     "核心板": "反客 STM32F407ZGT6 核心板（工程页描述）",
     "PWM": "12 路，全部光耦隔离，4 路一组可选 5 V / 3.3 V",
@@ -105,7 +109,11 @@
     "电源": "12 V→5 V（RT8289），5 V→3.3 V（LD1117）",
     "ADC": "外置运放扩展采样范围（第二版未验证）",
     "开漏输出": "4 路光耦隔离",
-    "已知问题": "共模电感上电瞬间可能过压击穿降压芯片；OLED 封装尺寸错误"
+    "已知问题": "共模电感上电瞬间可能过压击穿降压芯片；OLED 封装尺寸错误",
+    "作者": "RobotIC机器人实验室",
+    "收藏": "49",
+    "浏览": "7120",
+    "更新": "2023-10-17"
    }
   }
  },
