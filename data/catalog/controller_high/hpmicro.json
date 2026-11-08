@@ -1,0 +1,29 @@
+[
+ {
+  "category": "controller_high",
+  "subtype": "sbc",
+  "subtype_label": "单板计算机",
+  "id": "hpmicro-hpm6750",
+  "vendor": "先楫半导体 HPMicro",
+  "vendor_cn": "先楫",
+  "model": "HPM6750",
+  "title": "先楫 HPM6750 双核 RISC-V 816 MHz MCU",
+  "url": "https://www.hpmicro.com/",
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "先楫 HPM6000 系列官方资料（双 Andes D45 RISC-V、816 MHz）",
+  "notes": "国产高性能实时 MCU，常见于致远 MR6450 等核心板；适合电机驱动与实时控制。",
+  "search": "HPM6750 先楫 RISC-V 816MHz MCU",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "soc": "HPM6750",
+   "cpu": "双核 Andes D45 RISC-V",
+   "clock_mhz": 816
+  }
+ }
+]

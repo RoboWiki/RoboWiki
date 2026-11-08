@@ -105,5 +105,83 @@
   },
   "notes": "6 轴；陀螺量程最高 ±4000 °/s，加速度计最高 ±32 g；内置 APEX 运动功能，面向可穿戴、运动与机器人。官方产品页未公开完整噪声、ODR 与封装尺寸，未公布项留 null。",
   "origin": "TDK InvenSense ICM-42686-P 官方产品页，2026-11-07 核对"
+ },
+ {
+  "category": "imu",
+  "subtype": "six-axis",
+  "subtype_label": "六轴模组",
+  "id": "tdk-icm20602",
+  "vendor": "TDK InvenSense",
+  "vendor_cn": "InvenSense",
+  "model": "ICM-20602",
+  "title": "ICM-20602 六轴陀螺加速度模块",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "TDK/InvenSense ICM-20602 公开参数（6 轴、I2C/SPI）",
+  "notes": "替代 MPU6050 的主流低成本六轴；陀螺/加速度量程档位见 datasheet，本站未逐项核对。",
+  "search": "ICM20602 六轴 IMU I2C SPI",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "iface": "I2C / SPI",
+   "odr_hz": null
+  }
+ },
+ {
+  "category": "imu",
+  "subtype": "six-axis",
+  "subtype_label": "六轴模组",
+  "id": "tdk-mpu6500",
+  "vendor": "TDK InvenSense",
+  "vendor_cn": "InvenSense",
+  "model": "MPU6500",
+  "title": "MPU6500 六轴陀螺加速度模块",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "TDK/InvenSense MPU6500 公开参数（6 轴、I2C/SPI）",
+  "notes": "MPU6050 的同系列替代型号；量程档位见 datasheet。",
+  "search": "MPU6500 六轴 IMU I2C SPI",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "iface": "I2C / SPI",
+   "odr_hz": null
+  }
+ },
+ {
+  "category": "imu",
+  "subtype": "nine-axis",
+  "subtype_label": "九轴模组",
+  "id": "tdk-mpu9250",
+  "vendor": "TDK InvenSense",
+  "vendor_cn": "InvenSense",
+  "model": "MPU9250",
+  "title": "MPU9250 九轴陀螺加速度磁力计模块",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "TDK/InvenSense MPU9250 公开参数（9 轴、I2C/SPI、带磁力计）",
+  "notes": "MPU6500 + AK8963 磁力计，能直接输出姿态。",
+  "search": "MPU9250 九轴 IMU 磁力计 I2C SPI",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "iface": "I2C / SPI",
+   "odr_hz": null
+  }
  }
 ]

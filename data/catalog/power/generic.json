@@ -1,0 +1,77 @@
+[
+ {
+  "category": "power",
+  "subtype": "dcdc",
+  "subtype_label": "DC-DC 模块",
+  "id": "generic-ubec-5v3a",
+  "vendor": "通用模块",
+  "vendor_cn": "通用模块",
+  "model": "UBEC 5V 3A",
+  "title": "UBEC 5V 3A 舵机/接收机降压模块",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用模块公称规格（输入 6–26 V 按型号区分，未逐一标注）",
+  "notes": "把电池降到 5V 给舵机与接收机供电；输入范围、持续电流与散热随型号不同，选购时看外壳标注。",
+  "search": "UBEC 5V 3A 降压 舵机 接收机 供电",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "voltage_out": 5,
+   "current_out": 3,
+   "power_w": 15
+  }
+ },
+ {
+  "category": "power",
+  "subtype": "bms",
+  "subtype_label": "保护板 / BMS",
+  "id": "generic-bms-3-6s",
+  "vendor": "通用模块",
+  "vendor_cn": "通用模块",
+  "model": "3–6S BMS 保护板",
+  "title": "3–6S 锂电池保护板（BMS）",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用 BMS 模块公称规格",
+  "notes": "串联锂电池组的过充/过放/过流保护；持续电流按型号选，常见 20–60 A。具体串数与电流以下单规格为准。",
+  "search": "BMS 保护板 锂电池 过充 过放 3S 6S",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null
+  }
+ },
+ {
+  "category": "power",
+  "subtype": "switch",
+  "subtype_label": "开关与保险",
+  "id": "generic-rocker-switch",
+  "vendor": "通用模块",
+  "vendor_cn": "通用模块",
+  "model": "船型开关 15A",
+  "title": "船型开关 15A 250V",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用船型开关公称规格",
+  "notes": "总电源开关；额定 15A/250V，安装孔 30×22 mm 系列。",
+  "search": "船型开关 15A 250V 电源开关",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null
+  }
+ }
+]

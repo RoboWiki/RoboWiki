@@ -24,7 +24,37 @@
    "mount": "C",
    "resolution": "600 万像素",
    "sensor": "1/1.8\"（Φ9 mm）",
-   "focal_mm": 8
+   "focal_mm": 8,
+   "depth_range_m": null
+  }
+ },
+ {
+  "category": "camera",
+  "subtype": "lens",
+  "subtype_label": "工业镜头",
+  "id": "hikrobot-mvl-hf0628m-6mpe",
+  "vendor": "海康机器人 Hikrobot",
+  "vendor_cn": "海康机器人",
+  "model": "MVL-HF0628M-6MPE",
+  "title": "海康机器人 MVL-HF0628M-6MPE 6 mm 600 万像素 FA 镜头",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "海康机器人 HF-E 系列镜头公开参数（6 mm / F2.8–F16 / 1/1.8\" / 600 万 / C 口）",
+  "notes": "与 600 万像素工业相机搭配的 6 mm 短焦镜头；畸变 -0.103%，最近摄距 0.1 m。",
+  "search": "海康 MVL-HF0628M-6MPE 镜头 6mm 600万 C口",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "focal_mm": 6,
+   "mount": "C",
+   "resolution": "600 万像素",
+   "sensor": "1/1.8\"（Φ9 mm）",
+   "depth_range_m": null
   }
  }
 ]

@@ -1,0 +1,29 @@
+[
+ {
+  "category": "power",
+  "subtype": "dcdc",
+  "subtype_label": "DC-DC 模块",
+  "id": "ti-lm2596",
+  "vendor": "TI",
+  "vendor_cn": "德州仪器",
+  "model": "LM2596 模块",
+  "title": "LM2596 可调降压模块",
+  "url": "https://www.ti.com.cn/product/zh-cn/LM2596",
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "TI LM2596 数据手册公称参数（4.5–40 V 输入、1.25–37 V 输出、3 A）",
+  "notes": "最常见的可调降压方案，适合 12V→5V/9V；输出电流按散热可达 3 A。",
+  "search": "LM2596 降压 可调 3A 模块",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "voltage_in": "4.5–40 V",
+   "voltage_out": "1.25–37 V",
+   "current_out": 3
+  }
+ }
+]

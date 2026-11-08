@@ -1,0 +1,26 @@
+[
+ {
+  "category": "power",
+  "subtype": "switch",
+  "subtype_label": "开关与保险",
+  "id": "omron-fuse-holder",
+  "vendor": "OMRON 欧姆龙",
+  "vendor_cn": "欧姆龙",
+  "model": "保险丝座 + 保险丝",
+  "title": "保险丝座与保险丝",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用安规件（额定电流/电压按保险丝规格）",
+  "notes": "主回路短路保护；按额定电流选保险丝，座体按安装方式（面板/PCB）选。",
+  "search": "保险丝座 保险丝 短路保护",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null
+  }
+ }
+]

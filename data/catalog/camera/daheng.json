@@ -25,7 +25,8 @@
    "fps": 227,
    "sensor": "1/2.9\" 全局快门 CMOS（彩色）",
    "iface": "USB 3.0",
-   "mount": "C"
+   "mount": "C",
+   "depth_range_m": null
   }
  }
 ]

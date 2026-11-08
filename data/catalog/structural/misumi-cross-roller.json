@@ -1,0 +1,52 @@
+[
+ {
+  "category": "structural",
+  "subtype": "bearing",
+  "subtype_label": "轴承",
+  "id": "misumi-rb4510",
+  "vendor": "米思米 MISUMI",
+  "vendor_cn": "米思米",
+  "model": "RB4510 交叉滚子轴承",
+  "title": "RB4510 交叉滚子轴承",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "交叉滚子轴承公称规格（RB 系列）",
+  "notes": "交叉滚子轴承可同时承受径向与双向轴向载荷，常用于谐波/舵机输出与关节支承。",
+  "search": "RB4510 交叉滚子轴承 关节",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "size_mm": null
+  }
+ },
+ {
+  "category": "structural",
+  "subtype": "bearing",
+  "subtype_label": "轴承",
+  "id": "misumi-xru3515",
+  "vendor": "米思米 MISUMI",
+  "vendor_cn": "米思米",
+  "model": "XRU3515 交叉滚子轴承",
+  "title": "XRU3515 交叉滚子轴承",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "交叉滚子轴承公称规格（XRU 系列）",
+  "notes": "XRU 系列为薄壁交叉滚子，适合空间受限的关节输出。",
+  "search": "XRU3515 交叉滚子轴承 薄壁",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "size_mm": null
+  }
+ }
+]

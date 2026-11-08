@@ -1,0 +1,27 @@
+[
+ {
+  "category": "chip",
+  "subtype": "dcdc",
+  "subtype_label": "DC-DC 开关电源",
+  "id": "mps-mp5048",
+  "vendor": "Monolithic Power Systems",
+  "vendor_cn": "芯源",
+  "model": "MP5048",
+  "title": "MPS MP5048 同步降压模块",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "MPS MP5048 数据手册公称参数（宽输入同步降压、3 A 级）",
+  "notes": "国产常用同步降压芯片，输入电压范围与封装按具体型号选。",
+  "search": "MP5048 降压 MPS 芯源",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "package": null
+  }
+ }
+]

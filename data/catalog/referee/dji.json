@@ -223,5 +223,55 @@
    "mass_g": 120,
    "size_mm": "70 × 48 × 22.5 mm"
   }
+ },
+ {
+  "category": "referee",
+  "subtype": "armor",
+  "subtype_label": "装甲板",
+  "id": "rm-am11",
+  "vendor": "大疆 DJI",
+  "vendor_cn": "大疆",
+  "model": "AM11",
+  "title": "RoboMaster 装甲模块 AM11",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "RoboMaster 官方 wiki《装甲模块 AM01 及 AM11 使用说明》",
+  "notes": "较早的小装甲型号，与 AM01 同手册；语料中为战队遗留物资。",
+  "search": "RM 装甲模块 AM11 说明书",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": "https://hz-rm-bbs-web-prod.oss-cn-hangzhou.aliyuncs.com/298dd2fc4eb64521b26b0b578fa6601b1758941501922/RoboMaster裁判系统装甲模块AM01及AM11 使用说明.pdf",
+   "module_type": null
+  }
+ },
+ {
+  "category": "referee",
+  "subtype": "control",
+  "subtype_label": "主控 / 交互",
+  "id": "rm-fi01",
+  "vendor": "大疆 DJI",
+  "vendor_cn": "大疆",
+  "model": "FI01",
+  "title": "RoboMaster 交互模块 FI01",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "RoboMaster 官方 wiki 赛事产品页（裁判系统机载模块）",
+  "notes": "较早的场地交互模块，后被 FI02 取代；官方 wiki 未单列参数。",
+  "search": "RM 交互模块 FI01",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "module_type": null
+  }
  }
 ]

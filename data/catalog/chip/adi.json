@@ -77,5 +77,31 @@
    "doc_pdf": "https://atta.szlcsc.com/upload/public/pdf/source/20250207/EE085AF4F31313DFC0354FB71E1530B6.pdf"
   },
   "subtype_label": "电池管理"
+ },
+ {
+  "category": "chip",
+  "subtype": "transceiver",
+  "subtype_label": "总线收发器",
+  "id": "adi-max3051",
+  "vendor": "ADI",
+  "vendor_cn": "亚德诺",
+  "model": "MAX3051",
+  "title": "ADI MAX3051 CAN 总线收发器",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "ADI MAX3051 数据手册公称参数（3.3 V/5 V、最高 5 Mbps）",
+  "notes": "RM/自研底板常用的 CAN 收发器，替代 TJA1050 的 3.3V 方案。",
+  "search": "MAX3051 CAN 收发器 ADI",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "voltage_in": "3.3 / 5 V",
+   "package": null
+  }
  }
 ]

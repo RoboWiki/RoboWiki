@@ -21,7 +21,7 @@ def test_counts_are_stable():
     from pipeline.load import load_parts
 
     parts = load_parts()
-    assert len(parts) == 300
+    assert len(parts) == 320
     robots = []
     for p in sorted((ROOT / "data" / "robots").glob("*.json")):
         robots.extend(json.loads(p.read_text(encoding="utf-8")))

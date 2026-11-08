@@ -1060,7 +1060,9 @@
     "battery": "电池管理",
     "pwr_switch": "功率电子开关",
     "supervisor": "监控复位",
-    "pmic": "专业 PMIC"
+    "pmic": "专业 PMIC",
+    "current": "电流检测 / 电流采样",
+    "transceiver": "总线收发器"
    },
    "keys": [
     {
@@ -2142,6 +2144,10 @@
   "OMRON 欧姆龙": {
    "slug": "omron",
    "cn": "欧姆龙"
+  },
+  "通用模块": {
+   "slug": "generic-module",
+   "cn": "通用模块"
   }
  }
 }

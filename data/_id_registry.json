@@ -5,6 +5,11 @@
    "category": "battery",
    "model": "5300mAh-30C-22.2V-6S"
   },
+  "adi-max3051": {
+   "added": "2026-11-08",
+   "category": "chip",
+   "model": "MAX3051"
+  },
   "amass-mr30": {
    "added": "2026-10-31",
    "category": "connector",
@@ -580,6 +585,11 @@
    "category": "structural",
    "model": "弹链"
   },
+  "generic-bms-3-6s": {
+   "added": "2026-11-08",
+   "category": "power",
+   "model": "3–6S BMS 保护板"
+  },
   "generic-feed-plate": {
    "added": "2026-11-08",
    "category": "structural",
@@ -589,6 +599,16 @@
    "added": "2026-11-08",
    "category": "structural",
    "model": "快拆组件"
+  },
+  "generic-rocker-switch": {
+   "added": "2026-11-08",
+   "category": "power",
+   "model": "船型开关 15A"
+  },
+  "generic-ubec-5v3a": {
+   "added": "2026-11-08",
+   "category": "power",
+   "model": "UBEC 5V 3A"
   },
   "haisito-b3": {
    "added": "2026-11-08",
@@ -690,6 +710,16 @@
    "category": "camera",
    "model": "MV-CS016-10UC"
   },
+  "hikrobot-mv-cs060-10uc-pro": {
+   "added": "2026-11-08",
+   "category": "camera",
+   "model": "MV-CS060-10UC-PRO"
+  },
+  "hikrobot-mvl-hf0628m-6mpe": {
+   "added": "2026-11-08",
+   "category": "camera",
+   "model": "MVL-HF0628M-6MPE"
+  },
   "hikrobot-mvl-hf0828m-6mpe": {
    "added": "2026-11-08",
    "category": "camera",
@@ -704,6 +734,11 @@
    "added": "2026-11-08",
    "category": "charger",
    "model": "T6"
+  },
+  "hpmicro-hpm6750": {
+   "added": "2026-11-08",
+   "category": "controller_high",
+   "model": "HPM6750"
   },
   "intel-d405": {
    "added": "2026-10-31",
@@ -2046,10 +2081,20 @@
    "category": "structural",
    "model": "MR105-2RS"
   },
+  "misumi-rb4510": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "RB4510 交叉滚子轴承"
+  },
   "misumi-spring-comp": {
    "added": "2026-11-08",
    "category": "structural",
    "model": "压缩弹簧"
+  },
+  "misumi-xru3515": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "XRU3515 交叉滚子轴承"
   },
   "mit-3phase-integrated": {
    "added": "2026-11-01",
@@ -2066,6 +2111,11 @@
    "removed": true,
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+  },
+  "mps-mp5048": {
+   "added": "2026-11-08",
+   "category": "chip",
+   "model": "MP5048"
   },
   "myactuator-x12-320": {
    "added": "2026-10-31",
@@ -2132,6 +2182,11 @@
    "removed": true,
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+  },
+  "omron-fuse-holder": {
+   "added": "2026-11-08",
+   "category": "power",
+   "model": "保险丝座 + 保险丝"
   },
   "omron-limit-switch": {
    "added": "2026-11-08",
@@ -2511,10 +2566,20 @@
    "category": "referee",
    "model": "AM02"
   },
+  "rm-am11": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "AM11"
+  },
   "rm-am12": {
    "added": "2026-11-08",
    "category": "referee",
    "model": "AM12"
+  },
+  "rm-fi01": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "FI01"
   },
   "rm-fi02": {
    "added": "2026-11-08",
@@ -3982,10 +4047,40 @@
    "category": "supplier",
    "model": "深圳市康胜世纪电子企"
   },
+  "tdk-icm20602": {
+   "added": "2026-11-08",
+   "category": "imu",
+   "model": "ICM-20602"
+  },
+  "tdk-mpu6500": {
+   "added": "2026-11-08",
+   "category": "imu",
+   "model": "MPU6500"
+  },
+  "tdk-mpu9250": {
+   "added": "2026-11-08",
+   "category": "imu",
+   "model": "MPU9250"
+  },
   "ti-ina226": {
    "added": "2026-11-08",
    "category": "sensor",
    "model": "INA226"
+  },
+  "ti-ina240": {
+   "added": "2026-11-08",
+   "category": "chip",
+   "model": "INA240"
+  },
+  "ti-lm2596": {
+   "added": "2026-11-08",
+   "category": "power",
+   "model": "LM2596 模块"
+  },
+  "ti-tps54560": {
+   "added": "2026-11-08",
+   "category": "chip",
+   "model": "TPS54560"
   },
   "toolkitrc-m6d": {
    "added": "2026-11-08",
@@ -4102,6 +4197,11 @@
    "added": "2026-11-08",
    "category": "wheel",
    "model": "橡胶履带"
+  },
+  "worldsemi-ws2811": {
+   "added": "2026-11-08",
+   "category": "module",
+   "model": "WS2811"
   },
   "worldsemi-ws2812b": {
    "added": "2026-11-08",
