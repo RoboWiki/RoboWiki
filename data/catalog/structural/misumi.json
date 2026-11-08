@@ -8,7 +8,7 @@
   "vendor_cn": "米思米",
   "model": "6203-2RS",
   "title": "6203-2RS 深沟球轴承",
-  "url": null,
+  "url": "https://us.misumi-ec.com/vona2/detail/110300107830/?HissuCode=B6203DDU",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -17,8 +17,8 @@
   "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。6203 为最常用的中小型深沟球轴承，常见于轮毂与传动轴。",
   "search": "6203 bearing 深沟球 轴承 17 40 12 轮毂",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-6203-2rs.png",
+   "image_source": "MISUMI 6203-2RS（B6203DDU）官方详情页 2RS 密封型系列图",
    "doc_url": null,
    "size_mm": "17 × 40 × 12 mm（内径×外径×宽）",
    "material": "轴承钢"
@@ -33,7 +33,7 @@
   "vendor_cn": "米思米",
   "model": "6802-2RS",
   "title": "6802-2RS 薄壁深沟球轴承",
-  "url": null,
+  "url": "https://us.misumi-ec.com/vona2/detail/110300107830/?HissuCode=B6802DDU",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -42,8 +42,8 @@
   "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。6802 为薄壁系列，常用于空间受限的关节与舵机输出。",
   "search": "6802 bearing 薄壁 轴承 15 24 5",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-6802-2rs.png",
+   "image_source": "MISUMI 6802-2RS（B6802DDU）官方详情页 2RS 密封型系列图",
    "doc_url": null,
    "size_mm": "15 × 24 × 5 mm（内径×外径×宽）",
    "material": "轴承钢"
@@ -67,8 +67,8 @@
   "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。MR 系列为微型轴承，常用于小模组与连杆。",
   "search": "MR105 微型轴承 5 10 4",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-mr105-2rs.jpg",
+   "image_source": "ZOTY Bearing 官方 MR105-2RS（5×10×4 mm，双面橡胶密封）产品图（zotybearing.com，2026-11-08 采集）",
    "doc_url": null,
    "size_mm": "5 × 10 × 4 mm（内径×外径×宽）",
    "material": "轴承钢"
@@ -92,8 +92,8 @@
   "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。MGN12 为 12 mm 宽微型导轨，H 型滑块为加长型。语料中升降与伸缩机构常用。",
   "search": "MGN12 MGN12H 微型直线导轨 12mm 滑块",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-mgn12h.jpg",
+   "image_source": "HIWIN 官网 MG 系列产品图（hiwin.tw，2026-11-08 采集）",
    "doc_url": null,
    "size_mm": "导轨宽 12 mm / H 型加长滑块"
   }
@@ -107,17 +107,17 @@
   "vendor_cn": "米思米",
   "model": "2GT-6",
   "title": "2GT-6 开口同步带",
-  "url": null,
+  "url": "https://www.misumi.com.cn/vona2/detail/110411276199/",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
   "price_cny": null,
   "origin": "通用标准件规格（GT 2 mm 节距）",
-  "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。2GT 为 2 mm 节距橡胶同步带，6 mm 宽是最常见的轻型规格。",
+  "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。2GT 为 2 mm 节距橡胶同步带，6 mm 宽是最常见的轻型规格。官方 2GT 型详情页为 110411276199，主图为该系列三条黑色开口带，表面无可见型号印字。",
   "search": "2GT 同步带 GT2 6mm 节距2mm 开口带",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-2gt-6.jpg",
+   "image_source": "MISUMI 官方「经济型 同步齿形带 2GT型」详情页主图（110411276199，2026-11-08 采集）",
    "doc_url": null,
    "size_mm": "节距 2 mm / 带宽 6 mm"
   }
@@ -131,7 +131,7 @@
   "vendor_cn": "米思米",
   "model": "GT2 20T",
   "title": "GT2 20 齿同步带轮",
-  "url": null,
+  "url": "https://www.misumi.com.cn/vona2/detail/110302193470/",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -140,8 +140,8 @@
   "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。20 齿是轻型传动最常用的主动轮齿数，孔径按轴选配。",
   "search": "GT2 20T 同步带轮 2GT 20齿",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-gt2-20t.jpg",
+   "image_source": "MISUMI 2GT 同步轮系列主图（含 20T）",
    "doc_url": null,
    "size_mm": "20 齿 / 节距 2 mm",
    "bore_mm": 5

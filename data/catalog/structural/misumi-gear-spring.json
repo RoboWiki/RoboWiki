@@ -8,7 +8,7 @@
   "vendor_cn": "米思米",
   "model": "1M 20T 直齿轮",
   "title": "模数 1 / 20 齿直齿轮",
-  "url": null,
+  "url": "https://www.misumi.com.cn/vona2/detail/110300428430/",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -17,8 +17,8 @@
   "notes": "最常用的标准直齿轮规格；孔径与齿宽按下单规格。",
   "search": "直齿轮 模数1 20齿 1M",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-gear-1m-20t.jpg",
+   "image_source": "MISUMI 直齿轮 压力角 20°/模数 1.0 系列主图（含 20T）",
    "doc_url": null,
    "size_mm": "模数 1 / 20 齿 / 节圆 20 mm",
    "material": "S45C 钢"
@@ -33,7 +33,7 @@
   "vendor_cn": "米思米",
   "model": "压缩弹簧",
   "title": "压缩弹簧（标准件）",
-  "url": null,
+  "url": "https://www.misumi.com.cn/vona2/detail/110100184720/",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -42,8 +42,8 @@
   "notes": "用于预紧、缓冲与回位；线径/外径/自由长度按规格选。",
   "search": "压缩弹簧 压簧 预紧",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/misumi-spring-comp.jpg",
+   "image_source": "MISUMI 压缩弹簧 WF 系列主图（45% 压缩量）",
    "doc_url": null,
    "size_mm": null
   }

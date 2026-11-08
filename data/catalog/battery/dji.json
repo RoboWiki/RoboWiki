@@ -97,21 +97,21 @@
   "vendor_cn": "大疆",
   "model": "TB48S",
   "title": "大疆 TB48S 智能飞行电池",
-  "url": "https://www.dji.com/cn/support/product/matrice600",
+  "url": "https://store.dji.com/cn/product/matrice-600-tb48s-intelligent-flight-battery",
   "source_tier": "A",
   "verified": true,
   "last_checked": "2026-11-08",
   "price_cny": null,
-  "origin": "DJI M600 支持页 + TB48S 公开参数（22.2 V）",
-  "notes": "标称 22.2 V / 5700 mAh，容量与 TB48 一致；S 版固件与 D 版不通用。",
+  "origin": "DJI M600 支持页 + TB48S 官方商品页（22.8 V / 5700 mAh / 129.96 Wh / 680 g）",
+  "notes": "6S 智能电池，22.8 V / 5700 mAh / 129.96 Wh / 680 g；与 TB47S 不通用（M600 支持页明确两者不可混用）。",
   "search": "TB48S 电池 5700 22.2V M600",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/dji-tb48s.png",
+   "image_source": "DJI 商城 TB48S 商品页 SKU 封面（m600-tb48s）",
    "doc_url": "https://www.dji.com/cn/support/product/matrice600",
    "doc_pdf": null,
    "capacity_mah": 5700,
-   "voltage_V": 22.2,
+   "voltage_V": 22.8,
    "energy_wh": 129.96
   }
  }

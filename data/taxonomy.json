@@ -2279,6 +2279,10 @@
    "slug": "generic-module",
    "cn": "通用模块"
   },
+  "通用轮组": {
+   "slug": "generic-wheel",
+   "cn": "通用轮组"
+  },
   "拓竹 Bambu Lab": {
    "slug": "bambulab",
    "cn": "拓竹"

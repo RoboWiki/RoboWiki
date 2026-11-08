@@ -8,17 +8,17 @@
   "vendor_cn": "轮趣科技",
   "model": "舵机夹爪",
   "title": "舵机驱动夹爪",
-  "url": null,
+  "url": "https://www.wheeltec.net/product/html/?159.html",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
   "price_cny": null,
-  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
-  "notes": "由舵机驱动的两指/三指夹爪，用于抓取与搬运。",
+  "origin": "Wheeltec 官方产品页（柔性仿生机械爪，舵机驱动）",
+  "notes": "由舵机驱动的两指/三指夹爪，用于抓取与搬运；官网对应型号为柔性仿生机械爪。",
   "search": "舵机夹爪 机械爪 抓取",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/wheeltec-gripper.png",
+   "image_source": "Wheeltec 产品页主图（柔性仿生机械爪）",
    "doc_url": null,
    "size_mm": null
   }

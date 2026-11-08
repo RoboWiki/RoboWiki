@@ -17,8 +17,8 @@
   "notes": "14 位绝对角度输出，支持 I2C/SSI/ABZ/PWM/模拟；适合电机端高速反馈。",
   "search": "MT6701 磁编码器 14位 SSI I2C",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/magntek-mt6701.jpg",
+   "image_source": "Jointwel 商品图（MT6701CT-STD-R，2026-11-08 采集）",
    "doc_url": null,
    "doc_pdf": "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/magntek/1B/81/MT6701CTSTD.pdf",
    "bits": 14,

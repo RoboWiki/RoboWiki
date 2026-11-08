@@ -11,10 +11,10 @@
   "url": "https://oshwhub.com/huashuo0804/tps5450ddar-dian-yuan-mo-kuai",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-08",
   "price_cny": 5,
   "origin": "立创开源硬件平台工程页搜索摘要（2026-11-04；页面直连失败）",
-  "notes": "￥5 为工程页标注的复刻成本（淘宝件），不是现货售价。GPL-3.0；输入推荐 10~31 V，芯片范围 5.5~36 V；输出 1.221~31.32 V 可调，设计 4 A、最大 5 A（峰值 6 A），固定 500 kHz。板载 SB1545L 防反接、SK1045C 续流、15 µH 一体成型电感、6P 2.54 mm 排针。工程页封面只有 3D 渲染图，未找到可核实的实物照片，故 image_url 留 null。",
+  "notes": "￥5 为工程页标注的复刻成本（淘宝件），不是现货售价。GPL-3.0；输入推荐 10~31 V，芯片范围 5.5~36 V；输出 1.221~31.32 V 可调，设计 4 A、最大 5 A（峰值 6 A），固定 500 kHz。板载 SB1545L 防反接、SK1045C 续流、15 µH 一体成型电感、6P 2.54 mm 排针。工程页封面为 3D 渲染图，未找到可核实的实物照片。",
   "search": "huashuo0804 tps5450ddar 电源模块 10-31v 1.221-31.32v 4a 5a 500khz 6p 2.54 gpl",
   "specs": {
    "package": null,
@@ -40,8 +40,8 @@
    ],
    "doc_url": null,
    "doc_pdf": null,
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/oshw-huashuo-tps5450.jpg",
+   "image_source": "OSHWHub 项目封面（3D 渲染图）",
    "params": {
     "用途": "24 V 转 5 V/12 V 等常用降压；比赛与调试供电",
     "芯片": "TPS5450DDAR（SOP-8-EP）",

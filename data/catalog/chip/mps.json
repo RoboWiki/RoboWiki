@@ -8,7 +8,7 @@
   "vendor_cn": "芯源",
   "model": "MP5048",
   "title": "MPS MP5048 同步降压模块",
-  "url": null,
+  "url": "https://www.monolithicpower.cn/cn/mp5048.html",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -17,10 +17,10 @@
   "notes": "国产常用同步降压芯片，输入电压范围与封装按具体型号选。",
   "search": "MP5048 降压 MPS 芯源",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
-   "doc_pdf": null,
+   "image_url": "/parts/mps-mp5048.png",
+   "image_source": "MPS MP5048 产品页 Package 实物图（丝印 MP5048）",
+   "doc_url": "https://www.monolithicpower.com/en/mp5048.html",
+   "doc_pdf": "https://www.monolithicpower.cn/cn/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP5048GU/document_id/9076/",
    "package": null
   }
  }

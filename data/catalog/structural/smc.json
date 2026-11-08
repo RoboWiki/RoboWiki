@@ -8,19 +8,20 @@
   "vendor_cn": "SMC",
   "model": "气动吸盘",
   "title": "气动真空吸盘",
-  "url": null,
+  "url": "https://www.smc.com.cn/webcatalog/zh-cn/vacuum-equipment/vacuum-pads/ZP3-ZH",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
   "price_cny": null,
-  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
-  "notes": "配微型气泵/真空发生器使用，用于平整表面抓取；直径与材质按需选。",
+  "origin": "SMC 官方 ZP3 真空吸盘系列页（通用系列，无单一型号）",
+  "notes": "配微型气泵/真空发生器使用，用于平整表面抓取；图为 ZP3 系列代表图，具体直径与材质按型号选。",
   "search": "气动吸盘 真空 抓取",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
-   "size_mm": null
+   "image_url": "/parts/smc-suction-cup.jpg",
+   "image_source": "SMC ZP3 系列产品页系列图（通用吸盘，非单一型号）",
+   "doc_url": "https://www.smc.com.cn/webcatalog/zh-cn/vacuum-equipment/vacuum-pads/",
+   "size_mm": null,
+   "doc_pdf": "https://www2.smc.com.cn/Webpdf/zh/VacuumEquipment/VacuumPads/ZP3.pdf"
   }
  }
 ]
