@@ -79,5 +79,5 @@ python tools/export_data.py --out .tmp-data-export --tag data-2026.11.03
 
 ## 许可证
 
-本仓代码与整理成果按 **GPL-3.0** 发布，全文见 [LICENSE](LICENSE)。
+本仓代码与整理成果按 **AGPL-3.0** 发布，全文见 [LICENSE](LICENSE)。
 厂商手册、商品图与第三方仓库的权利归原方，详见 [NOTICE.md](NOTICE.md) 与条目字段。

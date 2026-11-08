@@ -5,15 +5,15 @@
 
 ## 许可证
 
-- 代码与整理成果：**GNU General Public License v3.0**，全文见 [LICENSE](LICENSE)。
-- 厂商参数：事实性数据不主张版权；**整理口径与集合**适用 GPL-3.0。转载时保留
+- 代码与整理成果：**GNU Affero General Public License v3.0**（AGPL-3.0），全文见 [LICENSE](LICENSE)。
+- 厂商参数：事实性数据不主张版权；**整理口径与集合**适用 AGPL-3.0。转载时保留
   `source_tier`（A/B/C）与 `last_checked`。
 - 厂商手册 / 商品图：版权归原厂 / 原商城。手册只给链接；产品图随条目托管在
   `assets/parts/`，出处逐条写在 `image_source`。未逐张取得书面许可，使用请回源头确认；
   权利人要求撤下，我们说撤就撤。
 - 第三方仓库与代码：归各仓库作者，条目里标 `repo_license`，按原方许可使用。
 - 材料/工艺：`data/materials/` 为 B 级公开资料汇编，来源列在 `sources[]`；物理量是典型值，
-  不构成设计或安全认证。GPL-3.0 只覆盖我们的整理层，不改变原始资料的权利归属。
+  不构成设计或安全认证。AGPL-3.0 只覆盖我们的整理层，不改变原始资料的权利归属。
 
 ## 产品图为什么托管
 

@@ -1,0 +1,62 @@
+[
+ {
+  "category": "equipment",
+  "subtype": "printer",
+  "subtype_label": "3D 打印机",
+  "id": "bambulab-a1",
+  "vendor": "拓竹 Bambu Lab",
+  "vendor_cn": "拓竹",
+  "model": "A1",
+  "title": "拓竹 Bambu Lab A1 3D 打印机",
+  "url": "https://bambulab.com/zh/a1/tech-specs",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "拓竹官网 A1 技术参数页（bambulab.com/zh/a1/tech-specs）逐项核对",
+  "notes": "FDM 熔融沉积成型。全金属热端最高 300 ℃，热床最高 100 ℃，默认 0.4 mm 不锈钢喷嘴（可选 0.2/0.6/0.8 mm），内置工具头切刀。成型尺寸 256×256×256 mm，工具头最大移动速度 500 mm/s。机身尺寸在不同渠道口径不一（约 385–465 mm 长），未采用官方单一数值，故 dims 留 null。支持 PLA / PETG / TPU / ABS 等常见耗材。",
+  "search": "拓竹 bambulab A1 3D打印机 FDM 256 300C PLA PETG TPU",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "build_volume_mm": "256 × 256 × 256",
+   "max_speed_mms": 500,
+   "temp_max_C": 300,
+   "materials": "PLA / PETG / TPU / ABS / ASA / PC / PA / PVA",
+   "weight_g": 8300,
+   "dims": null
+  }
+ },
+ {
+  "category": "equipment",
+  "subtype": "printer",
+  "subtype_label": "3D 打印机",
+  "id": "creality-k1",
+  "vendor": "创想三维 Creality",
+  "vendor_cn": "创想三维",
+  "model": "K1",
+  "title": "创想三维 Creality K1 高速 3D 打印机",
+  "url": "https://www.crealitycloud.cn/product/fff-3d-printer/K1-644a32275abbb0be0651c9ed",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "创想云 K1 产品页 + 官方评测资料核对",
+  "notes": "FDM 高速机型，最大打印速度 600 mm/s（默认约 300 mm/s）。成型尺寸 220×220×250 mm，光面 PEI 打印平台。支持高速 PLA / PLA / TPU / PETG / PET / ABS / PA / PC / PLA-CF。机身约 355×355×480 mm。 整机重量各渠道口径不一（约 12 kg 级），未取到厂商单一数值，weight_g 留空。",
+  "search": "创想三维 creality K1 3D打印机 600mm/s 220x220x250 PEI",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "build_volume_mm": "220 × 220 × 250",
+   "max_speed_mms": 600,
+   "materials": "高速 PLA / PLA / TPU / PETG / PET / ABS / PA / PC / PLA-CF",
+   "dims": "355 × 355 × 480 mm",
+   "weight_g": null,
+   "temp_max_C": null
+  }
+ }
+]

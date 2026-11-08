@@ -23,7 +23,7 @@ ADR-002/003 在 2026-10-30 裁定“暂不拆仓”，触发条件是：体量�
   - `data/`、`schema/`、`assets/parts/`
   - `pipeline/` 只做校验与入库，不生成站点
   - `tools/export_data.py` 发布 `data-vYYYY.MM.N`
-  - 许可证：GPL-3.0（维护者选择）
+  - 许可证：AGPL-3.0（维护者选择；2026-11-08 由 GPL-3.0 改为 AGPL-3.0）
 - `RoboWiki/RoboWiki.github.io`：前端站点仓。
   - `wiki/`、`console/`、`backend/`、站点构建脚本
   - 不再保存 `data/`、`schema/`、产品图副本
@@ -53,4 +53,4 @@ ADR-002/003 在 2026-10-30 裁定“暂不拆仓”，触发条件是：体量�
 - 两仓漂移：用 release + lockfile + 契约测试兜住。
 - 图片版权：逐条 `image_source`，收到通知先下架。
 - 贡献摩擦：数据贡献者不需要懂前端；站点贡献者不需要懂 schema。
-- 许可证：GPL-3.0 对数据复用不如 CC 宽松；维护者已知悉并选择。
+- 许可证：AGPL-3.0 对数据复用不如 CC 宽松；维护者已知悉并选择。

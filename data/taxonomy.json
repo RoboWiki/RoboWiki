@@ -1181,6 +1181,136 @@
    ]
   },
   {
+   "id": "equipment",
+   "name": "设备库",
+   "hint": "做机器人的工具与仪器：3D 打印、焊接、电源与测量",
+   "subtypes": {
+    "printer": "3D 打印机",
+    "solder": "焊接与返修",
+    "supply": "可调电源",
+    "meter": "测量仪器",
+    "laser": "激光切割与雕刻",
+    "tool": "手工与电动工具"
+   },
+   "keys": [
+    {
+     "k": "build_volume_mm",
+     "label": "成型尺寸",
+     "unit": " mm"
+    },
+    {
+     "k": "max_speed_mms",
+     "label": "最大速度",
+     "unit": " mm/s"
+    },
+    {
+     "k": "temp_max_C",
+     "label": "最高温度",
+     "unit": " ℃"
+    },
+    {
+     "k": "voltage_range_V",
+     "label": "电压范围",
+     "unit": " V"
+    },
+    {
+     "k": "current_out",
+     "label": "输出电流",
+     "unit": " A"
+    },
+    {
+     "k": "power_w",
+     "label": "功率",
+     "unit": " W"
+    },
+    {
+     "k": "materials",
+     "label": "适用材料",
+     "unit": ""
+    },
+    {
+     "k": "dims",
+     "label": "尺寸",
+     "unit": ""
+    },
+    {
+     "k": "weight_g",
+     "label": "重量",
+     "unit": " g"
+    },
+    {
+     "k": "cut_area_mm",
+     "label": "切割幅面",
+     "unit": " mm"
+    },
+    {
+     "k": "laser_power_w",
+     "label": "激光功率",
+     "unit": " W"
+    },
+    {
+     "k": "wavelength_nm",
+     "label": "激光波长",
+     "unit": " nm"
+    },
+    {
+     "k": "bandwidth_mhz",
+     "label": "带宽",
+     "unit": " MHz"
+    },
+    {
+     "k": "sample_rate_msps",
+     "label": "采样率",
+     "unit": " MS/s"
+    },
+    {
+     "k": "max_freq_mhz",
+     "label": "输出频率",
+     "unit": " MHz"
+    },
+    {
+     "k": "waveform",
+     "label": "波形",
+     "unit": ""
+    },
+    {
+     "k": "channels",
+     "label": "通道",
+     "unit": ""
+    },
+    {
+     "k": "resolution",
+     "label": "分辨率",
+     "unit": ""
+    },
+    {
+     "k": "iface",
+     "label": "接口",
+     "unit": ""
+    }
+   ],
+   "sorts": [
+    {
+     "k": "price",
+     "label": "价格"
+    },
+    {
+     "k": "rating",
+     "label": "评分"
+    },
+    {
+     "k": "build_volume_mm",
+     "label": "成型尺寸"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "spec_trust"
+   ]
+  },
+  {
    "id": "power",
    "name": "电源与配电",
    "hint": "全流程里最先被忽略、最先烧掉的一环",
@@ -2148,6 +2278,50 @@
   "通用模块": {
    "slug": "generic-module",
    "cn": "通用模块"
+  },
+  "拓竹 Bambu Lab": {
+   "slug": "bambulab",
+   "cn": "拓竹"
+  },
+  "创想三维 Creality": {
+   "slug": "creality",
+   "cn": "创想三维"
+  },
+  "正点原子 ALIENTEK": {
+   "slug": "alientek",
+   "cn": "正点原子"
+  },
+  "优利德 UNI-T": {
+   "slug": "uni-t",
+   "cn": "优利德"
+  },
+  "FNIRSI 菲尼瑞斯": {
+   "slug": "fnirsi",
+   "cn": "菲尼瑞斯"
+  },
+  "QUICK 快克": {
+   "slug": "quick",
+   "cn": "快克"
+  },
+  "HAKKO 日本白光": {
+   "slug": "hakko",
+   "cn": "日本白光"
+  },
+  "BAKON 白光": {
+   "slug": "bakon",
+   "cn": "白光"
+  },
+  "xTool": {
+   "slug": "xtool",
+   "cn": "xTool"
+  },
+  "Snapmaker": {
+   "slug": "snapmaker",
+   "cn": "Snapmaker"
+  },
+  "ISDT 艾斯特": {
+   "slug": "isdt",
+   "cn": "艾斯特"
   }
  }
 }
