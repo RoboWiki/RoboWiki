@@ -545,7 +545,7 @@
   {
    "id": "sensor",
    "name": "传感器",
-   "hint": "NTC / 温湿度 / 温度 / 压力 / 光照 / ToF / 力矩",
+   "hint": "工业级单点测距 / ToF（当前只收能查到手册的量测器件）",
    "subtypes": {
     "ntc": "NTC 热敏电阻",
     "temp_humid": "温湿度传感器",
@@ -562,33 +562,43 @@
    },
    "keys": [
     {
-     "k": "package",
-     "label": "封装",
+     "k": "range_m",
+     "label": "量程",
+     "unit": " m"
+    },
+    {
+     "k": "meas_range",
+     "label": "测量范围",
+     "unit": ""
+    },
+    {
+     "k": "accuracy",
+     "label": "测量准确度",
+     "unit": ""
+    },
+    {
+     "k": "repeatability_mm",
+     "label": "重复精度",
+     "unit": " mm"
+    },
+    {
+     "k": "resolution",
+     "label": "分辨率",
+     "unit": ""
+    },
+    {
+     "k": "response_time",
+     "label": "响应时间",
      "unit": ""
     },
     {
      "k": "iface",
-     "label": "接口",
+     "label": "接口 / 输出",
      "unit": ""
     },
     {
      "k": "voltage_V",
      "label": "工作电压",
-     "unit": ""
-    },
-    {
-     "k": "accuracy",
-     "label": "精度",
-     "unit": ""
-    },
-    {
-     "k": "range",
-     "label": "量程",
-     "unit": ""
-    },
-    {
-     "k": "stock",
-     "label": "库存",
      "unit": ""
     }
    ],
@@ -602,8 +612,12 @@
      "label": "评分"
     },
     {
-     "k": "accuracy",
-     "label": "精度"
+     "k": "range_m",
+     "label": "量程"
+    },
+    {
+     "k": "repeatability_mm",
+     "label": "重复精度"
     }
    ],
    "rating_dims": [
@@ -1160,6 +1174,10 @@
    "slug": "dji-robomaster",
    "cn": "大疆"
   },
+  "西克 SICK": {
+   "slug": "sick",
+   "cn": "西克"
+  },
   "灵足 RobStride": {
    "slug": "lingzu-robstride",
    "cn": "灵足时代"
@@ -1203,6 +1221,10 @@
   "飞起来Jumbo Power": {
    "slug": "feiqilai-jumbo-power",
    "cn": "飞起来"
+  },
+  "格氏 ACE": {
+   "slug": "ace",
+   "cn": "格氏"
   },
   "福来翔航模": {
    "slug": "fulaixiang",
@@ -1508,10 +1530,6 @@
    "slug": "v11816",
    "cn": "宇树"
   },
-  "广州奥松": {
-   "slug": "aosong",
-   "cn": "广州奥松"
-  },
   "EVERLIGHT(亿光)": {
    "slug": "everlight",
    "cn": "EVERLIGHT(亿光)"
@@ -1564,17 +1582,9 @@
    "slug": "r-o",
    "cn": "R+O(宏嘉诚)"
   },
-  "ROHM(罗姆)": {
-   "slug": "rohm",
-   "cn": "ROHM(罗姆)"
-  },
   "RUILON(瑞隆源)": {
    "slug": "ruilon",
    "cn": "RUILON(瑞隆源)"
-  },
-  "Sensirion(瑞士盛思锐)": {
-   "slug": "sensirion",
-   "cn": "Sensirion(瑞士盛思锐)"
   },
   "时恒": {
    "slug": "shiheng",
@@ -1583,18 +1593,6 @@
   "STE(松田)": {
    "slug": "ste",
    "cn": "STE(松田)"
-  },
-  "Sunlord(顺络)": {
-   "slug": "sunlord",
-   "cn": "Sunlord(顺络)"
-  },
-  "TDSEMIC(拓电半导体)": {
-   "slug": "tdsemic",
-   "cn": "TDSEMIC(拓电半导体)"
-  },
-  "TE Connectivity(泰科电子)": {
-   "slug": "te-connectivity",
-   "cn": "TE Connectivity(泰科电子)"
   },
   "深圳飞特模型": {
    "slug": "v47476",

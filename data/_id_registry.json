@@ -1,5 +1,10 @@
 {
  "ids": {
+  "ace-gtech-6s-5300-30c": {
+   "added": "2026-11-08",
+   "category": "battery",
+   "model": "5300mAh-30C-22.2V-6S"
+  },
   "amass-mr30": {
    "added": "2026-10-31",
    "category": "connector",
@@ -739,7 +744,10 @@
   "jlc-c15639": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "MS561101BA03-50"
+   "model": "MS561101BA03-50",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c15651": {
    "added": "2026-10-31",
@@ -895,12 +903,18 @@
   "jlc-c2757850": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "AHT20"
+   "model": "AHT20",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c279936": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SDNT1608X103F3950FTF"
+   "model": "SDNT1608X103F3950FTF",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c2836813": {
    "added": "2026-10-31",
@@ -966,7 +980,10 @@
   "jlc-c2909890": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "SHT40-AD1B-R2"
+   "model": "SHT40-AD1B-R2",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c3000141": {
    "added": "2026-10-31",
@@ -1024,7 +1041,10 @@
   "jlc-c3178291": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "VL53L4CDV0DH/1"
+   "model": "VL53L4CDV0DH/1",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c31966": {
    "added": "2026-10-31",
@@ -1134,7 +1154,10 @@
   "jlc-c376006": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "DS18B20(UMW)"
+   "model": "DS18B20(UMW)",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c3790": {
    "added": "2026-10-31",
@@ -1181,7 +1204,10 @@
   "jlc-c42422127": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "TTP223-BA6-TD"
+   "model": "TTP223-BA6-TD",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c42441843": {
    "added": "2026-10-31",
@@ -1332,7 +1358,10 @@
   "jlc-c5362283": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "BMP581"
+   "model": "BMP581",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c53820": {
    "added": "2026-10-31",
@@ -1414,7 +1443,10 @@
   "jlc-c699536": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "TMP117AIDRVR"
+   "model": "TMP117AIDRVR",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c71136": {
    "added": "2026-10-31",
@@ -1490,7 +1522,10 @@
   "jlc-c78960": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "BH1750FVI-TR"
+   "model": "BH1750FVI-TR",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c78989": {
    "added": "2026-10-31",
@@ -1571,7 +1606,10 @@
   "jlc-c92489": {
    "added": "2026-10-31",
    "category": "sensor",
-   "model": "BME280"
+   "model": "BME280",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 传感器品类收口：删除立创系通用传感器，改收工业测距（见 data/_backup/2026-11-08-sensors-to-dt35）"
   },
   "jlc-c93216": {
    "added": "2026-10-31",
@@ -2366,6 +2404,11 @@
    "added": "2026-10-31",
    "category": "imu",
    "model": "YIS320"
+  },
+  "sick-dt35-b15251": {
+   "added": "2026-11-08",
+   "category": "sensor",
+   "model": "DT35-B15251"
   },
   "simplefoc-mini-v2-3": {
    "added": "2026-11-01",

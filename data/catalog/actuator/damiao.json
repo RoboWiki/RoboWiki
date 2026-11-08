@@ -434,8 +434,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=148",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": null,
+  "last_checked": "2026-11-08",
+  "price_cny": 629.0,
   "specs": {
    "tau_peak_Nm": 18.0,
    "tau_rated_Nm": 5.2,
@@ -472,7 +472,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-J4310M-2EC"
   },
   "notes": "24.0 V 版本；关节电机；额定 5.2 N·m；源文勘误：无",
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-10-21），2026-10-31 核对",
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-10-21），2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-j4310m-2ec 深圳市达妙科技 can、canfd",
   "subtype_label": "行星减速"
  },
@@ -646,8 +646,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=101",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": null,
+  "last_checked": "2026-11-08",
+  "price_cny": 899.0,
   "specs": {
    "tau_peak_Nm": 27.0,
    "tau_rated_Nm": 9.0,
@@ -684,7 +684,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-J4340P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 9.0 N·m；源文勘误：无 | 低压版 24 V：52.5 rpm",
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.2（2026-09-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.2（2026-09-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-j4340p-2ec 深圳市达妙科技 can、canfd",
   "subtype_label": "行星减速"
  },
@@ -1176,8 +1176,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=142",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": null,
+  "last_checked": "2026-11-08",
+  "price_cny": 1299.0,
   "specs": {
    "tau_peak_Nm": 176.0,
    "tau_rated_Nm": 50.0,
@@ -1214,7 +1214,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-J8520P-2EC"
   },
   "notes": "48.0 V 版本；关节电机；额定 50.0 N·m；源文勘误：无",
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-09-22）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-09-22）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-j8520p-2ec 深圳市达妙科技 can、canfd",
   "subtype_label": "行星减速"
  },
@@ -1429,8 +1429,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=128",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": 1689.0,
+  "last_checked": "2026-11-08",
+  "price_cny": 1699.0,
   "specs": {
    "tau_peak_Nm": 54.0,
    "tau_rated_Nm": 24.0,
@@ -1464,7 +1464,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-JH17-51_101-2EC"
   },
   "notes": "48.0 V 版本；谐波关节电机；额定 24.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（2026-05-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（2026-05-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-jh17-101-2ec 深圳市达妙科技 can、canfd",
   "subtype_label": "谐波减速"
  },
@@ -1479,8 +1479,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=128",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": 1689.0,
+  "last_checked": "2026-11-08",
+  "price_cny": 1699.0,
   "specs": {
    "tau_peak_Nm": 24.0,
    "tau_rated_Nm": 16.0,
@@ -1514,7 +1514,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-JH17-51_101-2EC"
   },
   "notes": "48.0 V 版本；谐波关节电机；额定 16.0 N·m；源文勘误：无 价格来源：达妙/宇树天猫旗舰店商品页（2026-10-28 抓取，属优惠价，可能随活动结束变化）。",
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（2026-05-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对",
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（2026-05-14）（>10 MB，Gitee 匿名 raw 无法直链），2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-jh17-51-2ec 深圳市达妙科技 can、canfd",
   "subtype_label": "谐波减速"
  },
@@ -1629,9 +1629,9 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=119",
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": null,
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-09-07），2026-10-31 核对",
+  "last_checked": "2026-11-08",
+  "price_cny": 513.0,
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.1（2026-09-07），2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "notes": "空心轴直驱（1:1）。24 V 版：额定 1.3 N·m / 峰值 2.7 N·m，额定 110 rpm / 空载 300 rpm，额定 2.3 A / 峰值 5.3 A，相电感 2900 µH、相电阻 3.5 Ω，Ø68×41.5 mm，约 493.5 g；48 V 版峰值 4.9 N·m、空载 650 rpm（相电感 2376 µH、相电阻 2.84 Ω）。磁编，CAN@1 Mbps + 调参 UART@921600 bps。",
   "specs": {
    "tau_peak_Nm": 2.7,
@@ -1671,9 +1671,9 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=115",
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": null,
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）使用教程 V2，2026-10-31 核对",
+  "last_checked": "2026-11-08",
+  "price_cny": 330.0,
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）使用教程 V2，2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "notes": "1:1 直驱。24 V：额定 1 N·m / 峰值 2 N·m，额定 120 rpm / 空载 320 rpm，额定 2.5 A / 峰值 4.3 A，相电感 2000 µH、相电阻 2.5 Ω，Ø68×44.5 mm，约 360 g；霍尔编码器，CAN 控制与调参。",
   "specs": {
    "tau_peak_Nm": 2.0,
@@ -1713,9 +1713,9 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=116",
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-11-07",
-  "price_cny": null,
-  "origin": "达妙《2026 产品选型手册》P41 + 官网产品页（id=116），2026-11-07 核对",
+  "last_checked": "2026-11-08",
+  "price_cny": 798.0,
+  "origin": "达妙《2026 产品选型手册》P41 + 官网产品页（id=116），2026-11-07 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "notes": "6.5 寸轮毂电机。额定 6 N·m / 峰值 21.5 N·m，额定 120 rpm；空载 260 rpm@24 V、395 rpm@36 V、480 rpm@48 V。额定相/电源电流 9.4 A / 2.56 A@48 V，峰值 33.6 A / 10.4 A@48 V；相电感 849 µH、相电阻 0.4 Ω，Ø171×66.3 mm，约 3150 g；17 位编码器（±0.05°，单编码器），CAN@5 Mbps + 调参 UART@921600 bps。减速比 1（直驱）；驱动分体，控制器外置。",
   "specs": {
    "tau_peak_Nm": 21.5,
@@ -1755,9 +1755,9 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=123",
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": null,
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（9.16），2026-10-31 核对",
+  "last_checked": "2026-11-08",
+  "price_cny": 448.0,
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.0（9.16），2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "notes": "24 V 供电（驱动支持 24~48 V）。额定 1.35 N·m / 峰值 5 N·m，额定 380 rpm / 空载 560 rpm；额定相/电源电流 5 A / 3.2 A，峰值 13 A / 7.5 A；相电感 75 µH、相电阻 0.2915 Ω，Ø28×77.6 mm，约 172.2 g；增量式编码器，CAN@1 Mbps、FD CAN@5 Mbps，调参 UART@921600 bps；最大径向动载荷 395 N。",
   "specs": {
    "tau_peak_Nm": 5.0,
@@ -1797,9 +1797,9 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=122",
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-10-31",
-  "price_cny": null,
-  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.2，2026-10-31 核对",
+  "last_checked": "2026-11-08",
+  "price_cny": 550.0,
+  "origin": "达妙官网产品页 + 官方 Gitee 仓库（kit-miao）说明书 V1.2，2026-10-31 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "notes": "24 V 供电（驱动支持 15~52 V）。额定 3.5 N·m / 峰值 7.8 N·m，额定 395 rpm / 空载 435 rpm；额定相/电源电流 9.2 A / 8.6 A，峰值 20.5 A / 16.1 A；相电感 55 µH、相电阻 0.2 Ω，Ø42×91.5 mm，约 396 g；增量式编码器，CAN 控制，调参 UART@921600 bps。",
   "specs": {
    "tau_peak_Nm": 7.8,
@@ -1840,8 +1840,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=136",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-07",
-  "price_cny": null,
+  "last_checked": "2026-11-08",
+  "price_cny": 699.0,
   "specs": {
    "tau_peak_Nm": 8.78,
    "tau_rated_Nm": 1.9,
@@ -1878,7 +1878,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-G8518"
   },
   "notes": "24~48 V 宽压；中空云台直驱（1:1）。24 V：额定 1.9 N·m / 峰值 8.78 N·m，额定与空载 1000 rpm，额定 9.55 A / 峰值 36.1 A，额定功率 199 W；48 V：额定与空载 2000 rpm，额定功率 397 W。相电感 105 µH、相电阻 0.225 Ω，Ø96×52.5 mm，831 g；电感编码器（绝对值），CAN/CANFD，驱动一体。",
-  "origin": "达妙《2026 产品选型手册》P38 + 官网产品页（id=136），2026-11-07 核对",
+  "origin": "达妙《2026 产品选型手册》P38 + 官网产品页（id=136），2026-11-07 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-g8518 深圳市达妙科技 中空云台 直驱 can canfd"
  },
  {
@@ -1893,8 +1893,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=117",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-07",
-  "price_cny": null,
+  "last_checked": "2026-11-08",
+  "price_cny": 220.0,
   "specs": {
    "tau_peak_Nm": 0.45,
    "tau_rated_Nm": 0.18,
@@ -1931,7 +1931,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-H3510"
   },
   "notes": "24 V；轮毂直驱（1:1）。额定 0.18 N·m / 峰值 0.45 N·m，额定 500 rpm / 空载 1800 rpm，额定 1.1 A / 峰值 3.2 A，额定功率 9 W；相电感 1100 µH、相电阻 2.08 Ω，Ø42×31.5 mm，116 g；磁编（绝对值），CAN/CANFD，驱动一体。",
-  "origin": "达妙《2026 产品选型手册》P40 + 官网产品页（id=117），2026-11-07 核对",
+  "origin": "达妙《2026 产品选型手册》P40 + 官网产品页（id=117），2026-11-07 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-h3510 深圳市达妙科技 轮毂 直驱 can canfd"
  },
  {
@@ -1946,8 +1946,8 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=129",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-07",
-  "price_cny": null,
+  "last_checked": "2026-11-08",
+  "price_cny": 698.0,
   "specs": {
    "tau_peak_Nm": 9.0,
    "tau_rated_Nm": 3.5,
@@ -1984,7 +1984,7 @@
    "doc_url": "https://gitee.com/kit-miao/DM-H55"
   },
   "notes": "24~48 V；轮毂直驱（1:1）。额定 3.5 N·m / 峰值 9 N·m，额定 350 rpm；空载 587 rpm@24 V、883 rpm@36 V、1185 rpm@48 V；额定 13.05 A / 峰值 33.55 A，额定功率 128 W；相电感 336 µH、相电阻 0.281 Ω，Ø141×66.9 mm，2100 g；17 位编码器（±0.03°），CAN/CANFD；驱动分体（DM6540-1EC）。 手册编码器栏标注“电感/绝对值”，官网产品页标 17 位、±0.03°；此处按官网产品页。",
-  "origin": "达妙《2026 产品选型手册》P43 + 官网产品页（id=129），2026-11-07 核对",
+  "origin": "达妙《2026 产品选型手册》P43 + 官网产品页（id=129），2026-11-07 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "search": "达妙 dm dm-h55 深圳市达妙科技 轮毂 直驱 can canfd"
  }
 ]

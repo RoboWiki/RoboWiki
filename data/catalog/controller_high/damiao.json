@@ -11,9 +11,9 @@
   "url": "https://www.damiaokeji.com/index.php?c=show&id=97",
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-11-07",
-  "price_cny": null,
-  "origin": "达妙《2026 产品选型手册》P56 + 官网产品页（id=97），2026-11-07 核对",
+  "last_checked": "2026-11-08",
+  "price_cny": 768.0,
+  "origin": "达妙《2026 产品选型手册》P56 + 官网产品页（id=97），2026-11-07 核对 + 电商店铺常见价（2026-11-07 截图，顺丰直发 13% 增值税票）",
   "notes": "面向轻量化设备的 Jetson 载板，适配 Orin NX / Orin Nano / Xavier NX，支持 Orin SUPER 模式。12–28 V 宽压（支持 6S），50×86.8×13 mm，39.2 g，工作温度 -20~50 ℃。接口：USB3.0 Type-C×3（1 路 Recovery）、USB2.0 SH1.0 5pin×2、Micro HDMI×1、网口×2（1 路 2.5G 支持 PTP）、M.2 KeyM 2230 SSD、M.2 KeyE 2230 Wi-Fi、CAN×1（最高 5 Mbps）、UART×2、CSI 22pin×2、GPIO 12pin、RTC CR1220。Xavier NX 仅支持 1 路 USB3，且不支持扩展网口。官网产品页标 36 g，手册标 39.2 g。",
   "specs": {
    "weight_g": 39.2,

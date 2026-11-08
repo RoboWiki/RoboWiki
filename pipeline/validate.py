@@ -236,6 +236,9 @@ KNOWN_SPEC_KEYS = {
     "gyro_range_dps", "accel_range_g", "odr_hz", "iface", "noise", "resolution",
     "depth_range_m", "fps", "fov", "range_m", "points_per_s", "channel", "bits",
     "absolute", "temp_range_C",
+    # 工业测距（单点 ToF / 激光测距传感器）
+    "repeatability_mm", "scan_freq_hz", "spot_size_mm", "laser_class",
+    "wavelength_nm", "ambient_light_klx",
     # 遥控器 / CAN 模块
     "channels", "frequency_ghz", "control_range_m", "protocol", "battery",
     "can_speed_mbps", "isolation",
