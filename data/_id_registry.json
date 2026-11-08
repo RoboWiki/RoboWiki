@@ -2749,6 +2749,11 @@
    "category": "controller_low",
    "model": "MC02（主控模块）"
   },
+  "rm-pm01": {
+   "added": "2026-11-09",
+   "category": "referee",
+   "model": "PM01"
+  },
   "rm-pm02": {
    "added": "2026-11-08",
    "category": "referee",
