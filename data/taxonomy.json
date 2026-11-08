@@ -806,6 +806,66 @@
    ]
   },
   {
+   "id": "charger",
+   "name": "充电器",
+   "hint": "航模 / 动力电池平衡充与充放管理",
+   "subtypes": {
+    "balance": "智能平衡充"
+   },
+   "keys": [
+    {
+     "k": "charge_power_w",
+     "label": "充电功率",
+     "unit": " W"
+    },
+    {
+     "k": "charge_current_a",
+     "label": "充电电流",
+     "unit": ""
+    },
+    {
+     "k": "balance_current_ma",
+     "label": "平衡电流",
+     "unit": " mA"
+    },
+    {
+     "k": "cell_range",
+     "label": "支持串数",
+     "unit": ""
+    },
+    {
+     "k": "input_voltage",
+     "label": "输入",
+     "unit": ""
+    },
+    {
+     "k": "weight_g",
+     "label": "重量",
+     "unit": " g"
+    }
+   ],
+   "sorts": [
+    {
+     "k": "price",
+     "label": "价格"
+    },
+    {
+     "k": "rating",
+     "label": "评分"
+    },
+    {
+     "k": "charge_power_w",
+     "label": "充电功率"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "spec_trust"
+   ]
+  },
+  {
    "id": "connector",
    "name": "连接器",
    "hint": "板端 / 线端 / 大电流",
@@ -1825,6 +1885,22 @@
   "霾霾子": {
    "slug": "oshw-ekkokoi",
    "cn": "霾霾子"
+  },
+  "HOTA": {
+   "slug": "hota",
+   "cn": "HOTA"
+  },
+  "ToolkitRC": {
+   "slug": "toolkitrc",
+   "cn": "思为未来"
+  },
+  "SkyRC": {
+   "slug": "skyrc",
+   "cn": "天空创新"
+  },
+  "Haisito": {
+   "slug": "haisito",
+   "cn": "Haisito"
   }
  }
 }

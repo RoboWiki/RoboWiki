@@ -1,0 +1,42 @@
+[
+ {
+  "category": "charger",
+  "subtype": "balance",
+  "id": "haisito-b3",
+  "vendor": "Haisito",
+  "vendor_cn": "Haisito",
+  "model": "B3",
+  "title": "Haisito B3 2S/3S 紧凑平衡充电器",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "Haisito《B3 Compact LiPo Balance Charger》手册（设备标 HTRC B3 AC）Simple to Use / LED Indicator 页",
+  "notes": "AC 100~240V 输入，仅锂聚合物 2S(7.4V)/3S(11.1V)，最大充电电流 3×800mA，自动平衡、充满自停（LED 红充绿满）。2S 与 3S 口不可同时充。无放电/屏幕，入门便携。",
+  "search": "haisito htrc b3 b3ac 2s 3s 7.4v 11.1v 800ma 平衡充 入门",
+  "specs": {
+   "input_voltage": "AC 100~240V",
+   "charge_power_w": null,
+   "charge_current_a": "0.8A/节（3×800mA）",
+   "discharge_power_w": null,
+   "discharge_current_a": null,
+   "balance_current_ma": null,
+   "cell_range": "2S/3S（7.4V/11.1V）",
+   "chemistries": "LiPo",
+   "channels": 1,
+   "usb_output": null,
+   "wireless_charge_w": null,
+   "display": "LED 指示（红充/绿满）",
+   "dims": null,
+   "weight_g": null,
+   "connectors": "2S/3S 平衡口（JST-XH）",
+   "smart_features": "自动平衡、充满自停、2S/3S 不可同时充",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null
+  },
+  "subtype_label": "智能平衡充"
+ }
+]

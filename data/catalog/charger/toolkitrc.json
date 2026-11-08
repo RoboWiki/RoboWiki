@@ -1,0 +1,42 @@
+[
+ {
+  "category": "charger",
+  "subtype": "balance",
+  "id": "toolkitrc-m6d",
+  "vendor": "ToolkitRC",
+  "vendor_cn": "思为未来",
+  "model": "M6D",
+  "title": "ToolkitRC M6D 双通道平衡充电器",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "ToolkitRC《M6D 使用手册》V1.1（2020.05）参数规格表 p33 与产品概述 p6",
+  "notes": "DC 7~28V@MAX30A 输入。同步模式 25A@500W、异步模式 15A@250W×2；回收放电 15A@250W×2、内耗 3A@12W×2。平衡 800mA@2-6S、精度<0.005V。TVC 截止电压可调、内阻测量、恒流恒压源 1~28V/1~15A、无人机电池自动激活、U 盘升级。IPS 2.4\" 屏。",
+  "search": "toolkitrc m6d 双通道 500w 25a 同步 异步 6s 平衡充",
+  "specs": {
+   "input_voltage": "DC 7~28V @MAX30A",
+   "charge_power_w": 500,
+   "charge_current_a": "0.1~25A（同步）/ 0.1~15A ×2（异步）",
+   "discharge_power_w": 250,
+   "discharge_current_a": "0.1~15A（回收）/ 0.1~3A（内耗）",
+   "balance_current_ma": 800,
+   "cell_range": "锂 1~6S / 镍 1~16S / 铅 1~10S",
+   "chemistries": "LiPo/LiHV/LiFe/LiIon/NiMH/Pb",
+   "channels": 2,
+   "usb_output": "5V/2.1A",
+   "wireless_charge_w": null,
+   "display": "IPS 2.4\" 320×240",
+   "dims": "98×68×35 mm",
+   "weight_g": 220,
+   "connectors": null,
+   "smart_features": "同步/异步双模式、TVC、内阻测量、恒流恒压源、U盘升级、无人机电池激活",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://www.toolkitrc.com",
+   "doc_pdf": null
+  },
+  "subtype_label": "智能平衡充"
+ }
+]

@@ -509,6 +509,11 @@
    "category": "battery",
    "model": "6S4P 21700 20000mAh（长条）"
   },
+  "haisito-b3": {
+   "added": "2026-11-08",
+   "category": "charger",
+   "model": "B3"
+  },
   "hightorque-4can-box": {
    "added": "2026-11-05",
    "category": "controller_low",
@@ -598,6 +603,16 @@
    "added": "2026-11-05",
    "category": "controller_low",
    "model": "STM32H730VBT6"
+  },
+  "hota-d6-pro": {
+   "added": "2026-11-08",
+   "category": "charger",
+   "model": "D6 Pro"
+  },
+  "hota-t6": {
+   "added": "2026-11-08",
+   "category": "charger",
+   "model": "T6"
   },
   "intel-d405": {
    "added": "2026-10-31",
@@ -2418,6 +2433,16 @@
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
+  "skyrc-b6-neo": {
+   "added": "2026-11-08",
+   "category": "charger",
+   "model": "B6 Neo"
+  },
+  "skyrc-b6ac": {
+   "added": "2026-11-08",
+   "category": "charger",
+   "model": "B6AC V2"
+  },
   "software:amp": {
    "added": "2026-10-31",
    "category": "software",
@@ -3727,6 +3752,11 @@
    "added": "2026-10-31",
    "category": "supplier",
    "model": "深圳市康胜世纪电子企"
+  },
+  "toolkitrc-m6d": {
+   "added": "2026-11-08",
+   "category": "charger",
+   "model": "M6D"
   },
   "unitree-bt2-05": {
    "added": "2026-11-01",

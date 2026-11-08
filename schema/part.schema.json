@@ -36,6 +36,7 @@
     "lidar",
     "camera",
     "battery",
+    "charger",
     "connector",
     "module",
     "chip",
