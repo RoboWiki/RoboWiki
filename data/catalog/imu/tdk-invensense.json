@@ -82,7 +82,7 @@
   "url": "https://www.invensense.tdk.com/en-us/products/consumer/icm-42686-p",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-07",
+  "last_checked": "2026-11-08",
   "price_cny": null,
   "specs": {
    "gyro_range_dps": 4000,
@@ -97,10 +97,10 @@
    "size_mm": null,
    "weight_g": null,
    "resolution": "16-bit",
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/tdk-icm-42686-p.png",
+   "image_source": "TDK InvenSense ICM-42686-P 产品页 product-img（芯片）",
    "doc_url": "https://www.invensense.tdk.com/en-us/products/consumer/icm-42686-p",
-   "doc_pdf": null,
+   "doc_pdf": "https://d17t6iyxenbwp1.cloudfront.net/s3fs-public/2026-04/ds-000348-icm-42686-p-datasheet.pdf",
    "repo_urls": []
   },
   "notes": "6 轴；陀螺量程最高 ±4000 °/s，加速度计最高 ±32 g；内置 APEX 运动功能，面向可穿戴、运动与机器人。官方产品页未公开完整噪声、ODR 与封装尺寸，未公布项留 null。",
@@ -115,7 +115,7 @@
   "vendor_cn": "InvenSense",
   "model": "ICM-20602",
   "title": "ICM-20602 六轴陀螺加速度模块",
-  "url": null,
+  "url": "https://product.tdk.com.cn/zh/search/sensor/mortion-inertial/imu/info?part_no=ICM-20602",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -124,10 +124,10 @@
   "notes": "替代 MPU6050 的主流低成本六轴；陀螺/加速度量程档位见 datasheet，本站未逐项核对。",
   "search": "ICM20602 六轴 IMU I2C SPI",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
-   "doc_pdf": null,
+   "image_url": "/parts/tdk-icm-20602.png",
+   "image_source": "TDK 产品中心 ICM-20602 详情页主图（芯片）",
+   "doc_url": "https://product.tdk.com.cn/zh/search/sensor/mortion-inertial/imu/info?part_no=ICM-20602",
+   "doc_pdf": "https://product.tdk.com.cn/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000176-icm-20602-v1.1.pdf",
    "iface": "I2C / SPI",
    "odr_hz": null
   }
@@ -141,7 +141,7 @@
   "vendor_cn": "InvenSense",
   "model": "MPU6500",
   "title": "MPU6500 六轴陀螺加速度模块",
-  "url": null,
+  "url": "https://product.tdk.com.cn/zh/search/sensor/mortion-inertial/imu/info?part_no=MPU-6500",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -150,10 +150,10 @@
   "notes": "MPU6050 的同系列替代型号；量程档位见 datasheet。",
   "search": "MPU6500 六轴 IMU I2C SPI",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
-   "doc_pdf": null,
+   "image_url": "/parts/tdk-mpu-6500.png",
+   "image_source": "TDK 产品中心 MPU-6500 详情页主图（芯片）",
+   "doc_url": "https://product.tdk.com.cn/zh/search/sensor/mortion-inertial/imu/info?part_no=MPU-6500",
+   "doc_pdf": "https://product.tdk.com.cn/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6500-datasheet2.pdf",
    "iface": "I2C / SPI",
    "odr_hz": null
   }
@@ -167,7 +167,7 @@
   "vendor_cn": "InvenSense",
   "model": "MPU9250",
   "title": "MPU9250 九轴陀螺加速度磁力计模块",
-  "url": null,
+  "url": "https://product.tdk.com.cn/zh/search/sensor/mortion-inertial/imu/info?part_no=MPU-9250",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -176,10 +176,10 @@
   "notes": "MPU6500 + AK8963 磁力计，能直接输出姿态。",
   "search": "MPU9250 九轴 IMU 磁力计 I2C SPI",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
-   "doc_pdf": null,
+   "image_url": "/parts/tdk-mpu-9250.png",
+   "image_source": "TDK 产品中心 MPU-9250 详情页主图（芯片）",
+   "doc_url": "https://product.tdk.com.cn/zh/search/sensor/mortion-inertial/imu/info?part_no=MPU-9250",
+   "doc_pdf": "https://product.tdk.com.cn/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ps-mpu-9250a-01-v1.1.pdf",
    "iface": "I2C / SPI",
    "odr_hz": null
   }

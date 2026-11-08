@@ -8,7 +8,7 @@
   "vendor_cn": "乐鑫",
   "model": "ESP32 DevKit",
   "title": "ESP32 开发板",
-  "url": null,
+  "url": "https://www.espressif.com/en/products/devkits/esp32-devkitc",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -17,12 +17,13 @@
   "notes": "常用于无线调试、遥控接收与传感器节点。",
   "search": "ESP32 开发板 WiFi 蓝牙",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
+   "image_url": "/parts/espressif-esp32-devkit.png",
+   "image_source": "Espressif DevKits 列表 ESP32-DevKitC 开发板图",
+   "doc_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/index.html",
    "soc": "ESP32",
    "cpu": "双核 Xtensa LX6 240 MHz",
-   "iface": "Wi-Fi / BLE / UART"
+   "iface": "Wi-Fi / BLE / UART",
+   "doc_pdf": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp-dev-kits-en-master-esp32.pdf"
   }
  }
 ]

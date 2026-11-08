@@ -8,18 +8,19 @@
   "vendor_cn": "欧姆龙",
   "model": "限位开关",
   "title": "机械限位开关",
-  "url": null,
+  "url": "https://www.fa.omron.com.cn/products/family/1497/",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
   "price_cny": null,
-  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
-  "notes": "用于行程末端与归零检测；常开/常闭与触杆形式按需选。",
+  "origin": "OMRON D4N 系列安全限位开关（系列代表，无单一型号）",
+  "notes": "用于行程末端与归零检测；常开/常闭与触杆形式按需选。图为 D4N 系列代表，具体触点与触杆按型号选。",
   "search": "限位开关 行程 归零 微动",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null
+   "image_url": "/parts/omron-limit-switch.jpg",
+   "image_source": "OMRON D4N 系列页产品图（系列代表，非单一型号）",
+   "doc_url": "https://www.fa.omron.com.cn/products/family/1497/download/catalog.html",
+   "doc_pdf": "https://www.fa.omron.com.cn/data_pdf/cat/d4n_ds_c_10_5.pdf"
   }
  }
 ]

@@ -17,8 +17,8 @@
   "notes": "国产 LA264 单核 1.0 GHz，性能对标 Cortex-A53；BPI-2K0300 板载 512 MB DDR4、8 GB eMMC、4× USB2.0、1× GbE。语料中为电赛方向高频选型。",
   "search": "龙芯 2K0300 开发板 LA264 1GHz 国产",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/loongson-2k0300.jpg",
+   "image_source": "Banana Pi BPI-2K0300 官方 wiki 接口标注图（板卡实拍）",
    "doc_url": "https://docs.banana-pi.org/zh/BPI-2K0300/BananaPI_BPI-2K0300",
    "doc_pdf": null,
    "mcu": "LA264（LoongArch32）",

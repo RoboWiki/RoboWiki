@@ -730,6 +730,14 @@
    "category": "power",
    "model": "船型开关 15A"
   },
+  "generic-steering-module": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "舵轮模组",
+   "renamed_from": [
+    "wheeltec-steering-module"
+   ]
+  },
   "generic-ubec-5v3a": {
    "added": "2026-11-08",
    "category": "power",
@@ -4363,10 +4371,20 @@
    "category": "connector",
    "model": "GX12-2P 2芯航空插头"
   },
-  "wheeltec-friction-100": {
+  "wheeltec-active-100": {
    "added": "2026-11-08",
    "category": "wheel",
-   "model": "摩擦轮 100"
+   "model": "主动轮 100 mm",
+   "renamed_from": [
+    "wheeltec-friction-100"
+   ]
+  },
+  "wheeltec-friction-100": {
+   "added": "2026-11-08",
+   "alias_of": "wheeltec-active-100",
+   "category": "wheel",
+   "model": "摩擦轮 100",
+   "renamed_at": "2026-11-08"
   },
   "wheeltec-gripper": {
    "added": "2026-11-08",
@@ -4385,8 +4403,18 @@
   },
   "wheeltec-omni-100": {
    "added": "2026-11-08",
+   "alias_of": "wheeltec-omni-127",
    "category": "wheel",
-   "model": "4 寸全向轮"
+   "model": "4 寸全向轮",
+   "renamed_at": "2026-11-08"
+  },
+  "wheeltec-omni-127": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "Omni B 127",
+   "renamed_from": [
+    "wheeltec-omni-100"
+   ]
   },
   "wheeltec-omni-150": {
    "added": "2026-11-08",
@@ -4395,13 +4423,25 @@
   },
   "wheeltec-pneumatic-4": {
    "added": "2026-11-08",
+   "alias_of": "wheeltec-pneumatic-8",
    "category": "wheel",
-   "model": "充气轮 4 寸"
+   "model": "充气轮 4 寸",
+   "renamed_at": "2026-11-08"
+  },
+  "wheeltec-pneumatic-8": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "充气主动轮 8 寸",
+   "renamed_from": [
+    "wheeltec-pneumatic-4"
+   ]
   },
   "wheeltec-steering-module": {
    "added": "2026-11-08",
+   "alias_of": "generic-steering-module",
    "category": "wheel",
-   "model": "舵轮模组"
+   "model": "舵轮模组",
+   "renamed_at": "2026-11-08"
   },
   "wheeltec-track-rubber": {
    "added": "2026-11-08",

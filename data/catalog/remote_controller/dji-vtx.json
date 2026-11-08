@@ -8,7 +8,7 @@
   "vendor_cn": "大疆",
   "model": "VT02",
   "title": "RoboMaster 相机图传模块（发送端）VT02",
-  "url": null,
+  "url": "https://www.robomaster.com/zh-CN/products/components/detail/1458",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -17,9 +17,9 @@
   "notes": "VT02/VT12 为 5 GHz 频段的图传发送/接收套装；与 VT03/VT13 属前后代关系。页面未单列分辨率/延时，留空。",
   "search": "RM 图传 VT02 发送端 5g",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
+   "image_url": "/parts/dji-vt02.jpg",
+   "image_source": "RoboMaster 组件页 detail/1458 图库（发送端 3/4 视角）",
+   "doc_url": "https://www.robomaster.com/zh-CN/products/components/detail/1458",
    "doc_pdf": "https://rm-static.djicdn.com/tem/17348/RoboMaster%20VTM%20Transmitter%20VT02&12%20User%20Guide.pdf",
    "frequency_ghz": 5
   }
@@ -33,7 +33,7 @@
   "vendor_cn": "大疆",
   "model": "VT12",
   "title": "RoboMaster 相机图传模块（接收端）VT12",
-  "url": null,
+  "url": "https://www.robomaster.com/zh-CN/products/components/detail/1496",
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
@@ -42,9 +42,9 @@
   "notes": "VT12 为 VT02 的接收端；5 GHz 频段。页面未单列接收端数值，留空。",
   "search": "RM 图传 VT12 接收端 5g",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
+   "image_url": "/parts/dji-vt12.jpg",
+   "image_source": "RoboMaster 组件页 detail/1496 图库（接收端 3/4 视角）",
+   "doc_url": "https://www.robomaster.com/zh-CN/products/components/detail/1496",
    "doc_pdf": "https://rm-static.djicdn.com/tem/17348/RoboMaster%20VTM%20Transmitter%20VT02&12%20User%20Guide.pdf",
    "frequency_ghz": 5
   }

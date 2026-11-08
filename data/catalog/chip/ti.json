@@ -636,10 +636,10 @@
   "notes": "宽输入同步降压，机器人母线 24V→12V/5V 常用。",
   "search": "TPS54560 降压 5A 宽输入 TI",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
-   "doc_pdf": null,
+   "image_url": "/parts/ti-tps54560.jpg",
+   "image_source": "立创商城商品图（C31966，TPS54560DDAR，2026-11-08 采集）",
+   "doc_url": "https://www.ti.com/document-viewer/TPS54560/datasheet",
+   "doc_pdf": "https://www.ti.com/lit/ds/symlink/tps54560.pdf",
    "voltage_in": "4.5–60 V",
    "current_out": 5,
    "package": null
@@ -663,10 +663,10 @@
   "notes": "低侧/高侧电流采样，配合 MCU 的 ADC 做电流环；增益按型号后缀选。",
   "search": "INA240 电流采样 运放 TI",
   "specs": {
-   "image_url": null,
-   "image_source": null,
-   "doc_url": null,
-   "doc_pdf": null,
+   "image_url": "/parts/ti-ina240.jpg",
+   "image_source": "立创商城商品图（C2060769，INA240A1DR，2026-11-08 采集）",
+   "doc_url": "https://www.ti.com.cn/document-viewer/cn/INA240/datasheet",
+   "doc_pdf": "https://www.ti.com/lit/ds/symlink/ina240.pdf",
    "voltage_in": "±4 ~ ±110 V",
    "package": null
   }
