@@ -1,0 +1,29 @@
+[
+ {
+  "category": "sensor",
+  "subtype": "encoder_mag",
+  "subtype_label": "磁编码器",
+  "id": "ams-as5600",
+  "vendor": "ams OSRAM",
+  "vendor_cn": "艾迈斯欧司朗",
+  "model": "AS5600",
+  "title": "AS5600 12 位磁旋转位置传感器",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "ams AS5600 数据手册 / Seeed 模块页（12 位、4096 步/圈、I2C + PWM/模拟输出）",
+  "notes": "非接触式磁编码器，常用于自定义控制器、云台与关节角度反馈；角度范围可编程 18°–360°。",
+  "search": "AS5600 磁编码器 12位 I2C 4096",
+  "specs": {
+   "image_url": "/parts/ams-as5600.jpg",
+   "image_source": "网络商品图（京东，img14.360buyimg.com）",
+   "doc_url": "https://wiki.seeedstudio.com/cn/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/",
+   "doc_pdf": null,
+   "bits": 12,
+   "resolution": "4096 步/圈（12 位）",
+   "iface": "I2C / PWM / 模拟"
+  }
+ }
+]

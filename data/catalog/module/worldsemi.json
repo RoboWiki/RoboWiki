@@ -1,0 +1,31 @@
+[
+ {
+  "category": "module",
+  "subtype": "led",
+  "subtype_label": "灯效模块",
+  "id": "worldsemi-ws2812b",
+  "vendor": "Worldsemi 世界星",
+  "vendor_cn": "世界星",
+  "model": "WS2812B",
+  "title": "WS2812B 5050 可编程 RGB 灯珠",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "Worldsemi WS2812B 公开 datasheet 参数（5 V、5050、内置 IC、单线串行、全亮约 60 mA/颗）",
+  "notes": "单线串行级联，每颗独立 24 位色；灯条类部件按灯珠数选型。",
+  "search": "WS2812B 5050 RGB 灯珠 5V 幻彩",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "voltage_V": 5,
+   "current_A": 0.06,
+   "protocol": "单线串行（NZR，800 kHz）",
+   "iface": "3 线：5 V / DIN / GND",
+   "can": null
+  }
+ }
+]

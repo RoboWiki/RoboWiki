@@ -1,0 +1,31 @@
+[
+ {
+  "category": "camera",
+  "subtype": "industrial",
+  "subtype_label": "工业相机",
+  "id": "daheng-mer2-160-227u3c",
+  "vendor": "大恒图像 Daheng",
+  "vendor_cn": "大恒图像",
+  "model": "MER2-160-227U3C",
+  "title": "大恒图像 MER2-160-227U3C 160 万像素 USB3 工业相机",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "大恒图像水星二代 MER2 系列型录与经销商参数（160 万像素、1/2.9\" 全局快门、USB3.0、227 fps）",
+  "notes": "水星二代彩色工业相机，全局快门，适合高速目标；具体帧率随分辨率与 ROI 变化。",
+  "search": "大恒 MER2-160-227U3C 工业相机 160万 USB3 全局",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "resolution": "1440 × 1080",
+   "fps": 227,
+   "sensor": "1/2.9\" 全局快门 CMOS（彩色）",
+   "iface": "USB 3.0",
+   "mount": "C"
+  }
+ }
+]

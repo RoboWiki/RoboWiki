@@ -1,0 +1,30 @@
+[
+ {
+  "category": "controller_low",
+  "subtype": "mcu",
+  "subtype_label": "主控板",
+  "id": "st-stm32f103c8t6",
+  "vendor": "ST",
+  "vendor_cn": "意法半导体",
+  "model": "STM32F103C8T6 核心板",
+  "title": "STM32F103C8T6 最小系统板",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "ST STM32F103C8T6 数据手册公称参数（Cortex-M3 72 MHz、64 KB Flash、20 KB SRAM、LQFP48）",
+  "notes": "最通用的入门主控核心板；语料中大量用于电控入门与小板卡。",
+  "search": "STM32F103C8T6 核心板 最小系统 72MHz",
+  "specs": {
+   "image_url": "/parts/st-stm32f103c8t6.jpg",
+   "image_source": "网络商品图（拼多多，img.pddpic.com）",
+   "doc_url": null,
+   "doc_pdf": null,
+   "mcu": "STM32F103C8T6（Cortex-M3）",
+   "clock_mhz": 72,
+   "flash_kb": 64,
+   "ram_kb": 20
+  }
+ }
+]

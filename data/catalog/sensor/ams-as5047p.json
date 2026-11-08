@@ -1,0 +1,29 @@
+[
+ {
+  "category": "sensor",
+  "subtype": "encoder_mag",
+  "subtype_label": "磁编码器",
+  "id": "ams-as5047p",
+  "vendor": "ams OSRAM",
+  "vendor_cn": "艾迈斯欧司朗",
+  "model": "AS5047P",
+  "title": "AS5047P 14 位磁旋转位置传感器",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "ams AS5047P 数据手册（14 位绝对角度、SPI/ABI/UVW/PWM、最高 28k RPM、动态误差约 ±0.2°）",
+  "notes": "常用于电机端闭环；支持增量 ABI 与 SPI 绝对角度。",
+  "search": "AS5047P 磁编码器 14位 SPI ABI",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "bits": 14,
+   "resolution": "16384 步/圈（14 位）",
+   "iface": "SPI / ABI / UVW / PWM"
+  }
+ }
+]

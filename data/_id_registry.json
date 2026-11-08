@@ -35,6 +35,16 @@
    "category": "connector",
    "model": "XT90(2+2)"
   },
+  "ams-as5047p": {
+   "added": "2026-11-08",
+   "category": "sensor",
+   "model": "AS5047P"
+  },
+  "ams-as5600": {
+   "added": "2026-11-08",
+   "category": "sensor",
+   "model": "AS5600"
+  },
   "cjt-a2541-8p": {
    "added": "2026-10-31",
    "category": "connector",
@@ -232,6 +242,11 @@
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
+  "daheng-mer2-160-227u3c": {
+   "added": "2026-11-08",
+   "category": "camera",
+   "model": "MER2-160-227U3C"
+  },
   "damiao-dm-g6220": {
    "added": "2026-10-31",
    "category": "actuator",
@@ -368,6 +383,16 @@
    "category": "esc",
    "model": "C620"
   },
+  "dji-dr16": {
+   "added": "2026-11-08",
+   "category": "remote_controller",
+   "model": "DR16"
+  },
+  "dji-dt7": {
+   "added": "2026-11-08",
+   "category": "remote_controller",
+   "model": "DT7"
+  },
   "dji-pm01": {
    "added": "2026-11-04",
    "category": "module",
@@ -454,15 +479,50 @@
    "category": "battery",
    "model": "TB47"
   },
+  "dji-tb47s": {
+   "added": "2026-11-08",
+   "category": "battery",
+   "model": "TB47S"
+  },
   "dji-tb48": {
    "added": "2026-10-31",
    "category": "battery",
    "model": "TB48"
   },
+  "dji-tb48s": {
+   "added": "2026-11-08",
+   "category": "battery",
+   "model": "TB48S"
+  },
+  "dji-vt02": {
+   "added": "2026-11-08",
+   "category": "remote_controller",
+   "model": "VT02"
+  },
+  "dji-vt03": {
+   "added": "2026-11-08",
+   "category": "remote_controller",
+   "model": "VT03"
+  },
+  "dji-vt12": {
+   "added": "2026-11-08",
+   "category": "remote_controller",
+   "model": "VT12"
+  },
+  "dji-vt13": {
+   "added": "2026-11-08",
+   "category": "remote_controller",
+   "model": "VT13"
+  },
   "drobotics-rdk-x5": {
    "added": "2026-10-31",
    "category": "controller_high",
    "model": "RDK X5"
+  },
+  "espressif-esp32-devkit": {
+   "added": "2026-11-08",
+   "category": "controller_high",
+   "model": "ESP32 DevKit"
   },
   "feetech-5264-cable": {
    "added": "2026-10-31",
@@ -514,6 +574,21 @@
    "removed": true,
    "removed_at": "2026-11-08",
    "removed_reason": "2026-11-08 用户删除飞飞模型/福来翔航模电池（见 data/_backup/2026-11-08-drop-feifei-fulaixiang）"
+  },
+  "generic-ammo-chain": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "弹链"
+  },
+  "generic-feed-plate": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "拨盘（供弹）"
+  },
+  "generic-quick-release": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "快拆组件"
   },
   "haisito-b3": {
    "added": "2026-11-08",
@@ -610,6 +685,16 @@
    "category": "controller_low",
    "model": "STM32H730VBT6"
   },
+  "hikrobot-mv-cs016-10uc": {
+   "added": "2026-11-08",
+   "category": "camera",
+   "model": "MV-CS016-10UC"
+  },
+  "hikrobot-mvl-hf0828m-6mpe": {
+   "added": "2026-11-08",
+   "category": "camera",
+   "model": "MVL-HF0828M-6MPE"
+  },
   "hota-d6-pro": {
    "added": "2026-11-08",
    "category": "charger",
@@ -639,6 +724,11 @@
    "added": "2026-10-31",
    "category": "camera",
    "model": "D457"
+  },
+  "intel-t265": {
+   "added": "2026-11-08",
+   "category": "camera",
+   "model": "T265"
   },
   "jlc-c10081": {
    "added": "2026-10-31",
@@ -1728,6 +1818,16 @@
    "category": "connector",
    "model": "ZH 1.5 mm 线对板"
   },
+  "kendryte-k210": {
+   "added": "2026-11-08",
+   "category": "controller_high",
+   "model": "K210"
+  },
+  "kendryte-k230": {
+   "added": "2026-11-08",
+   "category": "controller_high",
+   "model": "K230"
+  },
   "kinghelm-bnc": {
    "added": "2026-10-31",
    "category": "connector",
@@ -1757,6 +1857,24 @@
    "added": "2026-10-31",
    "category": "lidar",
    "model": "Mid-70"
+  },
+  "lktech-mf9025": {
+   "added": "2026-11-08",
+   "category": "actuator",
+   "model": "MF9025",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 暂缓：MF9025 公开页面未查到可核验扭矩参数，执行器 schema 要求至少一项扭矩；查到再补"
+  },
+  "loongson-2k0300": {
+   "added": "2026-11-08",
+   "category": "controller_low",
+   "model": "2K0300"
+  },
+  "magntek-mt6701": {
+   "added": "2026-11-08",
+   "category": "sensor",
+   "model": "MT6701"
   },
   "mat-abs-fdm": {
    "added": "2026-11-02",
@@ -1893,6 +2011,46 @@
    "category": "material",
    "model": "UHMWPE 超高分子量聚乙烯"
   },
+  "misumi-2gt-6": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "2GT-6"
+  },
+  "misumi-6203-2rs": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "6203-2RS"
+  },
+  "misumi-6802-2rs": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "6802-2RS"
+  },
+  "misumi-gear-1m-20t": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "1M 20T 直齿轮"
+  },
+  "misumi-gt2-20t": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "GT2 20T"
+  },
+  "misumi-mgn12h": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "MGN12H"
+  },
+  "misumi-mr105-2rs": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "MR105-2RS"
+  },
+  "misumi-spring-comp": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "压缩弹簧"
+  },
   "mit-3phase-integrated": {
    "added": "2026-11-01",
    "category": "controller_low",
@@ -1974,6 +2132,11 @@
    "removed": true,
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+  },
+  "omron-limit-switch": {
+   "added": "2026-11-08",
+   "category": "sensor",
+   "model": "限位开关"
   },
   "orbbec-gemini-305": {
    "added": "2026-10-31",
@@ -2338,10 +2501,60 @@
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
+  "rm-am01": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "AM01"
+  },
+  "rm-am02": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "AM02"
+  },
+  "rm-am12": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "AM12"
+  },
+  "rm-fi02": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "FI02"
+  },
+  "rm-li01": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "LI01"
+  },
+  "rm-mc02": {
+   "added": "2026-11-08",
+   "category": "controller_low",
+   "model": "MC02（主控模块）"
+  },
+  "rm-pm02": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "PM02"
+  },
+  "rm-sm01": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "SM01"
+  },
+  "rm-sm11": {
+   "added": "2026-11-08",
+   "category": "referee",
+   "model": "SM11"
+  },
   "robosense-airy-lite": {
    "added": "2026-10-31",
    "category": "lidar",
    "model": "Airy Lite"
+  },
+  "senring-capsule-6w": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "帽式滑环 6 路"
   },
   "sens-bosch-bmi088": {
    "added": "2026-10-31",
@@ -2448,6 +2661,11 @@
    "added": "2026-11-08",
    "category": "charger",
    "model": "B6AC V2"
+  },
+  "smc-suction-cup": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "气动吸盘"
   },
   "software:amp": {
    "added": "2026-10-31",
@@ -2566,6 +2784,11 @@
    "removed": true,
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
+  },
+  "st-stm32f103c8t6": {
+   "added": "2026-11-08",
+   "category": "controller_low",
+   "model": "STM32F103C8T6 核心板"
   },
   "stackforce-6010": {
    "added": "2026-10-31",
@@ -3759,10 +3982,20 @@
    "category": "supplier",
    "model": "深圳市康胜世纪电子企"
   },
+  "ti-ina226": {
+   "added": "2026-11-08",
+   "category": "sensor",
+   "model": "INA226"
+  },
   "toolkitrc-m6d": {
    "added": "2026-11-08",
    "category": "charger",
    "model": "M6D"
+  },
+  "towerpro-mg995": {
+   "added": "2026-11-08",
+   "category": "servo",
+   "model": "MG995"
   },
   "unitree-bt2-05": {
    "added": "2026-11-01",
@@ -3825,6 +4058,56 @@
    "category": "connector",
    "model": "GX12-2P 2芯航空插头"
   },
+  "wheeltec-friction-100": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "摩擦轮 100"
+  },
+  "wheeltec-gripper": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "舵机夹爪"
+  },
+  "wheeltec-mecanum-100": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "4 寸麦轮"
+  },
+  "wheeltec-mecanum-150": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "6 寸麦轮"
+  },
+  "wheeltec-omni-100": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "4 寸全向轮"
+  },
+  "wheeltec-omni-150": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "6 寸全向轮"
+  },
+  "wheeltec-pneumatic-4": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "充气轮 4 寸"
+  },
+  "wheeltec-steering-module": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "舵轮模组"
+  },
+  "wheeltec-track-rubber": {
+   "added": "2026-11-08",
+   "category": "wheel",
+   "model": "橡胶履带"
+  },
+  "worldsemi-ws2812b": {
+   "added": "2026-11-08",
+   "category": "module",
+   "model": "WS2812B"
+  },
   "xiaomi-cybergear-micro": {
    "added": "2026-10-31",
    "category": "actuator",
@@ -3847,6 +4130,26 @@
    "added": "2026-10-31",
    "category": "connector",
    "model": "FPC-05F-24PH20 0.5 mm 24P"
+  },
+  "yiheda-2020": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "2020 欧标"
+  },
+  "yiheda-4040": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "4040 欧标"
+  },
+  "yiheda-cf-3mm": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "3 mm 碳纤维板"
+  },
+  "yiheda-m3x8": {
+   "added": "2026-11-08",
+   "category": "structural",
+   "model": "M3×8 内六角"
   },
   "灵足-robstride-el05": {
    "added": "2026-10-31",

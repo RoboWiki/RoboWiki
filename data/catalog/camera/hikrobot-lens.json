@@ -1,0 +1,30 @@
+[
+ {
+  "category": "camera",
+  "subtype": "lens",
+  "subtype_label": "工业镜头",
+  "id": "hikrobot-mvl-hf0828m-6mpe",
+  "vendor": "海康机器人 Hikrobot",
+  "vendor_cn": "海康机器人",
+  "model": "MVL-HF0828M-6MPE",
+  "title": "海康机器人 MVL-HF0828M-6MPE 8 mm 600 万像素 FA 镜头",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "海康机器人 HF-E 系列镜头公开参数（8 mm / F2.8–F16 / 1/1.8\" / 600 万 / C 口）",
+  "notes": "固定焦距手动光圈 FA 镜头，常与 160 万–600 万像素工业相机搭配；畸变 0.049%，最近摄距 0.1 m。",
+  "search": "海康 MVL-HF0828M-6MPE 镜头 8mm 600万 C口",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "mount": "C",
+   "resolution": "600 万像素",
+   "sensor": "1/1.8\"（Φ9 mm）",
+   "focal_mm": 8
+  }
+ }
+]

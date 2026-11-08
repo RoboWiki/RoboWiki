@@ -260,6 +260,11 @@ KNOWN_SPEC_KEYS = {
     "input_voltage", "charge_power_w", "charge_current_a", "discharge_power_w",
     "discharge_current_a", "balance_current_ma", "cell_range", "chemistries",
     "usb_output", "wireless_charge_w", "display", "connectors", "smart_features",
+    # 结构件 / 轮组 / 裁判系统 / 视觉与传感扩展
+    "diameter_mm", "width_mm", "load_kg", "bore_mm", "module_type", "current_A",
+    "led_count", "sensor", "mount",
+    "focal_mm", "fov_deg",
+    "material", "speed_s_60deg", "stall_torque_Nm",
     # 电源类芯片（立创商城采集）
     "category_cn", "lcsc_part", "params", "price_tiers", "price_lead", "stock", "stock_lead", "lead_time", "jlc_library", "tags", "fetched_at", "voltage_in", "voltage_out", "current_out", "function_type", "output_type", "polarity", "freq", "chip_function", "charge_current", "v_float", "battery_type", "cells", "switch_type", "channels", "logic", "features", "coupon",
     # 开源硬件模块（RM / RC 开源工程）
@@ -289,6 +294,9 @@ UI_KEYS = {
     "open_hw": {"image_url"},
     "battery": {"capacity_mah", "voltage_V", "image_url"},
     "charger": {"charge_power_w", "charge_current_a", "cell_range", "image_url"},
+    "structural": {"size_mm", "image_url"},
+    "wheel": {"diameter_mm", "image_url"},
+    "referee": {"module_type", "image_url"},
     "connector": {"positions", "pitch_mm", "current_rated_A", "voltage_rated_V",
                   "mount_type", "iface", "use_cases", "image_url"},
 }

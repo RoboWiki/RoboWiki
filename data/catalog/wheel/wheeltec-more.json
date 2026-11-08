@@ -1,0 +1,50 @@
+[
+ {
+  "category": "wheel",
+  "subtype": "tire",
+  "subtype_label": "轮胎 / 轮毂",
+  "id": "wheeltec-pneumatic-4",
+  "vendor": "轮趣科技 Wheeltec",
+  "vendor_cn": "轮趣科技",
+  "model": "充气轮 4 寸",
+  "title": "4 寸充气轮",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
+  "notes": "语料中轮腿方案用充气轮做轮胎；直径按 4 寸公称。",
+  "search": "充气轮 4寸 轮腿 轮胎",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "diameter_mm": 100
+  }
+ },
+ {
+  "category": "wheel",
+  "subtype": "track",
+  "subtype_label": "履带",
+  "id": "wheeltec-track-rubber",
+  "vendor": "轮趣科技 Wheeltec",
+  "vendor_cn": "轮趣科技",
+  "model": "橡胶履带",
+  "title": "橡胶履带",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
+  "notes": "用于履带底盘；节距/宽度/长度按底盘选。",
+  "search": "橡胶履带 履带底盘",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "diameter_mm": null
+  }
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "category": "structural",
+  "subtype": "mechanism",
+  "subtype_label": "机构件",
+  "id": "smc-suction-cup",
+  "vendor": "SMC",
+  "vendor_cn": "SMC",
+  "model": "气动吸盘",
+  "title": "气动真空吸盘",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
+  "notes": "配微型气泵/真空发生器使用，用于平整表面抓取；直径与材质按需选。",
+  "search": "气动吸盘 真空 抓取",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "size_mm": null
+  }
+ }
+]

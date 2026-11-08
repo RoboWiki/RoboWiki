@@ -1,0 +1,28 @@
+[
+ {
+  "category": "controller_high",
+  "subtype": "sbc",
+  "subtype_label": "单板计算机",
+  "id": "espressif-esp32-devkit",
+  "vendor": "Espressif",
+  "vendor_cn": "乐鑫",
+  "model": "ESP32 DevKit",
+  "title": "ESP32 开发板",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "Espressif ESP32 数据手册公称参数（双核 Xtensa 240 MHz、520 KB SRAM、Wi-Fi + BLE）",
+  "notes": "常用于无线调试、遥控接收与传感器节点。",
+  "search": "ESP32 开发板 WiFi 蓝牙",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "soc": "ESP32",
+   "cpu": "双核 Xtensa LX6 240 MHz",
+   "iface": "Wi-Fi / BLE / UART"
+  }
+ }
+]

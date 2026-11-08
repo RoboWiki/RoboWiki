@@ -1,0 +1,29 @@
+[
+ {
+  "category": "sensor",
+  "subtype": "encoder_mag",
+  "subtype_label": "磁编码器",
+  "id": "magntek-mt6701",
+  "vendor": "MagnTek 麦歌恩",
+  "vendor_cn": "麦歌恩",
+  "model": "MT6701",
+  "title": "MT6701 14 位磁角度编码器",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "MagnTek MT6701 数据手册（I2C/SSI 14 位绝对角度，PWM/模拟 12 位，ABZ）",
+  "notes": "14 位绝对角度输出，支持 I2C/SSI/ABZ/PWM/模拟；适合电机端高速反馈。",
+  "search": "MT6701 磁编码器 14位 SSI I2C",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/magntek/1B/81/MT6701CTSTD.pdf",
+   "bits": 14,
+   "resolution": "16384 步/圈（14 位）",
+   "iface": "I2C / SSI / ABZ / PWM / 模拟"
+  }
+ }
+]

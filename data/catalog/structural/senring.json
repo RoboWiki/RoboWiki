@@ -1,0 +1,26 @@
+[
+ {
+  "category": "structural",
+  "subtype": "slipring",
+  "subtype_label": "滑环",
+  "id": "senring-capsule-6w",
+  "vendor": "森瑞普 Senring",
+  "vendor_cn": "森瑞普",
+  "model": "帽式滑环 6 路",
+  "title": "帽式导电滑环（6 路）",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
+  "notes": "用于云台/旋转关节走线与限位旋转；通道数、电流与孔径按需选型。",
+  "search": "滑环 帽式 6路 云台 旋转",
+  "specs": {
+   "image_url": "/parts/senring-capsule-6w.jpg",
+   "image_source": "网络商品图（京东，img14.360buyimg.com）",
+   "doc_url": null,
+   "size_mm": null
+  }
+ }
+]

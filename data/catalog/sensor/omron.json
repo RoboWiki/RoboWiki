@@ -1,0 +1,25 @@
+[
+ {
+  "category": "sensor",
+  "subtype": "limit",
+  "subtype_label": "限位开关",
+  "id": "omron-limit-switch",
+  "vendor": "OMRON 欧姆龙",
+  "vendor_cn": "欧姆龙",
+  "model": "限位开关",
+  "title": "机械限位开关",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
+  "notes": "用于行程末端与归零检测；常开/常闭与触杆形式按需选。",
+  "search": "限位开关 行程 归零 微动",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null
+  }
+ }
+]

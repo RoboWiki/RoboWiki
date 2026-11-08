@@ -1,0 +1,31 @@
+[
+ {
+  "category": "camera",
+  "subtype": "industrial",
+  "subtype_label": "工业相机",
+  "id": "hikrobot-mv-cs016-10uc",
+  "vendor": "海康机器人 Hikrobot",
+  "vendor_cn": "海康机器人",
+  "model": "MV-CS016-10UC",
+  "title": "海康机器人 MV-CS016-10UC 160 万像素 USB3 工业相机",
+  "url": "https://www.hikrobotics.com/cn/machinevision/visionproduct/?typeId=27&id=249",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "海康机器人 CS 系列产品页与经销商参数表（1/2.9\"、1440×1080、249.1 fps、71.1 dB）",
+  "notes": "彩色 USB3.0 面阵相机，RM 视觉最常用的入门工业相机之一；语料 BOM 中大量出现（约 949 元档）。参数来自公开产品页，未逐项对照官方规格书。",
+  "search": "海康 MV-CS016-10UC 工业相机 160万 USB3 1440x1080",
+  "specs": {
+   "image_url": "/parts/hikrobot-mv-cs016-10uc.jpg",
+   "image_source": "网络商品图（京东，img14.360buyimg.com）",
+   "doc_url": "https://www.hikrobotics.com/cn/machinevision/visionproduct/?typeId=27&id=249",
+   "doc_pdf": null,
+   "resolution": "1440 × 1080",
+   "fps": 249.1,
+   "sensor": "1/2.9\" CMOS（彩色）",
+   "iface": "USB 3.0",
+   "mount": "C"
+  }
+ }
+]

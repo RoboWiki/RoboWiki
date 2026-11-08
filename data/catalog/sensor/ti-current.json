@@ -1,0 +1,30 @@
+[
+ {
+  "category": "sensor",
+  "subtype": "current",
+  "subtype_label": "电流检测传感器",
+  "id": "ti-ina226",
+  "vendor": "TI",
+  "vendor_cn": "德州仪器",
+  "model": "INA226",
+  "title": "INA226 16 位电流/电压/功率监测",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "TI INA226 数据手册（0–36 V 总线、16 位、I2C、2.7–5.5 V 供电）",
+  "notes": "高侧/低侧均可，直接读出电流、电压、功率；RM 电源管理与功耗统计常用。",
+  "search": "INA226 电流检测 功率监测 I2C 16位",
+  "specs": {
+   "image_url": "/parts/ti-ina226.jpg",
+   "image_source": "网络商品图（拼多多，img.pddpic.com）",
+   "doc_url": "https://www.ti.com.cn/product/zh-cn/INA226",
+   "doc_pdf": null,
+   "bits": 16,
+   "meas_range": "0–36 V（总线）",
+   "iface": "I2C / SMBus",
+   "voltage_range_V": "2.7–5.5"
+  }
+ }
+]

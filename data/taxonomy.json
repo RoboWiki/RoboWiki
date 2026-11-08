@@ -355,11 +355,13 @@
   },
   {
    "id": "remote_controller",
-   "name": "遥控器",
-   "hint": "手柄 / 板控 / 遥操作",
+   "name": "遥控与图传",
+   "hint": "遥控器 / 接收机 / 图传：遥控链路与图传链路",
    "subtypes": {
     "radio": "板控",
-    "gamepad": "手柄式"
+    "gamepad": "手柄式",
+    "receiver": "接收机",
+    "vtx": "图传"
    },
    "keys": [
     {
@@ -545,7 +547,7 @@
   {
    "id": "sensor",
    "name": "传感器",
-   "hint": "工业级单点测距 / ToF（当前只收能查到手册的量测器件）",
+   "hint": "测距 / 编码器 / 电流检测 / 限位：能查到手册的量测器件",
    "subtypes": {
     "ntc": "NTC 热敏电阻",
     "temp_humid": "温湿度传感器",
@@ -558,7 +560,10 @@
     "vibration": "振动传感器",
     "current": "电流检测传感器",
     "hall": "霍尔 / 磁传感器",
-    "force_torque": "力矩传感器"
+    "force_torque": "力矩传感器",
+    "encoder_mag": "磁编码器",
+    "encoder_opt": "光电编码器",
+    "limit": "限位开关"
    },
    "keys": [
     {
@@ -600,6 +605,16 @@
      "k": "voltage_V",
      "label": "工作电压",
      "unit": ""
+    },
+    {
+     "k": "bits",
+     "label": "分辨率",
+     "unit": " bit"
+    },
+    {
+     "k": "voltage_range_V",
+     "label": "供电范围",
+     "unit": " V"
     }
    ],
    "sorts": [
@@ -698,12 +713,15 @@
   },
   {
    "id": "camera",
-   "name": "深度相机",
-   "hint": "视觉感知",
+   "name": "视觉相机",
+   "hint": "深度相机 / 工业相机 / 镜头：视觉感知的成像端",
    "subtypes": {
     "stereo": "双目",
     "structured": "结构光",
-    "tof": "ToF"
+    "tof": "ToF",
+    "industrial": "工业相机",
+    "lens": "工业镜头",
+    "tracking": "跟踪相机"
    },
    "keys": [
     {
@@ -735,6 +753,21 @@
      "k": "voltage_V",
      "label": "供电",
      "unit": " V"
+    },
+    {
+     "k": "resolution",
+     "label": "分辨率",
+     "unit": ""
+    },
+    {
+     "k": "sensor",
+     "label": "传感器",
+     "unit": ""
+    },
+    {
+     "k": "mount",
+     "label": "镜头接口",
+     "unit": ""
     }
    ],
    "sorts": [
@@ -944,10 +977,11 @@
   },
   {
    "id": "module",
-   "name": "USB转CAN",
-   "hint": "USB 转 CAN / CAN FD 与多路 CAN 集线器",
+   "name": "模块与转接",
+   "hint": "USB 转 CAN / CAN FD、灯效与其他小板",
    "subtypes": {
-    "can": "CAN 模块"
+    "can": "CAN 模块",
+    "led": "灯效模块"
    },
    "keys": [
     {
@@ -978,6 +1012,16 @@
     {
      "k": "connector",
      "label": "接头",
+     "unit": ""
+    },
+    {
+     "k": "led_count",
+     "label": "灯珠数",
+     "unit": " 颗"
+    },
+    {
+     "k": "protocol",
+     "label": "协议",
      "unit": ""
     }
    ],
@@ -1192,7 +1236,12 @@
     "bearing": "轴承",
     "belt": "同步带与带轮",
     "fastener": "螺钉与紧固",
-    "plate": "板材与加工件"
+    "plate": "板材与加工件",
+    "rail": "直线导轨",
+    "slipring": "滑环",
+    "mechanism": "机构件（夹爪 / 吸盘 / 拨盘）",
+    "gear": "齿轮",
+    "spring": "弹簧"
    },
    "keys": [
     {
@@ -1201,9 +1250,71 @@
      "unit": ""
     },
     {
-     "k": "mass_kg",
-     "label": "质量",
+     "k": "material",
+     "label": "材料",
+     "unit": ""
+    },
+    {
+     "k": "mass_g",
+     "label": "重量",
+     "unit": " g"
+    },
+    {
+     "k": "load_kg",
+     "label": "额定负载",
      "unit": " kg"
+    }
+   ],
+   "sorts": [
+    {
+     "k": "size_mm",
+     "label": "规格"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "spec_trust"
+   ]
+  },
+  {
+   "id": "wheel",
+   "name": "轮组与底盘",
+   "hint": "麦轮 / 全向轮 / 摩擦轮 / 舵轮：底盘与发射机构的地面件",
+   "subtypes": {
+    "mecanum": "麦轮",
+    "omni": "全向轮",
+    "friction": "摩擦轮",
+    "steering": "舵轮模组",
+    "tire": "轮胎 / 轮毂",
+    "track": "履带"
+   },
+   "keys": [
+    {
+     "k": "diameter_mm",
+     "label": "直径",
+     "unit": " mm"
+    },
+    {
+     "k": "width_mm",
+     "label": "宽度",
+     "unit": " mm"
+    },
+    {
+     "k": "bore_mm",
+     "label": "轴孔",
+     "unit": " mm"
+    },
+    {
+     "k": "load_kg",
+     "label": "额定负载",
+     "unit": " kg"
+    },
+    {
+     "k": "mass_g",
+     "label": "重量",
+     "unit": " g"
     },
     {
      "k": "material",
@@ -1213,8 +1324,70 @@
    ],
    "sorts": [
     {
-     "k": "size_mm",
-     "label": "规格"
+     "k": "diameter_mm",
+     "label": "直径"
+    },
+    {
+     "k": "price",
+     "label": "价格"
+    },
+    {
+     "k": "rating",
+     "label": "评分"
+    }
+   ],
+   "rating_dims": [
+    "value",
+    "build",
+    "docs",
+    "spec_trust"
+   ]
+  },
+  {
+   "id": "referee",
+   "name": "裁判系统",
+   "hint": "RM 官方件：装甲、电源管理、主控交互与测速",
+   "subtypes": {
+    "armor": "装甲板",
+    "power": "电源管理",
+    "control": "主控 / 交互",
+    "measure": "测速 / 定位"
+   },
+   "keys": [
+    {
+     "k": "module_type",
+     "label": "模块",
+     "unit": ""
+    },
+    {
+     "k": "voltage_V",
+     "label": "工作电压",
+     "unit": " V"
+    },
+    {
+     "k": "current_A",
+     "label": "电流",
+     "unit": " A"
+    },
+    {
+     "k": "iface",
+     "label": "接口",
+     "unit": ""
+    },
+    {
+     "k": "mass_g",
+     "label": "重量",
+     "unit": " g"
+    }
+   ],
+   "sorts": [
+    {
+     "k": "price",
+     "label": "价格"
+    },
+    {
+     "k": "rating",
+     "label": "评分"
     }
    ],
    "rating_dims": [
@@ -1893,6 +2066,82 @@
   "Haisito": {
    "slug": "haisito",
    "cn": "Haisito"
+  },
+  "海康机器人 Hikrobot": {
+   "slug": "hikrobot",
+   "cn": "海康机器人"
+  },
+  "大恒图像 Daheng": {
+   "slug": "daheng",
+   "cn": "大恒图像"
+  },
+  "轮趣科技 Wheeltec": {
+   "slug": "wheeltec",
+   "cn": "轮趣科技"
+  },
+  "瓴控 LKTECH": {
+   "slug": "lktech",
+   "cn": "瓴控"
+  },
+  "鸣志 MOONS": {
+   "slug": "moons",
+   "cn": "鸣志"
+  },
+  "先楫半导体 HPMicro": {
+   "slug": "hpmicro",
+   "cn": "先楫半导体"
+  },
+  "龙芯 Loongson": {
+   "slug": "loongson",
+   "cn": "龙芯"
+  },
+  "芯天下 XTX": {
+   "slug": "xtx",
+   "cn": "芯天下"
+  },
+  "怡合达 Yiheda": {
+   "slug": "yiheda",
+   "cn": "怡合达"
+  },
+  "米思米 MISUMI": {
+   "slug": "misumi",
+   "cn": "米思米"
+  },
+  "兆威 ZHAOWEI": {
+   "slug": "zhaowei",
+   "cn": "兆威"
+  },
+  "MagnTek 麦歌恩": {
+   "slug": "magntek",
+   "cn": "麦歌恩"
+  },
+  "Worldsemi 世界星": {
+   "slug": "worldsemi",
+   "cn": "世界星"
+  },
+  "TowerPro": {
+   "slug": "towerpro",
+   "cn": "TowerPro"
+  },
+  "嘉楠 Kendryte": {
+   "slug": "kendryte",
+   "cn": "嘉楠"
+  },
+  "森瑞普 Senring": {
+   "slug": "senring",
+   "cn": "森瑞普"
+  },
+  "SMC": {
+   "slug": "smc",
+   "cn": "SMC"
+  },
+  "通用结构件": {
+   "slug": "generic-structural",
+   "cn": "通用结构件"
+  },
+  "OMRON 欧姆龙": {
+   "slug": "omron",
+   "cn": "欧姆龙"
   }
  }
 }

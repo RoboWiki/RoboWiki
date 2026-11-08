@@ -42,7 +42,9 @@
     "chip",
     "open_hw",
     "power",
-    "structural"
+    "structural",
+    "wheel",
+    "referee"
    ]
   },
   "subtype": {

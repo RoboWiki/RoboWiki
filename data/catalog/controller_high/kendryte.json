@@ -1,0 +1,30 @@
+[
+ {
+  "category": "controller_high",
+  "subtype": "sbc",
+  "subtype_label": "单板计算机",
+  "id": "kendryte-k230",
+  "vendor": "嘉楠 Kendryte",
+  "vendor_cn": "嘉楠",
+  "model": "K230",
+  "title": "嘉楠 K230 RISC-V AI SoC",
+  "url": "https://www.kendryte.com/zh/proDetail/230",
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "嘉楠勘智官方产品页 + CanMV-K230 参数页（CPU1 1.6 GHz / CPU0 800 MHz / KPU 6 TOPS 等效）",
+  "notes": "双核 64 位 RISC-V（C908），KPU 支持 INT8/INT16，典型用于视觉与轻量 AI；开发板为 CanMV-K230。",
+  "search": "K230 嘉楠 RISC-V 6TOPS 视觉",
+  "specs": {
+   "image_url": "/parts/kendryte-k230.jpg",
+   "image_source": "网络商品图（lctech-inc.com）",
+   "doc_url": null,
+   "doc_pdf": null,
+   "soc": "K230",
+   "cpu": "双核 RISC-V C908：1.6 GHz + 800 MHz",
+   "npu_tops": 6,
+   "iface": "CanMV 开发板"
+  }
+ }
+]

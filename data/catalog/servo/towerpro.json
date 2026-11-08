@@ -1,0 +1,30 @@
+[
+ {
+  "category": "servo",
+  "subtype": "other",
+  "subtype_label": "其他舵机",
+  "id": "towerpro-mg995",
+  "vendor": "TowerPro",
+  "vendor_cn": "TowerPro",
+  "model": "MG995",
+  "title": "MG995 金属齿轮舵机",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "TowerPro MG995 公开参数（55 g、13 kg·cm、0.20 s/60°、40.7×19.7×42.9 mm）",
+  "notes": "标称 13 kg·cm ≈ 1.27 N·m（按 1 kgf·cm = 0.098 N·m 折算），0.20 s/60°；电压范围未在公开页确认，留空。",
+  "search": "MG995 舵机 13kg 金属齿轮",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
+   "stall_torque_Nm": 1.27,
+   "speed_s_60deg": 0.2,
+   "weight_g": 55,
+   "protocol": "PWM"
+  }
+ }
+]

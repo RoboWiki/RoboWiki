@@ -1,0 +1,51 @@
+[
+ {
+  "category": "structural",
+  "subtype": "gear",
+  "subtype_label": "齿轮",
+  "id": "misumi-gear-1m-20t",
+  "vendor": "米思米 MISUMI",
+  "vendor_cn": "米思米",
+  "model": "1M 20T 直齿轮",
+  "title": "模数 1 / 20 齿直齿轮",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "米思米齿轮公称规格（模数 1、20 齿、节圆直径 20 mm）",
+  "notes": "最常用的标准直齿轮规格；孔径与齿宽按下单规格。",
+  "search": "直齿轮 模数1 20齿 1M",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "size_mm": "模数 1 / 20 齿 / 节圆 20 mm",
+   "material": "S45C 钢"
+  }
+ },
+ {
+  "category": "structural",
+  "subtype": "spring",
+  "subtype_label": "弹簧",
+  "id": "misumi-spring-comp",
+  "vendor": "米思米 MISUMI",
+  "vendor_cn": "米思米",
+  "model": "压缩弹簧",
+  "title": "压缩弹簧（标准件）",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "通用机械件，语料中按“类型”高频出现但很少写型号；这里按类型收录，规格/负载待具体供应商补齐",
+  "notes": "用于预紧、缓冲与回位；线径/外径/自由长度按规格选。",
+  "search": "压缩弹簧 压簧 预紧",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "size_mm": null
+  }
+ }
+]

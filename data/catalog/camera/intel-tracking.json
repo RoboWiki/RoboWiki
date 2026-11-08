@@ -1,0 +1,28 @@
+[
+ {
+  "category": "camera",
+  "subtype": "tracking",
+  "subtype_label": "跟踪相机",
+  "id": "intel-t265",
+  "vendor": "Intel RealSense",
+  "vendor_cn": "Intel",
+  "model": "T265",
+  "title": "Intel RealSense T265 跟踪相机",
+  "url": null,
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-08",
+  "price_cny": null,
+  "origin": "Intel RealSense T265 数据手册与白皮书（双鱼眼 OV9282 + BMI055 IMU + Movidius Myriad 2，跟踪延时 <6 ms）",
+  "notes": "双目鱼眼 + IMU + 板载 VPU 的 VIO 跟踪相机，输出位姿而非深度；已停产，语料中仍常用于室内定位。",
+  "search": "T265 跟踪相机 双目鱼眼 VIO 定位",
+  "specs": {
+   "image_url": "/parts/intel-t265.jpg",
+   "image_source": "网络商品图（京东，img14.360buyimg.com）",
+   "doc_url": null,
+   "doc_pdf": "https://www.mouser.com/datasheet/2/612/Intel_RealSense_Tracking_Camera_T265_Datasheet_Rev-1571277.pdf",
+   "sensor": "OV9282 ×2 + BMI055",
+   "iface": "USB 3.0"
+  }
+ }
+]
