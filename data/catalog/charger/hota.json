@@ -13,7 +13,7 @@
   "last_checked": "2026-11-08",
   "price_cny": null,
   "origin": "HOTA《D6 Pro 详细说明书》Ver1.1.8（2023-01-12）产品功能参数表 p1 与电池类型表 p3",
-  "notes": "AC/DC 双通道。充电功率 DC 325W×2（输入>24V）/ AC 200W 自动分配；内部放电 15W×2、外部放电 325W×2(650W)。顶部无线充电最大 5W，USB 5V/2.1A。平衡电流最大 1600mA×2。2.8\" 320×240 屏。保护齐全（过温/时间/容量/反接/短路/过流/过压/过充/过放）。",
+  "notes": "AC/DC 双通道。充电功率 DC 325W×2（输入>24V）/ AC 200W 自动分配；内部放电 15W×2、外部放电 325W×2(650W)。顶部无线充电最大 5W，USB 5V/2.1A。平衡电流最大 1600mA×2。2.8\" 320×240 屏。保护齐全（过温/时间/容量/反接/短路/过流/过压/过充/过放）。 制造商：深圳市红太华科技有限公司（ShenZhen HOTA Technology Co., LTD.）；机身标 AC 200W / DC 650W 15A（双通道合计）。",
   "search": "hota d6 pro 双通道 平衡充 无线充电 ac dc 325w 15a 6s",
   "specs": {
    "input_voltage": "AC 100~240V / DC 6.5~30V",
@@ -32,8 +32,8 @@
    "weight_g": 575,
    "connectors": "双通道输出+平衡口 / AC / DC / USB / 升级口",
    "smart_features": "无线充电、双通道、外部放电、USB 输出、飞梭键",
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/hota-d6-pro.jpg",
+   "image_source": "HOTA《D6 Pro 详细说明书》Ver1.1.8 封面产品渲染图，300 dpi 裁切",
    "doc_url": "https://www.hota-exp.com",
    "doc_pdf": null
   },
@@ -72,8 +72,8 @@
    "weight_g": 93,
    "connectors": null,
    "smart_features": "PD3.0/QC 输入、可调电源 5~29V、回收放电",
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/hota-t6.jpg",
+   "image_source": "HOTA《T6 详细说明书》Ver2.0.0 内嵌产品图（PDF 原图）",
    "doc_url": "https://www.hota-exp.com",
    "doc_pdf": null
   },

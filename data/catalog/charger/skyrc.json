@@ -32,10 +32,10 @@
    "weight_g": 82,
    "connectors": null,
    "smart_features": "PD 输入、DC 电源输出 5~27V、不开机测电压",
-   "image_url": null,
-   "image_source": null,
-   "doc_url": "https://www.skyrc.com",
-   "doc_pdf": null
+   "image_url": "/parts/skyrc-b6-neo.jpg",
+   "image_source": "SkyRC 官网 B6neo 系列产品图 100198.png（https://www.skyrc.com/b6neo-series，2026-11-08 抓取）",
+   "doc_url": "https://www.skyrc.com/b6neo-series",
+   "doc_pdf": "https://www.skyrc.com/download/100198%20B6neo%20Instruction%20Manual%20V1.1_240318.pdf"
   },
   "subtype_label": "智能平衡充"
  },
@@ -54,7 +54,7 @@
   "price_cny": null,
   "origin": "SKYRC《B6AC V2》说明书 参数页 p22 与警告页 p5",
   "notes": "AC 100~240V / DC 11~18V。充电 0.1~6A@50W，放电 0.1~2A@5W，平衡 200mA/节。锂 1~6S、镍 1~15S、铅 2~20V。2×16 LCD 蓝背光、金属壳、四按键。Charger Master 上位机 + Wi-Fi App、10 组记忆、内置独立平衡器。",
-  "search": "skyrc b6ac b6 ac 50w 6a 平衡充 经典 wifi charger master",
+  "search": "skyrc b6ac b6 ac 50w 6a 平衡充 经典 wifi charger master imax b6ac v2",
   "specs": {
    "input_voltage": "AC 100~240V / DC 11~18V",
    "charge_power_w": 50,
@@ -72,8 +72,8 @@
    "weight_g": 632,
    "connectors": "2-6S 平衡转接板 / 温度口 / 电池口 / DC / USB",
    "smart_features": "Charger Master 上位机、Wi-Fi App、10 组记忆、内置平衡器",
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/skyrc-b6ac.jpg",
+   "image_source": "SKYRC《B6AC V2》说明书封面内嵌产品图（PDF 原图，机身标 iMAX B6AC V2 / SKYRC）",
    "doc_url": "https://www.skyrc.com",
    "doc_pdf": null
   },

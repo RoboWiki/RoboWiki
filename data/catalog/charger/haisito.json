@@ -14,7 +14,7 @@
   "price_cny": null,
   "origin": "Haisito《B3 Compact LiPo Balance Charger》手册（设备标 HTRC B3 AC）Simple to Use / LED Indicator 页",
   "notes": "AC 100~240V 输入，仅锂聚合物 2S(7.4V)/3S(11.1V)，最大充电电流 3×800mA，自动平衡、充满自停（LED 红充绿满）。2S 与 3S 口不可同时充。无放电/屏幕，入门便携。",
-  "search": "haisito htrc b3 b3ac 2s 3s 7.4v 11.1v 800ma 平衡充 入门",
+  "search": "haisito htrc b3 b3ac 2s 3s 7.4v 11.1v 800ma 平衡充 入门 htrc b3 ac compact charger",
   "specs": {
    "input_voltage": "AC 100~240V",
    "charge_power_w": null,
@@ -32,8 +32,8 @@
    "weight_g": null,
    "connectors": "2S/3S 平衡口（JST-XH）",
    "smart_features": "自动平衡、充满自停、2S/3S 不可同时充",
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/haisito-b3.jpg",
+   "image_source": "Haisito B3 手册内嵌产品图（PDF 原图，裁去上方标题文字；机身标 HTRC B3 AC）",
    "doc_url": null,
    "doc_pdf": null
   },

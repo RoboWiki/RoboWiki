@@ -32,8 +32,8 @@
    "weight_g": 220,
    "connectors": null,
    "smart_features": "同步/异步双模式、TVC、内阻测量、恒流恒压源、U盘升级、无人机电池激活",
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/toolkitrc-m6d.jpg",
+   "image_source": "ToolkitRC《M6D 使用手册》V1.1 封面内嵌产品渲染图（PDF 原图）",
    "doc_url": "https://www.toolkitrc.com",
    "doc_pdf": null
   },
