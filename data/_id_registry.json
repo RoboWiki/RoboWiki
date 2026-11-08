@@ -15,6 +15,16 @@
    "category": "equipment",
    "model": "CM1"
   },
+  "alientek-dl16": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "DL16"
+  },
+  "alientek-dl32-pro": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "DL32 Pro"
+  },
   "alientek-dp100": {
    "added": "2026-11-08",
    "category": "equipment",
@@ -90,6 +100,26 @@
    "category": "equipment",
    "model": "A1"
   },
+  "bambulab-a1-mini": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "A1 mini"
+  },
+  "bambulab-h2d": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "H2D"
+  },
+  "bambulab-p1s": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "P1S"
+  },
+  "bambulab-p2s": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "P2S"
+  },
   "cjt-a2541-8p": {
    "added": "2026-10-31",
    "category": "connector",
@@ -135,10 +165,25 @@
    "category": "controller_high",
    "model": "Raspberry Pi 5"
   },
+  "creality-ender3-v3-se": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "Ender-3 V3 SE"
+  },
   "creality-k1": {
    "added": "2026-11-08",
    "category": "equipment",
    "model": "K1"
+  },
+  "creality-k1-max": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "K1 Max"
+  },
+  "creality-k2-pro": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "K2 Pro"
   },
   "cubemars-ak10-9-v2-0-kv60": {
    "added": "2026-10-31",
@@ -626,6 +671,16 @@
    "added": "2026-11-08",
    "category": "equipment",
    "model": "1014D"
+  },
+  "fnirsi-dla16-plus": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "DLA-16 PLUS"
+  },
+  "fnirsi-dla32-plus": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "DLA-32 PLUS"
   },
   "fnirsi-dmt-99": {
    "added": "2026-11-08",
@@ -2822,6 +2877,16 @@
    "category": "structural",
    "model": "气动吸盘"
   },
+  "snapmaker-artisan": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "Artisan"
+  },
+  "snapmaker-u1": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "U1"
+  },
   "software:amp": {
    "added": "2026-10-31",
    "category": "software",
@@ -4211,6 +4276,31 @@
    "added": "2026-11-08",
    "category": "equipment",
    "model": "UT89X"
+  },
+  "uni-t-utg2000x": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "UTG2122X"
+  },
+  "uni-t-utg962e": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "UTG962E"
+  },
+  "uni-t-utl8200-plus": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "UTL8211+"
+  },
+  "uni-t-utl8500x-plus": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "UTL8512A+"
+  },
+  "uni-t-utr2830e": {
+   "added": "2026-11-08",
+   "category": "equipment",
+   "model": "UTR2830E"
   },
   "unitree-bt2-05": {
    "added": "2026-11-01",
