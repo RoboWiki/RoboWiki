@@ -497,7 +497,10 @@
   "feifei-6s-222v-xt60": {
    "added": "2026-11-01",
    "category": "battery",
-   "model": "6S 22.2V XT60"
+   "model": "6S 22.2V XT60",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 用户删除飞飞模型/福来翔航模电池（见 data/_backup/2026-11-08-drop-feifei-fulaixiang）"
   },
   "feiqilai-jumbo-power-6s-21700": {
    "added": "2026-11-01",
@@ -507,7 +510,10 @@
   "fulaixiang-6s4p-21700-20000": {
    "added": "2026-11-01",
    "category": "battery",
-   "model": "6S4P 21700 20000mAh（长条）"
+   "model": "6S4P 21700 20000mAh（长条）",
+   "removed": true,
+   "removed_at": "2026-11-08",
+   "removed_reason": "2026-11-08 用户删除飞飞模型/福来翔航模电池（见 data/_backup/2026-11-08-drop-feifei-fulaixiang）"
   },
   "haisito-b3": {
    "added": "2026-11-08",

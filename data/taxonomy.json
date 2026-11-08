@@ -1274,10 +1274,6 @@
    "slug": "pjrc",
    "cn": "PJRC"
   },
-  "飞飞模型": {
-   "slug": "feifei",
-   "cn": "飞飞模型"
-  },
   "飞起来Jumbo Power": {
    "slug": "feiqilai-jumbo-power",
    "cn": "飞起来"
@@ -1285,10 +1281,6 @@
   "格氏 ACE": {
    "slug": "ace",
    "cn": "格氏"
-  },
-  "福来翔航模": {
-   "slug": "fulaixiang",
-   "cn": "福来翔"
   },
   "STMicroelectronics": {
    "slug": "st-2",
