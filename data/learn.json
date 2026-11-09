@@ -1,5 +1,5 @@
 {
- "note": "学习资料库：经典教程 PDF 与本站导读统一索引；routes 留给后续学习路线。",
+ "note": "教程库只收经典教程与资料；routes 留给后续学习路线。",
  "updated_at": "2026-11-10",
  "routes": [],
  "resources": [
@@ -127,96 +127,6 @@
    "web_path": "/learn/resource/machining-guide-pdf.html"
   },
   {
-   "id": "doc-how-to-begin",
-   "slug": "how-to-begin",
-   "type": "pdf",
-   "title": "How To Begin：电控从哪里开始学",
-   "summary": "17 页回答一个具体问题：刚进电控组，第一周该干什么。按原文搬运，不改写结论。",
-   "topics": [
-    "电控"
-   ],
-   "tags": [
-    "电控",
-    "入门",
-    "第一周"
-   ],
-   "level": "入门",
-   "minutes": null,
-   "lang": "zh",
-   "source": "社区资料（原作者未署名）",
-   "authors": [],
-   "year": 2025,
-   "date": "2025-09-13",
-   "pages": 17,
-   "file_url": "/competitions/how-to-begin.pdf",
-   "cover_url": "/learn/covers/how-to-begin.webp",
-   "note_slug": null,
-   "license": "版权归原作者；如作者要求撤下将移除",
-   "mirror": "site",
-   "source_url": null,
-   "web_path": "/learn/resource/how-to-begin.html"
-  },
-  {
-   "id": "doc-ec-basics-rm",
-   "slug": "ec-basics-rm",
-   "type": "pdf",
-   "title": "RM 电控组需要掌握的基础知识",
-   "summary": "把电控组要会的东西按层列了一遍：嵌入式、控制算法、硬件设计三条线，适合用来对表。",
-   "topics": [
-    "电控"
-   ],
-   "tags": [
-    "RoboMaster",
-    "电控",
-    "知识对表"
-   ],
-   "level": "入门",
-   "minutes": null,
-   "lang": "zh",
-   "source": "社区资料（原作者未署名）",
-   "authors": [],
-   "year": null,
-   "date": null,
-   "pages": 4,
-   "file_url": "/competitions/ec-basics-rm.pdf",
-   "cover_url": "/learn/covers/ec-basics-rm.webp",
-   "note_slug": null,
-   "license": "版权归原作者；如作者要求撤下将移除",
-   "mirror": "site",
-   "source_url": null,
-   "web_path": "/learn/resource/ec-basics-rm.html"
-  },
-  {
-   "id": "doc-hw-what-we-do",
-   "slug": "hw-what-we-do",
-   "type": "pdf",
-   "title": "RoboMaster 硬件组做什么",
-   "summary": "一页说清硬件组的职责边界：电源、开发板与外设、舵机与电机驱动，以及和电控组的分工。",
-   "topics": [
-    "电控"
-   ],
-   "tags": [
-    "RoboMaster",
-    "硬件",
-    "团队分工"
-   ],
-   "level": "入门",
-   "minutes": null,
-   "lang": "zh",
-   "source": "社区资料（原作者未署名）",
-   "authors": [],
-   "year": null,
-   "date": null,
-   "pages": 1,
-   "file_url": "/competitions/hw-what-we-do.pdf",
-   "cover_url": "/learn/covers/hw-what-we-do.webp",
-   "note_slug": null,
-   "license": "版权归原作者；如作者要求撤下将移除",
-   "mirror": "site",
-   "source_url": null,
-   "web_path": "/learn/resource/hw-what-we-do.html"
-  },
-  {
    "id": "doc-rp1-whitepaper",
    "slug": "rp1-whitepaper",
    "type": "pdf",
@@ -249,128 +159,33 @@
    "web_path": "/learn/resource/rp1-whitepaper.html"
   },
   {
-   "id": "note-motor-specs",
-   "slug": "motor-specs",
-   "type": "note",
-   "title": "关节电机参数怎么读：六个数字背后的坑",
-   "summary": "峰值扭矩和额定扭矩差 3 倍是正常的；但「峰值」没写持续时间就是耍流氓。附 M3508 的输出端换算实例。",
+   "id": "link-lain-database",
+   "slug": "lain-database",
+   "type": "link",
+   "title": "Lain 机器人数据库（飞书）",
+   "summary": "外部飞书 wiki，需登录查看；作为经典资料的补充入口。",
    "topics": [
-    "选型与流程"
+    "综合"
    ],
    "tags": [
-    "选型",
-    "关节电机"
+    "外部资料",
+    "飞书"
    ],
    "level": "入门",
-   "minutes": 12,
+   "minutes": null,
    "lang": "zh",
-   "source": "本站原创",
-   "authors": [
-    "RoboWiki"
-   ],
-   "year": 2026,
+   "source": "Lain Database",
+   "authors": [],
+   "year": null,
    "date": null,
    "pages": null,
    "file_url": null,
    "cover_url": null,
-   "note_slug": "motor-specs",
-   "license": "CC BY-NC-SA 4.0",
-   "mirror": "site",
-   "source_url": null,
-   "web_path": "/learn/motor-specs.html"
-  },
-  {
-   "id": "note-selection-order",
-   "slug": "selection-order",
-   "type": "note",
-   "title": "第一次做整机选型：先算什么，后算什么",
-   "summary": "顺序错了会白买一轮。从任务倒推自由度 → 关节扭矩 → 算力 → 传感器，每步给可核对的算法。",
-   "topics": [
-    "选型与流程"
-   ],
-   "tags": [
-    "选型",
-    "流程"
-   ],
-   "level": "入门",
-   "minutes": 15,
-   "lang": "zh",
-   "source": "本站原创",
-   "authors": [
-    "RoboWiki"
-   ],
-   "year": 2026,
-   "date": null,
-   "pages": null,
-   "file_url": null,
-   "cover_url": null,
-   "note_slug": "selection-order",
-   "license": "CC BY-NC-SA 4.0",
-   "mirror": "site",
-   "source_url": null,
-   "web_path": "/learn/selection-order.html"
-  },
-  {
-   "id": "note-control-chain",
-   "slug": "control-chain",
-   "type": "note",
-   "title": "电控链路怎么搭：总线、驱动器与频率预算",
-   "summary": "CAN 挂 12 个关节还够不够？控制环 1 kHz 意味着什么？把带宽、周期、ODR 放在一张表里算。",
-   "topics": [
-    "电控"
-   ],
-   "tags": [
-    "电控",
-    "总线"
-   ],
-   "level": "进阶",
-   "minutes": 18,
-   "lang": "zh",
-   "source": "本站原创",
-   "authors": [
-    "RoboWiki"
-   ],
-   "year": 2026,
-   "date": null,
-   "pages": null,
-   "file_url": null,
-   "cover_url": null,
-   "note_slug": "control-chain",
-   "license": "CC BY-NC-SA 4.0",
-   "mirror": "site",
-   "source_url": null,
-   "web_path": "/learn/control-chain.html"
-  },
-  {
-   "id": "note-open-source-reading",
-   "slug": "open-source-reading",
-   "type": "note",
-   "title": "开源机器人项目怎么读：从 URDF 到训练配置",
-   "summary": "一个项目能不能复现，看四样东西就够了。附判断「这个仓库能不能用」的清单。",
-   "topics": [
-    "算法与仿真"
-   ],
-   "tags": [
-    "开源",
-    "仿真"
-   ],
-   "level": "进阶",
-   "minutes": 14,
-   "lang": "zh",
-   "source": "本站原创",
-   "authors": [
-    "RoboWiki"
-   ],
-   "year": 2026,
-   "date": null,
-   "pages": null,
-   "file_url": null,
-   "cover_url": null,
-   "note_slug": "open-source-reading",
-   "license": "CC BY-NC-SA 4.0",
-   "mirror": "site",
-   "source_url": null,
-   "web_path": "/learn/open-source-reading.html"
+   "note_slug": null,
+   "license": "外部链接",
+   "mirror": "external",
+   "source_url": "https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD",
+   "web_path": "https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD"
   }
  ],
  "reprint": {
