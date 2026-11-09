@@ -10,6 +10,11 @@
    "category": "chip",
    "model": "MAX3051"
   },
+  "alientek-atk-hsdap": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "ATK-HSDAP"
+  },
   "alientek-cm1": {
    "added": "2026-11-08",
    "category": "equipment",
@@ -19,6 +24,11 @@
    "added": "2026-11-08",
    "category": "equipment",
    "model": "DL16"
+  },
+  "alientek-dl16-plus": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "DL16 Plus"
   },
   "alientek-dl32-pro": {
    "added": "2026-11-08",
@@ -35,10 +45,35 @@
    "category": "equipment",
    "model": "DS100"
   },
+  "alientek-el15": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "EL15"
+  },
   "alientek-h550": {
    "added": "2026-11-08",
    "category": "equipment",
    "model": "H550"
+  },
+  "alientek-lt1": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "LT1"
+  },
+  "alientek-lt2": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "LT2"
+  },
+  "alientek-mini-pro": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "Mini-Pro"
+  },
+  "alientek-s40": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "S40"
   },
   "alientek-t100": {
    "added": "2026-11-08",
@@ -120,6 +155,11 @@
    "category": "equipment",
    "model": "P2S"
   },
+  "carvera": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "Carvera"
+  },
   "cjt-a2541-8p": {
    "added": "2026-10-31",
    "category": "connector",
@@ -165,10 +205,20 @@
    "category": "controller_high",
    "model": "Raspberry Pi 5"
   },
+  "creality-ender-3-v3": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "Ender-3 V3"
+  },
   "creality-ender3-v3-se": {
    "added": "2026-11-08",
    "category": "equipment",
    "model": "Ender-3 V3 SE"
+  },
+  "creality-falcon2-22w": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "Falcon2 22W 激光雕刻机"
   },
   "creality-k1": {
    "added": "2026-11-08",
@@ -179,6 +229,11 @@
    "added": "2026-11-08",
    "category": "equipment",
    "model": "K1 Max"
+  },
+  "creality-k1c": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "K1C"
   },
   "creality-k2-pro": {
    "added": "2026-11-08",
@@ -614,6 +669,11 @@
    "category": "controller_high",
    "model": "RDK X5"
   },
+  "elegoo-saturn-4-ultra": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "Saturn 4 Ultra"
+  },
   "espressif-esp32-devkit": {
    "added": "2026-11-08",
    "category": "controller_high",
@@ -672,6 +732,11 @@
    "category": "equipment",
    "model": "1014D"
   },
+  "fnirsi-2c53p": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "2C53P"
+  },
   "fnirsi-dla16-plus": {
    "added": "2026-11-08",
    "category": "equipment",
@@ -692,10 +757,50 @@
    "category": "equipment",
    "model": "DMT-A100"
   },
+  "fnirsi-dps-150": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "DPS-150"
+  },
+  "fnirsi-dst-210": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "DST-210"
+  },
+  "fnirsi-hs-02": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "HS-02"
+  },
+  "fnirsi-lcr-st1": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "LCR-ST1"
+  },
+  "fnirsi-lcr-st2": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "LCR-ST2"
+  },
+  "fnirsi-sg-004a": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "SG-004A"
+  },
+  "fnirsi-swm-10": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "SWM-10"
+  },
   "fnirsi-tdm120p": {
    "added": "2026-11-08",
    "category": "equipment",
    "model": "TDM120P"
+  },
+  "fnirsi-tsg3020": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "TSG3020"
   },
   "fulaixiang-6s4p-21700-20000": {
    "added": "2026-11-01",
@@ -4275,6 +4380,11 @@
    "category": "equipment",
    "model": "UT136B+"
   },
+  "uni-t-ut210e": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "UT210E"
+  },
   "uni-t-ut33d-plus": {
    "added": "2026-11-08",
    "category": "equipment",
@@ -4284,6 +4394,11 @@
    "added": "2026-11-08",
    "category": "equipment",
    "model": "UT39E+"
+  },
+  "uni-t-ut61e": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "UT61E"
   },
   "uni-t-ut89x": {
    "added": "2026-11-08",
@@ -4480,6 +4595,11 @@
    "added": "2026-10-31",
    "category": "connector",
    "model": "USB-C 16P 母座"
+  },
+  "xtool-d1-pro": {
+   "added": "2026-11-09",
+   "category": "equipment",
+   "model": "D1 Pro"
   },
   "xtool-f1": {
    "added": "2026-11-08",

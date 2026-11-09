@@ -1183,14 +1183,24 @@
   {
    "id": "equipment",
    "name": "设备库",
-   "hint": "做机器人的工具与仪器：3D 打印、焊接、电源与测量",
+   "hint": "做机器人的工具与仪器：3D 打印与 CNC、激光、焊接、电源与测量",
    "subtypes": {
-    "printer": "3D 打印机",
-    "solder": "焊接与返修",
-    "supply": "可调电源",
-    "meter": "测量仪器",
+    "fdm": "FDM 3D 打印机",
+    "resin": "光固化 3D 打印机",
+    "cnc": "CNC 雕刻机",
     "laser": "激光切割与雕刻",
-    "tool": "手工与电动工具"
+    "solder": "焊台与烙铁",
+    "hotair": "热风枪与返修",
+    "supply": "可调电源",
+    "multimeter": "万用表",
+    "clamp": "钳形表",
+    "scope": "示波器",
+    "siggen": "信号发生器",
+    "load": "电子负载",
+    "logic": "逻辑分析仪",
+    "tester": "元件测试仪",
+    "debug": "下载与调试",
+    "tool": "电动与手工工具"
    },
    "keys": [
     {
@@ -2326,6 +2336,14 @@
   "ISDT 艾斯特": {
    "slug": "isdt",
    "cn": "艾斯特"
+  },
+  "ELEGOO 爱乐酷": {
+   "slug": "elegoo",
+   "cn": "爱乐酷"
+  },
+  "Makera 造物时代": {
+   "slug": "makera",
+   "cn": "造物时代"
   }
  }
 }

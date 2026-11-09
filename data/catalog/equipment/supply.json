@@ -3,28 +3,28 @@
   "category": "equipment",
   "subtype": "supply",
   "subtype_label": "可调电源",
-  "id": "alientek-dp100",
-  "vendor": "正点原子 ALIENTEK",
-  "vendor_cn": "正点原子",
-  "model": "DP100",
-  "title": "正点原子 DP100 数控可调直流电源",
-  "url": "https://item.szlcsc.com/mro/8709367.html",
+  "id": "fnirsi-dps-150",
+  "vendor": "FNIRSI 菲尼瑞斯",
+  "vendor_cn": "菲尼瑞斯",
+  "model": "DPS-150",
+  "title": "FNIRSI 菲尼瑞斯 DPS-150 便携数控电源",
+  "url": "https://www.fnirsi.com/products/dps-150",
   "source_tier": "A",
   "verified": true,
   "last_checked": "2026-11-09",
   "price_cny": null,
-  "origin": "正点原子 DP100 用户手册 V1.1 + 立创商城 MRO 商品参数",
-  "notes": "口袋级数控直流稳压电源。Type-C 供电，支持 PD / QC 协议，输入 DC 4.8~36 V（低于 4.8 V 欠压锁定，降压模式要求输入高于输出）。输出 0~30 V / 0~5 A，分辨率 0.01 V / 0.001 A，精度 0.1%，约 100 W。带数据采集与绘图（最高 100 Hz 可调）。",
-  "search": "正点原子 alientek DP100 数控电源 30V 5A 100W PD QC",
+  "origin": "FNIRSI 官网 DPS-150 产品页规格表逐项核对（fnirsi.com/products/dps-150）",
+  "notes": "口袋级便携数控直流稳压电源；2.8 英寸 320×240 彩屏 + 旋钮。Type-C 输入，支持 PD / QC 快充、充电宝、DC 适配器，输入 DC 5.0~32V（官方建议 5~30V：低于 5.0V 欠压锁定、超过 30V 可能损坏）；输出 0~30V / 0~5A、0~150W；负载调整率 0.49%，满载效率 96.30%；CC / CV 模式；过压 / 过流 / 欠压 / 过功率 / 过温 / 反接 / 短路多重保护；支持上位机软件与固件升级。仅降压模式，输入电压须高于输出电压。整机约 178g。",
+  "search": "FNIRSI 菲尼瑞斯 DPS-150 便携数控电源 150W 30V 5A PD QC Type-C 2.8寸彩屏 CC CV",
   "specs": {
-   "image_url": "/parts/alientek-dp100.png",
-   "image_source": "正点原子官网 DP100 数控电源产品页产品图（产品页 https://www.alientek.com/Product_Details_12/21.html ，图床 https://omo-oss-image.thefastimg.com/portal-saas/pg2024032519535207092/cms/image/187cfb24-6460-42aa-9577-9f83d0eb3607.png ）",
+   "image_url": "/parts/fnirsi-dps-150.jpg",
+   "image_source": "FNIRSI 官网 DPS-150 产品页主图（产品页 https://www.fnirsi.com/products/dps-150 ，图床 https://www.fnirsi.com/cdn/shop/files/fnirsi-dps-150-mini-dc-adjustable-cnc-programmable-regulated-switching-power-supplypower-performancefnirsifnirsi-7382012.jpg?v=1751709903 ，1500×1500，整机正面照）",
    "doc_url": null,
    "doc_pdf": null,
-   "voltage_range_V": "4.8 … 36（输入）/ 0 … 30（输出）",
+   "voltage_range_V": "5 … 32（输入，建议 5 … 30）/ 0 … 30（输出）",
    "current_out": 5,
-   "power_w": 100,
-   "dims": "口袋便携型"
+   "power_w": 150,
+   "dims": "106 × 76 × 28 mm"
   }
  },
  {
@@ -81,6 +81,34 @@
    "current_out": 5,
    "power_w": 150,
    "dims": "138 × 140.45 × 70 mm"
+  }
+ },
+ {
+  "category": "equipment",
+  "subtype": "supply",
+  "subtype_label": "可调电源",
+  "id": "alientek-dp100",
+  "vendor": "正点原子 ALIENTEK",
+  "vendor_cn": "正点原子",
+  "model": "DP100",
+  "title": "正点原子 DP100 数控可调直流电源",
+  "url": "https://item.szlcsc.com/mro/8709367.html",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "price_cny": null,
+  "origin": "正点原子 DP100 用户手册 V1.1 + 立创商城 MRO 商品参数",
+  "notes": "口袋级数控直流稳压电源。Type-C 供电，支持 PD / QC 协议，输入 DC 4.8~36 V（低于 4.8 V 欠压锁定，降压模式要求输入高于输出）。输出 0~30 V / 0~5 A，分辨率 0.01 V / 0.001 A，精度 0.1%，约 100 W。带数据采集与绘图（最高 100 Hz 可调）。",
+  "search": "正点原子 alientek DP100 数控电源 30V 5A 100W PD QC",
+  "specs": {
+   "image_url": "/parts/alientek-dp100.png",
+   "image_source": "正点原子官网 DP100 数控电源产品页产品图（产品页 https://www.alientek.com/Product_Details_12/21.html ，图床 https://omo-oss-image.thefastimg.com/portal-saas/pg2024032519535207092/cms/image/187cfb24-6460-42aa-9577-9f83d0eb3607.png ）",
+   "doc_url": null,
+   "doc_pdf": null,
+   "voltage_range_V": "4.8 … 36（输入）/ 0 … 30（输出）",
+   "current_out": 5,
+   "power_w": 100,
+   "dims": "口袋便携型"
   }
  }
 ]
