@@ -1,0 +1,58 @@
+[
+ {
+  "id": "struct-amazing-hand",
+  "category": "robot",
+  "subtype": "hand",
+  "subtype_label": "灵巧手",
+  "vendor": "Pollen Robotics",
+  "vendor_cn": "法国 Pollen Robotics",
+  "model": "Amazing Hand",
+  "title": "Amazing Hand 开源灵巧手",
+  "url": "https://github.com/pollen-robotics/AmazingHand",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": null,
+  "price_cny": 1600,
+  "origin": "GitHub 仓库 README/cad/docs/Demo/LICENSE，2026-11-09",
+  "notes": "4 指 8 DOF 的开源灵巧手：每指由 2 个 Feetech SCS0009 舵机并行驱动屈伸与侧摆，8 个舵机全部内置掌内、无外置拉线，单只约 400g、物料成本低于 €200（约 ¥1600）。STL/STEP、Onshape 文档、BOM、装配与 3D 打印指南全部公开，提供 Python + Waveshare 总线驱动与 Arduino + Feetech TTL Linker 两套控制方式，另有 MuJoCo/mink 仿真与摄像头手势跟踪示例。边界：这是手部模块而非整机人形，需外接 5V/2A 电源和上位机；官方提示尚不适合长时间复杂抓取。",
+  "specs": {
+   "dof": 8,
+   "mass_kg": 0.4,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "Feetech SCS 半双工 TTL 串行总线",
+   "compute": "无板载计算；上位机 PC 或 Arduino",
+   "sensors": "8× SCS0009 舵机反馈（位置、负载/电流、温度）；无触觉传感器",
+   "image_url": "/parts/amazing-hand.webp",
+   "image_source": "仓库 assets/Hand_Overview.jpg（README 总览图，2026-11-09 下载）",
+   "doc_url": "https://github.com/pollen-robotics/AmazingHand/tree/main/docs",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/pollen-robotics/AmazingHand",
+    "https://github.com/pollen-robotics/rustypot",
+    "https://github.com/pollen-robotics/pypot"
+   ],
+   "urdf_urls": [],
+   "repo_license": "Apache-2.0（代码）+ CC-BY-4.0（机械设计）",
+   "ecosystem_id": "amazing-hand",
+   "ecosystem_count": 6
+  },
+  "artifacts": {
+   "cad": "https://github.com/pollen-robotics/AmazingHand/tree/main/cad",
+   "bom": "https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342",
+   "hardware": "https://cad.onshape.com/documents/430ff184cf3dd9557aaff2be/w/e3658b7152c139971d22c688/e/bd399bf1860732c6c6a2ee45",
+   "firmware": "https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample",
+   "assembly": "https://github.com/pollen-robotics/AmazingHand/blob/main/docs/AmazingHand_Assembly.pdf",
+   "docs": "https://github.com/pollen-robotics/AmazingHand/tree/main/docs"
+  }
+ }
+]

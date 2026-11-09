@@ -5,12 +5,12 @@
  "robots": {
   "unitree_go2": {
    "label": "宇树 Go2 四足",
-   "count": 49,
+   "count": 53,
    "roles": {
-    "官方描述/资产": 4,
+    "官方描述/资产": 6,
     "官方项目": 2,
-    "训练": 16,
-    "官方 SDK": 4,
+    "训练": 17,
+    "官方 SDK": 5,
     "仿真": 14,
     "控制/MPC": 2,
     "工具/资料": 3,
@@ -311,20 +311,44 @@
      "role": "工具/资料",
      "desc": "Go2 厂商文档页",
      "url": "https://support.unitree.com/main/zh"
+    },
+    {
+     "name": "unitree_sdk2_python",
+     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+     "role": "官方 SDK",
+     "desc": "Python SDK2，含各机型 example 与遥控器读取。"
+    },
+    {
+     "name": "unitree_ros",
+     "url": "https://github.com/unitreerobotics/unitree_ros",
+     "role": "官方描述/资产",
+     "desc": "各机型 URDF/xacro/meshes 与 Gazebo launch。"
+    },
+    {
+     "name": "unitree_model (Hugging Face)",
+     "url": "https://huggingface.co/datasets/unitreerobotics/unitree_model",
+     "role": "官方描述/资产",
+     "desc": "官方 USD/模型数据集，GitHub unitree_model 已迁移至此。"
+    },
+    {
+     "name": "unitree_rl_gym",
+     "url": "https://github.com/unitreerobotics/unitree_rl_gym",
+     "role": "训练",
+     "desc": "Isaac Gym 训练 + MuJoCo sim2sim + 真机部署。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "unitree_g1": {
    "label": "unitree_g1",
-   "count": 40,
+   "count": 48,
    "roles": {
-    "官方描述/资产": 5,
+    "官方描述/资产": 7,
     "官方项目": 2,
-    "官方 SDK": 1,
-    "训练": 14,
-    "工具/资料": 10,
-    "仿真": 8
+    "官方 SDK": 2,
+    "训练": 16,
+    "工具/资料": 12,
+    "仿真": 9
    },
    "projects": [
     {
@@ -566,18 +590,67 @@
      "role": "工具/资料",
      "desc": "G1 厂商文档页",
      "url": "https://support.unitree.com/main/zh"
+    },
+    {
+     "name": "unitree_sdk2_python",
+     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+     "role": "官方 SDK",
+     "desc": "Python SDK2，含各机型 example 与遥控器读取。"
+    },
+    {
+     "name": "unitree_ros",
+     "url": "https://github.com/unitreerobotics/unitree_ros",
+     "role": "官方描述/资产",
+     "desc": "各机型 URDF/xacro/meshes 与 Gazebo launch。"
+    },
+    {
+     "name": "unitree_model (Hugging Face)",
+     "url": "https://huggingface.co/datasets/unitreerobotics/unitree_model",
+     "role": "官方描述/资产",
+     "desc": "官方 USD/模型数据集，GitHub unitree_model 已迁移至此。"
+    },
+    {
+     "name": "unitree_rl_gym",
+     "url": "https://github.com/unitreerobotics/unitree_rl_gym",
+     "role": "训练",
+     "desc": "Isaac Gym 训练 + MuJoCo sim2sim + 真机部署。"
+    },
+    {
+     "name": "unitree_sim_isaaclab",
+     "url": "https://github.com/unitreerobotics/unitree_sim_isaaclab",
+     "role": "仿真",
+     "desc": "Isaac Lab 多任务仿真与数据采集，话题与真机一致。"
+    },
+    {
+     "name": "xr_teleoperate",
+     "url": "https://github.com/unitreerobotics/xr_teleoperate",
+     "role": "工具/资料",
+     "desc": "XR 遥操作（Vision Pro/PICO/Quest 3）。"
+    },
+    {
+     "name": "unitree_lerobot",
+     "url": "https://github.com/unitreerobotics/unitree_lerobot",
+     "role": "训练",
+     "desc": "G1+Dex1/Dex3 的 LeRobot 数据转换与策略训练。"
+    },
+    {
+     "name": "unitree_dds_wrapper",
+     "url": "https://github.com/unitreerobotics/unitree_dds_wrapper",
+     "role": "工具/资料",
+     "desc": "DDS pub/sub 封装，遥操作栈依赖。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "deeprobotics_m20": {
    "label": "云深处 M20 轮足",
-   "count": 11,
+   "count": 13,
    "roles": {
-    "官方 SDK": 1,
+    "官方 SDK": 2,
     "训练": 6,
     "仿真": 2,
-    "官方描述/资产": 2
+    "官方描述/资产": 2,
+    "工具/资料": 1
    },
    "projects": [
     {
@@ -645,20 +718,32 @@
      "role": "官方描述/资产",
      "desc": "云深处机型模型与描述文件",
      "url": "https://github.com/DeepRoboticsLab/deep_robotics_model"
+    },
+    {
+     "name": "m20-android-sdk",
+     "url": "https://github.com/DeepRoboticsLab/m20-android-sdk",
+     "role": "官方 SDK",
+     "desc": "M20/M20 Pro Android App SDK（Apache-2.0）。"
+    },
+    {
+     "name": "DEEP Robotics 开发者站",
+     "url": "https://developer.deeprobotics.cn/",
+     "role": "工具/资料",
+     "desc": "官方开发者文档、SDK 与示例入口。"
     }
    ]
   },
   "unitree_go1": {
    "label": "宇树 Go1 四足",
-   "count": 25,
+   "count": 28,
    "roles": {
     "官方描述/资产": 3,
-    "官方项目": 1,
+    "官方项目": 2,
     "训练": 11,
     "工具/资料": 1,
     "仿真": 5,
     "控制/MPC": 2,
-    "官方 SDK": 2
+    "官方 SDK": 4
    },
    "projects": [
     {
@@ -810,19 +895,38 @@
      "role": "仿真",
      "desc": "四足运动策略集合（HuggingFace）",
      "url": "https://huggingface.co/Kyu3224/quadruped-locomotion-policy"
+    },
+    {
+     "name": "unitree_legged_sdk",
+     "url": "https://github.com/unitreerobotics/unitree_legged_sdk/tree/go1",
+     "role": "官方 SDK",
+     "desc": "UDP 底层/高层控制与手柄遥控（v3.8.x 仅 Go1）。"
+    },
+    {
+     "name": "UnitreecameraSDK",
+     "url": "https://github.com/unitreerobotics/UnitreecameraSDK",
+     "role": "官方 SDK",
+     "desc": "Go1 双目相机 SDK。"
+    },
+    {
+     "name": "unitree_guide",
+     "url": "https://github.com/unitreerobotics/unitree_guide",
+     "role": "官方项目",
+     "desc": "Gazebo 四足 MPC/FSM 控制框架（Go1/A1）。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "unitree_go2w": {
    "label": "宇树 Go2W 轮足",
-   "count": 19,
+   "count": 23,
    "roles": {
-    "官方描述/资产": 3,
+    "官方描述/资产": 5,
     "官方项目": 2,
-    "训练": 7,
+    "训练": 8,
     "仿真": 6,
-    "工具/资料": 1
+    "工具/资料": 1,
+    "官方 SDK": 1
    },
    "projects": [
     {
@@ -938,19 +1042,44 @@
      "role": "工具/资料",
      "desc": "Go2-W 厂商文档页",
      "url": "https://support.unitree.com/main/zh"
+    },
+    {
+     "name": "unitree_sdk2_python",
+     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+     "role": "官方 SDK",
+     "desc": "Python SDK2，含各机型 example 与遥控器读取。"
+    },
+    {
+     "name": "unitree_ros",
+     "url": "https://github.com/unitreerobotics/unitree_ros",
+     "role": "官方描述/资产",
+     "desc": "各机型 URDF/xacro/meshes 与 Gazebo launch。"
+    },
+    {
+     "name": "unitree_model (Hugging Face)",
+     "url": "https://huggingface.co/datasets/unitreerobotics/unitree_model",
+     "role": "官方描述/资产",
+     "desc": "官方 USD/模型数据集，GitHub unitree_model 已迁移至此。"
+    },
+    {
+     "name": "unitree_rl_gym",
+     "url": "https://github.com/unitreerobotics/unitree_rl_gym",
+     "role": "训练",
+     "desc": "Isaac Gym 训练 + MuJoCo sim2sim + 真机部署。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "unitree_b2": {
    "label": "宇树 B2 四足",
-   "count": 12,
+   "count": 16,
    "roles": {
-    "官方描述/资产": 4,
+    "官方描述/资产": 5,
     "官方项目": 2,
-    "训练": 4,
+    "训练": 5,
     "仿真": 1,
-    "工具/资料": 1
+    "工具/资料": 1,
+    "官方 SDK": 2
    },
    "projects": [
     {
@@ -1024,18 +1153,43 @@
      "role": "工具/资料",
      "desc": "B2 厂商文档页",
      "url": "https://support.unitree.com/main/zh"
+    },
+    {
+     "name": "unitree_sdk2_python",
+     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+     "role": "官方 SDK",
+     "desc": "Python SDK2，含各机型 example 与遥控器读取。"
+    },
+    {
+     "name": "unitree_ros2",
+     "url": "https://github.com/unitreerobotics/unitree_ros2",
+     "role": "官方 SDK",
+     "desc": "ROS2 经 CycloneDDS 直连，含各机型示例。"
+    },
+    {
+     "name": "unitree_model (Hugging Face)",
+     "url": "https://huggingface.co/datasets/unitreerobotics/unitree_model",
+     "role": "官方描述/资产",
+     "desc": "官方 USD/模型数据集，GitHub unitree_model 已迁移至此。"
+    },
+    {
+     "name": "unitree_rl_gym",
+     "url": "https://github.com/unitreerobotics/unitree_rl_gym",
+     "role": "训练",
+     "desc": "Isaac Gym 训练 + MuJoCo sim2sim + 真机部署。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "unitree_b2w": {
    "label": "宇树 B2W 轮足",
-   "count": 9,
+   "count": 14,
    "roles": {
     "官方项目": 1,
-    "训练": 4,
+    "训练": 5,
     "仿真": 1,
-    "官方描述/资产": 3
+    "官方描述/资产": 4,
+    "官方 SDK": 3
    },
    "projects": [
     {
@@ -1091,18 +1245,50 @@
      "role": "官方描述/资产",
      "desc": "多机型 MuJoCo 资产与场景",
      "url": "https://github.com/unitreerobotics/unitree_mujoco"
+    },
+    {
+     "name": "unitree_sdk2",
+     "url": "https://github.com/unitreerobotics/unitree_sdk2",
+     "role": "官方 SDK",
+     "desc": "C++ SDK2，含各机型 example。"
+    },
+    {
+     "name": "unitree_sdk2_python",
+     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+     "role": "官方 SDK",
+     "desc": "Python SDK2，含各机型 example 与遥控器读取。"
+    },
+    {
+     "name": "unitree_ros2",
+     "url": "https://github.com/unitreerobotics/unitree_ros2",
+     "role": "官方 SDK",
+     "desc": "ROS2 经 CycloneDDS 直连，含各机型示例。"
+    },
+    {
+     "name": "unitree_model (Hugging Face)",
+     "url": "https://huggingface.co/datasets/unitreerobotics/unitree_model",
+     "role": "官方描述/资产",
+     "desc": "官方 USD/模型数据集，GitHub unitree_model 已迁移至此。"
+    },
+    {
+     "name": "unitree_rl_gym",
+     "url": "https://github.com/unitreerobotics/unitree_rl_gym",
+     "role": "训练",
+     "desc": "Isaac Gym 训练 + MuJoCo sim2sim + 真机部署。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "deeprobotics_lite3": {
    "label": "云深处 Lite3 四足",
-   "count": 12,
+   "count": 18,
    "roles": {
-    "官方 SDK": 1,
-    "训练": 4,
+    "官方 SDK": 2,
+    "训练": 5,
     "仿真": 3,
-    "官方描述/资产": 4
+    "官方描述/资产": 4,
+    "官方项目": 3,
+    "部署": 1
    },
    "projects": [
     {
@@ -1176,6 +1362,42 @@
      "role": "官方描述/资产",
      "desc": "云深处机型模型与描述文件",
      "url": "https://github.com/DeepRoboticsLab/deep_robotics_model"
+    },
+    {
+     "name": "Lite3_MotionSDK",
+     "url": "https://github.com/DeepRoboticsLab/Lite3_MotionSDK",
+     "role": "官方 SDK",
+     "desc": "Lite3 MPC 运动 SDK（MIT）。"
+    },
+    {
+     "name": "Lite3_ROS",
+     "url": "https://github.com/DeepRoboticsLab/Lite3_ROS",
+     "role": "官方项目",
+     "desc": "Lite3 UDP↔ROS2 桥接与感知开发包（MIT）。"
+    },
+    {
+     "name": "Lite3_rl_training",
+     "url": "https://github.com/DeepRoboticsLab/Lite3_rl_training",
+     "role": "训练",
+     "desc": "Lite3 旧版 RL 训练（BSD-3-Clause）。"
+    },
+    {
+     "name": "Lite3_rl_deploy",
+     "url": "https://github.com/DeepRoboticsLab/Lite3_rl_deploy",
+     "role": "部署",
+     "desc": "Lite3 sim2sim/sim2real RL 部署。"
+    },
+    {
+     "name": "Lite3_Navigation",
+     "url": "https://github.com/DeepRoboticsLab/Lite3_Navigation",
+     "role": "官方项目",
+     "desc": "Lite3 导航包。"
+    },
+    {
+     "name": "Lite3_SLAM",
+     "url": "https://github.com/DeepRoboticsLab/Lite3_SLAM",
+     "role": "官方项目",
+     "desc": "Lite3 SLAM 包。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
@@ -1395,12 +1617,14 @@
   },
   "microduck": {
    "label": "microduck",
-   "count": 8,
+   "count": 14,
    "roles": {
     "官方描述/资产": 1,
     "训练": 3,
-    "工具/资料": 2,
-    "仿真": 2
+    "工具/资料": 3,
+    "仿真": 2,
+    "BOM/复现": 4,
+    "社区复刻": 1
    },
    "projects": [
     {
@@ -1450,6 +1674,42 @@
      "role": "工具/资料",
      "desc": "MicroDuck Studio（编辑/可视化）",
      "url": "https://github.com/microai-lab/microduck-studio"
+    },
+    {
+     "name": "microduck_yocto",
+     "url": "https://github.com/pollen-robotics/microduck_yocto",
+     "role": "工具/资料",
+     "desc": "RK3566 Yocto 镜像与 RAUC A/B 升级。"
+    },
+    {
+     "name": "elec_RPI_Robot_HAT",
+     "url": "https://github.com/pollen-robotics/elec_RPI_Robot_HAT",
+     "role": "BOM/复现",
+     "desc": "官方唯一开源电控板：KiCad + Gerber + BOM/POS + STEP。"
+    },
+    {
+     "name": "microduck-replica",
+     "url": "https://github.com/fanhao375/microduck-replica",
+     "role": "社区复刻",
+     "desc": "社区整机复刻主线：可烧录镜像、中控、装配视频与逆向 BOM。"
+    },
+    {
+     "name": "microduck-replica-cad",
+     "url": "https://github.com/fanhao375/microduck-replica-cad",
+     "role": "BOM/复现",
+     "desc": "可编辑 SolidWorks + 21 页装配说明 + 打印件/外购件装配 BOM。"
+    },
+    {
+     "name": "Microduck-build-tutorial",
+     "url": "https://github.com/AI-FanGe/Microduck-build-tutorial",
+     "role": "BOM/复现",
+     "desc": "中文装机教程 + 预构建镜像 + 完整采购 BOM。"
+    },
+    {
+     "name": "cmu-microduck",
+     "url": "https://github.com/qilinxiaoxiang/cmu-microduck",
+     "role": "BOM/复现",
+     "desc": "CMU 手工搭建实测 BOM、11 章装配与已知缺陷。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
@@ -1514,12 +1774,13 @@
   },
   "unitree_a1": {
    "label": "unitree_a1",
-   "count": 5,
+   "count": 9,
    "roles": {
-    "官方描述/资产": 1,
-    "官方项目": 1,
-    "官方 SDK": 2,
-    "控制/MPC": 1
+    "官方描述/资产": 2,
+    "官方项目": 2,
+    "官方 SDK": 3,
+    "控制/MPC": 1,
+    "社区复刻": 1
    },
    "projects": [
     {
@@ -1551,20 +1812,45 @@
      "role": "控制/MPC",
      "desc": "高程图 + 凸平面分解 + 感知增强 MPC",
      "url": "https://github.com/qiayuanl/legged_perceptive"
+    },
+    {
+     "name": "unitree_legged_sdk v3.3.1",
+     "url": "https://github.com/unitreerobotics/unitree_legged_sdk/releases/tag/v3.3.1",
+     "role": "官方 SDK",
+     "desc": "A1 对应的历史 SDK 版本。"
+    },
+    {
+     "name": "unitree_cad (a1)",
+     "url": "https://github.com/unitreerobotics/unitree_cad/tree/main/a1",
+     "role": "官方描述/资产",
+     "desc": "官方 A1 结构 STL。"
+    },
+    {
+     "name": "unitree_guide",
+     "url": "https://github.com/unitreerobotics/unitree_guide",
+     "role": "官方项目",
+     "desc": "Gazebo 四足 MPC/FSM 控制框架。"
+    },
+    {
+     "name": "a1_sim_py",
+     "url": "https://github.com/lnotspotl/a1_sim_py",
+     "role": "社区复刻",
+     "desc": "A1 PyBullet 仿真资产与运行环境。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "limx_tron1": {
    "label": "逐际动力 TRON 1（PF/SF/WF 三形态合并）",
-   "count": 11,
+   "count": 16,
    "roles": {
-    "官方项目": 1,
-    "仿真": 2,
-    "训练": 3,
+    "官方项目": 2,
+    "仿真": 4,
+    "训练": 4,
     "官方描述/资产": 1,
     "官方 SDK": 3,
-    "部署": 1
+    "部署": 1,
+    "工具/资料": 1
    },
    "projects": [
     {
@@ -1632,17 +1918,50 @@
      "role": "官方 SDK",
      "desc": "limxdynamics 官方摇杆上位机（预编译，命令源参考）",
      "url": "https://github.com/limxdynamics/robot-joystick"
+    },
+    {
+     "name": "tron1-rl-isaacgym",
+     "url": "https://github.com/limxdynamics/tron1-rl-isaacgym",
+     "role": "训练",
+     "desc": "Isaac Gym RL 训练。"
+    },
+    {
+     "name": "tron1-mujoco-sim",
+     "url": "https://github.com/limxdynamics/tron1-mujoco-sim",
+     "role": "仿真",
+     "desc": "点足/脚掌/轮足 MuJoCo 仿真。"
+    },
+    {
+     "name": "tron1-gazebo-ros2",
+     "url": "https://github.com/limxdynamics/tron1-gazebo-ros2",
+     "role": "仿真",
+     "desc": "ROS2 Iron Gazebo 仿真。"
+    },
+    {
+     "name": "tron1-ss",
+     "url": "https://github.com/limxdynamics/tron1-ss",
+     "role": "官方项目",
+     "desc": "LiDAR SLAM 与导航。"
+    },
+    {
+     "name": "awesome-limx",
+     "url": "https://github.com/limxdynamics/awesome-limx",
+     "role": "工具/资料",
+     "desc": "官方维护的 TRON1/TRON2 项目索引。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "own:struct-roboparty-roboto01": {
    "label": "RoboParty ROBOTO 01（RP1）",
-   "count": 4,
+   "count": 13,
    "roles": {
-    "官方描述/资产": 1,
-    "官方项目": 2,
-    "工具/资料": 1
+    "官方描述/资产": 4,
+    "官方项目": 4,
+    "工具/资料": 2,
+    "训练": 1,
+    "部署": 1,
+    "官方 SDK": 1
    },
    "projects": [
     {
@@ -1668,17 +1987,73 @@
      "role": "工具/资料",
      "desc": "ROBOTO 01（RP1） 厂商文档页",
      "url": "https://roboparty.com/documents/roboto-01"
+    },
+    {
+     "name": "RP1_hardware",
+     "url": "https://github.com/Roboparty/RP1_hardware",
+     "role": "官方描述/资产",
+     "desc": "SolidWorks/图纸、PCB、线束与两套 BOM（CERN-OHL-W-2.0）。"
+    },
+    {
+     "name": "rp1_description",
+     "url": "https://github.com/Roboparty/rp1_description",
+     "role": "官方描述/资产",
+     "desc": "URDF/MJCF（28 关节与 24 DOF 版本）。"
+    },
+    {
+     "name": "RP1_firmware",
+     "url": "https://github.com/Roboparty/RP1_firmware",
+     "role": "官方项目",
+     "desc": "BSP/内核/镜像、USB-CANFD 桥与底层 SDK 包（GPL-3.0）。"
+    },
+    {
+     "name": "roboparty_train",
+     "url": "https://github.com/Roboparty/roboparty_train",
+     "role": "训练",
+     "desc": "Isaac Lab + RSL-RL，RPO/RP1 环境。"
+    },
+    {
+     "name": "roboparty_deploy",
+     "url": "https://github.com/Roboparty/roboparty_deploy",
+     "role": "部署",
+     "desc": "ROS 2 部署框架，服务 RPO 与 RP1。"
+    },
+    {
+     "name": "rp_dexhand",
+     "url": "https://github.com/Roboparty/rp_dexhand",
+     "role": "官方描述/资产",
+     "desc": "RP Hand 五指灵巧手：文档、接线、CAD/URDF/MJCF。"
+    },
+    {
+     "name": "roboparty_dexhand",
+     "url": "https://github.com/Roboparty/roboparty_dexhand",
+     "role": "官方 SDK",
+     "desc": "RP Hand Linux CAN-FD SDK。"
+    },
+    {
+     "name": "ROMOMO",
+     "url": "https://github.com/Roboparty/ROMOMO",
+     "role": "官方项目",
+     "desc": "自研关节模组、固件与上位机工具（CC-BY-4.0）。"
+    },
+    {
+     "name": "RP1_test",
+     "url": "https://github.com/Roboparty/RP1_test",
+     "role": "工具/资料",
+     "desc": "RP1 整机测试内容（Apache-2.0）。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
   },
   "own:struct-unitree-h1": {
    "label": "宇树科技 H1",
-   "count": 5,
+   "count": 7,
    "roles": {
     "官方描述/资产": 2,
     "官方项目": 2,
-    "工具/资料": 1
+    "工具/资料": 1,
+    "训练": 1,
+    "社区复刻": 1
    },
    "projects": [
     {
@@ -1710,6 +2085,18 @@
      "role": "工具/资料",
      "desc": "H1 厂商文档页",
      "url": "https://support.unitree.com/main/zh"
+    },
+    {
+     "name": "unitree_rl_lab",
+     "url": "https://github.com/unitreerobotics/unitree_rl_lab",
+     "role": "训练",
+     "desc": "H1 IsaacLab 环境。"
+    },
+    {
+     "name": "unitree_h1_humanoid-gym",
+     "url": "https://github.com/ZhangXG001/unitree_h1_humanoid-gym",
+     "role": "社区复刻",
+     "desc": "社区 H1 行走 RL 训练与验证。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
@@ -1743,6 +2130,794 @@
     }
    ],
    "note": "官方仓库 + LeRobot 软件与文档（按 URL 去重）"
+  },
+  "damiao-open-dog": {
+   "label": "达妙 OpenDog01",
+   "count": 2,
+   "roles": {
+    "官方项目": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "kit-miao/open-dog",
+     "role": "官方项目",
+     "desc": "OpenDog01 本体仓库：NMPC+WBC 控制、机械/硬件/BOM/PCB、加工图纸与接线图",
+     "url": "https://gitee.com/kit-miao/open-dog"
+    },
+    {
+     "name": "README 与代码说明",
+     "role": "工具/资料",
+     "desc": "安装、部署与代码目录说明（Gitee）",
+     "url": "https://gitee.com/kit-miao/open-dog#readme"
+    }
+   ],
+   "note": "官方 Gitee 仓库（按 URL 去重）"
+  },
+  "opendoge-v1": {
+   "label": "OpenDoge V1.1",
+   "count": 9,
+   "roles": {
+    "官方项目": 1,
+    "官方描述/资产": 3,
+    "训练": 1,
+    "部署": 1,
+    "仿真": 2,
+    "官方 SDK": 1
+   },
+   "projects": [
+    {
+     "name": "OpenDoge_origin",
+     "role": "官方项目",
+     "desc": "项目总览与复现主仓",
+     "url": "https://github.com/OpenDogeRobotics/OpenDoge_origin"
+    },
+    {
+     "name": "OpenDoge_hardware",
+     "role": "官方描述/资产",
+     "desc": "SolidWorks 结构、STEP/3MF、执行器与电气资料",
+     "url": "https://github.com/OpenDogeRobotics/OpenDoge_hardware"
+    },
+    {
+     "name": "OpenDoge_description",
+     "role": "官方描述/资产",
+     "desc": "URDF、STL、RViz/Gazebo 与 MuJoCo MJCF",
+     "url": "https://github.com/OpenDogeRobotics/OpenDoge_description"
+    },
+    {
+     "name": "OpenDoge_train",
+     "role": "训练",
+     "desc": "mjlab + RSL-RL PPO 训练、评估与 ONNX 导出",
+     "url": "https://github.com/OpenDogeRobotics/OpenDoge_train"
+    },
+    {
+     "name": "OpenDoge_deploy",
+     "role": "部署",
+     "desc": "无 ROS 的 C++ ONNX 真机运行时，4 路 CAN、systemd、sim2sim",
+     "url": "https://github.com/OpenDogeRobotics/OpenDoge_deploy"
+    },
+    {
+     "name": "OpenDoge 浏览器仿真",
+     "role": "仿真",
+     "desc": "MuJoCo WASM + ONNX Runtime Web 在线仿真",
+     "url": "https://opendogerobotics.github.io/"
+    },
+    {
+     "name": "OpenDogeRobotics.github.io",
+     "url": "https://github.com/OpenDogeRobotics/OpenDogeRobotics.github.io",
+     "role": "仿真",
+     "desc": "MuJoCo WASM + ONNX Runtime Web 浏览器仿真。"
+    },
+    {
+     "name": "opendoge_ros2_core",
+     "url": "https://github.com/OpenDogeRobotics/opendoge_ros2_core",
+     "role": "官方 SDK",
+     "desc": "ROS2 Humble ros2_control 运控内核。"
+    },
+    {
+     "name": "OpenDoge_URDF",
+     "url": "https://github.com/OpenDogeRobotics/OpenDoge_URDF",
+     "role": "官方描述/资产",
+     "desc": "早期独立 URDF 包，已被 description 覆盖。"
+    }
+   ],
+   "note": "官方组织仓库 + 在线仿真（按 URL 去重）"
+  },
+  "open-duck-mini": {
+   "label": "Open Duck Mini V2",
+   "count": 7,
+   "roles": {
+    "官方项目": 1,
+    "训练": 2,
+    "部署": 1,
+    "工具/资料": 2,
+    "社区复刻": 1
+   },
+   "projects": [
+    {
+     "name": "Open_Duck_Mini",
+     "role": "官方项目",
+     "desc": "V2 总仓：CAD/BOM、URDF/MJCF、训练脚本与装配指南",
+     "url": "https://github.com/apirrone/Open_Duck_Mini/tree/v2"
+    },
+    {
+     "name": "Open_Duck_Playground",
+     "role": "训练",
+     "desc": "MuJoCo Playground 训练环境",
+     "url": "https://github.com/apirrone/Open_Duck_Playground"
+    },
+    {
+     "name": "Open_Duck_reference_motion_generator",
+     "role": "训练",
+     "desc": "参考动作生成，用于模仿学习",
+     "url": "https://github.com/apirrone/Open_Duck_reference_motion_generator"
+    },
+    {
+     "name": "Open_Duck_Mini_Runtime",
+     "role": "部署",
+     "desc": "Raspberry Pi Zero 2W 板载运行时",
+     "url": "https://github.com/apirrone/Open_Duck_Mini_Runtime"
+    },
+    {
+     "name": "Tnkr 构建指南",
+     "role": "工具/资料",
+     "desc": "V2 打印、装配与调试指南",
+     "url": "https://tnkr.ai/explore/docs/open-duck-mini/open-duck-mini-v2"
+    },
+    {
+     "name": "bam",
+     "url": "https://github.com/Rhoban/bam",
+     "role": "工具/资料",
+     "desc": "官方使用的舵机辨识工具。"
+    },
+    {
+     "name": "open-duck-mini-hat",
+     "url": "https://github.com/blublear/open-duck-mini-hat",
+     "role": "社区复刻",
+     "desc": "社区树莓派 HAT，简化整机接线。"
+    }
+   ],
+   "note": "官方仓库 + 社区构建指南（按 URL 去重）"
+  },
+  "parol6": {
+   "label": "PAROL6 桌面六轴机械臂",
+   "count": 7,
+   "roles": {
+    "官方项目": 2,
+    "官方 SDK": 3,
+    "官方描述/资产": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "PAROL6-Desktop-robot-arm",
+     "url": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm",
+     "role": "官方项目",
+     "desc": "主仓：STL/BOM/装配手册/控制板固件/URDF。"
+    },
+    {
+     "name": "PAROL-commander-software",
+     "url": "https://github.com/Source-Robotics/PAROL-commander-software",
+     "role": "官方 SDK",
+     "desc": "桌面 GUI：点动、编程与仿真（GPL-3.0）。"
+    },
+    {
+     "name": "PAROL6-python-API",
+     "url": "https://github.com/PCrnjak/PAROL6-python-API",
+     "role": "官方 SDK",
+     "desc": "作者维护的 Python 控制 API（GPL-3.0）。"
+    },
+    {
+     "name": "PAROL6-ROS2-MOVEIT",
+     "url": "https://github.com/Source-Robotics/PAROL6-ROS2-MOVEIT",
+     "role": "官方 SDK",
+     "desc": "ROS 2 + MoveIt 2 集成（MIT）。"
+    },
+    {
+     "name": "robot_descriptions",
+     "url": "https://github.com/Source-Robotics/robot_descriptions",
+     "role": "官方描述/资产",
+     "desc": "PAROL6/夹爪 URDF、MuJoCo 模型与网格（CC-BY-4.0）。"
+    },
+    {
+     "name": "PAROL-docs",
+     "url": "https://github.com/Source-Robotics/PAROL-docs",
+     "role": "工具/资料",
+     "desc": "官方手册源文件（CC-BY-SA-4.0）。"
+    },
+    {
+     "name": "SSG-48-adaptive-electric-gripper",
+     "url": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper",
+     "role": "官方项目",
+     "desc": "可选自适应电动夹爪（CERN-OHL-S-2.0）。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "rebot-b601": {
+   "label": "reBot 开源机械臂 B601",
+   "count": 8,
+   "roles": {
+    "官方项目": 1,
+    "官方 SDK": 2,
+    "仿真": 2,
+    "工具/资料": 1,
+    "训练": 1,
+    "部署": 1
+   },
+   "projects": [
+    {
+     "name": "reBot-DevArm",
+     "url": "https://github.com/Seeed-Projects/reBot-DevArm",
+     "role": "官方项目",
+     "desc": "主仓：STEP、BOM、URDF/MJCF、装配资料与生态导航。"
+    },
+    {
+     "name": "reBotArm_control_py",
+     "url": "https://github.com/Seeed-Projects/reBotArm_control_py",
+     "role": "官方 SDK",
+     "desc": "Pinocchio 运动学/动力学 + MotorBridge 多电机 SDK。"
+    },
+    {
+     "name": "reBotArmController_ROS2",
+     "url": "https://github.com/Seeed-Projects/reBotArmController_ROS2",
+     "role": "官方 SDK",
+     "desc": "ROS 2 Humble + MoveIt2 与重力补偿。"
+    },
+    {
+     "name": "reBot-Isaacsim",
+     "url": "https://github.com/Seeed-Projects/reBot-Isaacsim",
+     "role": "仿真",
+     "desc": "Isaac Sim 演示与 USD 资产（MIT）。"
+    },
+    {
+     "name": "reBot_RS_Sim",
+     "url": "https://github.com/Seeed-Projects/reBot_RS_Sim",
+     "role": "仿真",
+     "desc": "B601-RS 浏览器端 MuJoCo 数字孪生。"
+    },
+    {
+     "name": "reBot-DevArm-Grasp",
+     "url": "https://github.com/Seeed-Projects/reBot-DevArm-Grasp",
+     "role": "工具/资料",
+     "desc": "目标检测与视觉抓取算法。"
+    },
+    {
+     "name": "lerobot-robot-seeed-b601",
+     "url": "https://github.com/Seeed-Projects/lerobot-robot-seeed-b601",
+     "role": "训练",
+     "desc": "B601 作为 follower 接入 LeRobot（MIT）。"
+    },
+    {
+     "name": "lerobot-teleoperator-seeed-b601",
+     "url": "https://github.com/Seeed-Projects/lerobot-teleoperator-seeed-b601",
+     "role": "部署",
+     "desc": "B601 的 LeRobot 遥操作实现（MIT）。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "doly-diy": {
+   "label": "DOLY 桌面轮式双小臂机器人（DIY 版）",
+   "count": 2,
+   "roles": {
+    "官方项目": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "DOLY-DIY",
+     "url": "https://github.com/robotdoly/DOLY-DIY",
+     "role": "官方项目",
+     "desc": "主仓：CAD/STL/STEP、Gerber/原理图/BOM、指南、SDK。"
+    },
+    {
+     "name": "WM8960-Audio",
+     "url": "https://github.com/robotdoly/WM8960-Audio",
+     "role": "工具/资料",
+     "desc": "DOLY 使用的 WM8960 音频驱动（GPL-3.0）。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "openarm": {
+   "label": "OpenArm 七自由度开源人形臂",
+   "count": 12,
+   "roles": {
+    "官方项目": 2,
+    "BOM/复现": 1,
+    "官方描述/资产": 1,
+    "官方 SDK": 2,
+    "仿真": 2,
+    "部署": 2,
+    "训练": 2
+   },
+   "projects": [
+    {
+     "name": "openarm",
+     "url": "https://github.com/enactic/openarm",
+     "role": "官方项目",
+     "desc": "主仓与总入口，含仓库矩阵、购买与文档导航（Apache-2.0）。"
+    },
+    {
+     "name": "openarm_hardware",
+     "url": "https://github.com/enactic/openarm_hardware",
+     "role": "BOM/复现",
+     "desc": "CAD/STL/BOM 索引，STEP/BOM 在 Google Drive，Release 镜像（CERN-OHL-S-2.0）。"
+    },
+    {
+     "name": "openarm_description",
+     "url": "https://github.com/enactic/openarm_description",
+     "role": "官方描述/资产",
+     "desc": "URDF/xacro 与网格，含双装配置。"
+    },
+    {
+     "name": "openarm_can",
+     "url": "https://github.com/enactic/openarm_can",
+     "role": "官方 SDK",
+     "desc": "CAN 电机控制库与 CLI。"
+    },
+    {
+     "name": "openarm_ros2",
+     "url": "https://github.com/enactic/openarm_ros2",
+     "role": "官方 SDK",
+     "desc": "ros2_control 与 MoveIt 包。"
+    },
+    {
+     "name": "openarm_mujoco",
+     "url": "https://github.com/enactic/openarm_mujoco",
+     "role": "仿真",
+     "desc": "MuJoCo 模型，可 pip 安装。"
+    },
+    {
+     "name": "openarm_isaac_lab",
+     "url": "https://github.com/enactic/openarm_isaac_lab",
+     "role": "仿真",
+     "desc": "Isaac Lab 环境与 RL 任务。"
+    },
+    {
+     "name": "openarm_teleop",
+     "url": "https://github.com/enactic/openarm_teleop",
+     "role": "部署",
+     "desc": "1.0 主从遥操作。"
+    },
+    {
+     "name": "openarm_dataset",
+     "url": "https://github.com/enactic/openarm_dataset",
+     "role": "训练",
+     "desc": "数据集格式、Python API 与 LeRobot 转换。"
+    },
+    {
+     "name": "openarm_ker_firmware",
+     "url": "https://github.com/enactic/openarm_ker_firmware",
+     "role": "官方项目",
+     "desc": "KER 编码器模块与 M5 显示固件（Apache-2.0）。"
+    },
+    {
+     "name": "dora-openarm-data-collection",
+     "url": "https://github.com/enactic/dora-openarm-data-collection",
+     "role": "训练",
+     "desc": "dora-rs 数据采集（KER/VR/WebXR）。"
+    },
+    {
+     "name": "dora-openarm-evaluation",
+     "url": "https://github.com/enactic/dora-openarm-evaluation",
+     "role": "部署",
+     "desc": "dora-rs 策略推理与评测。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "xlerobot": {
+   "label": "XLeRobot 低成本家用双臂移动机器人",
+   "count": 6,
+   "roles": {
+    "官方项目": 1,
+    "官方描述/资产": 1,
+    "仿真": 2,
+    "训练": 1,
+    "部署": 1
+   },
+   "projects": [
+    {
+     "name": "XLeRobot",
+     "url": "https://github.com/Vector-Wangel/XLeRobot",
+     "role": "官方项目",
+     "desc": "主仓：hardware（STL/3MF）、simulation、software、XLeVR 遥操、docs。"
+    },
+    {
+     "name": "XLeRobot-assets",
+     "url": "https://github.com/Vector-Wangel/XLeRobot-assets",
+     "role": "官方描述/资产",
+     "desc": "演示视频等大文件仓库，保持主仓轻量。"
+    },
+    {
+     "name": "ManiSkill-XLeRobot",
+     "url": "https://github.com/Vector-Wangel/ManiSkill-XLeRobot",
+     "role": "仿真",
+     "desc": "ManiSkill 框架下的 XLeRobot 资产。"
+    },
+    {
+     "name": "lerobot-xlerobot",
+     "url": "https://github.com/Vector-Wangel/lerobot-xlerobot",
+     "role": "训练",
+     "desc": "对接 XLeRobot 硬件改动的 LeRobot 分支。"
+    },
+    {
+     "name": "xlerobot-teleop",
+     "url": "https://github.com/Vector-Wangel/xlerobot-teleop",
+     "role": "部署",
+     "desc": "双 SO-100 + 差速底盘遥操作。"
+    },
+    {
+     "name": "MuJoCo-GS-Web",
+     "url": "https://github.com/Vector-Wangel/MuJoCo-GS-Web",
+     "role": "仿真",
+     "desc": "浏览器内 MuJoCo + 3DGS 仿真与可视化。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "lerobot-humanoid": {
+   "label": "LeRobot 人形机器人（下肢平台）",
+   "count": 7,
+   "roles": {
+    "官方项目": 2,
+    "部署": 1,
+    "官方描述/资产": 1,
+    "工具/资料": 1,
+    "训练": 2
+   },
+   "projects": [
+    {
+     "name": "lerobot-humanoid-hardware",
+     "url": "https://github.com/huggingface/lerobot-humanoid-hardware",
+     "role": "官方项目",
+     "desc": "BOM、STL、装配/接线/电机调试文档（Apache-2.0）。"
+    },
+    {
+     "name": "lerobot-humanoid",
+     "url": "https://github.com/huggingface/lerobot-humanoid",
+     "role": "官方项目",
+     "desc": "五仓汇总工作区，说明设计-硬件-模型-运行时-辨识闭环。"
+    },
+    {
+     "name": "lerobot-humanoid-runtime",
+     "url": "https://github.com/huggingface/lerobot-humanoid-runtime",
+     "role": "部署",
+     "desc": "真机/仿真运行时、标定、策略执行与 LeRobot 控制器。"
+    },
+    {
+     "name": "lerobot-humanoid-model",
+     "url": "https://github.com/huggingface/lerobot-humanoid-model",
+     "role": "官方描述/资产",
+     "desc": "版本化 MJCF 资产与 Python 常量包。"
+    },
+    {
+     "name": "lerobot-humanoid-design",
+     "url": "https://github.com/huggingface/lerobot-humanoid-design",
+     "role": "工具/资料",
+     "desc": "机械/控制协同设计与可行性优化实验。"
+    },
+    {
+     "name": "lerobot-humanoid-identification",
+     "url": "https://github.com/huggingface/lerobot-humanoid-identification",
+     "role": "训练",
+     "desc": "MJWarp 回放 + CMA-ES 参数辨识。"
+    },
+    {
+     "name": "lerobot",
+     "url": "https://github.com/huggingface/lerobot",
+     "role": "训练",
+     "desc": "LeRobot 主框架，人形实现尚未并入主干。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "sesame-robot": {
+   "label": "Sesame 开源迷你四足机器人",
+   "count": 6,
+   "roles": {
+    "官方项目": 2,
+    "工具/资料": 2,
+    "仿真": 1,
+    "训练": 1
+   },
+   "projects": [
+    {
+     "name": "sesame-robot",
+     "url": "https://github.com/dorianborian/sesame-robot",
+     "role": "官方项目",
+     "desc": "主仓：CAD/STEP、STL、BOM、配电板 PCB、ESP32 固件与装配文档。"
+    },
+    {
+     "name": "sesame-studio",
+     "url": "https://github.com/dorianborian/sesame-studio",
+     "role": "工具/资料",
+     "desc": "桌面动画与表情编辑器。"
+    },
+    {
+     "name": "sesame-companion-app",
+     "url": "https://github.com/dorianborian/sesame-companion-app",
+     "role": "工具/资料",
+     "desc": "局域网 JSON API 的 Python 语音与远程控制示例。"
+    },
+    {
+     "name": "sesame-robot-micro",
+     "url": "https://github.com/dorianborian/sesame-robot-micro",
+     "role": "官方项目",
+     "desc": "更小的 Sesame Micro 衍生变体。"
+    },
+    {
+     "name": "sesame-robot-sim",
+     "url": "https://github.com/one-for-all/sesame-robot-sim",
+     "role": "仿真",
+     "desc": "社区 Rust/WebAssembly 三维仿真。"
+    },
+    {
+     "name": "sesame-ml",
+     "url": "https://github.com/lukehollis/sesame-ml",
+     "role": "训练",
+     "desc": "社区 ML/RL 工具：CAD 派生 MJCF、校验过的 URDF、任务与策略评估。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "petoi-opencat": {
+   "label": "Petoi OpenCat 开源四足机器人框架",
+   "count": 6,
+   "roles": {
+    "官方项目": 3,
+    "官方描述/资产": 1,
+    "官方 SDK": 2
+   },
+   "projects": [
+    {
+     "name": "OpenCat-Quadruped-Robot",
+     "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+     "role": "官方项目",
+     "desc": "NyBoard/ATmega328P 版固件与 Python 上位机（MIT）。"
+    },
+    {
+     "name": "OpenCatEsp32-Quadruped-Robot",
+     "url": "https://github.com/PetoiCamp/OpenCatEsp32-Quadruped-Robot",
+     "role": "官方项目",
+     "desc": "当前代 ESP32/BiBoard 固件，活跃维护。"
+    },
+    {
+     "name": "NonCodeFiles",
+     "url": "https://github.com/PetoiCamp/NonCodeFiles",
+     "role": "官方描述/资产",
+     "desc": "官方图片/动图与部分 Bittle 3D 打印件（非全套壳体）。"
+    },
+    {
+     "name": "ros_opencat",
+     "url": "https://github.com/PetoiCamp/ros_opencat",
+     "role": "官方 SDK",
+     "desc": "ROS1 驱动与完整仿真模型。"
+    },
+    {
+     "name": "opencat_serial_cpp",
+     "url": "https://github.com/PetoiCamp/opencat_serial_cpp",
+     "role": "官方 SDK",
+     "desc": "OpenCat 串口通信 C++ 库。"
+    },
+    {
+     "name": "OpenCat-Old",
+     "url": "https://github.com/PetoiCamp/OpenCat-Old",
+     "role": "官方项目",
+     "desc": "已归档的早期 OpenCat 仓库。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "xgo-duck": {
+   "label": "XGO-Duck 双足机器鸭",
+   "count": 5,
+   "roles": {
+    "官方项目": 1,
+    "部署": 2,
+    "训练": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "xgoduck_hardware",
+     "url": "https://github.com/LuwuDynamics/xgoduck_hardware",
+     "role": "官方项目",
+     "desc": "机械 STL、扩展板 PCBA 源文件、BOM 与装配指南。"
+    },
+    {
+     "name": "xgoduck_runtime_arduino",
+     "url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino",
+     "role": "部署",
+     "desc": "UNO Q 端固件/App：策略推理、舵机配置校准与遥测。"
+    },
+    {
+     "name": "xgoduck_rl",
+     "url": "https://github.com/LuwuDynamics/xgoduck_rl",
+     "role": "训练",
+     "desc": "mjlab 仿真与 RL 训练、ONNX 导出，含 XGODUCK.urdf。"
+    },
+    {
+     "name": "xgoduck_runtime_mosaico",
+     "url": "https://github.com/LuwuDynamics/xgoduck_runtime_mosaico",
+     "role": "部署",
+     "desc": "可选的 Mosaico/实时内核版运行时。"
+    },
+    {
+     "name": "microduck",
+     "url": "https://github.com/pollen-robotics/microduck",
+     "role": "工具/资料",
+     "desc": "上游原型与板载软件参考（Apache-2.0）。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "asimov-1": {
+   "label": "Asimov 1 开源人形机器人",
+   "count": 7,
+   "roles": {
+    "官方项目": 2,
+    "训练": 3,
+    "官方 SDK": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "asimov-1",
+     "url": "https://github.com/menloresearch/asimov-1",
+     "role": "官方项目",
+     "desc": "主仓：机械、电气、仿真模型与制造清单。"
+    },
+    {
+     "name": "asimov-v0",
+     "url": "https://github.com/menloresearch/asimov-v0",
+     "role": "官方项目",
+     "desc": "前代仅双腿方案，12 DOF，v1 的设计基础。"
+    },
+    {
+     "name": "Cyclotron",
+     "url": "https://github.com/menloresearch/cyclotron",
+     "role": "训练",
+     "desc": "官方 RL 训练框架（Isaac Lab + PPO/AMP）。"
+    },
+    {
+     "name": "asimov-mjlab",
+     "url": "https://github.com/menloresearch/asimov-mjlab",
+     "role": "训练",
+     "desc": "mjlab 分支，12-DOF 双足速度跟踪与 Sim2Sim。"
+    },
+    {
+     "name": "asimov-1-amp",
+     "url": "https://github.com/menloresearch/asimov-1-amp",
+     "role": "训练",
+     "desc": "Isaac Lab AMP 速度跟踪最小示例。"
+    },
+    {
+     "name": "menlo-sdk",
+     "url": "https://github.com/menloresearch/menlo-sdk",
+     "role": "官方 SDK",
+     "desc": "Python SDK：站立/行走/关节轨迹、状态、相机与音频。"
+    },
+    {
+     "name": "OpenCrane",
+     "url": "https://github.com/menloresearch/opencrane",
+     "role": "工具/资料",
+     "desc": "开源人形吊装/支撑架。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "amazing-hand": {
+   "label": "Amazing Hand 开源灵巧手",
+   "count": 6,
+   "roles": {
+    "官方项目": 2,
+    "官方 SDK": 2,
+    "工具/资料": 1,
+    "社区复刻": 1
+   },
+   "projects": [
+    {
+     "name": "AmazingHand",
+     "url": "https://github.com/pollen-robotics/AmazingHand",
+     "role": "官方项目",
+     "desc": "主仓：CAD、装配/打印文档、Python/Arduino 示例、仿真与手势跟踪 Demo。"
+    },
+    {
+     "name": "AmazingHand Enhanced",
+     "url": "https://github.com/pollen-robotics/AmazingHand/tree/Amazing-Hand-Enhanced/AmazingHand_Enhanced",
+     "role": "官方项目",
+     "desc": "增强分支：改用 STS3032，全反驱、更大扭矩与精度。"
+    },
+    {
+     "name": "rustypot",
+     "url": "https://github.com/pollen-robotics/rustypot",
+     "role": "官方 SDK",
+     "desc": "Rust 舵机通信库（Feetech/Dynamixel）。"
+    },
+    {
+     "name": "pypot",
+     "url": "https://github.com/pollen-robotics/pypot",
+     "role": "官方 SDK",
+     "desc": "Python 舵机库，含 Feetech 支持。"
+    },
+    {
+     "name": "AmazingHandControl",
+     "url": "https://github.com/Betatester777/AmazingHandControl",
+     "role": "工具/资料",
+     "desc": "社区 GUI/CLI：单指控制、反馈读取、动作录制回放。"
+    },
+    {
+     "name": "AmazingHand with SG90 force control",
+     "url": "https://github.com/joanbox24/AmazingHand-with-sg90-servo-force-control",
+     "role": "社区复刻",
+     "desc": "社区改版：SG90 舵机替代 SCS0009 并加入力控。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "roboto-origin": {
+   "label": "RoboParty ROBOTO Origin 开源人形",
+   "count": 8,
+   "roles": {
+    "官方项目": 2,
+    "官方描述/资产": 3,
+    "训练": 1,
+    "部署": 2
+   },
+   "projects": [
+    {
+     "name": "roboto_origin",
+     "url": "https://github.com/Roboparty/roboto_origin",
+     "role": "官方项目",
+     "desc": "RPO 聚合仓：每日快照、BOM、训练与部署入口（GPL-3.0）。"
+    },
+    {
+     "name": "rpo_hardware",
+     "url": "https://github.com/Roboparty/rpo_hardware",
+     "role": "官方描述/资产",
+     "desc": "机械结构、PCB、BOM 与制造资产，V1.0/V2.0（CERN-OHL-W-2.0）。"
+    },
+    {
+     "name": "rpo_description",
+     "url": "https://github.com/Roboparty/rpo_description",
+     "role": "官方描述/资产",
+     "desc": "rpo.urdf（23 关节）、MJCF 与网格（CERN-OHL-W-2.0）。"
+    },
+    {
+     "name": "rpo_appearance",
+     "url": "https://github.com/Roboparty/rpo_appearance",
+     "role": "官方描述/资产",
+     "desc": "RPO 外壳设计资产（仅静态展示，CERN-OHL-W-2.0）。"
+    },
+    {
+     "name": "roboparty_firmware",
+     "url": "https://github.com/Roboparty/roboparty_firmware",
+     "role": "官方项目",
+     "desc": "RPO/Roboto 固件与板级镜像构建（GPL-3.0）。"
+    },
+    {
+     "name": "roboparty_train",
+     "url": "https://github.com/Roboparty/roboparty_train",
+     "role": "训练",
+     "desc": "Isaac Lab + RSL-RL，AMP/BeyondMimic/Parkour，RPO/RP1 环境。"
+    },
+    {
+     "name": "roboparty_deploy",
+     "url": "https://github.com/Roboparty/roboparty_deploy",
+     "role": "部署",
+     "desc": "ROS 2 部署框架，电机/IMU/推理/相机模块（GPL-3.0）。"
+    },
+    {
+     "name": "roboparty_navigation",
+     "url": "https://github.com/Roboparty/roboparty_navigation",
+     "role": "部署",
+     "desc": "RPO 导航与定位应用模块（GPL-3.0）。"
+    }
+   ],
+   "note": "官方仓库 + 社区复刻（按 URL 去重）"
   }
  },
  "url_note": "项目链接统一指向公开仓库（GitHub / Gitee / HuggingFace）；不再使用本地目录或文件数。"

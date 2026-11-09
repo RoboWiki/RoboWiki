@@ -1,0 +1,60 @@
+[
+ {
+  "id": "struct-parol6",
+  "category": "robot",
+  "subtype": "arm",
+  "subtype_label": "机械臂",
+  "vendor": "Source Robotics",
+  "vendor_cn": "Source Robotics",
+  "model": "PAROL6",
+  "title": "PAROL6 桌面六轴机械臂",
+  "url": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": "BOM、STL/STEP、装配手册、PlatformIO 固件与 URDF/MuJoCo 模型都在主仓公开；控制板为官方在售成品 PCB，板级设计与原理图不公开，需要购买。",
+  "price_cny": null,
+  "origin": "GitHub 仓库 README/LICENSE/BOM/文件树 + docs.source-robotics.com 核对，2026-11-09",
+  "notes": "3D 打印结构 + NEMA17 开环步进的六轴桌面臂，408 mm 臂展、0.5–1 kg 负载、0.1 mm 重复定位、整机约 5.5 kg，使用方式接近工业臂。主仓给出逐件 BOM、STL（少量 STEP 底板）、装配 PDF、PlatformIO 固件和 URDF/MuJoCo 模型，复现路径完整。边界是开环步进 + TMC5160，无力矩反馈，速度与柔顺控制有限；控制板要买官方成品板，PCB 不开放。",
+  "specs": {
+   "dof": 6,
+   "mass_kg": 5.5,
+   "payload_kg": 0.75,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "USB CDC 串口；24V 5A 供电",
+   "compute": "STM32F446RE 控制板 + 上位机 PC",
+   "sensors": "3×限位开关 + 3×电感式回零传感器；无标配相机",
+   "image_url": "/parts/parol6.webp",
+   "image_source": "仓库 Images/img3.png（README 头图，2026-11-09 下载）",
+   "doc_url": "https://docs.source-robotics.com/PAROL-docs/latest/",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm",
+    "https://github.com/Source-Robotics/PAROL-commander-software",
+    "https://github.com/Source-Robotics/PAROL6-ROS2-MOVEIT"
+   ],
+   "urdf_urls": [
+    "https://github.com/Source-Robotics/robot_descriptions/tree/main/urdf/parol6_description"
+   ],
+   "repo_license": "CERN-OHL-S-2.0（仓库主体）；固件目录 GPL-3.0",
+   "ecosystem_id": "parol6",
+   "ecosystem_count": 7
+  },
+  "artifacts": {
+   "urdf": "https://github.com/Source-Robotics/robot_descriptions/tree/main/urdf/parol6_description",
+   "cad": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm/tree/main/STL",
+   "bom": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm/tree/main/BOM",
+   "firmware": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm/tree/main/PAROL6%20control%20board%20main%20software",
+   "assembly": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm/tree/main/Building%20instructions",
+   "docs": "https://docs.source-robotics.com/PAROL-docs/latest/"
+  }
+ }
+]

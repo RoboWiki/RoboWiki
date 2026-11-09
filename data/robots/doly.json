@@ -1,0 +1,56 @@
+[
+ {
+  "id": "struct-doly-diy",
+  "category": "robot",
+  "subtype": "mobile_manipulator",
+  "subtype_label": "移动双臂",
+  "vendor": "Limitbit",
+  "vendor_cn": "Limitbit",
+  "model": "Doly（DIY / Maker Edition）",
+  "title": "DOLY 桌面轮式双小臂机器人（DIY 版）",
+  "url": "https://github.com/robotdoly/DOLY-DIY",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": "机械 STEP/STL、六块板卡 Gerber、交互式 BOM、原理图 PDF、装配手册与 C++/Python SDK 全公开；但许可证禁止商用，且只给 Gerber 不给 KiCad 源文件。",
+  "price_cny": null,
+  "origin": "GitHub 仓库 README/LICENSE.txt/文件树/构建指南核对，2026-11-09",
+  "notes": "桌面陪伴型轮式机器人：Raspberry Pi CM4 主控，双轮差速 + 两条各 1 自由度的小臂（做表情/动作，不是操作臂），头部双 LCD 眼、8MP 相机、双 ToF、IMU、触摸与麦克风。BOM 按板卡拆成 6 个 CSV，PCB 有 Gerber 和原理图 PDF，装配手册可逐步照做。边界：面向教育与陪伴，不是抓取平台；CC BY-NC-SA 4.0 明确禁止商用。",
+  "specs": {
+   "dof": null,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "Li-ion 电池（容量未公开）",
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "WiFi（局域网 SDK）、Qwiic/I2C、UART、USB",
+   "compute": "Raspberry Pi CM4（BCM2711，最高 8GB）",
+   "sensors": "8MP IMX219 相机、2×ToF、6 轴 IMU、2×触摸、4×红外跌落、2 麦克风",
+   "image_url": "/parts/doly.webp",
+   "image_source": "仓库 Guide/web/assets/images/printable_doly.jpg（2026-11-09 下载）",
+   "doc_url": "https://robotdoly.github.io/DOLY-DIY/maker/",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/robotdoly/DOLY-DIY",
+    "https://github.com/robotdoly/WM8960-Audio"
+   ],
+   "urdf_urls": [],
+   "repo_license": "CC BY-NC-SA 4.0（禁止商用，商用需授权）",
+   "ecosystem_id": "doly-diy",
+   "ecosystem_count": 2
+  },
+  "artifacts": {
+   "cad": "https://github.com/robotdoly/DOLY-DIY/tree/main/Printables/PLA-PETG",
+   "bom": "https://github.com/robotdoly/DOLY-DIY/tree/main/Electronics/BOM",
+   "hardware": "https://github.com/robotdoly/DOLY-DIY/tree/main/Electronics/Gerber",
+   "assembly": "https://github.com/robotdoly/DOLY-DIY/blob/main/Guide/maker_guide.pdf",
+   "docs": "https://robotdoly.github.io/DOLY-DIY/maker/"
+  }
+ }
+]

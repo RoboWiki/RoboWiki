@@ -1,0 +1,61 @@
+[
+ {
+  "id": "struct-xgo-duck",
+  "category": "robot",
+  "subtype": "biped",
+  "subtype_label": "双足",
+  "vendor": "Luwu Dynamics (XGO)",
+  "vendor_cn": "陆吾智能",
+  "model": "XGO-Duck",
+  "title": "XGO-Duck 双足机器鸭",
+  "url": "https://github.com/LuwuDynamics/xgoduck_hardware",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "partial",
+  "openness_note": "公开 25 页装配图、BOM、STL、V1.1 Altium 原理图/PCB BOM/Gerber/STEP 及 runtime 与 RL 仓库，可复现；但仓库无顶层许可证，LICENSING.md 仅表达个人/教育复现意向、商用需另行授权，机械设计继承自 Microduck。",
+  "price_cny": null,
+  "origin": "GitHub readme/BOM.md/docs/LICENSING.md/UPSTREAM.md 与目录树，2026-11-09",
+  "notes": "陆吾智能基于 Pollen Robotics Microduck 改造的 15 舵机双足机器鸭：10 个腿关节、4 个颈/头关节、1 个嘴关节；UNO Q 的 Linux 侧跑 ONNX 策略、STM32 侧跑 100Hz 舵机/IMU 环。公开装配 PDF、BOM、STL、扩展板 V1.1 全套生产文件，以及走、起身、拾取等策略的 runtime 与 mjlab 训练仓库。边界：策略控制 14 个关节，嘴舵机单独控制；质量、尺寸、续航未公布；结构件只有 STL，没有 STEP 机械源文件。",
+  "specs": {
+   "dof": 15,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "8.4V 2S 18650 锂电（容量 >3500mAh）",
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "板载 Web UI（:9527）、Arduino Bridge RPC、TTL 半双工舵机总线",
+   "compute": "Arduino UNO Q（QRB2210 四核 A53 + STM32U585）",
+   "sensors": "QMI8658A 六轴 IMU",
+   "image_url": "/parts/xgo-duck.webp",
+   "image_source": "仓库 media/xgo-duck-hero.jpg（2026-11-09 下载）",
+   "doc_url": "https://github.com/LuwuDynamics/xgoduck_hardware/tree/master/docs",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/LuwuDynamics/xgoduck_hardware",
+    "https://github.com/LuwuDynamics/xgoduck_runtime_arduino",
+    "https://github.com/LuwuDynamics/xgoduck_rl"
+   ],
+   "urdf_urls": [
+    "https://raw.githubusercontent.com/LuwuDynamics/xgoduck_rl/main/src/mjlab_microduck/robot/xgoduck/urdf/XGODUCK.urdf"
+   ],
+   "repo_license": "无顶层 LICENSE（LICENSING.md 仅意向声明）",
+   "ecosystem_id": "xgo-duck",
+   "ecosystem_count": 5
+  },
+  "artifacts": {
+   "urdf": "https://raw.githubusercontent.com/LuwuDynamics/xgoduck_rl/main/src/mjlab_microduck/robot/xgoduck/urdf/XGODUCK.urdf",
+   "cad": "https://github.com/LuwuDynamics/xgoduck_hardware/tree/master/structure",
+   "bom": "https://github.com/LuwuDynamics/xgoduck_hardware/blob/master/BOM.md",
+   "hardware": "https://github.com/LuwuDynamics/xgoduck_hardware/tree/master/PCBA",
+   "firmware": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino",
+   "assembly": "https://github.com/LuwuDynamics/xgoduck_hardware/blob/master/Assembly_Guide.pdf",
+   "docs": "https://github.com/LuwuDynamics/xgoduck_hardware/tree/master/docs"
+  }
+ }
+]

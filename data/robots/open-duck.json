@@ -1,0 +1,60 @@
+[
+ {
+  "id": "struct-open-duck-mini",
+  "category": "robot",
+  "subtype": "biped",
+  "subtype_label": "双足",
+  "vendor": "Open Duck Project",
+  "vendor_cn": "社区开源项目（apirrone）",
+  "model": "Open Duck Mini V2",
+  "title": "Open Duck Mini V2 双足",
+  "url": "https://github.com/apirrone/Open_Duck_Mini/tree/v2",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "price_cny": null,
+  "origin": "GitHub 仓库 v2 README（高 42 cm、BOM 成本 < $400、Onshape CAD、BOM 表、构建指南）+ URDF 逐个数转动关节（16）与惯量质量合计（约 2.06 kg）；2026-11-09 核对",
+  "notes": "受迪士尼 BDX 双足机器人启发的社区开源项目，V2 腿伸展高约 42 cm，14 个 Feetech STS3215 总线舵机（每腿 5 个 + 颈/头 4 个），URDF 里另有 2 个被动天线关节。官方说明整机 BOM 成本可控制在 400 美元以内；机械设计在 Onshape，BOM 用公开表格维护，板载运行在 Raspberry Pi Zero 2W 上，策略由 MuJoCo Playground/强化学习训练后以 ONNX 部署。腿部改用 XC330-M288-T 舵机以提升扭矩。装配指南仍标注不完整，部分关节存在虚位，适合作为低成本双足复现与 RL 部署样本，不建议直接当量产结构。",
+  "specs": {
+   "dof": 14,
+   "mass_kg": 2.06,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": "高约 420（腿伸展）",
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": null,
+   "compute": "Raspberry Pi Zero 2W",
+   "sensors": null,
+   "image_url": "/parts/open-duck-mini.webp",
+   "image_source": "官方仓库 v2 README 产品图（GitHub user-attachments，2026-11-09 下载）",
+   "doc_url": "https://github.com/apirrone/Open_Duck_Mini/tree/v2",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/apirrone/Open_Duck_Mini/tree/v2",
+    "https://github.com/apirrone/Open_Duck_Mini_Runtime",
+    "https://github.com/apirrone/Open_Duck_Playground"
+   ],
+   "urdf_urls": [
+    "https://github.com/apirrone/Open_Duck_Mini/tree/v2/mini_bdx/robots/open_duck_mini_v2"
+   ],
+   "repo_license": "Apache-2.0",
+   "ecosystem_id": "open-duck-mini",
+   "ecosystem_count": 5
+  },
+  "artifacts": {
+   "cad": "https://cad.onshape.com/documents/64074dfcfa379b37d8a47762/w/3650ab4221e215a4f65eb7fe/e/0505c262d882183a25049d05",
+   "bom": "https://docs.google.com/spreadsheets/d/1gq4iWWHEJVgAA_eemkTEsshXqrYlFxXAPwO515KpCJc/edit?usp=sharing",
+   "assembly": "https://tnkr.ai/explore/docs/open-duck-mini/open-duck-mini-v2",
+   "firmware": "https://github.com/apirrone/Open_Duck_Mini_Runtime",
+   "urdf": "https://github.com/apirrone/Open_Duck_Mini/tree/v2/mini_bdx/robots/open_duck_mini_v2",
+   "docs": "https://github.com/apirrone/Open_Duck_Mini/tree/v2"
+  },
+  "openness_note": "BOM 为 Google Sheets、CAD 在 Onshape；GitHub 里只有导出的 STL 与 Playground MJCF，没有可编辑的 STEP/URDF 源文件。"
+ }
+]

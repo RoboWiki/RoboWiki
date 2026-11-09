@@ -3144,6 +3144,16 @@
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
+  "struct-amazing-hand": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "Amazing Hand"
+  },
+  "struct-asimov-1": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "Asimov 1"
+  },
   "struct-berkeley-humanoid-lite": {
    "added": "2026-10-31",
    "category": "robot",
@@ -3151,6 +3161,11 @@
    "removed": true,
    "removed_at": "2026-11-07",
    "removed_reason": "方案库收敛：删除指定机型"
+  },
+  "struct-damiao-open-dog": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "OpenDog01"
   },
   "struct-deeprobotics-lite3": {
    "added": "2026-10-31",
@@ -3161,6 +3176,11 @@
    "added": "2026-10-31",
    "category": "robot",
    "model": "山猫 M20"
+  },
+  "struct-doly-diy": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "Doly（DIY / Maker Edition）"
   },
   "struct-fourier-gr2": {
    "added": "2026-10-31",
@@ -3178,6 +3198,11 @@
    "removed_at": "2026-11-07",
    "removed_reason": "方案库收敛：删除指定机型"
   },
+  "struct-lerobot-humanoid": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "LeRobot Humanoid"
+  },
   "struct-limx-tron1": {
    "added": "2026-10-31",
    "category": "robot",
@@ -3191,15 +3216,55 @@
    "removed_at": "2026-11-07",
    "removed_reason": "方案库收敛：删除指定机型"
   },
+  "struct-open-duck-mini": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "Open Duck Mini V2"
+  },
+  "struct-openarm": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "OpenArm 2.0（双臂）"
+  },
+  "struct-opendoge-v1": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "OpenDoge V1.1"
+  },
+  "struct-parol6": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "PAROL6"
+  },
+  "struct-petoi-opencat": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "OpenCat（Bittle / Nybble）"
+  },
   "struct-pollen-microduck": {
    "added": "2026-10-31",
    "category": "robot",
    "model": "Microduck"
   },
+  "struct-rebot-b601": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "reBot Arm B601"
+  },
+  "struct-roboparty-roboto-origin": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "ROBOTO Origin（RPO）"
+  },
   "struct-roboparty-roboto01": {
    "added": "2026-10-31",
    "category": "robot",
    "model": "ROBOTO 01（RP1）"
+  },
+  "struct-sesame-robot": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "Sesame Robot"
   },
   "struct-so-arm100": {
    "added": "2026-11-07",
@@ -3266,6 +3331,16 @@
    "added": "2026-10-31",
    "category": "robot",
    "model": "H1"
+  },
+  "struct-xgo-duck": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "XGO-Duck"
+  },
+  "struct-xlerobot": {
+   "added": "2026-11-09",
+   "category": "robot",
+   "model": "XLeRobot 0.4"
   },
   "struct-yobotics-y30": {
    "added": "2026-10-31",

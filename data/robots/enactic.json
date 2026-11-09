@@ -1,0 +1,62 @@
+[
+ {
+  "id": "struct-openarm",
+  "category": "robot",
+  "subtype": "arm",
+  "subtype_label": "机械臂",
+  "vendor": "Enactic",
+  "vendor_cn": "Enactic",
+  "model": "OpenArm 2.0（双臂）",
+  "title": "OpenArm 七自由度开源人形臂",
+  "url": "https://github.com/enactic/openarm",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": "CAD/STEP 与 BOM 在 openarm_hardware 指向的官方 Google Drive（GitHub Releases 作镜像），URDF/xacro、CAN 驱动、ROS2、MuJoCo/Isaac 全开源；电机为 Damiao 成品关节。",
+  "price_cny": null,
+  "origin": "GitHub 组织仓库列表/README/LICENSE + docs.openarm.dev 硬件页核对，2026-11-09",
+  "notes": "单臂 7 自由度、按人形比例设计的双臂平台，标称负载 4.1 kg（极限 6.0 kg），全套双臂系统官方报价 6500 美元，主打高背驱与柔顺，用于接触密集场景的遥操作与模仿学习。软件栈拆分很细：openarm_can、openarm_ros2、MuJoCo/Isaac Lab、dora-rs 数据采集与推理各有仓库。CAD 与 BOM 真源在 Google Drive 而非 git，这是复现时最容易踩空的一步。",
+  "specs": {
+   "dof": 7,
+   "mass_kg": null,
+   "payload_kg": 4.1,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "CAN 1 Mbps（openarm_can）；24V",
+   "compute": "无标配计算单元；上位机 + USB-CAN",
+   "sensors": "关节双编码器（Damiao 内置）、机械限位；无标配相机",
+   "image_url": "/parts/openarm.webp",
+   "image_source": "仓库 website/static/img/hardware/openarm_and_cell.png（2026-11-09 下载）",
+   "doc_url": "https://docs.openarm.dev/hardware/",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/enactic/openarm",
+    "https://github.com/enactic/openarm_hardware",
+    "https://github.com/enactic/openarm_description",
+    "https://github.com/enactic/openarm_ros2"
+   ],
+   "urdf_urls": [
+    "https://github.com/enactic/openarm_description/tree/main/assets/robot/openarm_v2.0/urdf"
+   ],
+   "repo_license": "Apache-2.0；openarm_hardware 为 CERN-OHL-S-2.0",
+   "ecosystem_id": "openarm",
+   "ecosystem_count": 12
+  },
+  "artifacts": {
+   "urdf": "https://github.com/enactic/openarm_description/tree/main/assets/robot/openarm_v2.0/urdf",
+   "cad": "https://drive.google.com/drive/folders/14RM-fIPml0HTMnt2zcTXjNxJj9s2R_mG",
+   "bom": "https://docs.openarm.dev/hardware/openarm-2.0/general",
+   "hardware": "https://github.com/enactic/openarm_ker_firmware",
+   "firmware": "https://github.com/enactic/openarm_ker_firmware",
+   "assembly": "https://docs.openarm.dev/1.0/hardware/assembly-guide/j1-j2-sub-assembly",
+   "docs": "https://docs.openarm.dev/hardware/"
+  }
+ }
+]

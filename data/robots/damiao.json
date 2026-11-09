@@ -1,0 +1,55 @@
+[
+ {
+  "id": "struct-damiao-open-dog",
+  "category": "robot",
+  "subtype": "quadruped",
+  "subtype_label": "四足",
+  "vendor": "DAMIAO 达妙",
+  "vendor_cn": "达妙科技",
+  "model": "OpenDog01",
+  "title": "达妙 OpenDog01 开源四足",
+  "url": "https://gitee.com/kit-miao/open-dog",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "price_cny": null,
+  "origin": "Gitee 仓库 README 与 硬件/ 目录：BOM 表（电控 + 机械 + 线材）、整机 STEP、腿部/躯干加工图纸、接线图、电源板与分电板工程文件；2026-11-09 核对",
+  "notes": "达妙科技开源的 12 自由度四足，12 × DM6248P 关节电机 + 达妙 USB 双路 CANFD + 达妙 IMU + NUC（BOM 配置 ORIN NX 载板）。控制主线是 NMPC + WBC，仓库注明强化学习部分仍在调试。硬件包是完整的一套：机械和电控 BOM 表、整机 STEP、腿部与躯干加工图纸、NUC 接线图，以及 24V 转 19.5V 电源板和四足分电板的工程/打板文件。仓库没有 LICENSE 文件，默认保留所有权利，复用机械图或 PCB 前要先联系作者确认授权。整机质量与外形尺寸仓库未公布，参数留空。",
+  "specs": {
+   "dof": 12,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "2 × 6S 5000 mAh（BOM 配置）",
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "达妙 USB 转双路 CANFD",
+   "compute": "NUC（BOM 配置 ORIN NX 载板）",
+   "sensors": "达妙 IMU 模块",
+   "image_url": "/parts/damiao-open-dog.webp",
+   "image_source": "Gitee 仓库 文档/四足渲染效果图.png（2026-11-09 下载）",
+   "doc_url": "https://gitee.com/kit-miao/open-dog",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://gitee.com/kit-miao/open-dog"
+   ],
+   "urdf_urls": [],
+   "repo_license": "NO-LICENSE",
+   "ecosystem_id": "damiao-open-dog",
+   "ecosystem_count": 2
+  },
+  "artifacts": {
+   "cad": "https://gitee.com/kit-miao/open-dog/tree/master/%E7%A1%AC%E4%BB%B6/%E4%B8%89%E7%BB%B4%E6%A8%A1%E5%9E%8B%E4%BB%A5%E5%8F%8A%E5%8A%A0%E5%B7%A5%E5%9B%BE%E7%BA%B8",
+   "bom": "https://gitee.com/kit-miao/open-dog/tree/master/%E7%A1%AC%E4%BB%B6/BOM%E8%A1%A8",
+   "assembly": "https://gitee.com/kit-miao/open-dog/tree/master/%E7%A1%AC%E4%BB%B6/%E7%A1%AC%E4%BB%B6%E6%8E%A5%E7%BA%BF%E5%9B%BE",
+   "docs": "https://gitee.com/kit-miao/open-dog",
+   "hardware": "https://gitee.com/kit-miao/open-dog/tree/master/%E7%A1%AC%E4%BB%B6/%E7%A1%AC%E4%BB%B6%E7%94%B5%E8%B7%AF%E6%9D%BF%E5%BC%80%E6%BA%90%E8%B5%84%E6%96%99"
+  },
+  "openness_note": "BOM、STEP、加工图、PCB 与接线图齐全；仓库没有 LICENSE，复用前需联系作者确认授权。"
+ }
+]

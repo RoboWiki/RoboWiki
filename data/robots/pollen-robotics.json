@@ -12,6 +12,7 @@
   "source_tier": "A",
   "verified": 1,
   "last_checked": "2026-10-28",
+  "openness": "partial",
   "price_cny": null,
   "specs": {
    "dof": 14,
@@ -42,7 +43,23 @@
    "ecosystem_id": "microduck",
    "repo_license": "Apache-2.0"
   },
-  "notes": "Pollen Robotics 的小型开源双足：14 自由度（每腿 5 + 颈部 1 + 头部 3，按官方 MJCF 执行器数）、约 0.8 kg、高 25 cm，随机附带若干已训练动作，策略在机载 50 Hz 运行，传感器为相机 + 激光雷达 + 双 IMU，配套游戏手柄与 USB-C 充电。官网定价 US$399（2026-10-28 的 introductory price，税前不含运费，可能变化），price_cny 未折算故留空。官方只发布 MuJoCo MJCF（microduck_rl），没有 URDF；负载、速度、电池容量与续航未公开，均留空。",
-  "origin": "Pollen Robotics 官网 Microduck 产品页 + 官方 GitHub 仓库与 MJCF 关节数核对（2026-10-28）"
+  "notes": "Pollen Robotics 的小型开源双足：14 自由度（每腿 5 + 颈部 1 + 头部 3，按官方 MJCF 执行器数）、约 0.8 kg、高 25 cm，随机附带若干已训练动作，策略在机载 50 Hz 运行，传感器为相机 + 激光雷达 + 双 IMU。官方仓库只交付运行机器人的软件栈（Rust runtime、训练环境、Yocto 镜像）和一块 RPI Robot HAT 电控板；官方明确没有发布整机机械 CAD、制造 BOM 与装配说明。要动手搭实体，需要转向社区复刻 BOM：fanhao375/microduck-replica（BOM.md）与 fanhao375/microduck-replica-cad（装配 BOM + SolidWorks），或 AI-FanGe/Microduck-build-tutorial（中文教程 + BOM）与 qilinxiaoxiang/cmu-microduck（CMU 实测 BOM）。社区 BOM 是从 MJCF/STL/Rust 源码/官方 KiCad 反推的，不是官方数据。",
+  "origin": "Pollen Robotics 官网 Microduck 产品页 + 官方 GitHub 仓库与 MJCF 关节数核对（2026-10-28）",
+  "artifacts": {
+   "urdf": "https://github.com/pollen-robotics/microduck_rl/tree/main/src/mjlab_microduck/robot/microduck",
+   "firmware": "https://github.com/pollen-robotics/microduck",
+   "docs": "https://github.com/pollen-robotics/microduck/blob/main/docs/README.md",
+   "hardware": "https://github.com/pollen-robotics/elec_RPI_Robot_HAT",
+   "bom": "https://github.com/fanhao375/microduck-replica-cad/blob/master/BOM/README.md",
+   "cad": "https://github.com/fanhao375/microduck-replica-cad/tree/master/%E6%89%93%E5%8D%B0",
+   "assembly": "https://github.com/AI-FanGe/Microduck-build-tutorial"
+  },
+  "openness_note": "官方主仓只开源软件、训练与 OS；官方从未发布整机机械 CAD、制造 BOM 或装配包。下列 BOM/CAD 均来自社区复刻，不是官方资料。",
+  "artifacts_origin": {
+   "bom": "community",
+   "cad": "community",
+   "assembly": "community",
+   "hardware": "official"
+  }
  }
 ]

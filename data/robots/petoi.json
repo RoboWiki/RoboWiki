@@ -1,0 +1,58 @@
+[
+ {
+  "id": "struct-petoi-opencat",
+  "category": "robot",
+  "subtype": "quadruped",
+  "subtype_label": "四足",
+  "vendor": "Petoi",
+  "vendor_cn": "Petoi",
+  "model": "OpenCat（Bittle / Nybble）",
+  "title": "Petoi OpenCat 开源四足机器人框架",
+  "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "partial",
+  "openness_note": "MIT 只覆盖固件与上位机代码；官方另仓公开部分 Bittle 打印件与 URDF/ROS 模型，但 NyBoard 电路、完整 BOM 和全套壳体未发布，整机以商品套件出售。",
+  "price_cny": null,
+  "origin": "GitHub README/LICENSE/contents/tree 与 NonCodeFiles 目录核对，2026-11-09",
+  "notes": "Petoi 的开源四足框架，本仓库是 legacy NyBoard（ATmega328P）版固件，覆盖 Bittle 9 DoF 与 Nybble 11 DoF，含步态、IMU、舵机、外接传感器和 Python/ROS 接口。当前代 ESP32/BiBoard 有独立仓库 OpenCatESP32，官方另有 ros_opencat 与 NonCodeFiles 提供模型和小部分打印件。边界：属半开源，控制板、全套结构件与装配文件都不在仓库里，不能按 BOM 做出整机。",
+  "specs": {
+   "dof": 9,
+   "mass_kg": 0.28,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": "200 × 110 × 110",
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "7.4V 2×14500 锂电（约 850mAh）",
+   "endurance_h": 1,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "UART/USB、蓝牙、WiFi（ESP8266）、红外遥控、Python/ROS",
+   "compute": "NyBoard（ATmega328P），可选树莓派/ESP32 协处理器",
+   "sensors": "MPU-6050 IMU；可选超声波、红外、触摸、手势、摄像头模块",
+   "image_url": "/parts/opencat.webp",
+   "image_source": "PetoiCamp/NonCodeFiles gif/walk.gif 首帧（官方动图）",
+   "doc_url": "https://docs.petoi.com",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+    "https://github.com/PetoiCamp/OpenCatEsp32-Quadruped-Robot",
+    "https://github.com/PetoiCamp/ros_opencat"
+   ],
+   "urdf_urls": [
+    "https://raw.githubusercontent.com/PetoiCamp/OpenCat-Quadruped-Robot/main/Resources/SimulationModels/bittle_simple.urdf"
+   ],
+   "repo_license": "MIT",
+   "ecosystem_id": "petoi-opencat",
+   "ecosystem_count": 6
+  },
+  "artifacts": {
+   "urdf": "https://raw.githubusercontent.com/PetoiCamp/OpenCat-Quadruped-Robot/main/Resources/SimulationModels/bittle_simple.urdf",
+   "hardware": "https://github.com/PetoiCamp/NonCodeFiles/tree/master/stl/Bittle%20%26%20BittleX",
+   "firmware": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/blob/main/OpenCat.ino",
+   "docs": "https://docs.petoi.com"
+  }
+ }
+]

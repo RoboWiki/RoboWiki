@@ -1,0 +1,61 @@
+[
+ {
+  "id": "struct-sesame-robot",
+  "category": "robot",
+  "subtype": "quadruped",
+  "subtype_label": "四足",
+  "vendor": "Dorian Todd",
+  "vendor_cn": "Dorian Todd（个人开发者）",
+  "model": "Sesame Robot",
+  "title": "Sesame 开源迷你四足机器人",
+  "url": "https://github.com/dorianborian/sesame-robot",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": null,
+  "price_cny": null,
+  "origin": "GitHub 仓库 README/LICENSE/hardware 目录树与 raw 文件核对，2026-11-09",
+  "notes": "ESP32 驱动的 8 舵机迷你四足，PLA 打印壳体加 0.96 英寸 OLED 表情屏，预置走、挥手、跳舞等动作，可经 WiFi JSON API 或串口控制。物料约 50–60 美元，BOM、STEP/Fusion CAD、STL、配电板 EasyEDA 原理图/Gerber/BOM 与固件全部公开。边界：MG90S 为无反馈模拟舵机，无 IMU，步态是开环预设动作；整机质量、尺寸与续航官方未给出；PCB 为 SMD 需打样贴片。",
+  "specs": {
+   "dof": 8,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "7.4V 800mAh 14500 锂电或 USB-C 5V/3A",
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "WiFi AP + JSON REST API、串口 CLI、USB-C",
+   "compute": "ESP32-S2（Lolin S2 Mini）或 ESP32-S3（Sesame Distro Board V3.1）",
+   "sensors": null,
+   "image_url": "/parts/sesame.webp",
+   "image_source": "README 首屏 sesame-cover 图（GitHub user-attachments，2026-11-09 下载）",
+   "doc_url": "https://github.com/dorianborian/sesame-robot/tree/main/docs",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/dorianborian/sesame-robot",
+    "https://github.com/dorianborian/sesame-studio",
+    "https://github.com/dorianborian/sesame-companion-app"
+   ],
+   "urdf_urls": [
+    "https://raw.githubusercontent.com/lukehollis/sesame-ml/main/src/sesame_ml/assets/urdf/sesame.urdf"
+   ],
+   "repo_license": "Apache-2.0",
+   "ecosystem_id": "sesame-robot",
+   "ecosystem_count": 6
+  },
+  "artifacts": {
+   "urdf": "https://raw.githubusercontent.com/lukehollis/sesame-ml/main/src/sesame_ml/assets/urdf/sesame.urdf",
+   "cad": "https://github.com/dorianborian/sesame-robot/tree/main/hardware/cad",
+   "bom": "https://github.com/dorianborian/sesame-robot/blob/main/hardware/bom/README.md",
+   "hardware": "https://github.com/dorianborian/sesame-robot/tree/main/hardware",
+   "firmware": "https://github.com/dorianborian/sesame-robot/blob/main/firmware/sesame-firmware-main.ino",
+   "assembly": "https://github.com/dorianborian/sesame-robot/blob/main/docs/build-guide/README.md",
+   "docs": "https://github.com/dorianborian/sesame-robot/tree/main/docs"
+  }
+ }
+]

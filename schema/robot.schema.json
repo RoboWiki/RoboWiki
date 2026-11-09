@@ -224,6 +224,21 @@
     }
    }
   },
+  "openness": {
+   "type": "string",
+   "enum": [
+    "full",
+    "partial"
+   ],
+   "description": "整机开源程度。full = 官方公开到可复现整机的程度（至少机械设计/CAD 与硬件资料在公开仓库里，BOM 缺失需在 notes 说明）；partial = 只开放代码、SDK、URDF 或仿真资产，机械与硬件不公开。"
+  },
+  "openness_note": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "description": "开源程度的边界说明：例如官方只开源软件、BOM 来自社区复刻，或 BOM/CAD 仍在进行中。有保留就写，别只写“全开源”三个字。"
+  },
   "bom": {
    "type": [
     "array",
@@ -310,6 +325,20 @@
     }
    }
   },
+  "artifacts_origin": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "description": "artifacts 每项的来源：official（官方仓库/官方文档）或 community（社区复刻、反推整理）。缺省视为 official；社区 BOM/CAD 必须标 community。",
+   "additionalProperties": {
+    "type": "string",
+    "enum": [
+     "official",
+     "community"
+    ]
+   }
+  },
   "artifacts": {
    "type": [
     "object",
@@ -331,6 +360,13 @@
       "null"
      ],
      "description": "cad 的下载或浏览地址"
+    },
+    "hardware": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "硬件/PCB 工程文件（原理图、板卡、Gerber）的浏览地址；没有就写 null"
     },
     "bom": {
      "type": [

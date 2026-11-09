@@ -12,6 +12,7 @@
   "source_tier": "A",
   "verified": true,
   "last_checked": "2026-11-07",
+  "openness": "full",
   "price_cny": 682,
   "specs": {
    "dof": 6,
@@ -44,7 +45,14 @@
   },
   "notes": "6 自由度低成本 3D 打印机械臂（5 个臂关节 + 1 个夹爪），Leader/Follower 遥操作套装。每臂 6 个 Feetech STS3215 舵机（7.4 V，可选 12 V 30 kg·cm 版本），配 Waveshare 总线舵机控制板；官方提供 STL/STEP、URDF 与 MuJoCo 模型，软件接入 LeRobot 做数据采集、训练与部署。单臂 BOM 约 ¥682.23 / $123，双臂约 ¥1343.16 / $232（README 2026-10 口径）；负载、质量、工作空间官方未公布，留 null。SO-101 为下一代，改进走线与装配、更新 Leader 舵机。",
   "origin": "TheRobotStudio/SO-ARM100 仓库 README、SO100.md、Simulation/SO100 与 BOM 核对（commit a758567，2026-10-19 抓取；2026-11-07 核对）",
-  "search": "so-arm100 so100 the robot studio 机械臂 6自由度 3d打印 sts3215 lerobot 遥操作"
+  "search": "so-arm100 so100 the robot studio 机械臂 6自由度 3d打印 sts3215 lerobot 遥操作",
+  "artifacts": {
+   "cad": "https://github.com/TheRobotStudio/SO-ARM100/tree/main/STEP",
+   "bom": "https://github.com/TheRobotStudio/SO-ARM100#parts-for-two-arms-follower-and-leader-setup",
+   "assembly": "https://huggingface.co/docs/lerobot/so101",
+   "urdf": "https://github.com/TheRobotStudio/SO-ARM100/tree/main/Simulation/SO100",
+   "docs": "https://github.com/TheRobotStudio/SO-ARM100"
+  }
  },
  {
   "id": "struct-so-arm101",
@@ -59,6 +67,7 @@
   "source_tier": "A",
   "verified": true,
   "last_checked": "2026-11-07",
+  "openness": "full",
   "price_cny": 682,
   "specs": {
    "dof": 6,
@@ -91,6 +100,13 @@
   },
   "notes": "SO-100 的下一代 6 自由度 3D 打印机械臂：改进走线、装配更简单（无需拆舵机齿轮），Leader 臂换用更新舵机。Follower 每臂 6 个 STS3215（7.4 V；12 V 版本需 12 V 5A+ 电源），配 Waveshare 总线舵机控制板；提供 STL/STEP、URDF/MJCF 与相机安装件，LeRobot 官方教程覆盖装配、校准、遥操作和数据采集。单臂 BOM 约 ¥682.23 / $121.94，Leader+Follower 套装约 ¥1343.16 / $229.88（README 2026-10 口径）；负载、质量、工作空间官方未公布，留 null。",
   "origin": "TheRobotStudio/SO-ARM100 仓库 README、SO-101 文档与 Simulation/SO101 核对（commit a758567，2026-10-19 抓取；2026-11-07 核对）",
-  "search": "so-arm101 so101 the robot studio 机械臂 6自由度 3d打印 sts3215 lerobot 遥操作"
+  "search": "so-arm101 so101 the robot studio 机械臂 6自由度 3d打印 sts3215 lerobot 遥操作",
+  "artifacts": {
+   "cad": "https://github.com/TheRobotStudio/SO-ARM100/tree/main/STEP",
+   "bom": "https://github.com/TheRobotStudio/SO-ARM100#parts-for-two-arms-follower-and-leader-setup",
+   "assembly": "https://huggingface.co/docs/lerobot/so101",
+   "urdf": "https://github.com/TheRobotStudio/SO-ARM100/tree/main/Simulation/SO101",
+   "docs": "https://github.com/TheRobotStudio/SO-ARM100"
+  }
  }
 ]

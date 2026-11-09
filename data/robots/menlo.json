@@ -1,0 +1,59 @@
+[
+ {
+  "id": "struct-asimov-1",
+  "category": "robot",
+  "subtype": "humanoid",
+  "subtype_label": "人形",
+  "vendor": "Menlo Research",
+  "vendor_cn": "Menlo Research（原 Asimov Inc.）",
+  "model": "Asimov 1",
+  "title": "Asimov 1 开源人形机器人",
+  "url": "https://github.com/menloresearch/asimov-1",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "partial",
+  "openness_note": "机械 STEP/STL、电气 KiCad、URDF/MuJoCo 模型全部公开；但官方 BOM 需留邮箱领取、CM5/Pi5 系统镜像需申请，仓库内无固件源码，因此不算完全开源。",
+  "price_cny": 144000,
+  "origin": "GitHub menloresearch/asimov-1 + docs.menlo.ai/asimov/1，2026-11-09",
+  "notes": "1.2 m / 35 kg 双足人形，25 个驱动关节（腿 6×2、臂 5×2、腰 1、颈 2），官方给出深蹲 5 kg、弯举与平举 5 kg（峰值 15 kg）、侧平举 6 kg（峰值 18 kg）的承载能力。机械、电气、仿真模型与装配手册成套公开，可用 Cyclotron（Isaac Lab，PPO+AMP）或 asimov-mjlab 训练步态策略并零样本迁移。边界：DIY 套件 20,000 美元（约 ¥14.4 万）且不含手部，只给 3D 打印假手；BOM 与镜像按需发放，行走速度与续航未公布。",
+  "specs": {
+   "dof": 25,
+   "mass_kg": 35,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": "1200（高）",
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "13S4P INR18650，46.8V / 10.5Ah / 491.4Wh",
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "CAN 5×1 Mbps + 1×500 kbps、千兆以太网、USB 2.0×2、I2C",
+   "compute": "Radxa CM5（运控/IMU/CAN）+ Raspberry Pi 5（相机/音频/网络）",
+   "sensors": "6 轴 IMU（LSM6DSV）、2MP 单目相机、立体声麦克风、10W 扬声器",
+   "image_url": "/parts/asimov-1.webp",
+   "image_source": "仓库 assets/asimov-v1.jpg（README 头图，2026-11-09 下载）",
+   "doc_url": "https://docs.menlo.ai/asimov/1",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/menloresearch/asimov-1",
+    "https://github.com/menloresearch/Cyclotron",
+    "https://github.com/menloresearch/menlo-sdk"
+   ],
+   "urdf_urls": [
+    "https://raw.githubusercontent.com/menloresearch/asimov-1/main/sim-model/asimov_1_25dof/urdf/asimov_1_25dof.urdf"
+   ],
+   "repo_license": "CERN-OHL-S-2.0（硬件）+ GPL-2.0（软件）",
+   "ecosystem_id": "asimov-1",
+   "ecosystem_count": 7
+  },
+  "artifacts": {
+   "urdf": "https://raw.githubusercontent.com/menloresearch/asimov-1/main/sim-model/asimov_1_25dof/urdf/asimov_1_25dof.urdf",
+   "cad": "https://github.com/menloresearch/asimov-1/tree/main/mechanical",
+   "hardware": "https://github.com/menloresearch/asimov-1/tree/main/electrical",
+   "assembly": "https://docs.menlo.ai/asimov/1/build/assembly-steps",
+   "docs": "https://docs.menlo.ai/asimov/1"
+  }
+ }
+]

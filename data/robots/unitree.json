@@ -12,6 +12,7 @@
   "source_tier": "A",
   "verified": 1,
   "last_checked": "2026-10-28",
+  "openness": "partial",
   "price_cny": null,
   "specs": {
    "dof": 12,
@@ -58,6 +59,7 @@
   "source_tier": "A",
   "verified": 1,
   "last_checked": "2026-10-28",
+  "openness": "partial",
   "price_cny": null,
   "specs": {
    "dof": 16,
@@ -104,6 +106,7 @@
   "source_tier": "A",
   "verified": 1,
   "last_checked": "2026-10-28",
+  "openness": "partial",
   "price_cny": 85000,
   "specs": {
    "dof": 23,
@@ -151,6 +154,7 @@
   "source_tier": "A",
   "verified": 1,
   "last_checked": "2026-10-28",
+  "openness": "partial",
   "price_cny": null,
   "specs": {
    "dof": 12,
@@ -197,6 +201,7 @@
   "source_tier": "A",
   "verified": 1,
   "last_checked": "2026-10-28",
+  "openness": "partial",
   "price_cny": null,
   "specs": {
    "dof": 19,
@@ -244,6 +249,7 @@
   "source_tier": "B",
   "verified": false,
   "last_checked": "2026-10-29",
+  "openness": "partial",
   "price_cny": null,
   "origin": "本地 URDF（unitree_ros / legged_gym 资产）逐个数关节与加总质量；生态取自项目索引",
   "notes": "宇树入门四足，**生态最老最全的一代**：官方 URDF/ROS 包、大量 legged_gym 分支与 AMP/MPC 工程都拿它当基准。缺点是硬件已停产，新项目多以 Go2 为起点；它的价值在「拿来对照写法」—— 训练代码的默认机型常年是它。",
@@ -289,6 +295,7 @@
   "source_tier": "B",
   "verified": false,
   "last_checked": "2026-10-29",
+  "openness": "partial",
   "price_cny": null,
   "origin": "本地 URDF（legged_gym/resources/robots/a1）数关节 12、总质量 12.45 kg",
   "notes": "更早的一代四足，**是 legged_gym / rsl_rl 原始论文里那台机器**。现在几乎只作为「历史基准」出现在训练工程里：看某个 reward 或观测项最初为什么这么写，回到 A1 的配置最快。",
@@ -334,6 +341,7 @@
   "source_tier": "B",
   "verified": false,
   "last_checked": "2026-10-29",
+  "openness": "partial",
   "price_cny": null,
   "origin": "厂商公开页（形态与定位）；数值未逐项核对，留空",
   "notes": "B2 的轮足版：腿末端换成轮子，平地和坡道效率比纯足式高得多，代价是越障与台阶能力。生态上 B2 系与 Go2W 共用一大批轮足训练工程，轮足专属的奖励项（轮速/站立）在 Go2W 那边更成熟。",

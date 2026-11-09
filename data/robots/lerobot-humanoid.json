@@ -1,0 +1,56 @@
+[
+ {
+  "id": "struct-lerobot-humanoid",
+  "category": "robot",
+  "subtype": "humanoid",
+  "subtype_label": "人形",
+  "vendor": "Hugging Face",
+  "vendor_cn": "Hugging Face",
+  "model": "LeRobot Humanoid",
+  "title": "LeRobot 人形机器人（下肢平台）",
+  "url": "https://github.com/huggingface/lerobot-humanoid-hardware",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "partial",
+  "openness_note": "硬件仓只覆盖下肢平台：BOM、75 个 STL、装配/接线/调试文档齐全，CAD 真源是公开 Onshape；上半身机构未纳入仓库，整机还不能照单复现。",
+  "price_cny": null,
+  "origin": "GitHub 仓库 README/docs/overview/bom + Hugging Face 组织仓库列表核对，2026-11-09",
+  "notes": "目标是 5000 美元以内的低成本人形：当前仓库只做 12 自由度双足平台，12 个 RobStride O0/O2/O3/O5 关节电机，Raspberry Pi 5 + 双路 CAN FD + BNO055/BNO085 IMU。装配指南、打印指南、电机预调试脚本和接线核对流程写得像工程手册，适合按顺序施工。运行时、模型、设计优化、参数辨识拆成四个兄弟仓库，LeRobot 主仓尚未合并该人形实现，属于研究阶段的可复现平台而非成品。",
+  "specs": {
+   "dof": 12,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "CAN/CAN FD ×2，48V 级动力总线",
+   "compute": "Raspberry Pi 5 + SAVVYCANFD 2CH（双路 CAN FD）",
+   "sensors": "BNO055/BNO085 IMU，关节编码器（RobStride 内置）",
+   "image_url": "/parts/lerobot-humanoid.webp",
+   "image_source": "docs/assembly/photos/robot_complete.jpg（2026-11-09 下载）",
+   "doc_url": "https://github.com/huggingface/lerobot-humanoid-hardware/tree/main/docs",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/huggingface/lerobot-humanoid-hardware",
+    "https://github.com/huggingface/lerobot-humanoid-runtime",
+    "https://github.com/huggingface/lerobot-humanoid-model"
+   ],
+   "urdf_urls": [],
+   "repo_license": "Apache-2.0（hardware/runtime/model/design/identification）",
+   "ecosystem_id": "lerobot-humanoid",
+   "ecosystem_count": 7
+  },
+  "artifacts": {
+   "cad": "https://github.com/huggingface/lerobot-humanoid-hardware/tree/main/hardware/cad/stl",
+   "bom": "https://github.com/huggingface/lerobot-humanoid-hardware/blob/main/hardware/bom/bom.csv",
+   "assembly": "https://github.com/huggingface/lerobot-humanoid-hardware/blob/main/docs/assembly/assembly_guide.md",
+   "docs": "https://github.com/huggingface/lerobot-humanoid-hardware/tree/main/docs"
+  }
+ }
+]

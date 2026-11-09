@@ -1,0 +1,59 @@
+[
+ {
+  "id": "struct-xlerobot",
+  "category": "robot",
+  "subtype": "mobile_manipulator",
+  "subtype_label": "移动双臂",
+  "vendor": "XLeRobot（Gaotian Wang / Vector Wang）",
+  "vendor_cn": "XLeRobot 个人项目",
+  "model": "XLeRobot 0.4",
+  "title": "XLeRobot 低成本家用双臂移动机器人",
+  "url": "https://github.com/Vector-Wangel/XLeRobot",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": "STL/3MF、装配与 BOM 文档、URDF/MuJoCo/ManiSkill 场景、LeRobot 训练与遥操作脚本公开；BOM 以文档表格形式存在，不是独立 CSV；机械臂沿用 SO-101，底盘沿用 Lekiwi 的舵机三轮方案。",
+  "price_cny": 3999,
+  "origin": "GitHub 仓库 README/文档源文件/文件树核对，2026-11-09",
+  "notes": "极简做法：两条 SO-101 舵机臂 + 三个全向轮 + IKEA RÅSKOG 推车 + 户外电源，17 个 STS3215 舵机，整机约 12 kg，树莓派只做通信、计算放上位机，官方给出的基础成本约 660 美元 / 3999 元。仓库提供 3D 打印件、URDF 与 MuJoCo/ManiSkill 仿真、键盘/手柄/VR 遥操和 LeRobot 训练链路，能直接跑模仿学习。边界是负载与精度都在舵机级别，工作空间约 0.5–1.25 m 高、离车沿 0.36 m；BOM 分散在文档页里，没有单文件清单。",
+  "specs": {
+   "dof": 17,
+   "mass_kg": 12,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "Anker SOLIX C300 288Wh（300W 输出）",
+   "endurance_h": 10,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "WiFi（LeRobot 远程）、USB 串口舵机总线（STS3215），12V",
+   "compute": "上位机 PC；可选 Raspberry Pi 5 仅做通信",
+   "sensors": "头部 RGB/双目/RealSense 可选，轮式里程计，腕部相机可选",
+   "image_url": "/parts/xlerobot.webp",
+   "image_source": "README 头图（GitHub user-attachments，2026-11-09 下载）",
+   "doc_url": "https://xlerobot.readthedocs.io/en/latest/",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/Vector-Wangel/XLeRobot",
+    "https://github.com/Vector-Wangel/lerobot-xlerobot",
+    "https://github.com/Vector-Wangel/xlerobot-teleop"
+   ],
+   "urdf_urls": [
+    "https://github.com/Vector-Wangel/XLeRobot/blob/main/simulation/xlerobot/xlerobot.urdf"
+   ],
+   "repo_license": "Apache-2.0",
+   "ecosystem_id": "xlerobot",
+   "ecosystem_count": 6
+  },
+  "artifacts": {
+   "urdf": "https://github.com/Vector-Wangel/XLeRobot/blob/main/simulation/xlerobot/xlerobot.urdf",
+   "cad": "https://github.com/Vector-Wangel/XLeRobot/tree/main/hardware",
+   "bom": "https://github.com/Vector-Wangel/XLeRobot/blob/main/docs/en/source/hardware/getting_started/material.md",
+   "assembly": "https://github.com/Vector-Wangel/XLeRobot/blob/main/docs/en/source/hardware/getting_started/assemble.md",
+   "docs": "https://xlerobot.readthedocs.io/en/latest/"
+  }
+ }
+]

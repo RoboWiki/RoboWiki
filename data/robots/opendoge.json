@@ -1,0 +1,61 @@
+[
+ {
+  "id": "struct-opendoge-v1",
+  "category": "robot",
+  "subtype": "quadruped",
+  "subtype_label": "四足",
+  "vendor": "OpenDogeRobotics",
+  "vendor_cn": "OpenDoge 开源项目",
+  "model": "OpenDoge V1.1",
+  "title": "OpenDoge V1.1 12DOF 四足",
+  "url": "https://github.com/OpenDogeRobotics/OpenDoge_origin",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "price_cny": null,
+  "origin": "GitHub 组织仓库 README（构型/质量/站高/执行器/算力/许可证）+ OpenDoge_hardware 的 mechanical/V1.1 目录；2026-11-09 核对",
+  "notes": "12 自由度小型四足，4 腿 ×（髋 / 大腿 / 小腿），固定足端；约 4.6 kg、站立高约 0.16 m。12 × RobStride EL05（6 N·m，小腿 1.5:1 减速后关节 9 N·m），Orange Pi 5（RK3588S）+ 4 路 CHIWU CAN + DM-IMU-L1。链路完整：SolidWorks 结构（409 个 .SLDPRT 与总装）、URDF/MJCF、mjlab 强化学习训练、ONNX 导出、无 ROS 的 C++ 真机运行时和浏览器仿真。机械件可 3D 打印也可 CNC。BOM 与装配文档仓库仍标为进行中，所以这里只给 CAD/STEP 链接、不把 BOM 标成已收录。许可证按子仓不同：训练/部署为 Apache-2.0、description 为 BSD，硬件仓未见明确 LICENSE。",
+  "specs": {
+   "dof": 12,
+   "mass_kg": 4.6,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": "站高 160",
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "4 × CAN（classic，1 Mbps）",
+   "compute": "Orange Pi 5（RK3588S）",
+   "sensors": "DM-IMU-L1；Xbox 兼容 2.4G 手柄",
+   "image_url": "/parts/opendoge-v1.webp",
+   "image_source": "官方仓库 assets/mmexport1765721320399.jpg（2026-11-09 下载）",
+   "doc_url": "https://github.com/OpenDogeRobotics/OpenDoge_origin",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/OpenDogeRobotics/OpenDoge_origin",
+    "https://github.com/OpenDogeRobotics/OpenDoge_hardware",
+    "https://github.com/OpenDogeRobotics/OpenDoge_description",
+    "https://github.com/OpenDogeRobotics/OpenDoge_train",
+    "https://github.com/OpenDogeRobotics/OpenDoge_deploy"
+   ],
+   "urdf_urls": [
+    "https://github.com/OpenDogeRobotics/OpenDoge_description/tree/main/URDF"
+   ],
+   "repo_license": "Apache-2.0,BSD-3-Clause",
+   "ecosystem_id": "opendoge-v1",
+   "ecosystem_count": 6
+  },
+  "artifacts": {
+   "cad": "https://github.com/OpenDogeRobotics/OpenDoge_hardware/tree/main/mechanical/V1.1",
+   "urdf": "https://github.com/OpenDogeRobotics/OpenDoge_description/tree/main/URDF",
+   "firmware": "https://github.com/OpenDogeRobotics/OpenDoge_deploy",
+   "docs": "https://github.com/OpenDogeRobotics/OpenDoge_origin",
+   "hardware": "https://github.com/OpenDogeRobotics/OpenDoge_hardware"
+  },
+  "openness_note": "CAD/STEP、训练、部署与描述仓开源；BOM 与装配文档官方仍标为进行中，所以 BOM 未标已收录。"
+ }
+]

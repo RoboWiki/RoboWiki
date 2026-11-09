@@ -12,6 +12,7 @@
   "source_tier": "A",
   "verified": 1,
   "last_checked": "2026-10-28",
+  "openness": "full",
   "price_cny": null,
   "specs": {
    "dof": 24,
@@ -43,6 +44,74 @@
    "ecosystem_id": "own:struct-roboparty-roboto01"
   },
   "notes": "官网现以 ROBOTO 01 展示该机型（原型号 RP1，GitHub 仓库仍沿用 RP1 命名），分开源版与开源版 PRO：整机 24 / 30 自由度、约 39 / 41 kg、1350×450×200 mm，行走速度约 4 m/s、爬坡 30°、负载 3 kg，10 Ah 电池续航约 3 h，关节模组 ROMOMO 外径 100 mm、峰值扭矩 160 N·m。本条记开源版；RP1_description 的 URDF 为 24 个转动关节。头部可换为运控 / 交互 / 数采 / 感知四种配置，算力为 Orin NX 16 GB，连接为 Wi-Fi 6 / 蓝牙 5.2 / 4G，软件栈含 ROS 2、SDK 与仿真训练代码。官网未公开整机售价，price_cny 留空。另有独立机型 ROBOTO Origin（23 自由度、1.25 m、34 kg），不在本条内。",
-  "origin": "RoboParty 官网 ROBOTO 01（/products/RP1）参数表 + RP1_description URDF 关节数核对（2026-10-28）"
+  "origin": "RoboParty 官网 ROBOTO 01（/products/RP1）参数表 + RP1_description URDF 关节数核对（2026-10-28）",
+  "artifacts": {
+   "cad": "https://github.com/Roboparty/RP1_hardware/tree/main/01_Mechanic",
+   "bom": "https://github.com/Roboparty/RP1_hardware/tree/main/04_BOM",
+   "firmware": "https://github.com/Roboparty/RP1_firmware",
+   "assembly": "https://github.com/Roboparty/RP1_hardware/tree/main/00_Docs",
+   "urdf": "https://github.com/Roboparty/RP1_description/tree/master/urdf",
+   "docs": "https://roboparty.com/documents/roboto-01",
+   "hardware": "https://github.com/Roboparty/RP1_hardware/tree/main/02_PCB"
+  }
+ },
+ {
+  "id": "struct-roboparty-roboto-origin",
+  "category": "robot",
+  "subtype": "humanoid",
+  "subtype_label": "人形",
+  "vendor": "RoboParty",
+  "vendor_cn": "萝博派对",
+  "model": "ROBOTO Origin（RPO）",
+  "title": "RoboParty ROBOTO Origin 开源人形",
+  "url": "https://github.com/Roboparty/roboto_origin",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": "BOM、CAD、训练和部署代码公开；主仓 BOM 的 49,713 元是内部 D-BOM 合计，不是对外售价。",
+  "price_cny": null,
+  "origin": "GitHub Roboparty/roboto_origin + rpo_hardware/rpo_description + 官网，2026-11-09",
+  "notes": "RoboParty 的 DIY 人形线，23 自由度、约 1.25 m 级，BOM 与 CAD 在主仓和 rpo_hardware 分仓公开，训练/部署复用 roboparty_train 与 roboparty_deploy。主仓是每日快照聚合，硬件、描述、外观、固件、导航、遥操作各有独立子仓。BOM_EN.md 里 TOTAL 49,713 CNY 是内部 D-BOM 合计，不是对外售价；计算板与 IMU 型号未在仓库写死，需要按固件镜像与 BOM 核对。",
+  "specs": {
+   "dof": 23,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": null,
+   "compute": "Orange Pi / RDK X5 级计算板（按固件镜像推断）",
+   "sensors": "IMU（型号未写死）",
+   "image_url": "/parts/roboto-origin.webp",
+   "image_source": "roboto_origin 仓库 assets/1280X1280.JPEG（README 头图，2026-11-09 下载）",
+   "doc_url": "https://roboparty.com/roboto_origin/doc",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/Roboparty/roboto_origin",
+    "https://github.com/Roboparty/rpo_hardware",
+    "https://github.com/Roboparty/rpo_description"
+   ],
+   "urdf_urls": [
+    "https://raw.githubusercontent.com/Roboparty/rpo_description/main/urdf/rpo.urdf"
+   ],
+   "repo_license": "GPL-3.0（聚合层）；rpo_hardware/rpo_description/rpo_appearance 为 CERN-OHL-W-2.0",
+   "ecosystem_id": "roboto-origin",
+   "ecosystem_count": 8
+  },
+  "artifacts": {
+   "urdf": "https://github.com/Roboparty/rpo_description/blob/main/urdf/rpo.urdf",
+   "cad": "https://github.com/Roboparty/rpo_hardware/tree/main/V2.0",
+   "bom": "https://github.com/Roboparty/roboto_origin/blob/main/assets/BOM_EN.md",
+   "hardware": "https://github.com/Roboparty/rpo_hardware",
+   "firmware": "https://github.com/Roboparty/roboparty_firmware",
+   "assembly": "https://roboparty.com/roboto_origin/doc",
+   "docs": "https://roboparty.com/roboto_origin/doc"
+  }
  }
 ]
