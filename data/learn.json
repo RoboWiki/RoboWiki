@@ -1,96 +1,376 @@
 {
- "note": "学习路线已收敛成一篇《怎么用这个网站》（wiki/docs/learn/index.md）。不设虚构的路线与步骤。",
- "updated_at": "2026-11-07",
+ "note": "学习资料库：经典教程 PDF 与本站导读统一索引；routes 留给后续学习路线。",
+ "updated_at": "2026-11-10",
  "routes": [],
- "articles": [
+ "resources": [
   {
+   "id": "doc-mechanical-transmission",
+   "slug": "mechanical-transmission-pdf",
+   "type": "pdf",
+   "title": "传动机构简述",
+   "summary": "齿轮、带、链、丝杠怎么选：模数、根切、变位与竞赛机器人传动布置。机械必读。",
+   "topics": [
+    "机械结构"
+   ],
+   "tags": [
+    "传动",
+    "机械必读"
+   ],
+   "level": "进阶",
+   "minutes": null,
+   "lang": "zh",
+   "source": "哈工大竞技机器人队",
+   "authors": [
+    "金子旭"
+   ],
+   "year": 2020,
+   "date": "2020-04-24",
+   "pages": 40,
+   "file_url": "/docs/mechanical/mechanical-transmission.pdf",
+   "cover_url": "/learn/covers/mechanical-transmission-pdf.webp",
+   "note_slug": "mechanical-transmission",
+   "license": "版权归原作者；本站获授权转载",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/resource/mechanical-transmission-pdf.html"
+  },
+  {
+   "id": "doc-structural-design-logic",
+   "slug": "structural-design-logic-pdf",
+   "type": "pdf",
+   "title": "结构设计的思维逻辑",
+   "summary": "从需求倒推结构，用逻辑链和取舍控制复杂度，而不是先画零件。机械必读。",
+   "topics": [
+    "机械结构"
+   ],
+   "tags": [
+    "结构设计",
+    "机械必读"
+   ],
+   "level": "进阶",
+   "minutes": null,
+   "lang": "zh",
+   "source": "哈工大竞技机器人队",
+   "authors": [
+    "金子旭"
+   ],
+   "year": 2021,
+   "date": "2021-09-06",
+   "pages": 9,
+   "file_url": "/docs/mechanical/structural-design-logic.pdf",
+   "cover_url": "/learn/covers/structural-design-logic-pdf.webp",
+   "note_slug": "structural-design-logic",
+   "license": "版权归原作者；本站获授权转载",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/resource/structural-design-logic-pdf.html"
+  },
+  {
+   "id": "doc-lightweight-design",
+   "slug": "lightweight-design-pdf",
+   "type": "pdf",
+   "title": "轻量化设计指南",
+   "summary": "先砍结构、再减材料：标准板厚、板件减重与竞赛机器人减重取舍。机械必读。",
+   "topics": [
+    "机械结构"
+   ],
+   "tags": [
+    "轻量化",
+    "机械必读"
+   ],
+   "level": "进阶",
+   "minutes": null,
+   "lang": "zh",
+   "source": "哈工大竞技机器人队",
+   "authors": [
+    "金子旭"
+   ],
+   "year": 2022,
+   "date": "2022-02-09",
+   "pages": 14,
+   "file_url": "/docs/mechanical/lightweight-design.pdf",
+   "cover_url": "/learn/covers/lightweight-design-pdf.webp",
+   "note_slug": "lightweight-design",
+   "license": "版权归原作者；本站获授权转载",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/resource/lightweight-design-pdf.html"
+  },
+  {
+   "id": "doc-machining-guide",
+   "slug": "machining-guide-pdf",
+   "type": "pdf",
+   "title": "铨洲 CNC 活动打样指南",
+   "summary": "6061 铝件的板厚、螺纹孔、倒角与 STEP 文件规则，避免上传打样被判 NG。",
+   "topics": [
+    "机械结构"
+   ],
+   "tags": [
+    "CNC",
+    "加工",
+    "机械必读"
+   ],
+   "level": "入门",
+   "minutes": null,
+   "lang": "zh",
+   "source": "铨洲智造",
+   "authors": [],
+   "year": 2025,
+   "date": "2025-12",
+   "pages": 9,
+   "file_url": "/docs/mechanical/machining-guide.pdf",
+   "cover_url": "/learn/covers/machining-guide-pdf.webp",
+   "note_slug": "machining-guide",
+   "license": "版权归原作者；本站获授权转载",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/resource/machining-guide-pdf.html"
+  },
+  {
+   "id": "doc-how-to-begin",
+   "slug": "how-to-begin",
+   "type": "pdf",
+   "title": "How To Begin：电控从哪里开始学",
+   "summary": "17 页回答一个具体问题：刚进电控组，第一周该干什么。按原文搬运，不改写结论。",
+   "topics": [
+    "电控"
+   ],
+   "tags": [
+    "电控",
+    "入门",
+    "第一周"
+   ],
+   "level": "入门",
+   "minutes": null,
+   "lang": "zh",
+   "source": "社区资料（原作者未署名）",
+   "authors": [],
+   "year": 2025,
+   "date": "2025-09-13",
+   "pages": 17,
+   "file_url": "/competitions/how-to-begin.pdf",
+   "cover_url": "/learn/covers/how-to-begin.webp",
+   "note_slug": null,
+   "license": "版权归原作者；如作者要求撤下将移除",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/resource/how-to-begin.html"
+  },
+  {
+   "id": "doc-ec-basics-rm",
+   "slug": "ec-basics-rm",
+   "type": "pdf",
+   "title": "RM 电控组需要掌握的基础知识",
+   "summary": "把电控组要会的东西按层列了一遍：嵌入式、控制算法、硬件设计三条线，适合用来对表。",
+   "topics": [
+    "电控"
+   ],
+   "tags": [
+    "RoboMaster",
+    "电控",
+    "知识对表"
+   ],
+   "level": "入门",
+   "minutes": null,
+   "lang": "zh",
+   "source": "社区资料（原作者未署名）",
+   "authors": [],
+   "year": null,
+   "date": null,
+   "pages": 4,
+   "file_url": "/competitions/ec-basics-rm.pdf",
+   "cover_url": "/learn/covers/ec-basics-rm.webp",
+   "note_slug": null,
+   "license": "版权归原作者；如作者要求撤下将移除",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/resource/ec-basics-rm.html"
+  },
+  {
+   "id": "doc-hw-what-we-do",
+   "slug": "hw-what-we-do",
+   "type": "pdf",
+   "title": "RoboMaster 硬件组做什么",
+   "summary": "一页说清硬件组的职责边界：电源、开发板与外设、舵机与电机驱动，以及和电控组的分工。",
+   "topics": [
+    "电控"
+   ],
+   "tags": [
+    "RoboMaster",
+    "硬件",
+    "团队分工"
+   ],
+   "level": "入门",
+   "minutes": null,
+   "lang": "zh",
+   "source": "社区资料（原作者未署名）",
+   "authors": [],
+   "year": null,
+   "date": null,
+   "pages": 1,
+   "file_url": "/competitions/hw-what-we-do.pdf",
+   "cover_url": "/learn/covers/hw-what-we-do.webp",
+   "note_slug": null,
+   "license": "版权归原作者；如作者要求撤下将移除",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/resource/hw-what-we-do.html"
+  },
+  {
+   "id": "doc-rp1-whitepaper",
+   "slug": "rp1-whitepaper",
+   "type": "pdf",
+   "title": "RP1 白皮书：一个人形机器人平台的系统设计与工程实现",
+   "summary": "60 页白皮书，价值不在参数，在工程流程：从执行器与可维护性约束反推本体设计，再到仿真到实机迁移。",
+   "topics": [
+    "竞赛与项目"
+   ],
+   "tags": [
+    "整机",
+    "项目管理",
+    "RP1"
+   ],
+   "level": "进阶",
+   "minutes": null,
+   "lang": "zh",
+   "source": "RoboParty",
+   "authors": [
+    "RoboParty"
+   ],
+   "year": 2026,
+   "date": "2026-10",
+   "pages": 60,
+   "file_url": "/competitions/rp1-whitepaper.pdf",
+   "cover_url": "/learn/covers/rp1-whitepaper.webp",
+   "note_slug": null,
+   "license": "版权归 RoboParty；本站获授权转载",
+   "mirror": "site",
+   "source_url": "https://roboparty.com",
+   "web_path": "/learn/resource/rp1-whitepaper.html"
+  },
+  {
+   "id": "note-motor-specs",
    "slug": "motor-specs",
+   "type": "note",
    "title": "关节电机参数怎么读：六个数字背后的坑",
    "summary": "峰值扭矩和额定扭矩差 3 倍是正常的；但「峰值」没写持续时间就是耍流氓。附 M3508 的输出端换算实例。",
+   "topics": [
+    "选型与流程"
+   ],
    "tags": [
     "选型",
     "关节电机"
    ],
    "level": "入门",
-   "minutes": 12
+   "minutes": 12,
+   "lang": "zh",
+   "source": "本站原创",
+   "authors": [
+    "RoboWiki"
+   ],
+   "year": 2026,
+   "date": null,
+   "pages": null,
+   "file_url": null,
+   "cover_url": null,
+   "note_slug": "motor-specs",
+   "license": "CC BY-NC-SA 4.0",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/motor-specs.html"
   },
   {
+   "id": "note-selection-order",
    "slug": "selection-order",
+   "type": "note",
    "title": "第一次做整机选型：先算什么，后算什么",
    "summary": "顺序错了会白买一轮。从任务倒推自由度 → 关节扭矩 → 算力 → 传感器，每步给可核对的算法。",
+   "topics": [
+    "选型与流程"
+   ],
    "tags": [
     "选型",
     "流程"
    ],
    "level": "入门",
-   "minutes": 15
+   "minutes": 15,
+   "lang": "zh",
+   "source": "本站原创",
+   "authors": [
+    "RoboWiki"
+   ],
+   "year": 2026,
+   "date": null,
+   "pages": null,
+   "file_url": null,
+   "cover_url": null,
+   "note_slug": "selection-order",
+   "license": "CC BY-NC-SA 4.0",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/selection-order.html"
   },
   {
+   "id": "note-control-chain",
    "slug": "control-chain",
+   "type": "note",
    "title": "电控链路怎么搭：总线、驱动器与频率预算",
    "summary": "CAN 挂 12 个关节还够不够？控制环 1 kHz 意味着什么？把带宽、周期、ODR 放在一张表里算。",
+   "topics": [
+    "电控"
+   ],
    "tags": [
     "电控",
     "总线"
    ],
    "level": "进阶",
-   "minutes": 18
+   "minutes": 18,
+   "lang": "zh",
+   "source": "本站原创",
+   "authors": [
+    "RoboWiki"
+   ],
+   "year": 2026,
+   "date": null,
+   "pages": null,
+   "file_url": null,
+   "cover_url": null,
+   "note_slug": "control-chain",
+   "license": "CC BY-NC-SA 4.0",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/control-chain.html"
   },
   {
+   "id": "note-open-source-reading",
    "slug": "open-source-reading",
+   "type": "note",
    "title": "开源机器人项目怎么读：从 URDF 到训练配置",
    "summary": "一个项目能不能复现，看四样东西就够了。附判断「这个仓库能不能用」的清单。",
+   "topics": [
+    "算法与仿真"
+   ],
    "tags": [
     "开源",
     "仿真"
    ],
    "level": "进阶",
-   "minutes": 14
-  },
-  {
-   "slug": "mechanical-transmission",
-   "title": "传动机构简述",
-   "summary": "齿轮、带、链、丝杠怎么选：模数、根切、变位与竞赛机器人传动布置。机械必读。",
-   "tags": [
-    "机械",
-    "必读"
+   "minutes": 14,
+   "lang": "zh",
+   "source": "本站原创",
+   "authors": [
+    "RoboWiki"
    ],
-   "level": "进阶",
-   "minutes": 40
-  },
-  {
-   "slug": "structural-design-logic",
-   "title": "结构设计的思维逻辑",
-   "summary": "从需求倒推结构，用逻辑链和取舍控制复杂度，而不是先画零件。机械必读。",
-   "tags": [
-    "机械",
-    "必读"
-   ],
-   "level": "进阶",
-   "minutes": 10
-  },
-  {
-   "slug": "lightweight-design",
-   "title": "轻量化设计指南",
-   "summary": "先砍结构、再减材料：标准板厚、板件减重与竞赛机器人减重取舍。机械必读。",
-   "tags": [
-    "机械",
-    "必读"
-   ],
-   "level": "进阶",
-   "minutes": 15
-  },
-  {
-   "slug": "machining-guide",
-   "title": "铨洲 CNC 活动打样指南",
-   "summary": "6061 铝件的板厚、螺纹孔、倒角与 STEP 文件规则，避免上传打样被判 NG。",
-   "tags": [
-    "机械",
-    "加工",
-    "必读"
-   ],
-   "level": "入门",
-   "minutes": 10
+   "year": 2026,
+   "date": null,
+   "pages": null,
+   "file_url": null,
+   "cover_url": null,
+   "note_slug": "open-source-reading",
+   "license": "CC BY-NC-SA 4.0",
+   "mirror": "site",
+   "source_url": null,
+   "web_path": "/learn/open-source-reading.html"
   }
  ],
  "reprint": {
