@@ -2852,7 +2852,10 @@
   "rm-mc02": {
    "added": "2026-11-08",
    "category": "controller_low",
-   "model": "MC02（主控模块）"
+   "model": "MC02（主控模块）",
+   "removed": true,
+   "removed_at": "2026-11-10",
+   "removed_reason": "按需求删除 DJI MC02 主控模块条目"
   },
   "rm-pm01": {
    "added": "2026-11-09",

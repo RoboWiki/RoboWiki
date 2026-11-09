@@ -2,7 +2,7 @@
  {
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-10-31",
+  "last_checked": "2026-11-10",
   "price_cny": null,
   "notes": "2.5 mm 3P 端子线；5264 与 XH 外形接近但卡扣/端子不同，买线前核对原接口。",
   "origin": "伟利达 5264 端子线产品页（2026-10-31）",
@@ -38,7 +38,7 @@
    "doc_url": null,
    "doc_pdf": null,
    "image_url": "/parts/feetech-5264-cable.png",
-   "image_source": "伟利达 5264 端子线产品图（2026-10-31）",
+   "image_source": "5264 3P 端子线产品图（2026-11-10 更新）",
    "impedance_ohm": null,
    "freq_max_ghz": null,
    "length_m": null,
