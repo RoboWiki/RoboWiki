@@ -162,27 +162,30 @@
    "id": "link-lain-database",
    "slug": "lain-database",
    "type": "link",
-   "title": "Lain 机器人数据库（飞书）",
-   "summary": "外部飞书 wiki，需登录查看；作为经典资料的补充入口。",
+   "title": "机器人工程师学习计划",
+   "summary": "机器人工程师入门必看。Lain-ego 整理的学习计划，按机器人工程师入门所需知识组织，适合作为从零到入门的长期路线参考；原文为飞书 wiki，需登录查看。",
    "topics": [
     "综合"
    ],
    "tags": [
     "外部资料",
-    "飞书"
+    "飞书",
+    "学习计划"
    ],
    "level": "入门",
    "minutes": null,
    "lang": "zh",
-   "source": "Lain Database",
-   "authors": [],
+   "source": "Lain-ego",
+   "authors": [
+    "Lain-ego"
+   ],
    "year": null,
    "date": null,
    "pages": null,
    "file_url": null,
    "cover_url": null,
    "note_slug": null,
-   "license": "外部链接",
+   "license": "版权归原作者所有，本站仅做转载",
    "mirror": "external",
    "source_url": "https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD",
    "web_path": "https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD"
