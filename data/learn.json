@@ -29,7 +29,7 @@
    "file_url": "/docs/mechanical/mechanical-transmission.pdf",
    "cover_url": "/learn/covers/mechanical-transmission-pdf.webp",
    "note_slug": "mechanical-transmission",
-   "license": "版权归原作者；本站获授权转载",
+   "license": "版权归原作者所有，本站仅做转载",
    "mirror": "site",
    "source_url": null,
    "web_path": "/learn/resource/mechanical-transmission-pdf.html"
@@ -60,7 +60,7 @@
    "file_url": "/docs/mechanical/structural-design-logic.pdf",
    "cover_url": "/learn/covers/structural-design-logic-pdf.webp",
    "note_slug": "structural-design-logic",
-   "license": "版权归原作者；本站获授权转载",
+   "license": "版权归原作者所有，本站仅做转载",
    "mirror": "site",
    "source_url": null,
    "web_path": "/learn/resource/structural-design-logic-pdf.html"
@@ -91,7 +91,7 @@
    "file_url": "/docs/mechanical/lightweight-design.pdf",
    "cover_url": "/learn/covers/lightweight-design-pdf.webp",
    "note_slug": "lightweight-design",
-   "license": "版权归原作者；本站获授权转载",
+   "license": "版权归原作者所有，本站仅做转载",
    "mirror": "site",
    "source_url": null,
    "web_path": "/learn/resource/lightweight-design-pdf.html"
@@ -121,7 +121,7 @@
    "file_url": "/docs/mechanical/machining-guide.pdf",
    "cover_url": "/learn/covers/machining-guide-pdf.webp",
    "note_slug": "machining-guide",
-   "license": "版权归原作者；本站获授权转载",
+   "license": "版权归原作者所有，本站仅做转载",
    "mirror": "site",
    "source_url": null,
    "web_path": "/learn/resource/machining-guide-pdf.html"
@@ -153,7 +153,7 @@
    "file_url": "/competitions/rp1-whitepaper.pdf",
    "cover_url": "/learn/covers/rp1-whitepaper.webp",
    "note_slug": null,
-   "license": "版权归 RoboParty；本站获授权转载",
+   "license": "版权归原作者所有，本站仅做转载",
    "mirror": "site",
    "source_url": "https://roboparty.com",
    "web_path": "/learn/resource/rp1-whitepaper.html"
