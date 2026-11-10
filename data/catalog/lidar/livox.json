@@ -5,7 +5,7 @@
   "subtype": "lidar",
   "subtype_label": "激光雷达",
   "vendor": "Livox",
-  "vendor_cn": "览沃",
+  "vendor_cn": "览沃科技",
   "model": "HAP",
   "title": "Livox HAP",
   "url": "https://www.livoxtech.com/cn/hap",
@@ -114,7 +114,7 @@
    "rgb_resolution": null,
    "repo_license": "NOASSERTION"
   },
-  "vendor_cn": "览沃",
+  "vendor_cn": "览沃科技",
   "subtype_label": "固态"
  },
  {

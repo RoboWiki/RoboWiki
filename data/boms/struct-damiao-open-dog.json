@@ -63,10 +63,10 @@
    "vendor": "达妙科技",
    "product_url": null,
    "source_ref": "四足机械bom表.xlsx / Sheet1 电控材料购买表 第 4 行",
-   "catalog_part_id": "damiao-dm-orin-nx-v1-1",
+   "catalog_part_id": null,
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "用户确认新增 V1.1 载板条目并关联；与 V2.X 不混用。"
+   "notes": "用户要求删除 ORIN NX V1.1 条目；站内仅保留 V2.X，BOM 版本不同，暂不关联。"
   },
   {
    "id": "line-004",

@@ -52,7 +52,7 @@
    "torque_mode": null,
    "repo_license": "NO-LICENSE"
   },
-  "vendor_cn": "大疆创新",
+  "vendor_cn": "大疆",
   "subtype_label": "主控板"
  },
  {
@@ -108,7 +108,7 @@
    ],
    "repo_license": "NOASSERTION"
   },
-  "vendor_cn": "大疆创新",
+  "vendor_cn": "大疆",
   "subtype_label": "主控板"
  }
 ]

@@ -1573,15 +1573,15 @@
   },
   "Intel RealSense": {
    "slug": "intel-realsense",
-   "cn": "英特尔"
+   "cn": "RealSense（原 Intel）"
   },
   "Livox": {
    "slug": "livox",
-   "cn": "览沃（大疆生态）"
+   "cn": "览沃科技"
   },
   "地平线 D-Robotics": {
    "slug": "drobotics",
-   "cn": "地平线"
+   "cn": "地瓜机器人"
   },
   "NVIDIA": {
    "slug": "nvidia",
@@ -1617,7 +1617,7 @@
   },
   "Bosch Sensortec": {
    "slug": "bosch",
-   "cn": "博世"
+   "cn": "博世传感"
   },
   "TDK InvenSense": {
    "slug": "tdk",
@@ -1717,7 +1717,7 @@
   },
   "ADI": {
    "slug": "adi",
-   "cn": "ADI"
+   "cn": "亚德诺"
   },
   "Advanced Monolithic Systems": {
    "slug": "advanced-monolithic-syst",
@@ -1761,7 +1761,7 @@
   },
   "ST": {
    "slug": "st",
-   "cn": "ST"
+   "cn": "意法半导体"
   },
   "TECH PUBLIC": {
    "slug": "tech-public",
@@ -1769,7 +1769,7 @@
   },
   "TI": {
    "slug": "ti",
-   "cn": "TI"
+   "cn": "德州仪器"
   },
   "TOPPOWER": {
    "slug": "toppower",
@@ -1803,17 +1803,9 @@
    "slug": "v92813",
    "cn": "大疆"
   },
-  "北京灵足时代": {
-   "slug": "v8418",
-   "cn": "北京灵足时代"
-  },
   "宇树科技": {
    "slug": "v9756",
    "cn": "宇树科技"
-  },
-  "RealSense（原 Intel）": {
-   "slug": "realsense-intel",
-   "cn": "RealSense（原 Intel）"
   },
   "奥比中光": {
    "slug": "v93251",
@@ -1858,14 +1850,6 @@
   "SILAN(士兰微)": {
    "slug": "silan",
    "cn": "SILAN(士兰微)"
-  },
-  "TDK InvenSense(应美盛)": {
-   "slug": "tdk-invensense",
-   "cn": "TDK InvenSense(应美盛)"
-  },
-  "TDK 应美盛": {
-   "slug": "tdk-2",
-   "cn": "TDK 应美盛"
   },
   "Tokmas(托克马斯)": {
    "slug": "tokmas",
@@ -2119,10 +2103,6 @@
    "slug": "oshw-nazarite",
    "cn": "Nazarite"
   },
-  "RobotIC机器人实验室": {
-   "slug": "oshw-roboticlib",
-   "cn": "RobotIC机器人实验室"
-  },
   "Steve76427": {
    "slug": "oshw-steve76427",
    "cn": "Steve76427"
@@ -2346,6 +2326,30 @@
   "Makera 造物时代": {
    "slug": "makera",
    "cn": "造物时代"
+  },
+  "Seeed Studio": {
+   "slug": "seeed",
+   "cn": "矽递科技"
+  },
+  "Pollen Robotics": {
+   "slug": "pollen-robotics",
+   "cn": "法国 Pollen Robotics"
+  },
+  "RoboParty": {
+   "slug": "roboparty",
+   "cn": "萝博派对"
+  },
+  "云深处科技 DEEP Robotics": {
+   "slug": "deeprobotics",
+   "cn": "云深处科技"
+  },
+  "逐际动力 LimX Dynamics": {
+   "slug": "limx",
+   "cn": "逐际动力"
+  },
+  "AidLux": {
+   "slug": "aidlux",
+   "cn": "阿加犀"
   }
  }
 }

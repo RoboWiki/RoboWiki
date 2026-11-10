@@ -65,7 +65,7 @@
    "rgb_resolution": null,
    "repo_license": null
   },
-  "vendor_cn": null,
+  "vendor_cn": "宇树科技",
   "subtype_label": "固态"
  },
  {
@@ -136,7 +136,7 @@
    "rgb_resolution": null,
    "repo_license": "BSD-3-Clause"
   },
-  "vendor_cn": "宇树",
+  "vendor_cn": "宇树科技",
   "subtype_label": "固态"
  }
 ]

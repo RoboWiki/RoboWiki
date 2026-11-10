@@ -10,6 +10,16 @@
    "category": "chip",
    "model": "MAX3051"
   },
+  "aidlux-rhino-pi-a1": {
+   "added": "2026-11-10",
+   "category": "controller_high",
+   "model": "Rhino Pi A1"
+  },
+  "aidlux-rhino-pi-x1": {
+   "added": "2026-11-10",
+   "category": "controller_high",
+   "model": "Rhino Pi X1"
+  },
   "alientek-atk-hsdap": {
    "added": "2026-11-09",
    "category": "equipment",
@@ -455,7 +465,10 @@
   "damiao-dm-orin-nx-v1-1": {
    "added": "2026-11-10",
    "category": "controller_high",
-   "model": "DM-ORIN NX V1.1"
+   "model": "DM-ORIN NX V1.1",
+   "removed": true,
+   "removed_at": "2026-11-10",
+   "removed_reason": "用户要求删除 ORIN NX V1.1，只保留 V2.X"
   },
   "damiao-dm-s2325-1ec": {
    "added": "2026-10-31",
@@ -991,7 +1004,10 @@
   "hpmicro-hpm6750": {
    "added": "2026-11-08",
    "category": "controller_high",
-   "model": "HPM6750"
+   "model": "HPM6750",
+   "removed": true,
+   "removed_at": "2026-11-10",
+   "removed_reason": "用户要求删除 DevKit HPM6750"
   },
   "intel-d405": {
    "added": "2026-10-31",
@@ -2920,7 +2936,10 @@
   "seeed-orin-nano-8gb-256ssd-kit": {
    "added": "2026-11-10",
    "category": "controller_high",
-   "model": "Jetson Orin Nano 8GB + 256GB SSD 套件"
+   "model": "Jetson Orin Nano 8GB + 256GB SSD 套件",
+   "removed": true,
+   "removed_at": "2026-11-10",
+   "removed_reason": "用户要求删除 Seeed 8G+256G 套件条目"
   },
   "senring-capsule-6w": {
    "added": "2026-11-08",

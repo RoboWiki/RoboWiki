@@ -5,7 +5,7 @@
   "subtype_label": "跟踪相机",
   "id": "intel-t265",
   "vendor": "Intel RealSense",
-  "vendor_cn": "Intel",
+  "vendor_cn": "RealSense（原 Intel）",
   "model": "T265",
   "title": "Intel RealSense T265 跟踪相机",
   "url": null,

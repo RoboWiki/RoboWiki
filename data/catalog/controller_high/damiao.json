@@ -33,27 +33,5 @@
    "repo_urls": [],
    "repo_license": null
   }
- },
- {
-  "category": "controller_high",
-  "subtype": "module",
-  "subtype_label": "载板",
-  "id": "damiao-dm-orin-nx-v1-1",
-  "vendor": "达妙 DAMIAO",
-  "vendor_cn": "达妙科技",
-  "model": "DM-ORIN NX V1.1",
-  "title": "达妙 DM-ORIN NX V1.1 载板",
-  "url": "https://www.damiaokeji.com/index.php?c=show&id=97",
-  "source_tier": "B",
-  "verified": false,
-  "last_checked": "2026-11-10",
-  "price_cny": 699.0,
-  "origin": "OpenDoge 官方 BOM（data/boms/struct-damiao-open-dog.json，线 003）",
-  "notes": "OpenDoge V1.1 BOM 使用的 Orin NX 载板；官方产品页当前展示 V2.X，V1.1 单独规格未发布，具体参数留 null。与 V2.X 不能当同一 SKU。",
-  "specs": {
-   "image_url": null,
-   "doc_url": "https://gitee.com/kit-miao/orin-board",
-   "iface": "Orin NX / Orin Nano / Xavier NX 载板"
-  }
  }
 ]

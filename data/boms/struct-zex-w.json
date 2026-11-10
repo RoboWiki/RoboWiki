@@ -956,10 +956,10 @@
    "vendor": "seeedstudio旗舰店",
    "product_url": null,
    "source_ref": "轮足BOM表（初版）.xlsx 16DOF 区 row 51",
-   "catalog_part_id": "seeed-orin-nano-8gb-256ssd-kit",
+   "catalog_part_id": null,
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "用户确认新增 Seeed 8G+256G 套件条目，不按裸模组关联。"
+   "notes": "用户要求删除 Seeed 8G+256G 套件条目；站内只保留裸 Jetson 模组，BOM 为套件，暂不关联。"
   },
   {
    "id": "line-051",

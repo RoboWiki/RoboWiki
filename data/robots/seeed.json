@@ -5,7 +5,7 @@
   "subtype": "arm",
   "subtype_label": "机械臂",
   "vendor": "Seeed Studio",
-  "vendor_cn": "矽递科技（Seeed Studio）",
+  "vendor_cn": "矽递科技",
   "model": "reBot Arm B601",
   "title": "reBot 开源机械臂 B601",
   "url": "https://github.com/Seeed-Projects/reBot-DevArm",

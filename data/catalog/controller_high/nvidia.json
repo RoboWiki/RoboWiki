@@ -101,7 +101,7 @@
    ],
    "repo_license": "NO-LICENSE,MIT"
   },
-  "vendor_cn": null,
+  "vendor_cn": "英伟达",
   "subtype_label": "计算模组"
  },
  {
@@ -159,7 +159,7 @@
    ],
    "repo_license": "NOASSERTION"
   },
-  "vendor_cn": null,
+  "vendor_cn": "英伟达",
   "subtype_label": "计算模组"
  }
 ]

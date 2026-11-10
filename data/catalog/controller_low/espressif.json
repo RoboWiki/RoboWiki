@@ -1,8 +1,8 @@
 [
  {
-  "category": "controller_high",
-  "subtype": "sbc",
-  "subtype_label": "单板计算机",
+  "category": "controller_low",
+  "subtype": "mcu",
+  "subtype_label": "主控板",
   "id": "espressif-esp32-devkit",
   "vendor": "Espressif",
   "vendor_cn": "乐鑫",
