@@ -614,10 +614,10 @@
    "vendor": null,
    "product_url": "https://item.taobao.com/item.htm?id=852485614821",
    "source_ref": "BOM_EN.md 第 35 行（ATOM-01-035）",
-   "catalog_part_id": null,
+   "catalog_part_id": "达妙-dm-dm-j4340p-2ec-v1-1",
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "BOM 未标版本；站内另有 DM-J4340P-2EC V1.1，故不挂 catalog_part_id"
+   "notes": "用户确认按站内 DM-J4340P-2EC V1.1 关联；BOM 未标版本。"
   },
   {
    "id": "line-033",

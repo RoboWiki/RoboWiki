@@ -310,10 +310,10 @@
    "vendor": "丰枝电子",
    "product_url": null,
    "source_ref": "轮足BOM表（初版）.xlsx 16DOF 区 row 17",
-   "catalog_part_id": null,
+   "catalog_part_id": "amass-xt30u-2p2-f",
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "目录 amass-xt30-2p2 为 XT30PB(2+2)-M 公头混合连接器，本行是 XT30U(2+2) 母头信号焊接款，公母与系列均不同，不匹配"
+   "notes": "用户确认新增 XT30U(2+2)-F 母头条目，不按公头关联。"
   },
   {
    "id": "line-017",
@@ -956,10 +956,10 @@
    "vendor": "seeedstudio旗舰店",
    "product_url": null,
    "source_ref": "轮足BOM表（初版）.xlsx 16DOF 区 row 51",
-   "catalog_part_id": null,
+   "catalog_part_id": "seeed-orin-nano-8gb-256ssd-kit",
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "原表备注“已涨价，可通过 RK3588 等替换”；目录 nvidia-orin-nano-8gb 是 8G 计算模组（不含硬盘/载板），与套件非同一 SKU，不匹配"
+   "notes": "用户确认新增 Seeed 8G+256G 套件条目，不按裸模组关联。"
   },
   {
    "id": "line-051",

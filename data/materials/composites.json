@@ -1,226 +1,376 @@
 [
-  {
-    "id": "mat-uhmwpe",
-    "category": "material",
-    "group": "composite",
-    "group_label": "复合材料",
-    "family": "uhmwpe",
-    "family_label": "UHMWPE",
-    "name": "UHMWPE 超高分子量聚乙烯",
-    "name_en": "Ultra-high-molecular-weight polyethylene",
-    "model": "UHMWPE",
-    "title": "UHMWPE 超高分子量聚乙烯",
-    "aliases": ["UHMWPE", "UPE", "超高分子量聚乙烯", "UHMWE"],
+ {
+  "id": "mat-uhmwpe",
+  "category": "material",
+  "group": "composite",
+  "group_label": "复合材料",
+  "family": "uhmwpe",
+  "family_label": "UHMWPE",
+  "name": "UHMWPE 超高分子量聚乙烯",
+  "name_en": "Ultra-high-molecular-weight polyethylene",
+  "model": "UHMWPE",
+  "title": "UHMWPE 超高分子量聚乙烯",
+  "aliases": [
+   "UHMWPE",
+   "UPE",
+   "超高分子量聚乙烯",
+   "UHMWE"
+  ],
+  "url": "https://m.11467.com/product/d6764298.htm",
+  "sources": [
+   {
     "url": "https://m.11467.com/product/d6764298.htm",
-    "sources": [
-      {
-        "url": "https://m.11467.com/product/d6764298.htm",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      },
-      {
-        "url": "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "UHMWPE 公开资料与供应商典型值整理（2026-11-02）；分子量/牌号不同数值有差异",
-    "specs": {
-      "density_g_cm3": 0.94,
-      "modulus_GPa": 0.8,
-      "tensile_MPa": 45,
-      "yield_MPa": 20,
-      "elongation_pct": 350,
-      "hardness": "Shore D 60–65",
-      "service_temp_C": 80,
-      "low_temp_C": -80,
-      "melting_C": 135,
-      "thermal_cond_W_mK": 0.42,
-      "cte_um_mK": 180,
-      "price_level": "中",
-      "price_note": "板材/棒材按公斤计价；分子量越高越贵",
-      "sim_note": "密度 940 kg/m³；模量 0.8 GPa。粘弹性与蠕变明显，不适合按线弹性长期承载；MuJoCo 只取密度做刚体时也要注意它会蠕变。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://m.11467.com/product/d6764298.htm"
-    },
-    "forms": [
-      { "form": "板材", "spec": "厚度 1–150 mm", "note": "耐磨衬板最常见形态" },
-      { "form": "棒材", "spec": "直径 Ø10–300 mm", "note": "车削轴套/滚轮" },
-      { "form": "管材", "spec": "外径 Ø20–300 mm", "note": "耐磨管道/衬套" },
-      { "form": "型材", "spec": "定制截面", "note": "导轨、链条导轨" }
-    ],
-    "processes": ["proc-cnc"],
-    "applications": [
-      "耐磨衬板",
-      "链条导轨",
-      "防护结构",
-      "低载荷齿轮",
-      "输送轮/滚轮"
-    ],
-    "pros": "塑料中耐磨和抗冲击的头部材料；摩擦系数低、吸水率极低、耐化学、密度低。",
-    "cons": "刚度低、耐热只有约 80°C、易蠕变；难粘接/焊接，加工需锋利刀具。",
-    "notes": "超高分子量聚乙烯。塑料里耐磨和抗冲击的头部材料，摩擦系数低、吸水率极低，适合耐磨衬板和防护结构；刚度低、耐热只有约 80°C，不能当承力结构件。",
-    "suppliers": []
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene",
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "UHMWPE 公开资料与供应商典型值整理（2026-11-02）；分子量/牌号不同数值有差异",
+  "specs": {
+   "density_g_cm3": 0.94,
+   "modulus_GPa": 0.8,
+   "tensile_MPa": 45,
+   "yield_MPa": 20,
+   "elongation_pct": 350,
+   "hardness": "Shore D 60–65",
+   "service_temp_C": 80,
+   "low_temp_C": -80,
+   "melting_C": 135,
+   "thermal_cond_W_mK": 0.42,
+   "cte_um_mK": 180,
+   "price_level": "中",
+   "price_note": "板材/棒材按公斤计价；分子量越高越贵",
+   "sim_note": "密度 940 kg/m³；模量 0.8 GPa。粘弹性与蠕变明显，不适合按线弹性长期承载；MuJoCo 只取密度做刚体时也要注意它会蠕变。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://m.11467.com/product/d6764298.htm"
   },
-  {
-    "id": "mat-cfrp-t300",
-    "category": "material",
-    "group": "composite",
-    "group_label": "复合材料",
-    "family": "cfrp",
-    "family_label": "碳纤维复合",
-    "name": "碳纤维 T300 复合材料",
-    "name_en": "T300 carbon fiber reinforced polymer (CFRP)",
-    "model": "T300",
-    "title": "碳纤维 T300 复合材料",
-    "aliases": ["T300", "碳纤维", "碳杆", "碳方管", "CFRP", "碳板"],
+  "forms": [
+   {
+    "form": "板材",
+    "spec": "厚度 1–150 mm",
+    "note": "耐磨衬板最常见形态"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø10–300 mm",
+    "note": "车削轴套/滚轮"
+   },
+   {
+    "form": "管材",
+    "spec": "外径 Ø20–300 mm",
+    "note": "耐磨管道/衬套"
+   },
+   {
+    "form": "型材",
+    "spec": "定制截面",
+    "note": "导轨、链条导轨"
+   }
+  ],
+  "processes": [
+   "proc-cnc"
+  ],
+  "applications": [
+   "耐磨衬板",
+   "链条导轨",
+   "防护结构",
+   "低载荷齿轮",
+   "输送轮/滚轮"
+  ],
+  "pros": "塑料中耐磨和抗冲击的头部材料；摩擦系数低、吸水率极低、耐化学、密度低。",
+  "cons": "刚度低、耐热只有约 80°C、易蠕变；难粘接/焊接，加工需锋利刀具。",
+  "notes": "超高分子量聚乙烯。塑料里耐磨和抗冲击的头部材料，摩擦系数低、吸水率极低，适合耐磨衬板和防护结构；刚度低、耐热只有约 80°C，不能当承力结构件。",
+  "suppliers": []
+ },
+ {
+  "id": "mat-cfrp-t300",
+  "category": "material",
+  "group": "composite",
+  "group_label": "复合材料",
+  "family": "cfrp",
+  "family_label": "碳纤维复合",
+  "name": "碳纤维 T300 复合材料",
+  "name_en": "T300 carbon fiber reinforced polymer (CFRP)",
+  "model": "T300",
+  "title": "碳纤维 T300 复合材料",
+  "aliases": [
+   "T300",
+   "碳纤维",
+   "碳杆",
+   "碳方管",
+   "CFRP",
+   "碳板"
+  ],
+  "url": "https://www.strongwell.com/the-pultrusion-process/",
+  "sources": [
+   {
     "url": "https://www.strongwell.com/the-pultrusion-process/",
-    "sources": [
-      {
-        "url": "https://www.strongwell.com/the-pultrusion-process/",
-        "kind": "process",
-        "checked_on": "2026-11-02"
-      },
-      {
-        "url": "https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "T300 级碳纤维/环氧拉挤型材典型值整理（2026-11-02）；T300 是纤维牌号，表中为典型拉挤复材口径，铺层/纤维体积分数不同差异很大",
-    "specs": {
-      "density_g_cm3": 1.55,
-      "modulus_GPa": 120,
-      "tensile_MPa": 1000,
-      "yield_MPa": null,
-      "elongation_pct": 1.5,
-      "hardness": null,
-      "service_temp_C": 120,
-      "low_temp_C": -50,
-      "melting_C": null,
-      "thermal_cond_W_mK": 5,
-      "cte_um_mK": 0.5,
-      "price_level": "高",
-      "price_note": "按管/板规格与铺层计价；定制拉挤模具有起订量",
-      "sim_note": "密度 1550 kg/m³；沿纤维方向模量约 120 GPa、抗拉约 1000 MPa。CFRP 各向异性，MuJoCo 刚体只取密度；柔性体要按铺层给 3D 正交各向异性参数。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://www.strongwell.com/the-pultrusion-process/"
-    },
-    "forms": [
-      { "form": "管材", "spec": "圆管 Ø3–100 mm", "note": "拉挤圆管，碳杆最常见" },
-      { "form": "管材", "spec": "方管 10×10–100×100 mm", "note": "拉挤方管，壁厚按规格" },
-      { "form": "板材", "spec": "厚度 0.5–50 mm", "note": "层压板，铺层方向决定性能" },
-      { "form": "棒材", "spec": "直径 Ø1–50 mm", "note": "拉挤圆棒" },
-      { "form": "型材", "spec": "定制等截面", "note": "拉挤异型材需开模" }
-    ],
-    "processes": ["proc-pultrusion", "proc-cnc", "proc-layup"],
-    "applications": [
-      "碳杆/碳方管",
-      "机械臂连杆",
-      "机器人框架",
-      "无人机管件",
-      "轻量化承力结构"
-    ],
-    "pros": "沿纤维方向比强度/比刚度高、抗疲劳、耐蚀、热膨胀系数低。",
-    "cons": "各向异性，横向和层间弱；脆、抗冲击差；连接需胶接/机械夹持；成本高。",
-    "notes": "T300 级碳纤维增强环氧复合材料。拉挤圆管、方管和层压板在机器人上用于轻量化连杆与框架；沿纤维方向比强度/比刚度高，横向和层间弱，连接处要专门设计。T300 纤维本身约 230 GPa 模量、3530 MPa 抗拉，不能直接套到成品复材上；表中 120 GPa / 1000 MPa 是典型拉挤型材口径，铺层不同差异很大。",
-    "suppliers": [
-      {
-        "supplier_id": "sup-d18be6a0",
-        "role": "碳板/玻纤加工",
-        "note": "社区反馈价格偏低、加工快、精度高；具体铺层与树脂体系要问清"
-      },
-      {
-        "supplier_id": "sup-a5e51c13",
-        "role": "碳纤维切割",
-        "note": "可切割、尺寸精确；适合碳板下料"
-      },
-      {
-        "supplier_id": "sup-77f23e3c",
-        "role": "环氧粘结剂",
-        "note": "碳纤维/玻纤粘接用环氧胶，社区称首选"
-      }
-    ]
+    "kind": "process",
+    "checked_on": "2026-11-02"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers",
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "T300 级碳纤维/环氧拉挤型材典型值整理（2026-11-02）；T300 是纤维牌号，表中为典型拉挤复材口径，铺层/纤维体积分数不同差异很大",
+  "specs": {
+   "density_g_cm3": 1.55,
+   "modulus_GPa": 120,
+   "tensile_MPa": 1000,
+   "yield_MPa": null,
+   "elongation_pct": 1.5,
+   "hardness": null,
+   "service_temp_C": 120,
+   "low_temp_C": -50,
+   "melting_C": null,
+   "thermal_cond_W_mK": 5,
+   "cte_um_mK": 0.5,
+   "price_level": "高",
+   "price_note": "按管/板规格与铺层计价；定制拉挤模具有起订量",
+   "sim_note": "密度 1550 kg/m³；沿纤维方向模量约 120 GPa、抗拉约 1000 MPa。CFRP 各向异性，MuJoCo 刚体只取密度；柔性体要按铺层给 3D 正交各向异性参数。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://www.strongwell.com/the-pultrusion-process/"
   },
-  {
-    "id": "mat-gfrp",
-    "category": "material",
-    "group": "composite",
-    "group_label": "复合材料",
-    "family": "gfrp",
-    "family_label": "玻纤复合",
-    "name": "玻璃纤维环氧复合材料",
-    "name_en": "Glass fiber reinforced polymer (GFRP)",
-    "model": "E-glass/Epoxy",
-    "title": "玻璃纤维环氧复合材料（GFRP）",
-    "aliases": ["GFRP", "玻璃钢", "玻纤板", "环氧玻纤", "G10", "FR-4"],
+  "forms": [
+   {
+    "form": "管材",
+    "spec": "圆管 Ø3–100 mm",
+    "note": "拉挤圆管，碳杆最常见"
+   },
+   {
+    "form": "管材",
+    "spec": "方管 10×10–100×100 mm",
+    "note": "拉挤方管，壁厚按规格"
+   },
+   {
+    "form": "板材",
+    "spec": "厚度 0.5–50 mm",
+    "note": "层压板，铺层方向决定性能"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø1–50 mm",
+    "note": "拉挤圆棒"
+   },
+   {
+    "form": "型材",
+    "spec": "定制等截面",
+    "note": "拉挤异型材需开模"
+   }
+  ],
+  "processes": [
+   "proc-pultrusion",
+   "proc-cnc",
+   "proc-layup"
+  ],
+  "applications": [
+   "碳杆/碳方管",
+   "机械臂连杆",
+   "机器人框架",
+   "无人机管件",
+   "轻量化承力结构"
+  ],
+  "pros": "沿纤维方向比强度/比刚度高、抗疲劳、耐蚀、热膨胀系数低。",
+  "cons": "各向异性，横向和层间弱；脆、抗冲击差；连接需胶接/机械夹持；成本高。",
+  "notes": "T300 级碳纤维增强环氧复合材料。拉挤圆管、方管和层压板在机器人上用于轻量化连杆与框架；沿纤维方向比强度/比刚度高，横向和层间弱，连接处要专门设计。T300 纤维本身约 230 GPa 模量、3530 MPa 抗拉，不能直接套到成品复材上；表中 120 GPa / 1000 MPa 是典型拉挤型材口径，铺层不同差异很大。",
+  "suppliers": [
+   {
+    "supplier_id": "sup-d18be6a0",
+    "role": "碳板/玻纤加工",
+    "note": "社区反馈价格偏低、加工快、精度高；具体铺层与树脂体系要问清"
+   },
+   {
+    "supplier_id": "sup-a5e51c13",
+    "role": "碳纤维切割",
+    "note": "可切割、尺寸精确；适合碳板下料"
+   },
+   {
+    "supplier_id": "sup-77f23e3c",
+    "role": "环氧粘结剂",
+    "note": "碳纤维/玻纤粘接用环氧胶，社区称首选"
+   }
+  ]
+ },
+ {
+  "id": "mat-gfrp",
+  "category": "material",
+  "group": "composite",
+  "group_label": "复合材料",
+  "family": "gfrp",
+  "family_label": "玻纤复合",
+  "name": "玻璃纤维环氧复合材料",
+  "name_en": "Glass fiber reinforced polymer (GFRP)",
+  "model": "E-glass/Epoxy",
+  "title": "玻璃纤维环氧复合材料（GFRP）",
+  "aliases": [
+   "GFRP",
+   "玻璃钢",
+   "玻纤板",
+   "环氧玻纤",
+   "G10",
+   "FR-4"
+  ],
+  "url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp",
+  "sources": [
+   {
     "url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp",
-    "sources": [
-      {
-        "url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp",
-        "kind": "datasheet",
-        "checked_on": "2026-11-02"
-      },
-      {
-        "url": "https://www.performance-composites.com/",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "E-glass/环氧层压与拉挤型材公开数据整理（2026-11-02）；表中按环氧玻纤层压板口径，纤维体积分数与铺层不同差异大",
-    "specs": {
-      "density_g_cm3": 1.9,
-      "modulus_GPa": 25,
-      "tensile_MPa": 440,
-      "yield_MPa": null,
-      "elongation_pct": 1.75,
-      "hardness": null,
-      "service_temp_C": 120,
-      "low_temp_C": -50,
-      "melting_C": null,
-      "thermal_cond_W_mK": 0.4,
-      "cte_um_mK": 8,
-      "price_level": "低-中",
-      "price_note": "按板/管规格与铺层计价；比碳纤维便宜，定制拉挤模具有起订量",
-      "sim_note": "密度 1900 kg/m³；沿纤维方向模量约 25 GPa、抗拉约 440 MPa、断裂延伸率约 1.75%（Vf≈50%，环氧玻纤层压板口径）。GFRP 同样各向异性，仿真取纤维方向等效值要注明铺层。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp"
-    },
-    "forms": [
-      { "form": "板材", "spec": "厚度 0.5–50 mm", "note": "G10/FR-4 绝缘板最常见" },
-      { "form": "管材", "spec": "外径 Ø5–100 mm", "note": "拉挤圆管/方管" },
-      { "form": "棒材", "spec": "直径 Ø2–50 mm", "note": "拉挤圆棒" },
-      { "form": "型材", "spec": "定制等截面", "note": "拉挤异型材需开模" }
-    ],
-    "processes": ["proc-pultrusion", "proc-cnc", "proc-layup"],
-    "applications": [
-      "绝缘板/设备护罩",
-      "低成本连杆",
-      "机器人框架",
-      "法兰/垫板",
-      "无人机管件"
-    ],
-    "pros": "价格低于碳纤维、绝缘性好、耐蚀、沿纤维方向强度/刚度可观；可拉挤也可层压。",
-    "cons": "比刚度低于碳纤维、密度更高；各向异性、层间弱；切削粉尘刺激皮肤，需防护。",
-    "notes": "E 玻璃纤维增强环氧复合材料。绝缘板、护罩和低成本连杆常用；比碳纤维便宜但比刚度低、密度高，承力结构仍要按铺层方向设计。",
-    "suppliers": [
-      {
-        "supplier_id": "sup-d18be6a0",
-        "role": "碳板/玻纤加工",
-        "note": "社区反馈价格偏低、加工快、精度高；玻纤板下料可一并询价"
-      }
-    ]
-  }
+    "kind": "datasheet",
+    "checked_on": "2026-11-02"
+   },
+   {
+    "url": "https://www.performance-composites.com/",
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "E-glass/环氧层压与拉挤型材公开数据整理（2026-11-02）；表中按环氧玻纤层压板口径，纤维体积分数与铺层不同差异大",
+  "specs": {
+   "density_g_cm3": 1.9,
+   "modulus_GPa": 25,
+   "tensile_MPa": 440,
+   "yield_MPa": null,
+   "elongation_pct": 1.75,
+   "hardness": null,
+   "service_temp_C": 120,
+   "low_temp_C": -50,
+   "melting_C": null,
+   "thermal_cond_W_mK": 0.4,
+   "cte_um_mK": 8,
+   "price_level": "低-中",
+   "price_note": "按板/管规格与铺层计价；比碳纤维便宜，定制拉挤模具有起订量",
+   "sim_note": "密度 1900 kg/m³；沿纤维方向模量约 25 GPa、抗拉约 440 MPa、断裂延伸率约 1.75%（Vf≈50%，环氧玻纤层压板口径）。GFRP 同样各向异性，仿真取纤维方向等效值要注明铺层。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://www.performance-composites.com/carbonfibre/mechanicalproperties_2.asp"
+  },
+  "forms": [
+   {
+    "form": "板材",
+    "spec": "厚度 0.5–50 mm",
+    "note": "G10/FR-4 绝缘板最常见"
+   },
+   {
+    "form": "管材",
+    "spec": "外径 Ø5–100 mm",
+    "note": "拉挤圆管/方管"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø2–50 mm",
+    "note": "拉挤圆棒"
+   },
+   {
+    "form": "型材",
+    "spec": "定制等截面",
+    "note": "拉挤异型材需开模"
+   }
+  ],
+  "processes": [
+   "proc-pultrusion",
+   "proc-cnc",
+   "proc-layup"
+  ],
+  "applications": [
+   "绝缘板/设备护罩",
+   "低成本连杆",
+   "机器人框架",
+   "法兰/垫板",
+   "无人机管件"
+  ],
+  "pros": "价格低于碳纤维、绝缘性好、耐蚀、沿纤维方向强度/刚度可观；可拉挤也可层压。",
+  "cons": "比刚度低于碳纤维、密度更高；各向异性、层间弱；切削粉尘刺激皮肤，需防护。",
+  "notes": "E 玻璃纤维增强环氧复合材料。绝缘板、护罩和低成本连杆常用；比碳纤维便宜但比刚度低、密度高，承力结构仍要按铺层方向设计。",
+  "suppliers": [
+   {
+    "supplier_id": "sup-d18be6a0",
+    "role": "碳板/玻纤加工",
+    "note": "社区反馈价格偏低、加工快、精度高；玻纤板下料可一并询价"
+   }
+  ]
+ },
+ {
+  "id": "mat-fr4",
+  "category": "material",
+  "group": "composite",
+  "group_label": "复合材料",
+  "family": "fr4",
+  "family_label": "环氧玻璃布板",
+  "name": "环氧板 FR4",
+  "name_en": "FR-4 epoxy glass cloth laminate",
+  "model": "FR4",
+  "title": "环氧板 FR4",
+  "aliases": [
+   "FR4",
+   "FR-4",
+   "环氧板",
+   "环氧树脂板",
+   "3240"
+  ],
+  "url": "https://en.wikipedia.org/wiki/FR-4",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/FR-4",
+    "kind": "reference",
+    "checked_on": "2026-11-10"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-10",
+  "origin": "公开技术资料典型值整理（2026-11-10）；未逐项回查原厂质保书",
+  "specs": {
+   "density_g_cm3": 1.85,
+   "modulus_GPa": 22,
+   "tensile_MPa": 310,
+   "yield_MPa": null,
+   "elongation_pct": 2.5,
+   "hardness": "M 110",
+   "service_temp_C": 130,
+   "low_temp_C": null,
+   "melting_C": null,
+   "thermal_cond_W_mK": 0.3,
+   "cte_um_mK": 15,
+   "price_level": "低-中",
+   "price_note": "按板材厚度与尺寸计价；阻燃等级与颜色影响价格",
+   "sim_note": "密度 1850 kg/m³；面内弹性模量约 22 GPa，各向异性。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://en.wikipedia.org/wiki/FR-4"
+  },
+  "forms": [
+   {
+    "form": "板材",
+    "spec": "厚度 0.2–50 mm",
+    "note": "常见 3240 环氧玻璃布板；可 CNC/铣/钻"
+   }
+  ],
+  "applications": [
+   "电控安装板",
+   "绝缘垫板",
+   "PCB 支撑板",
+   "需要阻燃与绝缘的结构件"
+  ],
+  "pros": "绝缘、阻燃（UL94 V-0）、防潮，CNC 加工方便，价格低。",
+  "cons": "各向异性，强度低于金属；切削粉尘需防护；长期温度不宜超过 130°C。",
+  "notes": "电控舱隔板、绝缘垫板和 PCB 支撑首选；不要当高载荷承力结构。",
+  "processes": [
+   "proc-cnc"
+  ]
+ }
 ]

@@ -44,10 +44,10 @@
    "vendor": "高擎机电",
    "product_url": "https://item.taobao.com/item.htm?id=776280863227",
    "source_ref": "BOM 页 第 2 行",
-   "catalog_part_id": null,
+   "catalog_part_id": "hightorque-htdw-4438-30-ne-jc",
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "每条腿 3 个；项目 3.Document 里另有 HTDW-4438-30-NE 与 -32-NE 图纸，具体版本未注明"
+   "notes": "用户确认整机使用 -30-NE 版本；关联站内 HTDW-4438-30-NE-JC。"
   },
   {
    "id": "line-003",

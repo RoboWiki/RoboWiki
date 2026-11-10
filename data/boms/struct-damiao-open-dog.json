@@ -44,10 +44,10 @@
    "vendor": "达妙科技",
    "product_url": null,
    "source_ref": "四足机械bom表.xlsx / Sheet1 电控材料购买表 第 3 行",
-   "catalog_part_id": null,
+   "catalog_part_id": "damiao-dm-imu-l1",
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "型号未标注，站内 DM-IMU-L1 不能确认是同一款"
+   "notes": "用户确认即站内 DM-IMU-L1。"
   },
   {
    "id": "line-003",
@@ -63,10 +63,10 @@
    "vendor": "达妙科技",
    "product_url": null,
    "source_ref": "四足机械bom表.xlsx / Sheet1 电控材料购买表 第 4 行",
-   "catalog_part_id": null,
+   "catalog_part_id": "damiao-dm-orin-nx-v1-1",
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "站内仅收录 V2.X 载板，版本不同不匹配"
+   "notes": "用户确认新增 V1.1 载板条目并关联；与 V2.X 不混用。"
   },
   {
    "id": "line-004",

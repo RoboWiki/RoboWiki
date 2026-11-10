@@ -1,393 +1,625 @@
 [
-  {
-    "id": "mat-peek-450g",
-    "category": "material",
-    "group": "engineering_plastic",
-    "group_label": "工程塑料",
-    "family": "peek",
-    "family_label": "PEEK",
-    "name": "PEEK 450G",
-    "name_en": "Victrex PEEK 450G",
-    "model": "450G",
-    "title": "PEEK 450G 聚醚醚酮",
-    "aliases": ["PEEK", "450G", "聚醚醚酮", "Victrex 450G"],
+ {
+  "id": "mat-peek-450g",
+  "category": "material",
+  "group": "engineering_plastic",
+  "group_label": "工程塑料",
+  "family": "peek",
+  "family_label": "PEEK",
+  "name": "PEEK 450G",
+  "name_en": "Victrex PEEK 450G",
+  "model": "450G",
+  "title": "PEEK 450G 聚醚醚酮",
+  "aliases": [
+   "PEEK",
+   "450G",
+   "聚醚醚酮",
+   "Victrex 450G"
+  ],
+  "url": "https://www.victrex.com/zh-cn/products/polymers/peek-polymers/450g",
+  "sources": [
+   {
     "url": "https://www.victrex.com/zh-cn/products/polymers/peek-polymers/450g",
-    "sources": [
-      {
-        "url": "https://www.victrex.com/zh-cn/products/polymers/peek-polymers/450g",
-        "kind": "datasheet",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "Victrex 450G 官方页面典型值整理（2026-11-02）；未下载 PDF 数据表逐项复核",
-    "specs": {
-      "density_g_cm3": 1.3,
-      "modulus_GPa": 4.0,
-      "tensile_MPa": 98,
-      "yield_MPa": 98,
-      "elongation_pct": 25,
-      "hardness": null,
-      "service_temp_C": 250,
-      "low_temp_C": null,
-      "melting_C": 343,
-      "thermal_cond_W_mK": 0.29,
-      "cte_um_mK": 47,
-      "price_level": "高",
-      "price_note": "原材料单价高；机加工/注塑的干燥与高温工艺也计入成本",
-      "sim_note": "密度 1300 kg/m³；弹性模量 4.0 GPa。塑料模量随温度与应变速率变化，仿真按等温线弹性取值。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://www.victrex.com/zh-cn/products/polymers/peek-polymers/450g"
-    },
-    "forms": [
-      { "form": "板材", "spec": "厚度 1–100 mm", "note": "本色米色；加工前需退火去应力" },
-      { "form": "棒材", "spec": "直径 Ø5–200 mm", "note": "常见 stock shape，便于车铣" },
-      { "form": "管材", "spec": "外径 Ø10–200 mm", "note": "厚壁管可车成轴承/密封件" },
-      { "form": "粒料", "spec": "注塑/挤出级", "note": "注塑需高温料筒与干燥" }
-    ],
-    "processes": ["proc-cnc", "proc-injection"],
-    "applications": [
-      "自润滑轴承与轴套",
-      "耐磨齿轮",
-      "密封件/垫片",
-      "电绝缘结构件",
-      "碳纤维复合材料的基体"
-    ],
-    "pros": "长期耐温约 250°C、自润滑、耐磨、耐化学、尺寸稳定；可机加工也可注塑。",
-    "cons": "价格高；注塑温度高、需干燥；抗紫外线和抗冲击一般。",
-    "notes": "高性能半结晶工程塑料。耐高温、自润滑、耐化学，适合做无油润滑的轴承、齿轮和密封件；价格高，注塑和机加工都需要控制干燥与温度。",
-    "suppliers": [
-      {
-        "supplier_id": "sup-24b5c3dd",
-        "role": "CNC 加工",
-        "note": "先确认 PEEK 加工经验与退火条件；他家价格低但交期要催"
-      }
-    ]
+    "kind": "datasheet",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "Victrex 450G 官方页面典型值整理（2026-11-02）；未下载 PDF 数据表逐项复核",
+  "specs": {
+   "density_g_cm3": 1.3,
+   "modulus_GPa": 4.0,
+   "tensile_MPa": 98,
+   "yield_MPa": 98,
+   "elongation_pct": 25,
+   "hardness": null,
+   "service_temp_C": 250,
+   "low_temp_C": null,
+   "melting_C": 343,
+   "thermal_cond_W_mK": 0.29,
+   "cte_um_mK": 47,
+   "price_level": "高",
+   "price_note": "原材料单价高；机加工/注塑的干燥与高温工艺也计入成本",
+   "sim_note": "密度 1300 kg/m³；弹性模量 4.0 GPa。塑料模量随温度与应变速率变化，仿真按等温线弹性取值。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://www.victrex.com/zh-cn/products/polymers/peek-polymers/450g"
   },
-  {
-    "id": "mat-pps-gf40",
-    "category": "material",
-    "group": "engineering_plastic",
-    "group_label": "工程塑料",
-    "family": "pps",
-    "family_label": "PPS",
-    "name": "PPS GF40 聚苯硫醚",
-    "name_en": "PPS GF40 (40% glass fiber)",
-    "model": "GF40",
-    "title": "PPS GF40 聚苯硫醚",
-    "aliases": ["PPS", "GF40", "聚苯硫醚", "玻纤增强 PPS"],
+  "forms": [
+   {
+    "form": "板材",
+    "spec": "厚度 1–100 mm",
+    "note": "本色米色；加工前需退火去应力"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø5–200 mm",
+    "note": "常见 stock shape，便于车铣"
+   },
+   {
+    "form": "管材",
+    "spec": "外径 Ø10–200 mm",
+    "note": "厚壁管可车成轴承/密封件"
+   },
+   {
+    "form": "粒料",
+    "spec": "注塑/挤出级",
+    "note": "注塑需高温料筒与干燥"
+   }
+  ],
+  "processes": [
+   "proc-cnc",
+   "proc-injection"
+  ],
+  "applications": [
+   "自润滑轴承与轴套",
+   "耐磨齿轮",
+   "密封件/垫片",
+   "电绝缘结构件",
+   "碳纤维复合材料的基体"
+  ],
+  "pros": "长期耐温约 250°C、自润滑、耐磨、耐化学、尺寸稳定；可机加工也可注塑。",
+  "cons": "价格高；注塑温度高、需干燥；抗紫外线和抗冲击一般。",
+  "notes": "高性能半结晶工程塑料。耐高温、自润滑、耐化学，适合做无油润滑的轴承、齿轮和密封件；价格高，注塑和机加工都需要控制干燥与温度。",
+  "suppliers": [
+   {
+    "supplier_id": "sup-24b5c3dd",
+    "role": "CNC 加工",
+    "note": "先确认 PEEK 加工经验与退火条件；他家价格低但交期要催"
+   }
+  ]
+ },
+ {
+  "id": "mat-pps-gf40",
+  "category": "material",
+  "group": "engineering_plastic",
+  "group_label": "工程塑料",
+  "family": "pps",
+  "family_label": "PPS",
+  "name": "PPS GF40 聚苯硫醚",
+  "name_en": "PPS GF40 (40% glass fiber)",
+  "model": "GF40",
+  "title": "PPS GF40 聚苯硫醚",
+  "aliases": [
+   "PPS",
+   "GF40",
+   "聚苯硫醚",
+   "玻纤增强 PPS"
+  ],
+  "url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html",
+  "sources": [
+   {
     "url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html",
-    "sources": [
-      {
-        "url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html",
-        "kind": "datasheet",
-        "checked_on": "2026-11-02"
-      },
-      {
-        "url": "https://www.plastics.toray/",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "Toray Torelina A504X90（PPS-GF40）数据表 + 公开资料整理（2026-11-02）；不同厂家/牌号数值有差异",
-    "specs": {
-      "density_g_cm3": 1.66,
-      "modulus_GPa": 15.5,
-      "modulus_kind": "弯曲",
-      "tensile_MPa": 200,
-      "yield_MPa": null,
-      "elongation_pct": 1.8,
-      "hardness": "Rockwell R122",
-      "service_temp_C": 220,
-      "low_temp_C": null,
-      "melting_C": 278,
-      "thermal_cond_W_mK": 0.3,
-      "cte_um_mK": 23,
-      "price_level": "中高",
-      "price_note": "比普通工程塑料贵；玻纤增强牌号与阻燃牌号再加价",
-      "sim_note": "密度 1660 kg/m³；弯曲模量约 15.5 GPa（玻纤方向）。CLTE 23 µm/(m·K)（流动）/31（垂直）；各向异性明显，仿真取流动方向值要注明。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html"
-    },
-    "forms": [
-      { "form": "粒料", "spec": "注塑级 GF40", "note": "最常见形态；需干燥、高温料筒" },
-      { "form": "板材", "spec": "厚度 1–80 mm", "note": "stock shape 供应少于 PEEK" },
-      { "form": "棒材", "spec": "直径 Ø5–100 mm", "note": "可车铣，但玻纤磨损刀具" },
-      { "form": "型材", "spec": "定制截面", "note": "挤出/注塑定制，需开模" }
-    ],
-    "processes": ["proc-injection", "proc-cnc"],
-    "applications": [
-      "电机端盖",
-      "传感器外壳",
-      "连接器/接插件",
-      "泵阀耐化学件",
-      "低冲击齿轮"
-    ],
-    "pros": "长期耐温约 220°C、耐化学、尺寸稳定、低吸水、阻燃 V-0；玻纤增强后刚度高。",
-    "cons": "脆、缺口敏感；玻纤磨损刀具和模具；表面外观一般。",
-    "notes": "40% 玻纤增强的聚苯硫醚。长期耐温约 220°C，耐化学和尺寸稳定性好，常用于电机端盖、传感器外壳和连接器；玻纤增强后较脆，设计时避免尖角和缺口。",
-    "suppliers": []
+    "kind": "datasheet",
+    "checked_on": "2026-11-02"
+   },
+   {
+    "url": "https://www.plastics.toray/",
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "Toray Torelina A504X90（PPS-GF40）数据表 + 公开资料整理（2026-11-02）；不同厂家/牌号数值有差异",
+  "specs": {
+   "density_g_cm3": 1.66,
+   "modulus_GPa": 15.5,
+   "modulus_kind": "弯曲",
+   "tensile_MPa": 200,
+   "yield_MPa": null,
+   "elongation_pct": 1.8,
+   "hardness": "Rockwell R122",
+   "service_temp_C": 220,
+   "low_temp_C": null,
+   "melting_C": 278,
+   "thermal_cond_W_mK": 0.3,
+   "cte_um_mK": 23,
+   "price_level": "中高",
+   "price_note": "比普通工程塑料贵；玻纤增强牌号与阻燃牌号再加价",
+   "sim_note": "密度 1660 kg/m³；弯曲模量约 15.5 GPa（玻纤方向）。CLTE 23 µm/(m·K)（流动）/31（垂直）；各向异性明显，仿真取流动方向值要注明。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://www.plastics.toray/zh/technical/torelina/tec_006.html"
   },
-  {
-    "id": "mat-pa66",
-    "category": "material",
-    "group": "engineering_plastic",
-    "group_label": "工程塑料",
-    "family": "pa",
-    "family_label": "尼龙 PA",
-    "name": "PA66 尼龙",
-    "name_en": "PA66 Nylon (Zytel 101L class)",
-    "model": "PA66",
-    "title": "PA66 尼龙",
-    "aliases": ["PA66", "尼龙66", "Nylon 66", "Zytel 101L", "聚酰胺"],
+  "forms": [
+   {
+    "form": "粒料",
+    "spec": "注塑级 GF40",
+    "note": "最常见形态；需干燥、高温料筒"
+   },
+   {
+    "form": "板材",
+    "spec": "厚度 1–80 mm",
+    "note": "stock shape 供应少于 PEEK"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø5–100 mm",
+    "note": "可车铣，但玻纤磨损刀具"
+   },
+   {
+    "form": "型材",
+    "spec": "定制截面",
+    "note": "挤出/注塑定制，需开模"
+   }
+  ],
+  "processes": [
+   "proc-injection",
+   "proc-cnc"
+  ],
+  "applications": [
+   "电机端盖",
+   "传感器外壳",
+   "连接器/接插件",
+   "泵阀耐化学件",
+   "低冲击齿轮"
+  ],
+  "pros": "长期耐温约 220°C、耐化学、尺寸稳定、低吸水、阻燃 V-0；玻纤增强后刚度高。",
+  "cons": "脆、缺口敏感；玻纤磨损刀具和模具；表面外观一般。",
+  "notes": "40% 玻纤增强的聚苯硫醚。长期耐温约 220°C，耐化学和尺寸稳定性好，常用于电机端盖、传感器外壳和连接器；玻纤增强后较脆，设计时避免尖角和缺口。",
+  "suppliers": []
+ },
+ {
+  "id": "mat-pa66",
+  "category": "material",
+  "group": "engineering_plastic",
+  "group_label": "工程塑料",
+  "family": "pa",
+  "family_label": "尼龙 PA",
+  "name": "PA66 尼龙",
+  "name_en": "PA66 Nylon (Zytel 101L class)",
+  "model": "PA66",
+  "title": "PA66 尼龙",
+  "aliases": [
+   "PA66",
+   "尼龙66",
+   "Nylon 66",
+   "Zytel 101L",
+   "聚酰胺"
+  ],
+  "url": "https://www.celanese.com/products/zytel-nylon-101l",
+  "sources": [
+   {
     "url": "https://www.celanese.com/products/zytel-nylon-101l",
-    "sources": [
-      {
-        "url": "https://www.celanese.com/products/zytel-nylon-101l",
-        "kind": "datasheet",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "Celanese Zytel 101L 公开数据表典型值整理（2026-11-02）；干态/调湿态数值分开标注",
-    "specs": {
-      "density_g_cm3": 1.14,
-      "modulus_GPa": 3.1,
-      "tensile_MPa": 82,
-      "yield_MPa": 82,
-      "elongation_pct": 25,
-      "hardness": null,
-      "service_temp_C": 100,
-      "low_temp_C": null,
-      "melting_C": 255,
-      "thermal_cond_W_mK": 0.25,
-      "cte_um_mK": 80,
-      "price_level": "低",
-      "price_note": "原料便宜、供应广；精密件成本主要来自模具/加工",
-      "sim_note": "密度 1140 kg/m³；干态模量 3.1 GPa，调湿后约 1.4 GPa —— 仿真取值必须注明状态。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://www.celanese.com/products/zytel-nylon-101l"
-    },
-    "forms": [
-      { "form": "粒料", "spec": "注塑级", "note": "最常见；加工前需干燥" },
-      { "form": "板材", "spec": "厚度 1–100 mm", "note": "stock shape，机加工前建议退火" },
-      { "form": "棒材", "spec": "直径 Ø5–200 mm", "note": "齿轮/滑轮毛坯常见" },
-      { "form": "管材", "spec": "外径 Ø6–200 mm", "note": "耐磨衬套/导轨" },
-      { "form": "线材", "spec": "1.75/2.85 mm", "note": "PA/PA-CF 线材用于 FDM，需干燥" }
-    ],
-    "processes": ["proc-injection", "proc-cnc", "proc-fdm"],
-    "applications": [
-      "齿轮",
-      "滑轮",
-      "轴承保持架",
-      "导轨/耐磨衬套",
-      "外壳与扎带"
-    ],
-    "pros": "韧性好、耐磨、自润滑、成本低、易注塑；供应与牌号极多。",
-    "cons": "吸水导致尺寸和刚度变化；耐热有限；紫外线会老化；精密件需注明干态/调湿态。",
-    "notes": "最常用的尼龙之一。韧性、耐磨和自润滑性好，价格低，适合齿轮、滑轮和导轨；吸水后尺寸和刚度会变化，精密件要注明干态/调湿态口径。",
-    "suppliers": []
+    "kind": "datasheet",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "Celanese Zytel 101L 公开数据表典型值整理（2026-11-02）；干态/调湿态数值分开标注",
+  "specs": {
+   "density_g_cm3": 1.14,
+   "modulus_GPa": 3.1,
+   "tensile_MPa": 82,
+   "yield_MPa": 82,
+   "elongation_pct": 25,
+   "hardness": null,
+   "service_temp_C": 100,
+   "low_temp_C": null,
+   "melting_C": 255,
+   "thermal_cond_W_mK": 0.25,
+   "cte_um_mK": 80,
+   "price_level": "低",
+   "price_note": "原料便宜、供应广；精密件成本主要来自模具/加工",
+   "sim_note": "密度 1140 kg/m³；干态模量 3.1 GPa，调湿后约 1.4 GPa —— 仿真取值必须注明状态。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://www.celanese.com/products/zytel-nylon-101l"
   },
-  {
-    "id": "mat-pa12",
-    "category": "material",
-    "group": "engineering_plastic",
-    "group_label": "工程塑料",
-    "family": "pa",
-    "family_label": "尼龙 PA",
-    "name": "PA12 尼龙",
-    "name_en": "PA12 Nylon (SLS/FDM grade)",
-    "model": "PA12",
-    "title": "PA12 尼龙",
-    "aliases": ["PA12", "尼龙12", "Nylon 12", "PA2200", "SLS 尼龙"],
+  "forms": [
+   {
+    "form": "粒料",
+    "spec": "注塑级",
+    "note": "最常见；加工前需干燥"
+   },
+   {
+    "form": "板材",
+    "spec": "厚度 1–100 mm",
+    "note": "stock shape，机加工前建议退火"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø5–200 mm",
+    "note": "齿轮/滑轮毛坯常见"
+   },
+   {
+    "form": "管材",
+    "spec": "外径 Ø6–200 mm",
+    "note": "耐磨衬套/导轨"
+   },
+   {
+    "form": "线材",
+    "spec": "1.75/2.85 mm",
+    "note": "PA/PA-CF 线材用于 FDM，需干燥"
+   }
+  ],
+  "processes": [
+   "proc-injection",
+   "proc-cnc",
+   "proc-fdm"
+  ],
+  "applications": [
+   "齿轮",
+   "滑轮",
+   "轴承保持架",
+   "导轨/耐磨衬套",
+   "外壳与扎带"
+  ],
+  "pros": "韧性好、耐磨、自润滑、成本低、易注塑；供应与牌号极多。",
+  "cons": "吸水导致尺寸和刚度变化；耐热有限；紫外线会老化；精密件需注明干态/调湿态。",
+  "notes": "最常用的尼龙之一。韧性、耐磨和自润滑性好，价格低，适合齿轮、滑轮和导轨；吸水后尺寸和刚度会变化，精密件要注明干态/调湿态口径。",
+  "suppliers": []
+ },
+ {
+  "id": "mat-pa12",
+  "category": "material",
+  "group": "engineering_plastic",
+  "group_label": "工程塑料",
+  "family": "pa",
+  "family_label": "尼龙 PA",
+  "name": "PA12 尼龙",
+  "name_en": "PA12 Nylon (SLS/FDM grade)",
+  "model": "PA12",
+  "title": "PA12 尼龙",
+  "aliases": [
+   "PA12",
+   "尼龙12",
+   "Nylon 12",
+   "PA2200",
+   "SLS 尼龙"
+  ],
+  "url": "https://formlabs.com/3d-printers/fuse-1/",
+  "sources": [
+   {
     "url": "https://formlabs.com/3d-printers/fuse-1/",
-    "sources": [
-      {
-        "url": "https://formlabs.com/3d-printers/fuse-1/",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      },
-      {
-        "url": "https://www.protolabs.com/services/3d-printing/",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "SLS/MJF 打印件（XY 方向）典型值 + 公开工艺资料整理（2026-11-02）；注塑/挤出件模量约 1.4 GPa、断裂伸长率 >50%，不可直接套用",
-    "specs": {
-      "density_g_cm3": 1.01,
-      "modulus_GPa": 1.6,
-      "tensile_MPa": 48,
-      "yield_MPa": null,
-      "elongation_pct": 20,
-      "hardness": null,
-      "service_temp_C": 90,
-      "low_temp_C": null,
-      "melting_C": 180,
-      "thermal_cond_W_mK": 0.25,
-      "cte_um_mK": 100,
-      "price_level": "中",
-      "price_note": "SLS 粉末与 FDM 线材按公斤计价；小批量打印按体积/工时报价",
-      "sim_note": "密度 1010 kg/m³；模量 1.6 GPa。表中为 SLS/MJF 打印件（XY 方向）口径，Z 向强度和延伸率更低；仿真按打印方向取等效值。注塑 PA12 模量约 1.4 GPa、断裂伸长率 >50%，不要混用。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://formlabs.com/3d-printers/fuse-1/"
-    },
-    "forms": [
-      { "form": "粉末", "spec": "SLS 用 20–60 µm", "note": "PA2200 类粉末；回收粉比例影响性能" },
-      { "form": "线材", "spec": "1.75/2.85 mm", "note": "FDM 用；需干燥" },
-      { "form": "粒料", "spec": "注塑/挤出级", "note": "也可做 stock shape" },
-      { "form": "板材", "spec": "厚度 1–100 mm", "note": "机加工用" },
-      { "form": "棒材", "spec": "直径 Ø5–200 mm", "note": "机加工用" }
-    ],
-    "processes": ["proc-sls", "proc-fdm", "proc-injection", "proc-cnc"],
-    "applications": [
-      "SLS 功能原型",
-      "小批量外壳",
-      "夹具/工装",
-      "轻载齿轮",
-      "管路与接头"
-    ],
-    "pros": "吸水率低于 PA66、韧性和耐低温好、尺寸较稳定；SLS/FDM 都成熟。",
-    "cons": "强度和耐热低于 PA66；粉末/线材需干燥；SLS 表面粗糙、各向异性。",
-    "notes": "低吸水的尼龙，SLS 粉末和 FDM 线材都常用。表中力学值按 SLS/MJF 打印件取值；韧性和耐低温性好，尺寸比 PA66 稳定，强度和耐热低于 PA66，适合功能原型和小批量外壳。注塑/挤出件的塑性和模量与打印件不同，选型时不要直接套用。",
-    "suppliers": []
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   },
+   {
+    "url": "https://www.protolabs.com/services/3d-printing/",
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "SLS/MJF 打印件（XY 方向）典型值 + 公开工艺资料整理（2026-11-02）；注塑/挤出件模量约 1.4 GPa、断裂伸长率 >50%，不可直接套用",
+  "specs": {
+   "density_g_cm3": 1.01,
+   "modulus_GPa": 1.6,
+   "tensile_MPa": 48,
+   "yield_MPa": null,
+   "elongation_pct": 20,
+   "hardness": null,
+   "service_temp_C": 90,
+   "low_temp_C": null,
+   "melting_C": 180,
+   "thermal_cond_W_mK": 0.25,
+   "cte_um_mK": 100,
+   "price_level": "中",
+   "price_note": "SLS 粉末与 FDM 线材按公斤计价；小批量打印按体积/工时报价",
+   "sim_note": "密度 1010 kg/m³；模量 1.6 GPa。表中为 SLS/MJF 打印件（XY 方向）口径，Z 向强度和延伸率更低；仿真按打印方向取等效值。注塑 PA12 模量约 1.4 GPa、断裂伸长率 >50%，不要混用。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://formlabs.com/3d-printers/fuse-1/"
   },
-  {
-    "id": "mat-pc-abs",
-    "category": "material",
-    "group": "engineering_plastic",
-    "group_label": "工程塑料",
-    "family": "pc_abs",
-    "family_label": "PC/ABS",
-    "name": "PC/ABS 合金",
-    "name_en": "PC/ABS blend (Bayblend T95 MF class)",
-    "model": "T95 MF",
-    "title": "PC/ABS 合金",
-    "aliases": ["PC/ABS", "PC-ABS", "聚碳酸酯/ABS 合金", "Bayblend"],
+  "forms": [
+   {
+    "form": "粉末",
+    "spec": "SLS 用 20–60 µm",
+    "note": "PA2200 类粉末；回收粉比例影响性能"
+   },
+   {
+    "form": "线材",
+    "spec": "1.75/2.85 mm",
+    "note": "FDM 用；需干燥"
+   },
+   {
+    "form": "粒料",
+    "spec": "注塑/挤出级",
+    "note": "也可做 stock shape"
+   },
+   {
+    "form": "板材",
+    "spec": "厚度 1–100 mm",
+    "note": "机加工用"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø5–200 mm",
+    "note": "机加工用"
+   }
+  ],
+  "processes": [
+   "proc-sls",
+   "proc-fdm",
+   "proc-injection",
+   "proc-cnc"
+  ],
+  "applications": [
+   "SLS 功能原型",
+   "小批量外壳",
+   "夹具/工装",
+   "轻载齿轮",
+   "管路与接头"
+  ],
+  "pros": "吸水率低于 PA66、韧性和耐低温好、尺寸较稳定；SLS/FDM 都成熟。",
+  "cons": "强度和耐热低于 PA66；粉末/线材需干燥；SLS 表面粗糙、各向异性。",
+  "notes": "低吸水的尼龙，SLS 粉末和 FDM 线材都常用。表中力学值按 SLS/MJF 打印件取值；韧性和耐低温性好，尺寸比 PA66 稳定，强度和耐热低于 PA66，适合功能原型和小批量外壳。注塑/挤出件的塑性和模量与打印件不同，选型时不要直接套用。",
+  "suppliers": []
+ },
+ {
+  "id": "mat-pc-abs",
+  "category": "material",
+  "group": "engineering_plastic",
+  "group_label": "工程塑料",
+  "family": "pc_abs",
+  "family_label": "PC/ABS",
+  "name": "PC/ABS 合金",
+  "name_en": "PC/ABS blend (Bayblend T95 MF class)",
+  "model": "T95 MF",
+  "title": "PC/ABS 合金",
+  "aliases": [
+   "PC/ABS",
+   "PC-ABS",
+   "聚碳酸酯/ABS 合金",
+   "Bayblend"
+  ],
+  "url": "https://solutions.covestro.com/en/brands/bayblend",
+  "sources": [
+   {
     "url": "https://solutions.covestro.com/en/brands/bayblend",
-    "sources": [
-      {
-        "url": "https://solutions.covestro.com/en/brands/bayblend",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "Covestro Bayblend T95 MF 数据表 + PC/ABS 典型值整理（2026-11-02）；PC/ABS 配比不同，韧性与耐热随之变化",
-    "specs": {
-      "density_g_cm3": 1.24,
-      "modulus_GPa": 3.35,
-      "tensile_MPa": 66,
-      "yield_MPa": 66,
-      "elongation_pct": 50,
-      "hardness": null,
-      "service_temp_C": 100,
-      "low_temp_C": null,
-      "melting_C": null,
-      "thermal_cond_W_mK": 0.2,
-      "cte_um_mK": 55,
-      "price_level": "低-中",
-      "price_note": "粒料价格低于 PC，高于 ABS；注塑件成本主要看模具与批量",
-      "sim_note": "密度 1240 kg/m³；拉伸模量约 3.35 GPa。CLTE 55 µm/(m·K)（流动）/65（垂直）；HDT/B 124°C、HDT/A 136°C，100°C 是长期使用上限。共混物韧性好但模量随温度下降，仿真用常温等温线弹性值即可。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://solutions.covestro.com/en/brands/bayblend"
-    },
-    "forms": [
-      { "form": "粒料", "spec": "注塑级", "note": "最常见；加工前需干燥" },
-      { "form": "板材", "spec": "厚度 1–80 mm", "note": "stock shape 供应少于 ABS" },
-      { "form": "棒材", "spec": "直径 Ø5–100 mm", "note": "机加工原型用" },
-      { "form": "型材", "spec": "定制截面", "note": "挤出/注塑定制，需开模" }
-    ],
-    "processes": ["proc-injection", "proc-cnc"],
-    "applications": [
-      "设备外壳/机壳",
-      "电机端盖",
-      "传感器支架",
-      "连接器壳体",
-      "非承力结构件"
-    ],
-    "pros": "比 ABS 更韧、抗冲击好、耐热略高、尺寸稳定；表面质量好、易注塑和二次加工。",
-    "cons": "耐化学一般、长期户外会老化；需要干燥；比 ABS 贵，模具要求高。",
-    "notes": "PC 与 ABS 的共混材料，兼顾 PC 的韧性和 ABS 的加工性。设备外壳、电机端盖和支架上很常见；耐化学和耐候一般，户外件要评估老化。",
-    "suppliers": []
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "Covestro Bayblend T95 MF 数据表 + PC/ABS 典型值整理（2026-11-02）；PC/ABS 配比不同，韧性与耐热随之变化",
+  "specs": {
+   "density_g_cm3": 1.24,
+   "modulus_GPa": 3.35,
+   "tensile_MPa": 66,
+   "yield_MPa": 66,
+   "elongation_pct": 50,
+   "hardness": null,
+   "service_temp_C": 100,
+   "low_temp_C": null,
+   "melting_C": null,
+   "thermal_cond_W_mK": 0.2,
+   "cte_um_mK": 55,
+   "price_level": "低-中",
+   "price_note": "粒料价格低于 PC，高于 ABS；注塑件成本主要看模具与批量",
+   "sim_note": "密度 1240 kg/m³；拉伸模量约 3.35 GPa。CLTE 55 µm/(m·K)（流动）/65（垂直）；HDT/B 124°C、HDT/A 136°C，100°C 是长期使用上限。共混物韧性好但模量随温度下降，仿真用常温等温线弹性值即可。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://solutions.covestro.com/en/brands/bayblend"
   },
-  {
-    "id": "mat-pom",
-    "category": "material",
-    "group": "engineering_plastic",
-    "group_label": "工程塑料",
-    "family": "pom",
-    "family_label": "POM",
-    "name": "POM 聚甲醛",
-    "name_en": "Polyoxymethylene (POM-C/POM-H)",
-    "model": "POM-C",
-    "title": "POM 聚甲醛（赛钢）",
-    "aliases": ["POM", "聚甲醛", "赛钢", "Delrin", "POM-C", "POM-H"],
+  "forms": [
+   {
+    "form": "粒料",
+    "spec": "注塑级",
+    "note": "最常见；加工前需干燥"
+   },
+   {
+    "form": "板材",
+    "spec": "厚度 1–80 mm",
+    "note": "stock shape 供应少于 ABS"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø5–100 mm",
+    "note": "机加工原型用"
+   },
+   {
+    "form": "型材",
+    "spec": "定制截面",
+    "note": "挤出/注塑定制，需开模"
+   }
+  ],
+  "processes": [
+   "proc-injection",
+   "proc-cnc"
+  ],
+  "applications": [
+   "设备外壳/机壳",
+   "电机端盖",
+   "传感器支架",
+   "连接器壳体",
+   "非承力结构件"
+  ],
+  "pros": "比 ABS 更韧、抗冲击好、耐热略高、尺寸稳定；表面质量好、易注塑和二次加工。",
+  "cons": "耐化学一般、长期户外会老化；需要干燥；比 ABS 贵，模具要求高。",
+  "notes": "PC 与 ABS 的共混材料，兼顾 PC 的韧性和 ABS 的加工性。设备外壳、电机端盖和支架上很常见；耐化学和耐候一般，户外件要评估老化。",
+  "suppliers": []
+ },
+ {
+  "id": "mat-pom",
+  "category": "material",
+  "group": "engineering_plastic",
+  "group_label": "工程塑料",
+  "family": "pom",
+  "family_label": "POM",
+  "name": "POM 聚甲醛",
+  "name_en": "Polyoxymethylene (POM-C/POM-H)",
+  "model": "POM-C",
+  "title": "POM 聚甲醛（赛钢）",
+  "aliases": [
+   "POM",
+   "聚甲醛",
+   "赛钢",
+   "Delrin",
+   "POM-C",
+   "POM-H"
+  ],
+  "url": "https://en.wikipedia.org/wiki/Polyoxymethylene",
+  "sources": [
+   {
     "url": "https://en.wikipedia.org/wiki/Polyoxymethylene",
-    "sources": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Polyoxymethylene",
-        "kind": "reference",
-        "checked_on": "2026-11-02"
-      }
-    ],
-    "source_tier": "B",
-    "verified": 0,
-    "last_checked": "2026-11-02",
-    "origin": "POM-C/POM-H 公开资料与典型值整理（2026-11-02）；共聚/均聚与玻纤增强牌号数值有差异",
-    "specs": {
-      "density_g_cm3": 1.41,
-      "modulus_GPa": 2.8,
-      "tensile_MPa": 65,
-      "yield_MPa": 62,
-      "elongation_pct": 35,
-      "hardness": "Shore D 80",
-      "service_temp_C": 95,
-      "low_temp_C": null,
-      "melting_C": 175,
-      "thermal_cond_W_mK": 0.37,
-      "cte_um_mK": 110,
-      "price_level": "低-中",
-      "price_note": "板材/棒材按公斤计价；均聚 POM-H 与玻纤增强牌号更贵",
-      "sim_note": "密度 1410 kg/m³；模量约 2.8 GPa。POM 蠕变明显，长期承载要按蠕变模量而非初始模量取值。",
-      "image_url": null,
-      "image_source": null,
-      "doc_url": "https://en.wikipedia.org/wiki/Polyoxymethylene"
-    },
-    "forms": [
-      { "form": "板材", "spec": "厚度 1–100 mm", "note": "机加工齿轮/导轨常用" },
-      { "form": "棒材", "spec": "直径 Ø5–200 mm", "note": "车削轴套、滚轮" },
-      { "form": "管材", "spec": "外径 Ø10–200 mm", "note": "衬套/耐磨环" },
-      { "form": "粒料", "spec": "注塑级", "note": "齿轮、卡扣批量件" }
-    ],
-    "processes": ["proc-injection", "proc-cnc"],
-    "applications": [
-      "齿轮",
-      "轴套/滑动轴承",
-      "导轨/耐磨条",
-      "卡扣与连接件",
-      "输送滚轮"
-    ],
-    "pros": "刚度和硬度高于普通尼龙、耐磨、自润滑、尺寸稳定、易机加工；价格低。",
-    "cons": "冲击韧性一般、缺口敏感；耐热只有约 95°C；不耐强酸和氧化剂；注塑收缩率大。",
-    "notes": "俗称赛钢的工程塑料。刚度和耐磨性好，齿轮、轴套和导轨上很常见；冲击韧性一般、耐热约 95°C，设计时避免尖角和缺口。",
-    "suppliers": []
-  }
+    "kind": "reference",
+    "checked_on": "2026-11-02"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-02",
+  "origin": "POM-C/POM-H 公开资料与典型值整理（2026-11-02）；共聚/均聚与玻纤增强牌号数值有差异",
+  "specs": {
+   "density_g_cm3": 1.41,
+   "modulus_GPa": 2.8,
+   "tensile_MPa": 65,
+   "yield_MPa": 62,
+   "elongation_pct": 35,
+   "hardness": "Shore D 80",
+   "service_temp_C": 95,
+   "low_temp_C": null,
+   "melting_C": 175,
+   "thermal_cond_W_mK": 0.37,
+   "cte_um_mK": 110,
+   "price_level": "低-中",
+   "price_note": "板材/棒材按公斤计价；均聚 POM-H 与玻纤增强牌号更贵",
+   "sim_note": "密度 1410 kg/m³；模量约 2.8 GPa。POM 蠕变明显，长期承载要按蠕变模量而非初始模量取值。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://en.wikipedia.org/wiki/Polyoxymethylene"
+  },
+  "forms": [
+   {
+    "form": "板材",
+    "spec": "厚度 1–100 mm",
+    "note": "机加工齿轮/导轨常用"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø5–200 mm",
+    "note": "车削轴套、滚轮"
+   },
+   {
+    "form": "管材",
+    "spec": "外径 Ø10–200 mm",
+    "note": "衬套/耐磨环"
+   },
+   {
+    "form": "粒料",
+    "spec": "注塑级",
+    "note": "齿轮、卡扣批量件"
+   }
+  ],
+  "processes": [
+   "proc-injection",
+   "proc-cnc"
+  ],
+  "applications": [
+   "齿轮",
+   "轴套/滑动轴承",
+   "导轨/耐磨条",
+   "卡扣与连接件",
+   "输送滚轮"
+  ],
+  "pros": "刚度和硬度高于普通尼龙、耐磨、自润滑、尺寸稳定、易机加工；价格低。",
+  "cons": "冲击韧性一般、缺口敏感；耐热只有约 95°C；不耐强酸和氧化剂；注塑收缩率大。",
+  "notes": "俗称赛钢的工程塑料。刚度和耐磨性好，齿轮、轴套和导轨上很常见；冲击韧性一般、耐热约 95°C，设计时避免尖角和缺口。",
+  "suppliers": []
+ },
+ {
+  "id": "mat-bakelite",
+  "category": "material",
+  "group": "engineering_plastic",
+  "group_label": "工程塑料",
+  "family": "phenolic",
+  "family_label": "酚醛树脂",
+  "name": "电木（酚醛层压板）",
+  "name_en": "Bakelite / phenolic laminate",
+  "model": "电木",
+  "title": "电木（酚醛层压板）",
+  "aliases": [
+   "电木",
+   "胶木",
+   "酚醛板",
+   "PF",
+   "Bakelite"
+  ],
+  "url": "https://en.wikipedia.org/wiki/Bakelite",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Bakelite",
+    "kind": "reference",
+    "checked_on": "2026-11-10"
+   }
+  ],
+  "source_tier": "B",
+  "verified": 0,
+  "last_checked": "2026-11-10",
+  "origin": "公开技术资料典型值整理（2026-11-10）；未逐项回查原厂质保书",
+  "specs": {
+   "density_g_cm3": 1.4,
+   "modulus_GPa": 8,
+   "tensile_MPa": 70,
+   "yield_MPa": null,
+   "elongation_pct": 1.5,
+   "hardness": "M 100",
+   "service_temp_C": 120,
+   "low_temp_C": null,
+   "melting_C": null,
+   "thermal_cond_W_mK": 0.25,
+   "cte_um_mK": 35,
+   "price_level": "低",
+   "price_note": "板材按厚度计价；颜色（黑/棕）与等级影响价格",
+   "sim_note": "密度 1400 kg/m³；弹性模量约 8 GPa，脆性材料。",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": "https://en.wikipedia.org/wiki/Bakelite"
+  },
+  "forms": [
+   {
+    "form": "板材",
+    "spec": "厚度 1–50 mm",
+    "note": "酚醛棉布/纸基层压板；可铣、钻、车"
+   },
+   {
+    "form": "棒材",
+    "spec": "直径 Ø5–100 mm"
+   }
+  ],
+  "applications": [
+   "绝缘垫板",
+   "低压电控底板",
+   "耐磨导向件",
+   "需要低成本绝缘的结构件"
+  ],
+  "pros": "绝缘、耐热、低成本、刚性好，切削加工容易。",
+  "cons": "脆，抗冲击差；易吸湿；不能做高精度配合或承力件。",
+  "notes": "适合电控绝缘底板和耐磨垫块；不要用于冲击载荷或高精度配合。",
+  "processes": [
+   "proc-cnc"
+  ]
+ }
 ]

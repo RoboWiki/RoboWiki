@@ -105,6 +105,11 @@
    "category": "connector",
    "model": "XT30(2+2)"
   },
+  "amass-xt30u-2p2-f": {
+   "added": "2026-11-10",
+   "category": "connector",
+   "model": "XT30U(2+2)-F"
+  },
   "amass-xt60": {
    "added": "2026-10-31",
    "category": "connector",
@@ -446,6 +451,11 @@
    "added": "2026-11-07",
    "category": "controller_high",
    "model": "DM-ORIN NX V2.X"
+  },
+  "damiao-dm-orin-nx-v1-1": {
+   "added": "2026-11-10",
+   "category": "controller_high",
+   "model": "DM-ORIN NX V1.1"
   },
   "damiao-dm-s2325-1ec": {
    "added": "2026-10-31",
@@ -2169,6 +2179,11 @@
    "category": "material",
    "model": "ABS 线材"
   },
+  "mat-alu-5052-h32": {
+   "added": "2026-11-10",
+   "category": "material",
+   "model": "5052-H32 铝合金"
+  },
   "mat-alu-6061-t6": {
    "added": "2026-11-02",
    "category": "material",
@@ -2189,6 +2204,11 @@
    "category": "material",
    "model": "AlSi10Mg 铝合金（SLM）"
   },
+  "mat-bakelite": {
+   "added": "2026-11-10",
+   "category": "material",
+   "model": "电木（酚醛层压板）"
+  },
   "mat-cfrp-t300": {
    "added": "2026-11-02",
    "category": "material",
@@ -2198,6 +2218,11 @@
    "added": "2026-11-02",
    "category": "material",
    "model": "EPDM 三元乙丙橡胶"
+  },
+  "mat-fr4": {
+   "added": "2026-11-10",
+   "category": "material",
+   "model": "环氧板 FR4"
   },
   "mat-gfrp": {
    "added": "2026-11-02",
@@ -2279,10 +2304,20 @@
    "category": "material",
    "model": "440C 马氏体不锈钢"
   },
+  "mat-steel-45": {
+   "added": "2026-11-10",
+   "category": "material",
+   "model": "45# 钢（C45）"
+  },
   "mat-steel-sus304": {
    "added": "2026-11-02",
    "category": "material",
    "model": "SUS304 不锈钢"
+  },
+  "mat-steel-sus316": {
+   "added": "2026-11-10",
+   "category": "material",
+   "model": "SUS316 不锈钢"
   },
   "mat-ti-tc4": {
    "added": "2026-11-02",
@@ -2881,6 +2916,11 @@
    "added": "2026-10-31",
    "category": "lidar",
    "model": "Airy Lite"
+  },
+  "seeed-orin-nano-8gb-256ssd-kit": {
+   "added": "2026-11-10",
+   "category": "controller_high",
+   "model": "Jetson Orin Nano 8GB + 256GB SSD 套件"
   },
   "senring-capsule-6w": {
    "added": "2026-11-08",

@@ -533,9 +533,9 @@
   "source_tier": "A",
   "verified": true,
   "last_checked": "2026-11-07",
-  "price_cny": null,
-  "origin": "《20261104 新模组产品手册（含 3532）》参数表，2026-11-07 核对",
-  "notes": "行星关节模组，交叉滚子轴承版本（手册同页标注标准轴承版本 HTDW-4530-02-CNE，参数相同）。额定 2 N·m / 堵转 13 N·m，额定/空载 40/155 rpm，24 V（12–60 V），额定/峰值电流 0.65/12 A，Kt 0.272 N·m/A，14 对极，双 14-bit 编码器，CAN/CANFD 5 Mbps，5 kHz 控制频率，额定输出 8.5 W；44×44.9 mm，237 g。 官方文档中心：https://lingdongfangcheng.feishu.cn/wiki/Tg2VwdnrniGyOMkHtTjcj3S6nig ；开源仓库：https://github.com/HighTorque-Robotics",
+  "price_cny": 899.0,
+  "origin": "《20261104 高擎模组产品手册》+ HTDW4438 官方 BOM 采购价（¥899×12）；2026-11-10 核对",
+  "notes": "行星关节模组，交叉滚子轴承版本（手册同页标注标准轴承版本 HTDW-4530-02-CNE，参数相同）。额定 2 N·m / 堵转 13 N·m，额定/空载 40/155 rpm，24 V（12–60 V），额定/峰值电流 0.65/12 A，Kt 0.272 N·m/A，14 对极，双 14-bit 编码器，CAN/CANFD 5 Mbps，5 kHz 控制频率，额定输出 8.5 W；44×44.9 mm，237 g。 官方文档中心：https://lingdongfangcheng.feishu.cn/wiki/Tg2VwdnrniGyOMkHtTjcj3S6nig ；开源仓库：https://github.com/HighTorque-Robotics 价格 ¥899 来自 HTDW4438 官方 BOM 的 12 台采购记录，非厂商公开标价。",
   "specs": {
    "tau_basis": "peak",
    "voltage_V": 24,

@@ -296,5 +296,33 @@
   "model": "XT90(2+2)",
   "title": "Amass XT90(2+2) 电源+信号混合连接器",
   "url": "https://www.china-amass.com/"
+ },
+ {
+  "category": "connector",
+  "subtype": "power_signal",
+  "subtype_label": "电源+信号混合",
+  "id": "amass-xt30u-2p2-f",
+  "vendor": "Amass 艾迈斯",
+  "vendor_cn": "艾迈斯",
+  "model": "XT30U(2+2)-F",
+  "title": "Amass XT30U(2+2)-F 母头 电源+信号",
+  "url": "https://www.china-amass.com/",
+  "source_tier": "B",
+  "verified": false,
+  "last_checked": "2026-11-10",
+  "price_cny": 1.98,
+  "origin": "ZEX-W 官方 BOM（data/boms/struct-zex-w.json，线 016）",
+  "notes": "ZEX-W 使用 XT30U(2+2)-F 母头；站内 amass-xt30-2p2 是 XT30PB(2+2)-M 公头，同系列但反性别，不能混当同一 SKU。",
+  "specs": {
+   "positions": 4,
+   "power_positions": 2,
+   "signal_positions": 2,
+   "current_rated_A": 15,
+   "voltage_rated_V": 500,
+   "iface": "XT30(2+2)",
+   "mount_type": "线端 / 母头",
+   "image_url": null,
+   "doc_url": "https://www.china-amass.com/download/"
+  }
  }
 ]
