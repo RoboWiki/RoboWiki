@@ -3224,6 +3224,11 @@
    "removed_at": "2026-11-07",
    "removed_reason": "方案库收敛：删除指定机型"
   },
+  "struct-brs": {
+   "added": "2026-11-11",
+   "category": "robot",
+   "model": "BRS 黑岩射手"
+  },
   "struct-damiao-agv": {
    "added": "2026-11-10",
    "category": "robot",
@@ -3271,6 +3276,11 @@
    "removed": true,
    "removed_at": "2026-11-07",
    "removed_reason": "方案库收敛：删除指定机型"
+  },
+  "struct-g-exo": {
+   "added": "2026-11-11",
+   "category": "robot",
+   "model": "G-Exo"
   },
   "struct-htdw4438": {
    "added": "2026-11-10",

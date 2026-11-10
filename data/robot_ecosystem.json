@@ -3178,6 +3178,45 @@
     }
    ],
    "note": "官方 1 个总览 + 模型/SDK/上位机/ROS2/LeRobot/扩展/仿真共 8 项。"
+  },
+  "g-exo": {
+   "label": "G-Exo 下肢外骨骼",
+   "count": 2,
+   "roles": {
+    "官方项目": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "Lain-Ego0/G-Exo",
+     "role": "官方项目",
+     "desc": "硬件 BOM/CAD/URDF、RL 训练与部署、Web agent",
+     "url": "https://github.com/Lain-Ego0/G-Exo"
+    },
+    {
+     "name": "演示视频",
+     "role": "工具/资料",
+     "desc": "Physical AI Hackathon 四自由度外骨骼演示",
+     "url": "https://www.bilibili.com/video/BV1uuu36uEjx/"
+    }
+   ],
+   "note": "MIT；BOM V2.2 约 ¥4,611。"
+  },
+  "brs": {
+   "label": "BRS 黑岩射手",
+   "count": 1,
+   "roles": {
+    "官方项目": 1
+   },
+   "projects": [
+    {
+     "name": "Lain-Ego0/ROBOCON-BRS_robot",
+     "role": "官方项目",
+     "desc": "并联四足机械、电控、ROS 导航与 STM32 控制",
+     "url": "https://github.com/Lain-Ego0/ROBOCON-BRS_robot"
+    }
+   ],
+   "note": "未附 BOM 与 LICENSE，暂按半开源收录。"
   }
  },
  "url_note": "项目链接统一指向公开仓库（GitHub / Gitee / HuggingFace）；不再使用本地目录或文件数。"

@@ -1,0 +1,58 @@
+[
+ {
+  "id": "struct-g-exo",
+  "category": "robot",
+  "subtype": "exoskeleton",
+  "subtype_label": "下肢外骨骼",
+  "vendor": "G-Exo",
+  "vendor_cn": "AAA G-Exo",
+  "model": "G-Exo",
+  "title": "G-Exo 四主动自由度下肢外骨骼",
+  "url": "https://github.com/Lain-Ego0/G-Exo",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-10",
+  "openness": "full",
+  "price_cny": null,
+  "origin": "GitHub README + 1.hardware/BOM.md（V2.2，约 ¥4,611）+ 结构/URDF + RL/部署代码（2026-11-10 核对）",
+  "notes": "Ghost-Exoskeleton：4 个主动 DOF（髋屈伸×2 + 膝屈伸×2）+ 2 个被动 DOF；RobStride RS02 ×4（7.75:1，6/17 N·m），4× Epson G354 IMU + 4× 14-bit 编码器；6S 5000mAh 电池；SpacemiT K3 计算，RL+TCN 策略 50 Hz 闭环。MIT。",
+  "specs": {
+   "dof": 4,
+   "mass_kg": 4.0,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "6S 5000mAh 22.2V（约 111Wh）",
+   "endurance_h": null,
+   "voltage_V": 22.2,
+   "voltage_range_V": null,
+   "iface": "CAN（RS02 MIT 力矩模式）",
+   "compute": "SpacemiT K3（RISC-V + NPU）",
+   "sensors": "4× Epson G354 IMU + 4× 14-bit 绝对磁编码器",
+   "image_url": "/parts/g-exo.webp",
+   "image_source": "GitHub assets/exo-final.jpg（2026-11-10 下载）",
+   "doc_url": "https://github.com/Lain-Ego0/G-Exo",
+   "repo_urls": [
+    "https://github.com/Lain-Ego0/G-Exo"
+   ],
+   "urdf_urls": [
+    "https://github.com/Lain-Ego0/G-Exo/tree/main/1.hardware/G-exo_URDF"
+   ],
+   "repo_license": "MIT",
+   "ecosystem_id": "g-exo",
+   "ecosystem_count": 2
+  },
+  "artifacts": {
+   "cad": "https://github.com/Lain-Ego0/G-Exo/tree/main/1.hardware",
+   "hardware": "https://github.com/Lain-Ego0/G-Exo/tree/main/1.hardware",
+   "bom": "https://github.com/Lain-Ego0/G-Exo/blob/main/1.hardware/BOM.md",
+   "firmware": "https://github.com/Lain-Ego0/G-Exo/tree/main/deploy",
+   "docs": "https://github.com/Lain-Ego0/G-Exo",
+   "assembly": null,
+   "urdf": "https://github.com/Lain-Ego0/G-Exo/tree/main/1.hardware/G-exo_URDF"
+  },
+  "openness_note": "MIT；BOM V2.2、SolidWorks/STEP、URDF、RL 训练与部署、Web agent 同仓开源。"
+ }
+]

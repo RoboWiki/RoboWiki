@@ -1,0 +1,56 @@
+[
+ {
+  "id": "struct-brs",
+  "category": "robot",
+  "subtype": "quadruped",
+  "subtype_label": "并联四足",
+  "vendor": "Lain-Ego0",
+  "vendor_cn": "黑岩射手 BRS",
+  "model": "BRS 黑岩射手",
+  "title": "BRS 黑岩射手 并联四足",
+  "url": "https://github.com/Lain-Ego0/ROBOCON-BRS_robot",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-10",
+  "openness": "partial",
+  "price_cny": null,
+  "origin": "GitHub README + 1.Hardware（SolidWorks/电控工程）+ 2.Software（ROS/STM32）（2026-11-10 核对）",
+  "notes": "2025 ROBOCON 足式机器人（并联四足）：碳纤管装配式机身，ROS1 上位机 + STM32F427 下位机，Livox Mid-360 3D LiDAR + FAST-LIO2 + move_base 自主导航。仓库有机械/电控/上位机/下位机，但未附 BOM 与 LICENSE，暂按半开源收录。",
+  "specs": {
+   "dof": 12,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "串口（STM32F427）+ CAN 电机",
+   "compute": "ROS1 上位机 + STM32F427",
+   "sensors": "Livox Mid-360 3D LiDAR",
+   "image_url": "/parts/brs.webp",
+   "image_source": "GitHub assets/Portfolio-01-1.png（2026-11-10 下载）",
+   "doc_url": "https://github.com/Lain-Ego0/ROBOCON-BRS_robot",
+   "repo_urls": [
+    "https://github.com/Lain-Ego0/ROBOCON-BRS_robot"
+   ],
+   "urdf_urls": [],
+   "repo_license": null,
+   "ecosystem_id": "brs",
+   "ecosystem_count": 1
+  },
+  "artifacts": {
+   "cad": "https://github.com/Lain-Ego0/ROBOCON-BRS_robot/tree/main/1.Hardware/models",
+   "hardware": "https://github.com/Lain-Ego0/ROBOCON-BRS_robot/tree/main/1.Hardware",
+   "bom": null,
+   "firmware": "https://github.com/Lain-Ego0/ROBOCON-BRS_robot/tree/main/2.Software/Slave",
+   "docs": "https://github.com/Lain-Ego0/ROBOCON-BRS_robot",
+   "assembly": null,
+   "urdf": null
+  },
+  "openness_note": "机械 SolidWorks、电控工程、ROS 上位机与 STM32 下位机开源；无 BOM 文件、无 LICENSE。"
+ }
+]

@@ -1,0 +1,119 @@
+{
+ "robot_id": "struct-el-a3",
+ "robot_name": "灵足 EL-A3",
+ "source": {
+  "url": "https://github.com/RobStride/EDULITE_A3",
+  "type": "github_markdown",
+  "official": true,
+  "fetched_at": "2026-11-11",
+  "notes": "README 电机配置与硬件要求；PCB/STEP/3MF 为制造资料，未提供整机采购价格表。"
+ },
+ "currency": "CNY",
+ "price_basis": "官方未公开整机价格；仅记录关键外购件",
+ "lines": [
+  {
+   "id": "line-001",
+   "category": "actuator",
+   "category_label": "执行器",
+   "name": "RobStride RS00 关节",
+   "spec": "L1–L3，±14 N·m / ±33 rad/s",
+   "qty": 3,
+   "unit": "pcs",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": "RobStride",
+   "product_url": "https://github.com/RobStride/EDULITE_A3",
+   "source_ref": "README 电机配置表 L1–L3",
+   "catalog_part_id": "灵足-robstride-rs00",
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "官方整机采购价未公开。"
+  },
+  {
+   "id": "line-002",
+   "category": "actuator",
+   "category_label": "执行器",
+   "name": "EL05 / RS05 关节（二选一）",
+   "spec": "L4–L7；EL05 ±6 N·m 或 RS05 ±5.5 N·m",
+   "qty": 4,
+   "unit": "pcs",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": "RobStride",
+   "product_url": "https://github.com/RobStride/EDULITE_A3",
+   "source_ref": "README 电机配置表 L4–L7",
+   "catalog_part_id": null,
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "官方允许 EL05 或 RS05 两种电机，BOM 未指定最终选型，故不强行挂单一 catalog id。"
+  },
+  {
+   "id": "line-003",
+   "category": "wiring",
+   "category_label": "线材/模块",
+   "name": "CANdle / gs_usb 兼容 USB-CAN",
+   "spec": null,
+   "qty": 1,
+   "unit": "pcs",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": null,
+   "product_url": null,
+   "source_ref": "README 硬件要求 CAN adapter",
+   "catalog_part_id": null,
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "官方未指定具体型号/价格。"
+  },
+  {
+   "id": "line-004",
+   "category": "power",
+   "category_label": "电源",
+   "name": "24 V / 48 V 直流电源",
+   "spec": "按电机选型确定电压",
+   "qty": 1,
+   "unit": "pcs",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": null,
+   "product_url": null,
+   "source_ref": "README 硬件要求 Power",
+   "catalog_part_id": null,
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "官方未指定功率与型号。"
+  }
+ ],
+ "totals": {
+  "line_count": 4,
+  "item_count": 9,
+  "priced_subtotal": 0,
+  "unpriced_lines": 4,
+  "by_category": {}
+ },
+ "unresolved": [
+  {
+   "item": "PCB BOM",
+   "reason": "hardware/pcb 只有 Gerber/PCB 文件，未见元件级 BOM 表。"
+  },
+  {
+   "item": "结构/打印件数量",
+   "reason": "STEP/3MF 是制造文件，未提供逐件采购数量与价格。"
+  },
+  {
+   "item": "EL05/RS05 选型",
+   "reason": "README 允许二选一，未指定整机默认配置。"
+  }
+ ],
+ "completeness": {
+  "bom_published": false,
+  "mechanical_files": true,
+  "pcb_files": true,
+  "firmware": true,
+  "notes": "硬件制造包完整（STEP/3MF/PCB/线束/SOP），但没有整机采购 BOM；本文件只列 README 明确的关键件。"
+ }
+}
