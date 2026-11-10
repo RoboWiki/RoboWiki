@@ -3353,6 +3353,11 @@
    "category": "robot",
    "model": "Microduck"
   },
+  "struct-qmini": {
+   "added": "2026-11-11",
+   "category": "robot",
+   "model": "Qmini"
+  },
   "struct-rebot-b601": {
    "added": "2026-11-09",
    "category": "robot",

@@ -1,0 +1,119 @@
+{
+ "robot_id": "struct-qmini",
+ "robot_name": "宇树 Qmini",
+ "source": {
+  "url": "https://github.com/unitreerobotics/Qmini",
+  "type": "github_pdf",
+  "official": true,
+  "fetched_at": "2026-11-11",
+  "notes": "README + Qmini_DIY.pdf；PDF 内含完整 BOM、电气框图和装配 SOP，未给逐项人民币价格。"
+ },
+ "currency": "CNY",
+ "price_basis": "官方未公开逐项价格；仅记录 README/手册明确的关键件",
+ "lines": [
+  {
+   "id": "line-001",
+   "category": "actuator",
+   "category_label": "执行器",
+   "name": "Unitree 8010 关节电机",
+   "spec": "10 个行走关节 + 1 个颈部扩展",
+   "qty": 11,
+   "unit": "pcs",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": "宇树 Unitree",
+   "product_url": "https://github.com/unitreerobotics/Qmini",
+   "source_ref": "README：11 Unitree 8010 motors",
+   "catalog_part_id": "unitree-go-m8010-6",
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "官方 BOM 在 Qmini_DIY.pdf，未给单价。"
+  },
+  {
+   "id": "line-002",
+   "category": "compute",
+   "category_label": "计算单元",
+   "name": "Raspberry Pi 4 Model B",
+   "spec": "默认参考主控",
+   "qty": 1,
+   "unit": "pcs",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": "树莓派",
+   "product_url": "https://github.com/unitreerobotics/Qmini",
+   "source_ref": "README：default Raspberry Pi 4 Model B",
+   "catalog_part_id": "cont-raspberrypi-rpi-4-8gb",
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "官方允许替换其他主控；未给内存版本与价格。"
+  },
+  {
+   "id": "line-003",
+   "category": "power",
+   "category_label": "电源",
+   "name": "标准电池包",
+   "spec": "Qmini DIY 手册电池方案",
+   "qty": 1,
+   "unit": "pcs",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": null,
+   "product_url": null,
+   "source_ref": "README：standard battery pack",
+   "catalog_part_id": null,
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "官方未在 README 给型号/电压/价格，详见 Qmini_DIY.pdf。"
+  },
+  {
+   "id": "line-004",
+   "category": "printed_part",
+   "category_label": "3D 打印件",
+   "name": "全套 3D 打印结构件",
+   "spec": "PLA / PLA-CF / PETG-CF / ABS，按手册打印",
+   "qty": 1,
+   "unit": "set",
+   "unit_price": null,
+   "currency": "CNY",
+   "subtotal": null,
+   "vendor": null,
+   "product_url": null,
+   "source_ref": "Qmini_DIY.pdf 打印清单与装配 SOP",
+   "catalog_part_id": null,
+   "supplier_id": null,
+   "equipment_id": null,
+   "notes": "打印耗材与工时未计价。"
+  }
+ ],
+ "totals": {
+  "line_count": 4,
+  "item_count": 14,
+  "priced_subtotal": 0,
+  "unpriced_lines": 4,
+  "by_category": {}
+ },
+ "unresolved": [
+  {
+   "item": "完整 BOM 行与价格",
+   "reason": "Qmini_DIY.pdf 有 BOM 表，但为图文 PDF，未给可由程序稳定解析的逐项价格；不估算。"
+  },
+  {
+   "item": "电池型号/电压",
+   "reason": "README 只写标准电池包，具体型号在 PDF 中，未提取。"
+  },
+  {
+   "item": "3D 打印耗材用量",
+   "reason": "手册按零件给打印参数，未汇总克重/工时/价格。"
+  }
+ ],
+ "completeness": {
+  "bom_published": true,
+  "mechanical_files": true,
+  "pcb_files": false,
+  "firmware": true,
+  "notes": "BOM/电气框图/DIY 手册/STEP/URDF 与 RoboTamer4Qmini 软件栈公开；机械件全 3D 打印，无自制 PCB 要求。"
+ }
+}

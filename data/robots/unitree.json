@@ -371,5 +371,62 @@
    "ecosystem_id": "unitree_b2w",
    "repo_license": "BSD-3-Clause"
   }
+ },
+ {
+  "id": "struct-qmini",
+  "category": "robot",
+  "subtype": "biped",
+  "subtype_label": "双足",
+  "vendor": "宇树 Unitree",
+  "vendor_cn": "宇树科技",
+  "model": "Qmini",
+  "title": "宇树 Qmini 全 3D 打印双足",
+  "url": "https://github.com/unitreerobotics/Qmini",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-11",
+  "openness": "full",
+  "price_cny": null,
+  "origin": "GitHub README + Qmini_DIY.pdf + STEP_file + urdf + RoboTamer4Qmini（2026-11-11 核对）",
+  "notes": "宇树全开源低成本双足：11× Unitree 8010 电机（10 个行走 + 1 个颈部扩展），整机结构可 3D 打印，3–5 小时模块化装配；默认 Raspberry Pi 4 Model B 控制，提供完整 BOM、电气框图、STEP、装配 SOP 与 URDF，核心软件栈在 RoboTamer4Qmini。",
+  "specs": {
+   "dof": 10,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "标准电池包（BOM/PDF）",
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "CAN（Unitree 8010）",
+   "compute": "Raspberry Pi 4 Model B（默认参考）",
+   "sensors": null,
+   "image_url": "/parts/qmini.webp",
+   "image_source": "GitHub images/Qmini.jpeg（2026-11-11 下载）",
+   "doc_url": "https://github.com/unitreerobotics/Qmini",
+   "repo_urls": [
+    "https://github.com/unitreerobotics/Qmini",
+    "https://github.com/vsislab/RoboTamer4Qmini"
+   ],
+   "urdf_urls": [
+    "https://github.com/unitreerobotics/Qmini/tree/main/urdf"
+   ],
+   "repo_license": "NOASSERTION",
+   "ecosystem_id": "qmini",
+   "ecosystem_count": 3
+  },
+  "artifacts": {
+   "cad": "https://github.com/unitreerobotics/Qmini/tree/main/STEP_file",
+   "hardware": "https://github.com/unitreerobotics/Qmini/tree/main/STEP_file",
+   "bom": "https://github.com/unitreerobotics/Qmini/blob/main/Qmini_DIY.pdf",
+   "firmware": "https://github.com/vsislab/RoboTamer4Qmini",
+   "docs": "https://github.com/unitreerobotics/Qmini",
+   "assembly": "https://github.com/unitreerobotics/Qmini/blob/main/Qmini_DIY.pdf",
+   "urdf": "https://github.com/unitreerobotics/Qmini/tree/main/urdf"
+  },
+  "openness_note": "官方 BOM、电气框图、DIY 手册、全部 STEP、URDF 与 RoboTamer4Qmini 软件栈公开；机械件全 3D 打印，无自制 PCB 要求。许可证为 NOASSERTION，复用前以仓库 LICENSE 为准。"
  }
 ]

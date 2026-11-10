@@ -3217,6 +3217,36 @@
     }
    ],
    "note": "未附 BOM 与 LICENSE，暂按半开源收录。"
+  },
+  "qmini": {
+   "label": "宇树 Qmini",
+   "count": 3,
+   "roles": {
+    "官方项目": 1,
+    "部署": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "unitreerobotics/Qmini",
+     "role": "官方项目",
+     "desc": "Qmini 本体：BOM/电气框图/STEP/URDF/DIY 手册",
+     "url": "https://github.com/unitreerobotics/Qmini"
+    },
+    {
+     "name": "vsislab/RoboTamer4Qmini",
+     "role": "部署",
+     "desc": "Qmini 核心软件栈与真机控制",
+     "url": "https://github.com/vsislab/RoboTamer4Qmini"
+    },
+    {
+     "name": "Qmini DIY 手册",
+     "role": "工具/资料",
+     "desc": "BOM、装配 SOP 与电气说明 PDF",
+     "url": "https://github.com/unitreerobotics/Qmini/blob/main/Qmini_DIY.pdf"
+    }
+   ],
+   "note": "官方硬件与 STEP/URDF 在主仓，软件栈在 RoboTamer4Qmini。"
   }
  },
  "url_note": "项目链接统一指向公开仓库（GitHub / Gitee / HuggingFace）；不再使用本地目录或文件数。"
