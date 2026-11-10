@@ -1,0 +1,58 @@
+[
+ {
+  "category": "robot",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-10",
+  "price_cny": null,
+  "id": "struct-el-a3",
+  "subtype": "arm",
+  "subtype_label": "机械臂",
+  "vendor": "灵足 RobStride",
+  "vendor_cn": "灵足时代",
+  "model": "EL-A3",
+  "title": "灵足 EL-A3 7DOF 开源机械臂",
+  "url": "https://github.com/RobStride/EDULITE_A3",
+  "openness": "full",
+  "origin": "GitHub README + hardware/README（STEP、3MF、PCB、线束、SOP）+ Python SDK/ROS2 子目录（2026-11-10 核对）",
+  "notes": "7 DOF 桌面机械臂（6 臂关节 + L7 夹爪）：L1–L3 用 RS00，L4–L7 用 EL05/RS05；24/48 V 供电，SocketCAN。硬件制造包含 STEP、3MF、线束、PCB 与装配 SOP，软件含纯 Python SDK 和 ROS2/MoveIt2。",
+  "specs": {
+   "dof": 7,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": "24 / 48",
+   "iface": "CAN 2.0（SocketCAN，1 Mbps）",
+   "compute": "上位 PC（Ubuntu 22.04+），ROS2 Humble",
+   "sensors": "关节编码器（RS00/EL05）",
+   "image_url": "/parts/el-a3.webp",
+   "image_source": "GitHub doc/image.png（2026-11-10 下载）",
+   "doc_url": "https://github.com/RobStride/EDULITE_A3",
+   "repo_urls": [
+    "https://github.com/RobStride/EDULITE_A3"
+   ],
+   "urdf_urls": [
+    "https://github.com/RobStride/EDULITE_A3/tree/main/el_a3_ros"
+   ],
+   "repo_license": "MIT",
+   "ecosystem_id": "el-a3",
+   "ecosystem_count": 1
+  },
+  "artifacts": {
+   "cad": "https://github.com/RobStride/EDULITE_A3/tree/main/hardware/step",
+   "hardware": "https://github.com/RobStride/EDULITE_A3/tree/main/hardware",
+   "bom": "https://github.com/RobStride/EDULITE_A3/tree/main/hardware/pcb",
+   "firmware": "https://github.com/RobStride/EDULITE_A3/tree/main/el_a3_sdk",
+   "docs": "https://github.com/RobStride/EDULITE_A3",
+   "assembly": "https://github.com/RobStride/EDULITE_A3/tree/main/hardware/assembly_sop",
+   "urdf": "https://github.com/RobStride/EDULITE_A3/tree/main/el_a3_ros"
+  },
+  "openness_note": "MIT；机械 STEP/3MF、线束、PCB 资料与装配 SOP 全部开源。整机采购 BOM 需按 PCB BOM 与装配清单汇总，仓库未单独提供一张整机 BOM。"
+ }
+]

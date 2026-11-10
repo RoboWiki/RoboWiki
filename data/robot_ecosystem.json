@@ -2999,6 +2999,185 @@
     }
    ],
    "note": "HTDW4438-OpenDog 已重命名为 HighTorque-MiniDog，二者是同一仓库（旧 URL 301），按 URL 去重后 7 项；LocoWiki.github.io 实际挂在 LocoWiki 组织下，主仓 README 的 Lain-Ego0 链接会 404。"
+  },
+  "damiao-agv": {
+   "label": "达妙 AGV 四转四驱",
+   "count": 2,
+   "roles": {
+    "官方项目": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "kit-miao/agv",
+     "role": "官方项目",
+     "desc": "四转四驱 AGV 本体、BOM、SolidWorks/STEP 模型",
+     "url": "https://gitee.com/kit-miao/agv"
+    },
+    {
+     "name": "B 站演示",
+     "role": "工具/资料",
+     "desc": "达妙 AGV 实机演示视频",
+     "url": "https://www.bilibili.com/video/BV1kvvbeNEfa/"
+    }
+   ],
+   "note": "官方 BOM 与结构模型在 Gitee；无独立 SDK 子仓。"
+  },
+  "damiao-wheel-legged": {
+   "label": "达妙轮足仓",
+   "count": 1,
+   "roles": {
+    "官方项目": 1
+   },
+   "projects": [
+    {
+     "name": "kit-miao/wheel-legged",
+     "role": "官方项目",
+     "desc": "轮足结构、打印件/机加件 BOM、代码与接线图",
+     "url": "https://gitee.com/kit-miao/wheel-legged"
+    }
+   ],
+   "note": "打印件版与机加版同仓。"
+  },
+  "damiao-bipedal": {
+   "label": "达妙双足",
+   "count": 1,
+   "roles": {
+    "官方项目": 1
+   },
+   "projects": [
+    {
+     "name": "kit-miao/bipedal-robot",
+     "role": "官方项目",
+     "desc": "19DOF 双足人形：BOM、三维模型、接线图、PCB 与 RL/MPC 代码",
+     "url": "https://gitee.com/kit-miao/bipedal-robot"
+    }
+   ],
+   "note": "RL 与 MPC 两套方案同仓。"
+  },
+  "el-a3": {
+   "label": "灵足 EL-A3",
+   "count": 1,
+   "roles": {
+    "官方项目": 1
+   },
+   "projects": [
+    {
+     "name": "RobStride/EDULITE_A3",
+     "role": "官方项目",
+     "desc": "7DOF 机械臂：硬件制造资料、Python SDK 与 ROS2 控制",
+     "url": "https://github.com/RobStride/EDULITE_A3"
+    }
+   ],
+   "note": "SDK 与 ROS2 为同仓子目录。"
+  },
+  "kbot": {
+   "label": "K-Scale K-Bot",
+   "count": 5,
+   "roles": {
+    "官方项目": 1,
+    "官方 SDK": 1,
+    "仿真": 1,
+    "部署": 1,
+    "工具/资料": 1
+   },
+   "projects": [
+    {
+     "name": "kscalelabs/kbot",
+     "role": "官方项目",
+     "desc": "K-Bot 主仓：机械/电气索引与文档入口",
+     "url": "https://github.com/kscalelabs/kbot"
+    },
+    {
+     "name": "kscalelabs/kos-kbot",
+     "role": "官方 SDK",
+     "desc": "K-Bot 嵌入式控制与运行时",
+     "url": "https://github.com/kscalelabs/kos-kbot"
+    },
+    {
+     "name": "kscalelabs/ksim-kbot",
+     "role": "仿真",
+     "desc": "K-Bot 仿真模型与训练环境",
+     "url": "https://github.com/kscalelabs/ksim-kbot"
+    },
+    {
+     "name": "kscalelabs/kbot-inference",
+     "role": "部署",
+     "desc": "K-Bot 策略推理与真机部署",
+     "url": "https://github.com/kscalelabs/kbot-inference"
+    },
+    {
+     "name": "docs.kscale.dev",
+     "role": "工具/资料",
+     "desc": "K-Bot 机械、电气与使用文档",
+     "url": "https://docs.kscale.dev"
+    }
+   ],
+   "note": "机械 CAD 在 Onshape；仓库未附整机 BOM。"
+  },
+  "panthera-ht": {
+   "label": "高擎 Panthera-HT",
+   "count": 8,
+   "roles": {
+    "官方项目": 1,
+    "官方描述/资产": 1,
+    "官方 SDK": 1,
+    "工具/资料": 2,
+    "部署": 1,
+    "训练": 1,
+    "仿真": 1
+   },
+   "projects": [
+    {
+     "name": "Panthera-HT_Main",
+     "role": "官方项目",
+     "desc": "项目总览、文档与资料入口",
+     "url": "https://github.com/HighTorque-Robotics/Panthera-HT_Main"
+    },
+    {
+     "name": "Panthera-HT_Model",
+     "role": "官方描述/资产",
+     "desc": "SolidWorks/STEP、3D 打印文件与 BOM",
+     "url": "https://github.com/HighTorque-Robotics/Panthera-HT_Model"
+    },
+    {
+     "name": "Panthera-HT_SDK",
+     "role": "官方 SDK",
+     "desc": "C++/Python 控制 SDK 与示例",
+     "url": "https://github.com/HighTorque-Robotics/Panthera-HT_SDK"
+    },
+    {
+     "name": "Panthera-HT_Host",
+     "role": "工具/资料",
+     "desc": "Web 上位机与可视化控制",
+     "url": "https://github.com/HighTorque-Robotics/Panthera-HT_Host"
+    },
+    {
+     "name": "Panthera-HT-ROS2",
+     "role": "部署",
+     "desc": "ROS2 驱动、控制与仿真适配",
+     "url": "https://github.com/HighTorque-Robotics/Panthera-HT-ROS2"
+    },
+    {
+     "name": "Panthera-HT_lerobot",
+     "role": "训练",
+     "desc": "LeRobot 数据采集与模仿学习适配",
+     "url": "https://github.com/HighTorque-Robotics/Panthera-HT_lerobot"
+    },
+    {
+     "name": "Panthera-HT_Extensions",
+     "role": "工具/资料",
+     "desc": "手眼标定、视觉伺服等扩展案例",
+     "url": "https://github.com/HighTorque-Robotics/Panthera_HT_SDK_Extensions"
+    },
+    {
+     "name": "Panthera-HT_RoboTwin",
+     "role": "仿真",
+     "desc": "RoboTwin 2.0 单/双臂仿真数据采集",
+     "url": "https://github.com/HighTorque-Robotics/Panthera-HT_RoboTwin"
+    }
+   ],
+   "note": "官方 1 个总览 + 模型/SDK/上位机/ROS2/LeRobot/扩展/仿真共 8 项。"
   }
  },
  "url_note": "项目链接统一指向公开仓库（GitHub / Gitee / HuggingFace）；不再使用本地目录或文件数。"

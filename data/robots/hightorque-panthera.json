@@ -1,0 +1,61 @@
+[
+ {
+  "category": "robot",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-10",
+  "price_cny": null,
+  "id": "struct-panthera-ht",
+  "subtype": "arm",
+  "subtype_label": "机械臂",
+  "vendor": "High Torque Robotics 高擎动力",
+  "vendor_cn": "高擎动力",
+  "model": "Panthera-HT",
+  "title": "高擎 Panthera-HT 六轴开源机械臂",
+  "url": "https://github.com/HighTorque-Robotics/Panthera-HT_Main",
+  "openness": "full",
+  "origin": "GitHub Panthera-HT_Main README + Panthera-HT_Model（SolidWorks/STEP + BOM）+ SDK/ROS2/LeRobot 仓库（2026-11-10 核对）",
+  "notes": "高擎开源六轴机械臂，使用行星关节模组；钣金框架 + 3D 打印/CNC 结构。控制支持 C++/Python/ROS2，含位置/速度/力矩、阻抗、重力补偿、主从遥操与拖动示教；适配 LeRobot 与 RoboTwin 2.0。",
+  "specs": {
+   "dof": 6,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "CAN（高擎行星关节模组）",
+   "compute": "上位 PC（C++/Python/ROS2）",
+   "sensors": null,
+   "image_url": "/parts/panthera-ht.webp",
+   "image_source": "GitHub images/1.jpg（2026-11-10 下载）",
+   "doc_url": "https://hightorque.cn/Panthera-HT_Hub/",
+   "repo_urls": [
+    "https://github.com/HighTorque-Robotics/Panthera-HT_Main",
+    "https://github.com/HighTorque-Robotics/Panthera-HT_Model",
+    "https://github.com/HighTorque-Robotics/Panthera-HT_SDK",
+    "https://github.com/HighTorque-Robotics/Panthera-HT_Host",
+    "https://github.com/HighTorque-Robotics/Panthera-HT-ROS2",
+    "https://github.com/HighTorque-Robotics/Panthera-HT_lerobot"
+   ],
+   "urdf_urls": [],
+   "repo_license": "MIT",
+   "ecosystem_id": "panthera-ht",
+   "ecosystem_count": 8
+  },
+  "artifacts": {
+   "cad": "https://github.com/HighTorque-Robotics/Panthera-HT_Model",
+   "hardware": "https://github.com/HighTorque-Robotics/Panthera-HT_Model",
+   "bom": "https://github.com/HighTorque-Robotics/Panthera-HT_Model",
+   "firmware": "https://github.com/HighTorque-Robotics/Panthera-HT_SDK",
+   "docs": "https://github.com/HighTorque-Robotics/Panthera-HT_Main",
+   "assembly": null,
+   "urdf": "https://github.com/HighTorque-Robotics/Panthera-HT-ROS2"
+  },
+  "openness_note": "MIT；结构 SolidWorks/钣金/STL 与 BOM 在 Panthera-HT_Model，SDK/ROS2/LeRobot/RoboTwin 分仓开源。"
+ }
+]

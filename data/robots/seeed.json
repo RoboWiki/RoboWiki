@@ -6,8 +6,8 @@
   "subtype_label": "机械臂",
   "vendor": "Seeed Studio",
   "vendor_cn": "矽递科技",
-  "model": "reBot Arm B601",
-  "title": "reBot 开源机械臂 B601",
+  "model": "reBot Arm B601 (DM)",
+  "title": "Seeed reBot 开源机械臂 B601（DM 电机）",
   "url": "https://github.com/Seeed-Projects/reBot-DevArm",
   "source_tier": "A",
   "verified": true,
@@ -54,6 +54,65 @@
    "bom": "https://github.com/Seeed-Projects/reBot-DevArm/blob/main/hardware/reBot_B601_DM/readme.md",
    "assembly": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/hardware/reBot_B601_DM/Assembly_Steps",
    "docs": "https://wiki.seeedstudio.com/robotics_page/"
+  }
+ },
+ {
+  "id": "struct-rebot-b601-rs",
+  "category": "robot",
+  "subtype": "arm",
+  "subtype_label": "机械臂",
+  "vendor": "Seeed Studio",
+  "vendor_cn": "矽递科技",
+  "model": "reBot Arm B601 (RS)",
+  "title": "Seeed reBot 开源机械臂 B601（RS 电机）",
+  "url": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/hardware/reBot_B601_RS",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-09",
+  "openness": "full",
+  "openness_note": "整机 STEP、结构件与采购件 BOM、装配照片/视频、URDF/MJCF 全在仓库；电机用 Damiao/Robstride 成品关节，无自定义 PCB 与固件。",
+  "price_cny": null,
+  "origin": "GitHub reBot-DevArm hardware/reBot_B601_RS 目录与 README（2026-11-10 核对）",
+  "notes": "与 B601-DM 同系列，但使用 RobStride 关节；负载 2.5 kg、臂展 754 mm、整机 6.7 kg，48 V 供电。硬件 BOM 在 hardware/reBot_B601_RS/readme.md，URDF 在 Rebot_Arm_description/RS/urdf。",
+  "specs": {
+   "dof": 6,
+   "mass_kg": 6.7,
+   "payload_kg": 2.5,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "CAN（RobStride MIT 模式，48 V）",
+   "compute": "无板载计算；上位机 PC 或树莓派经 USB-CAN 控制",
+   "sensors": "关节编码器（电机内置）；无标配相机",
+   "image_url": "/parts/rebot-b601.webp",
+   "image_source": "仓库 media/RS5_56.webp（README banner，2026-11-09 下载）",
+   "doc_url": "https://wiki.seeedstudio.com/robotics_page/",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/Seeed-Projects/reBot-DevArm",
+    "https://github.com/Seeed-Projects/reBotArm_control_py",
+    "https://github.com/Seeed-Projects/reBotArmController_ROS2"
+   ],
+   "urdf_urls": [
+    "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/Rebot_Arm_description/RS/urdf"
+   ],
+   "repo_license": "CERN-OHL-W-2.0（硬件主仓）；软件部分 Apache-2.0",
+   "ecosystem_id": "rebot-b601",
+   "ecosystem_count": 8
+  },
+  "artifacts": {
+   "urdf": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/Rebot_Arm_description/RS/urdf",
+   "cad": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/hardware/reBot_B601_RS",
+   "bom": "https://github.com/Seeed-Projects/reBot-DevArm/blob/main/hardware/reBot_B601_RS/readme.md",
+   "assembly": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/hardware/reBot_B601_RS/Assembly_Steps",
+   "firmware": "https://github.com/Seeed-Projects/reBot-DevArm",
+   "docs": "https://wiki.seeedstudio.com/robotics_page/",
+   "hardware": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/hardware/reBot_B601_RS"
   }
  }
 ]

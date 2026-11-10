@@ -3224,10 +3224,25 @@
    "removed_at": "2026-11-07",
    "removed_reason": "方案库收敛：删除指定机型"
   },
+  "struct-damiao-agv": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "AGV 四转四驱"
+  },
+  "struct-damiao-bipedal": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "达妙双足"
+  },
   "struct-damiao-open-dog": {
    "added": "2026-11-09",
    "category": "robot",
    "model": "OpenDog01"
+  },
+  "struct-damiao-wheel-legged": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "达妙轮足仓"
   },
   "struct-deeprobotics-lite3": {
    "added": "2026-10-31",
@@ -3244,6 +3259,11 @@
    "category": "robot",
    "model": "Doly（DIY / Maker Edition）"
   },
+  "struct-el-a3": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "EL-A3"
+  },
   "struct-fourier-gr2": {
    "added": "2026-10-31",
    "category": "robot",
@@ -3256,6 +3276,11 @@
    "added": "2026-11-10",
    "category": "robot",
    "model": "HTDW4438"
+  },
+  "struct-kbot": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "K-Bot"
   },
   "struct-kscale-stompy": {
    "added": "2026-10-31",
@@ -3298,6 +3323,11 @@
    "category": "robot",
    "model": "OpenDoge V1.1"
   },
+  "struct-panthera-ht": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "Panthera-HT"
+  },
   "struct-parol6": {
    "added": "2026-11-09",
    "category": "robot",
@@ -3317,6 +3347,11 @@
    "added": "2026-11-09",
    "category": "robot",
    "model": "reBot Arm B601"
+  },
+  "struct-rebot-b601-rs": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "reBot Arm B601 (RS)"
   },
   "struct-roboparty-roboto-origin": {
    "added": "2026-11-09",

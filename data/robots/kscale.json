@@ -1,0 +1,59 @@
+[
+ {
+  "category": "robot",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-10",
+  "price_cny": null,
+  "id": "struct-kbot",
+  "subtype": "humanoid",
+  "subtype_label": "双足人形",
+  "vendor": "K-Scale Labs",
+  "vendor_cn": "K-Scale Labs",
+  "model": "K-Bot",
+  "title": "K-Scale K-Bot 开源人形",
+  "url": "https://github.com/kscalelabs/kbot",
+  "openness": "partial",
+  "origin": "GitHub README + mechanical/electrical README + .gitmodules（2026-11-10 核对）",
+  "notes": "K-Scale Labs 开源人形机器人，公开 alpha。机械 CAD 在 Onshape，电气文档在 docs.kscale.dev；控制、仿真与推理拆到 kos-kbot / ksim-kbot / kbot-inference 三个子仓。硬件 CERN-OHL-S，软件 GPL-3.0。仓库未附整机 BOM，暂按半开源收录。",
+  "specs": {
+   "dof": null,
+   "mass_kg": null,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": null,
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": null,
+   "endurance_h": null,
+   "voltage_V": null,
+   "voltage_range_V": null,
+   "iface": "CAN（48 V 关节总线）",
+   "compute": null,
+   "sensors": null,
+   "image_url": "/parts/kbot.webp",
+   "image_source": "GitHub README assets/pics/e.webp（2026-11-10 下载）",
+   "doc_url": "https://docs.kscale.dev",
+   "repo_urls": [
+    "https://github.com/kscalelabs/kbot",
+    "https://github.com/kscalelabs/kos-kbot",
+    "https://github.com/kscalelabs/ksim-kbot",
+    "https://github.com/kscalelabs/kbot-inference"
+   ],
+   "urdf_urls": [],
+   "repo_license": "CERN-OHL-S,GPL-3.0",
+   "ecosystem_id": "kbot",
+   "ecosystem_count": 5
+  },
+  "artifacts": {
+   "cad": "https://cad.onshape.com/publications/e15cf8edefacbba3009917c0/",
+   "hardware": "https://github.com/kscalelabs/kbot/tree/master/electrical",
+   "bom": null,
+   "firmware": "https://github.com/kscalelabs/kos-kbot",
+   "docs": "https://docs.kscale.dev",
+   "assembly": null,
+   "urdf": null
+  },
+  "openness_note": "CAD（Onshape）、电气文档、控制/仿真/推理子仓开源；仓库没有整机 BOM 文件，故未标全开源。"
+ }
+]
