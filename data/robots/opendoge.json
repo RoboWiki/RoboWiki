@@ -5,17 +5,17 @@
   "subtype": "quadruped",
   "subtype_label": "四足",
   "vendor": "OpenDogeRobotics",
-  "vendor_cn": "OpenDoge 开源项目",
-  "model": "OpenDoge V1.1",
-  "title": "OpenDoge V1.1 12DOF 四足",
+  "vendor_cn": "OpenDogeRobotics（EL05 版）",
+  "model": "OpenDoge V1.1（EL05 电机）",
+  "title": "OpenDoge V1.1（EL05 电机）12DOF 四足",
   "url": "https://github.com/OpenDogeRobotics/OpenDoge_origin",
   "source_tier": "A",
   "verified": true,
-  "last_checked": "2026-11-09",
+  "last_checked": "2026-11-10",
   "openness": "full",
   "price_cny": null,
   "origin": "GitHub 组织仓库 README（构型/质量/站高/执行器/算力/许可证）+ OpenDoge_hardware 的 mechanical/V1.1 目录；2026-11-09 核对",
-  "notes": "12 自由度小型四足，4 腿 ×（髋 / 大腿 / 小腿），固定足端；约 4.6 kg、站立高约 0.16 m。12 × RobStride EL05（6 N·m，小腿 1.5:1 减速后关节 9 N·m），Orange Pi 5（RK3588S）+ 4 路 CHIWU CAN + DM-IMU-L1。链路完整：SolidWorks 结构（409 个 .SLDPRT 与总装）、URDF/MJCF、mjlab 强化学习训练、ONNX 导出、无 ROS 的 C++ 真机运行时和浏览器仿真。机械件可 3D 打印也可 CNC。BOM 与装配文档仓库仍标为进行中，所以这里只给 CAD/STEP 链接、不把 BOM 标成已收录。许可证按子仓不同：训练/部署为 Apache-2.0、description 为 BSD，硬件仓未见明确 LICENSE。",
+  "notes": "OpenDoge V1.1 用 RobStride EL05 电机；与达妙科技的 OpenDoge/OpenDog01（DM6248P 电机）是同名不同厂项目，生态与 BOM 不通用。12 自由度小型四足，4 腿 ×（髋 / 大腿 / 小腿），固定足端；约 4.6 kg、站立高约 0.16 m。12 × RobStride EL05（6 N·m，小腿 1.5:1 减速后关节 9 N·m），Orange Pi 5（RK3588S）+ 4 路 CHIWU CAN + DM-IMU-L1。生态 13 项：五个主仓（origin/hardware/description/train/deploy）+ 浏览器仿真页及源码 + ROS2 运控工作区 + 早期 URDF 包 + 训练上游 LainLab（OpenDoge 组织内为 Lain-Ego0/LainLab 的 fork，OpenDoge_train 的 LainLab- 前缀与代码骨架来源）+ 教程仓 GOUJIAO（Next.js + Fumadocs 中文教程站）与 BEEF-ROS2（通用中文 ROS2 教程）+ 第三方相关框架 rl_sar（非直系子仓）。跨仓契约以 origin 为准：48 维观测、12 维动作、Kp=12 / Kd=0.5（实机 0.8）、action_scale=0.25；deploy 仓 README 仍记录旧 UniLab 49 维策略（Kp=20 / Kd=0.3 / action_scale=0.50），但运行时 types.hpp 与 2026-11-08 迁移提交已切到 48 维 / Kp=12 / 0.25，旧 opendoge_r5.onnx 不兼容。机械件可 3D 打印也可 CNC。BOM 与装配文档仍未发布，故 artifacts 不填 bom/assembly。许可证按子仓不同：train/deploy/仿真源码/opendoge_ros2_core 为 Apache-2.0，description 声明 BSD，hardware/origin/OpenDoge_URDF/GOUJIAO 未见 LICENSE；训练上游 LainLab 与 rl_sar 为 Apache-2.0，BEEF-ROS2 为 MIT。",
   "specs": {
    "dof": 12,
    "mass_kg": 4.6,
@@ -40,14 +40,21 @@
     "https://github.com/OpenDogeRobotics/OpenDoge_hardware",
     "https://github.com/OpenDogeRobotics/OpenDoge_description",
     "https://github.com/OpenDogeRobotics/OpenDoge_train",
-    "https://github.com/OpenDogeRobotics/OpenDoge_deploy"
+    "https://github.com/OpenDogeRobotics/OpenDoge_deploy",
+    "https://github.com/OpenDogeRobotics/OpenDogeRobotics.github.io",
+    "https://github.com/OpenDogeRobotics/opendoge_ros2_core",
+    "https://github.com/OpenDogeRobotics/OpenDoge_URDF",
+    "https://github.com/OpenDogeRobotics/LainLab",
+    "https://github.com/OpenDogeRobotics/GOUJIAO",
+    "https://github.com/OpenDogeRobotics/BEEF-ROS2",
+    "https://github.com/fan-ziqi/rl_sar"
    ],
    "urdf_urls": [
     "https://github.com/OpenDogeRobotics/OpenDoge_description/tree/main/URDF"
    ],
-   "repo_license": "Apache-2.0,BSD-3-Clause",
+   "repo_license": "Apache-2.0,BSD",
    "ecosystem_id": "opendoge-v1",
-   "ecosystem_count": 6
+   "ecosystem_count": 13
   },
   "artifacts": {
    "cad": "https://github.com/OpenDogeRobotics/OpenDoge_hardware/tree/main/mechanical/V1.1",

@@ -2132,7 +2132,7 @@
    "note": "官方仓库 + LeRobot 软件与文档（按 URL 去重）"
   },
   "damiao-open-dog": {
-   "label": "达妙 OpenDog01",
+   "label": "达妙 OpenDoge（OpenDog01，DM 电机）",
    "count": 2,
    "roles": {
     "官方项目": 1,
@@ -2155,73 +2155,99 @@
    "note": "官方 Gitee 仓库（按 URL 去重）"
   },
   "opendoge-v1": {
-   "label": "OpenDoge V1.1",
-   "count": 9,
+   "label": "OpenDoge V1.1（EL05 电机）",
+   "count": 13,
    "roles": {
     "官方项目": 1,
     "官方描述/资产": 3,
-    "训练": 1,
+    "训练": 2,
     "部署": 1,
     "仿真": 2,
-    "官方 SDK": 1
+    "ROS2 运控": 1,
+    "教程": 2,
+    "相关生态": 1
    },
    "projects": [
     {
      "name": "OpenDoge_origin",
      "role": "官方项目",
-     "desc": "项目总览与复现主仓",
+     "desc": "项目总览、跨仓契约与复现主仓（48 维观测 / 12 维动作 / Kp=12 / action_scale=0.25）。",
      "url": "https://github.com/OpenDogeRobotics/OpenDoge_origin"
     },
     {
      "name": "OpenDoge_hardware",
      "role": "官方描述/资产",
-     "desc": "SolidWorks 结构、STEP/3MF、执行器与电气资料",
+     "desc": "SolidWorks 结构（V1.1）、STEP/3MF、执行器与电气资料。",
      "url": "https://github.com/OpenDogeRobotics/OpenDoge_hardware"
     },
     {
      "name": "OpenDoge_description",
      "role": "官方描述/资产",
-     "desc": "URDF、STL、RViz/Gazebo 与 MuJoCo MJCF",
+     "desc": "URDF、STL、RViz/Gazebo 与 MuJoCo MJCF。",
      "url": "https://github.com/OpenDogeRobotics/OpenDoge_description"
     },
     {
      "name": "OpenDoge_train",
      "role": "训练",
-     "desc": "mjlab + RSL-RL PPO 训练、评估与 ONNX 导出",
+     "desc": "mjlab + RSL-RL PPO 训练、评估与 ONNX 导出；任务前缀 LainLab- 为历史命名。",
      "url": "https://github.com/OpenDogeRobotics/OpenDoge_train"
     },
     {
      "name": "OpenDoge_deploy",
      "role": "部署",
-     "desc": "无 ROS 的 C++ ONNX 真机运行时，4 路 CAN、systemd、sim2sim",
+     "desc": "无 ROS 的 C++ ONNX 真机运行时，4 路 CAN、systemd、sim2sim；运行时已迁移 48 维 LainLab 契约。",
      "url": "https://github.com/OpenDogeRobotics/OpenDoge_deploy"
     },
     {
      "name": "OpenDoge 浏览器仿真",
      "role": "仿真",
-     "desc": "MuJoCo WASM + ONNX Runtime Web 在线仿真",
+     "desc": "MuJoCo WASM + ONNX Runtime Web 在线仿真（opendogerobotics.github.io）。",
      "url": "https://opendogerobotics.github.io/"
     },
     {
      "name": "OpenDogeRobotics.github.io",
-     "url": "https://github.com/OpenDogeRobotics/OpenDogeRobotics.github.io",
      "role": "仿真",
-     "desc": "MuJoCo WASM + ONNX Runtime Web 浏览器仿真。"
+     "desc": "浏览器仿真源码仓（Apache-2.0）。",
+     "url": "https://github.com/OpenDogeRobotics/OpenDogeRobotics.github.io"
     },
     {
      "name": "opendoge_ros2_core",
-     "url": "https://github.com/OpenDogeRobotics/opendoge_ros2_core",
-     "role": "官方 SDK",
-     "desc": "ROS2 Humble ros2_control 运控内核。"
+     "role": "ROS2 运控",
+     "desc": "ROS2 Humble ros2_control 运控工作区（opendoge-apx 变体，集成 motor_control 与 dm_imu）。",
+     "url": "https://github.com/OpenDogeRobotics/opendoge_ros2_core"
     },
     {
      "name": "OpenDoge_URDF",
-     "url": "https://github.com/OpenDogeRobotics/OpenDoge_URDF",
      "role": "官方描述/资产",
-     "desc": "早期独立 URDF 包，已被 description 覆盖。"
+     "desc": "早期独立 URDF 包，已被 OpenDoge_description 覆盖。",
+     "url": "https://github.com/OpenDogeRobotics/OpenDoge_URDF"
+    },
+    {
+     "name": "LainLab",
+     "role": "训练",
+     "desc": "mjlab 1.6.0 上的多厂商 RL 训练/验证/部署框架；OpenDoge 组织内为 Lain-Ego0/LainLab 的 fork，OpenDoge_train 代码骨架与 LainLab- 前缀来源。",
+     "url": "https://github.com/OpenDogeRobotics/LainLab"
+    },
+    {
+     "name": "GOUJIAO",
+     "role": "教程",
+     "desc": "《精品大狗不可能不叫》中文教程站源码（Next.js + Fumadocs），按 OpenDoge 六仓组织硬件/软件/控制/AI 章节。",
+     "url": "https://github.com/OpenDogeRobotics/GOUJIAO"
+    },
+    {
+     "name": "BEEF-ROS2",
+     "role": "教程",
+     "desc": "中文 ROS2 实战教程（MIT），通用 ROS2 教学，非机体专属。",
+     "url": "https://github.com/OpenDogeRobotics/BEEF-ROS2"
+    },
+    {
+     "name": "rl_sar",
+     "role": "相关生态",
+     "desc": "第三方通用 sim2real 部署框架（fan-ziqi，Apache-2.0）；组织内有 fork，opendoge_ros2_core 工作区参考其 ROS_WS 布局，非直系子仓。",
+     "url": "https://github.com/fan-ziqi/rl_sar"
     }
    ],
-   "note": "官方组织仓库 + 在线仿真（按 URL 去重）"
+   "note": "官方组织仓库 + 在线仿真页及其源码 + 训练上游 LainLab + 教程仓 GOUJIAO/BEEF-ROS2 + 第三方相关框架 rl_sar（按 URL 去重；rl_sar 为相关生态而非直系子仓）"
   },
   "open-duck-mini": {
    "label": "Open Duck Mini V2",
@@ -2918,6 +2944,61 @@
     }
    ],
    "note": "官方仓库 + 社区复刻（按 URL 去重）"
+  },
+  "htdw4438": {
+   "label": "高擎 HTDW4438 MiniDog 桌面级四足",
+   "count": 7,
+   "roles": {
+    "官方项目": 1,
+    "部署": 1,
+    "训练": 3,
+    "工具/资料": 2
+   },
+   "projects": [
+    {
+     "name": "Lain-Ego0/HighTorque-MiniDog",
+     "role": "官方项目",
+     "desc": "项目总览与本体主仓：SolidWorks 结构、URDF、实机 ROS SDK、官方 BOM 与文档都在这里。",
+     "url": "https://github.com/Lain-Ego0/HighTorque-MiniDog"
+    },
+    {
+     "name": "Lain-Ego0/HTDW4438-sim2real",
+     "role": "部署",
+     "desc": "Sim2Real 集成与真机部署链路的预留仓，README 目前只写『建设中』并列出高擎上游参考仓。",
+     "url": "https://github.com/Lain-Ego0/HTDW4438-sim2real"
+    },
+    {
+     "name": "Lain-Ego0/HTDW4438_Isaacgym",
+     "role": "训练",
+     "desc": "基于 LeggedGym 的 Isaac Gym 训练框架，含 htdw_4438 任务配置、训练/回放脚本与导出的 ONNX 策略。",
+     "url": "https://github.com/Lain-Ego0/HTDW4438_Isaacgym"
+    },
+    {
+     "name": "Lain-Ego0/HTDW4438_HIMloco",
+     "role": "训练",
+     "desc": "基于 HIMLoco 的训练框架，含 htdw_4438 / opendoge 两套任务与 MuJoCo 部署脚本。",
+     "url": "https://github.com/Lain-Ego0/HTDW4438_HIMloco"
+    },
+    {
+     "name": "Lain-Ego0/HTDW4438-AMP",
+     "role": "训练",
+     "desc": "在 HIMLoco 上加入 AMP 运动先验、奖励与恢复策略的训练分支。",
+     "url": "https://github.com/Lain-Ego0/HTDW4438-AMP"
+    },
+    {
+     "name": "Lain-Ego0/LocoWiki",
+     "role": "工具/资料",
+     "desc": "机器人运控学习指南与项目知识库，覆盖赛题、论文与体系化教程。",
+     "url": "https://github.com/Lain-Ego0/LocoWiki"
+    },
+    {
+     "name": "LocoWiki/LocoWiki.github.io",
+     "role": "工具/资料",
+     "desc": "LocoWiki 静态站点源码，发布在 https://locowiki.github.io/；仓库实际挂在 LocoWiki 组织下。",
+     "url": "https://github.com/LocoWiki/LocoWiki.github.io"
+    }
+   ],
+   "note": "HTDW4438-OpenDog 已重命名为 HighTorque-MiniDog，二者是同一仓库（旧 URL 301），按 URL 去重后 7 项；LocoWiki.github.io 实际挂在 LocoWiki 组织下，主仓 README 的 Lain-Ego0 链接会 404。"
   }
  },
  "url_note": "项目链接统一指向公开仓库（GitHub / Gitee / HuggingFace）；不再使用本地目录或文件数。"

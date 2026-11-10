@@ -1,0 +1,65 @@
+[
+ {
+  "id": "struct-htdw4438",
+  "category": "robot",
+  "subtype": "quadruped",
+  "subtype_label": "四足",
+  "vendor": "hightorque",
+  "vendor_cn": "高擎动力",
+  "model": "HTDW4438",
+  "title": "HTDW4438 MiniDog 12DOF 桌面级四足",
+  "url": "https://github.com/Lain-Ego0/HighTorque-MiniDog",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-10",
+  "openness": "full",
+  "price_cny": null,
+  "origin": "主仓 README（项目定位与 1+4 仓库体系）+ 1.Hardware/htdw_4438_urdf 的 URDF（12 个 revolute 关节、17 个 link 的惯性质量）+ 3.Document/BOM.xlsx（含『URDF重量实测』页）+ HTDW4438_Isaacgym 的 htdw_4438_config.py；2026-11-10 核对",
+  "notes": "Lain-Ego0 用高擎 HTDW4438 超小关节模组搭的 12 自由度桌面级四足：每条腿 髋/大腿/小腿 各 1 个关节，足端固定。官方 BOM 列 12 × HTDW-4438（¥899/个）、1 × RoBoBox-7C 主控套件（RK3588 核心板 + 功率板 + 7 路 CAN，¥2999）、1 × HTB24 24V 电池（¥899），结构件为 PETG 打印 + 4 件 6061 CNC。URDF 关节限位 effort 10 N·m、velocity 9.5 rad/s；训练配置的动作维度 12、站高目标 0.185 m、仿真 200 Hz / 策略 50 Hz。链路完整：本体与 SDK 在主仓，训练分流到 Isaacgym / HIMloco / AMP 三套框架，部署在 HTDW4438-sim2real（该仓 README 目前仅写『建设中』并列出上游参考仓）。许可证按仓不同：HIMloco 与 sim2real 为 MIT、Isaacgym 沿用 legged_gym 的 BSD-3-Clause、AMP 为 CC BY-NC-SA 4.0，主仓与 LocoWiki 未见 LICENSE。质量口径有分歧：URDF 全链惯性质量合计 4.36 kg；BOM『URDF重量实测』按件实测（12×217.6 g 电机 + 582 g 电池 + 434.5 g 主控 + 打印件）合计约 5.4 kg，官方未给整机实称，speed_max_mps / payload / 续航均留空。",
+  "specs": {
+   "dof": 12,
+   "mass_kg": 4.36,
+   "payload_kg": null,
+   "speed_max_mps": null,
+   "size_mm": "机身 204×140×141；站高目标 185",
+   "climb_height_mm": null,
+   "climb_angle_deg": null,
+   "battery": "HTB24-02 22.2V 5000mAh 111Wh Li-ion（BOM 记 HTB24 24V）",
+   "endurance_h": null,
+   "voltage_V": 22.2,
+   "voltage_range_V": null,
+   "iface": "7 路 CAN（CAN/CANFD）；USB",
+   "compute": "RoBoBox-7C（RK3588 核心板 + 功率板，7 路 CAN）",
+   "sensors": "YESENSE IMU（USB 串口）",
+   "image_url": "/parts/htdw4438.webp",
+   "image_source": "主仓 README 头图 5.Images/V3.png（https://github.com/Lain-Ego0/HighTorque-MiniDog/blob/main/5.Images/V3.png，2026-11-10 下载转 webp）",
+   "doc_url": "https://github.com/Lain-Ego0/HighTorque-MiniDog#readme",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/Lain-Ego0/HighTorque-MiniDog",
+    "https://github.com/Lain-Ego0/HTDW4438-sim2real",
+    "https://github.com/Lain-Ego0/HTDW4438_Isaacgym",
+    "https://github.com/Lain-Ego0/HTDW4438_HIMloco",
+    "https://github.com/Lain-Ego0/HTDW4438-AMP",
+    "https://github.com/Lain-Ego0/LocoWiki",
+    "https://github.com/LocoWiki/LocoWiki.github.io"
+   ],
+   "urdf_urls": [
+    "https://github.com/Lain-Ego0/HighTorque-MiniDog/tree/main/1.Hardware/htdw_4438_urdf/urdf"
+   ],
+   "repo_license": "MIT,BSD-3-Clause,CC-BY-NC-SA-4.0",
+   "ecosystem_id": "htdw4438",
+   "ecosystem_count": 7
+  },
+  "artifacts": {
+   "cad": "https://github.com/Lain-Ego0/HighTorque-MiniDog/tree/main/1.Hardware/HTDW4438-OpenDogV1.5",
+   "hardware": null,
+   "bom": "https://github.com/Lain-Ego0/HighTorque-MiniDog/blob/main/3.Document/BOM.xlsx",
+   "firmware": null,
+   "urdf": "https://github.com/Lain-Ego0/HighTorque-MiniDog/tree/main/1.Hardware/htdw_4438_urdf",
+   "docs": "https://github.com/Lain-Ego0/HighTorque-MiniDog/tree/main/3.Document",
+   "assembly": null
+  },
+  "openness_note": "官方 BOM（BOM.xlsx，含淘宝采购链接）、SolidWorks 全零件与总装、URDF、实机 ROS SDK 都在主仓，训练另有三套框架，故记 full；但主控盒子/电池/电机均为高擎成品，仓库没有自制 PCB 工程（hardware 与 firmware 留空），部署仓 HTDW4438-sim2real 仍标『建设中』，主仓与 LocoWiki 未声明许可证。"
+ }
+]

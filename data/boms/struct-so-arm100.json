@@ -1,0 +1,175 @@
+{
+  "robot_id": "struct-so-arm100",
+  "robot_name": "SO-100",
+  "source": {
+    "url": "https://github.com/TheRobotStudio/SO-ARM100/blob/main/SO100.md#parts-for-two-arms-standard-teleoperation-setup",
+    "type": "github_markdown",
+    "official": true,
+    "fetched_at": "2026-11-10",
+    "notes": "官方 SO-100 文档 SO100.md 的 “Parts For Two Arms (Standard Teleoperation Setup)” 表（Leader + Follower 双臂，12 个舵机口径）；价格为该表 Unit Cost (US) 列，原币 USD。当前 SO-ARM100 README 的 parts 表已换成 SO-101，SO-100 表只在 SO100.md（README 标为 deprecated）里维护，见 _discoveries/struct-so-arm100.md 第 ⑤ 节。官方 Total 标 $232，但逐行 $15×12 相加为 $244（单臂表同型号标 $14，$232 正是按 $14 算的），本文件 totals 按逐行单价重算，不套用官方合计。"
+  },
+  "currency": "USD",
+  "price_basis": "官方 BOM 标价（US 渠道），未含运费/税；同一件在不同地区渠道单价不同，本文件只录 US 列",
+  "lines": [
+    {
+      "id": "line-001",
+      "category": "actuator",
+      "category_label": "执行器",
+      "name": "STS3215 Servo",
+      "spec": "7.4 V TTL 串行总线舵机，SO-100 每臂 6 个（原表未标减速比）；可选 12 V 30 kg·cm 版本",
+      "qty": 12,
+      "unit": "pcs",
+      "unit_price": 15,
+      "currency": "USD",
+      "subtotal": 180,
+      "vendor": "Feetech 飞特",
+      "product_url": "https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html",
+      "source_ref": "Parts For Two Arms, row 1 (STS3215 Servo)",
+      "catalog_part_id": "feetech-sts3215-7v4",
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "站内条目 STS3215（7.4V 19 kg·cm）规格书即 C001，可对应本行；单臂表同型号标 $14。"
+    },
+    {
+      "id": "line-002",
+      "category": "actuator_driver",
+      "category_label": "驱动板",
+      "name": "Motor Control Board",
+      "spec": "Waveshare 总线舵机控制板，USB-C 上行 → STS3215 串行总线（每臂 1 块）",
+      "qty": 2,
+      "unit": "pcs",
+      "unit_price": 11,
+      "currency": "USD",
+      "subtotal": 22,
+      "vendor": "Waveshare 微雪",
+      "product_url": "https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/",
+      "source_ref": "Parts For Two Arms, row 2 (Motor Control Board)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "站内无 Waveshare 总线舵机控制板条目，也未收录微雪品牌。"
+    },
+    {
+      "id": "line-003",
+      "category": "wiring",
+      "category_label": "线材",
+      "name": "USB-C Cable 2 pcs",
+      "spec": "USB-C 数据线，2 条装；接控制板与上位机",
+      "qty": 1,
+      "unit": "pack",
+      "unit_price": 7,
+      "currency": "USD",
+      "subtotal": 7,
+      "vendor": "etguuds（Amazon 渠道）",
+      "product_url": "https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/",
+      "source_ref": "Parts For Two Arms, row 3 (USB-C Cable 2 pcs)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "原表 Amount=1 表示 1 个 2 条装，未拆成单条。"
+    },
+    {
+      "id": "line-004",
+      "category": "power",
+      "category_label": "电源",
+      "name": "Power Supply",
+      "spec": "5 V 开关电源适配器，DC 5.5×2.1 mm 插头，每臂 1 个；换 12 V 舵机需 12 V 5A+",
+      "qty": 2,
+      "unit": "pcs",
+      "unit_price": 10,
+      "currency": "USD",
+      "subtotal": 20,
+      "vendor": "Facmogu（Amazon 渠道）",
+      "product_url": "https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/",
+      "source_ref": "Parts For Two Arms, row 4 (Power Supply)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "站内 power 品类只有 DC-DC / BMS / 分电，无 AC-DC 电源适配器；设备库可调电源不能替代随机适配器。"
+    },
+    {
+      "id": "line-005",
+      "category": "tooling",
+      "category_label": "工装夹具",
+      "name": "Table Clamp 4pcs",
+      "spec": "桌面快速夹 4 个装，固定机械臂底座",
+      "qty": 1,
+      "unit": "pack",
+      "unit_price": 9,
+      "currency": "USD",
+      "subtotal": 9,
+      "vendor": "TAODAN（Amazon 渠道）",
+      "product_url": "https://www.amazon.com/TAODAN-Trigger-Ratchet-Woodworking-Processes/dp/B0DJNXF8WH",
+      "source_ref": "Parts For Two Arms, row 5 (Table Clamp 4pcs)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "4 个装按 1 包计价；单臂表为 2 个装 $5。"
+    },
+    {
+      "id": "line-006",
+      "category": "tooling",
+      "category_label": "工装夹具",
+      "name": "Screwdriver Set",
+      "spec": "精密十字螺丝刀套装，#0 / #1",
+      "qty": 1,
+      "unit": "set",
+      "unit_price": 6,
+      "currency": "USD",
+      "subtotal": 6,
+      "vendor": "Amazon 渠道",
+      "product_url": "https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH",
+      "source_ref": "Parts For Two Arms, row 6 (Screwdriver Set)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "官方注明不必买同款，只需 #0/#1 十字。设备库 ALIENTEK S40 为电动螺丝刀，与本行非同一物，不匹配。"
+    }
+  ],
+  "totals": {
+    "line_count": 6,
+    "item_count": 19,
+    "priced_subtotal": 244,
+    "unpriced_lines": 0,
+    "by_category": {
+      "actuator": 180,
+      "actuator_driver": 22,
+      "wiring": 7,
+      "power": 20,
+      "tooling": 15
+    }
+  },
+  "unresolved": [
+    {
+      "item": "官方 Total $232 与逐行相加 $244 不符",
+      "reason": "双臂表舵机行标 $15×12=180，其余行 64，合计 244；官方合计 232 等价于 12×$14，即单臂表单价。本文件 totals 按原表逐行单价重算，不套用官方合计。"
+    },
+    {
+      "item": "3D 打印结构件与耗材",
+      "reason": "官方 parts 表不含打印件本身和 PLA 耗材；STL 在 STL/ 目录、STEP 在 STEP/ 目录，官方未给克重/卷数与价格。"
+    },
+    {
+      "item": "紧固件（自攻螺丝等）",
+      "reason": "官方 parts 表未列螺丝规格与数量，仓库也未给五金明细。"
+    },
+    {
+      "item": "相机（腕部 / 顶置 USB 相机）",
+      "reason": "README 只作为可选配件描述，未进 parts 表，无型号与价格。"
+    },
+    {
+      "item": "12 V 30 kg·cm 舵机版本差价",
+      "reason": "README 给 Alibaba 链接但未标价；且需另配 12 V 5A+ 电源，官方未给该电源价格。"
+    },
+    {
+      "item": "SO100.md 脚注 1/2/3",
+      "reason": "该文件引用了 #myfootnote1/2/3 但文件内无对应定义，脚注内容（舵机版本、电源规格、螺丝刀建议）只能从正文与会话上下文确认。"
+    }
+  ],
+  "completeness": {
+    "bom_published": true,
+    "mechanical_files": true,
+    "pcb_files": false,
+    "firmware": true,
+    "notes": "官方发布双臂 parts 表（USD/EUR/RMB 三地区价，本文件只取 US 列）；STL + STEP + URDF/MuJoCo 在仓库；无自制 PCB，驱动用 Waveshare 外购板；软件走 LeRobot（Apache-2.0）。缺少打印耗材、螺丝、相机与 12 V 版本价格。"
+  }
+}

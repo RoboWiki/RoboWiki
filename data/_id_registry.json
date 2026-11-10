@@ -3193,6 +3193,11 @@
    "removed_at": "2026-11-07",
    "removed_reason": "方案库收敛：删除指定机型"
   },
+  "struct-htdw4438": {
+   "added": "2026-11-10",
+   "category": "robot",
+   "model": "HTDW4438"
+  },
   "struct-kscale-stompy": {
    "added": "2026-10-31",
    "category": "robot",

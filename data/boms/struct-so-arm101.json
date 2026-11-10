@@ -1,0 +1,213 @@
+{
+  "robot_id": "struct-so-arm101",
+  "robot_name": "SO-101",
+  "source": {
+    "url": "https://github.com/TheRobotStudio/SO-ARM100#parts-for-two-arms-follower-and-leader-setup",
+    "type": "github_markdown",
+    "official": true,
+    "fetched_at": "2026-11-10",
+    "notes": "官方 SO-ARM100 仓库当前 README 的 “Parts For Two Arms (Follower and Leader Setup)” 表（Leader + Follower 双臂，12 个舵机口径）；价格为该表 Unit Cost (US) 列，原币 USD。SO-101 与 SO-100 的差别在表内可见：舵机按减速比拆成 C001/C044/C046 三行（Leader 臂用 C044/C046 混合，Follower 全用 C001），驱动板与配件行沿用。lead arm 固定 7.4 V，只有 Follower 可选 12 V。官方 Total $229.88 与逐行相加一致。"
+  },
+  "currency": "USD",
+  "price_basis": "官方 BOM 标价（US 渠道），未含运费/税；README 同时给 EU/EUR、CN/RMB、JP/JPY 列，本文件只录 US 列，不换算",
+  "lines": [
+    {
+      "id": "line-001",
+      "category": "actuator",
+      "category_label": "执行器",
+      "name": "STS3215 Servo 7.4V, 1/345 gear (C001)",
+      "spec": "7.4 V TTL 串行总线舵机，减速比 1:345；Follower 6 个 + Leader 1 个",
+      "qty": 7,
+      "unit": "pcs",
+      "unit_price": 13.89,
+      "currency": "USD",
+      "subtotal": 97.23,
+      "vendor": "Feetech 飞特",
+      "product_url": "https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html",
+      "source_ref": "Parts For Two Arms, row 1 (STS3215 7.4V 1/345 C001)",
+      "catalog_part_id": "feetech-sts3215-7v4",
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "站内条目 STS3215（7.4V 19 kg·cm）规格书即 STS3215-C001 数据表，减速比 1:345，据此精确匹配。"
+    },
+    {
+      "id": "line-002",
+      "category": "actuator",
+      "category_label": "执行器",
+      "name": "STS3215 Servo 7.4V, 1/191 gear (C044)",
+      "spec": "7.4 V TTL 串行总线舵机，减速比 1:191；仅 Leader 臂用 2 个",
+      "qty": 2,
+      "unit": "pcs",
+      "unit_price": 13.89,
+      "currency": "USD",
+      "subtotal": 27.78,
+      "vendor": "Feetech 飞特",
+      "product_url": "https://www.alibaba.com/product-detail/Feetech-STS3215-SO-ARM101-Servo-7_1601430747897.html",
+      "source_ref": "Parts For Two Arms, row 2 (STS3215 7.4V 1/191 C044)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "站内只有通用 STS3215 7.4V 与 ST-3215-C018，无 C044 独立条目（站内条目备注也说明 C044/C046/C047 参数不同、不并入一行），故不匹配。"
+    },
+    {
+      "id": "line-003",
+      "category": "actuator",
+      "category_label": "执行器",
+      "name": "STS3215 Servo 7.4V, 1/147 gear (C046)",
+      "spec": "7.4 V TTL 串行总线舵机，减速比 1:147；仅 Leader 臂用 3 个",
+      "qty": 3,
+      "unit": "pcs",
+      "unit_price": 13.89,
+      "currency": "USD",
+      "subtotal": 41.67,
+      "vendor": "Feetech 飞特",
+      "product_url": "https://www.alibaba.com/product-detail/Feetech-STS3215-SO-ARM101-Servo-7_1601430760797.html",
+      "source_ref": "Parts For Two Arms, row 3 (STS3215 7.4V 1/147 C046)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "同上，站内无 C046 独立条目。"
+    },
+    {
+      "id": "line-004",
+      "category": "actuator_driver",
+      "category_label": "驱动板",
+      "name": "Motor Control Board",
+      "spec": "Waveshare 总线舵机控制板，USB-C 上行 → STS3215 串行总线（每臂 1 块）",
+      "qty": 2,
+      "unit": "pcs",
+      "unit_price": 10.6,
+      "currency": "USD",
+      "subtotal": 21.2,
+      "vendor": "Waveshare 微雪",
+      "product_url": "https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/",
+      "source_ref": "Parts For Two Arms, row 4 (Motor Control Board)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "站内无该板条目；SO-100 表同行为 $11，SO-101 降到 $10.6。"
+    },
+    {
+      "id": "line-005",
+      "category": "wiring",
+      "category_label": "线材",
+      "name": "USB-C Cable 2 pcs",
+      "spec": "USB-C 数据线，2 条装；接控制板与上位机",
+      "qty": 1,
+      "unit": "pack",
+      "unit_price": 7,
+      "currency": "USD",
+      "subtotal": 7,
+      "vendor": "etguuds（Amazon 渠道）",
+      "product_url": "https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/",
+      "source_ref": "Parts For Two Arms, row 5 (USB-C Cable 2 pcs)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "Amount=1 表示 1 个 2 条装，不拆条。"
+    },
+    {
+      "id": "line-006",
+      "category": "power",
+      "category_label": "电源",
+      "name": "Power Supply",
+      "spec": "5 V 开关电源适配器，DC 5.5×2.1 mm 插头，每臂 1 个；换 12 V 舵机需 12 V 5A+",
+      "qty": 2,
+      "unit": "pcs",
+      "unit_price": 10,
+      "currency": "USD",
+      "subtotal": 20,
+      "vendor": "Facmogu（Amazon 渠道）",
+      "product_url": "https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/",
+      "source_ref": "Parts For Two Arms, row 6 (Power Supply)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "README 明确：改用 12 V 舵机必须换 12 V 5A+ 电源，本行价格不适用。"
+    },
+    {
+      "id": "line-007",
+      "category": "tooling",
+      "category_label": "工装夹具",
+      "name": "Table Clamp 4pcs",
+      "spec": "桌面快速夹 4 个装，固定机械臂底座",
+      "qty": 1,
+      "unit": "pack",
+      "unit_price": 9,
+      "currency": "USD",
+      "subtotal": 9,
+      "vendor": "TAODAN（Amazon 渠道）",
+      "product_url": "https://www.amazon.com/TAODAN-Trigger-Ratchet-Woodworking-Processes/dp/B0DJNXF8WH",
+      "source_ref": "Parts For Two Arms, row 7 (Table Clamp 4pcs)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "4 个装按 1 包计价。"
+    },
+    {
+      "id": "line-008",
+      "category": "tooling",
+      "category_label": "工装夹具",
+      "name": "Screwdriver Set",
+      "spec": "精密十字螺丝刀套装，#0 / #1",
+      "qty": 1,
+      "unit": "set",
+      "unit_price": 6,
+      "currency": "USD",
+      "subtotal": 6,
+      "vendor": "Amazon 渠道",
+      "product_url": "https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH",
+      "source_ref": "Parts For Two Arms, row 8 (Screwdriver Set)",
+      "catalog_part_id": null,
+      "supplier_id": null,
+      "equipment_id": null,
+      "notes": "官方注明可用自有 #0/#1 十字螺丝刀替代。"
+    }
+  ],
+  "totals": {
+    "line_count": 8,
+    "item_count": 19,
+    "priced_subtotal": 229.88,
+    "unpriced_lines": 0,
+    "by_category": {
+      "actuator": 166.68,
+      "actuator_driver": 21.2,
+      "wiring": 7,
+      "power": 20,
+      "tooling": 15
+    }
+  },
+  "unresolved": [
+    {
+      "item": "3D 打印结构件与耗材",
+      "reason": "官方 parts 表不含打印件与 PLA+ 耗材；STL/STEP 在仓库，官方给了打印机型与层高/填充率，但未给克重与价格。"
+    },
+    {
+      "item": "Leader 舵机 6 个装 bundle 的实际单价",
+      "reason": "README 脚注 2 指出可一次买齐 Leader 臂 6 个舵机（3×C046 + 2×C044 + 1×C001），只给 Alibaba 链接、未标 bundle 价；本文件仍按三行原表单价计。"
+    },
+    {
+      "item": "12 V 30 kg·cm 舵机差价与配套 12 V 5A+ 电源",
+      "reason": "README 只给 Alibaba 链接与规格要求，无价格，不估算。"
+    },
+    {
+      "item": "紧固件（自攻螺丝等）",
+      "reason": "官方 parts 表未列螺丝规格与数量。"
+    },
+    {
+      "item": "相机（腕部 / 顶置 USB 相机、RealSense D405/D435）",
+      "reason": "属 Optional Hardware，不进 parts 表，无官方标价。"
+    },
+    {
+      "item": "RMB 合计 ¥1,343.16 与逐行相加不符",
+      "reason": "按 CN 列逐行相加为 ¥1,354.76，官方合计 ¥1,343.16 是旧值（与 SO-100 表共用同一合计）；本文件只录 USD 列，故不计入 totals，仅记录以备核对。"
+    }
+  ],
+  "completeness": {
+    "bom_published": true,
+    "mechanical_files": true,
+    "pcb_files": false,
+    "firmware": true,
+    "notes": "官方 README 即 SO-101 文档：双臂 parts 表 + 单臂表 + 打印机型/参数 + 可选硬件（举升底座、4040 型材座、腕部相机支架、AnySkin 触觉、柔性夹爪）。STL/STEP/URDF 在仓库，软件走 LeRobot；控制板为 Waveshare 外购，无自制 PCB。缺打印耗材、螺丝与 12 V 版本价格。"
+  }
+}

@@ -1379,6 +1379,8 @@
     "belt": "同步带与带轮",
     "fastener": "螺钉与紧固",
     "plate": "板材与加工件",
+    "printed": "3D 打印件",
+    "shaft": "光轴 / 销 / 衬套",
     "rail": "直线导轨",
     "slipring": "滑环",
     "mechanism": "机构件（夹爪 / 吸盘 / 拨盘）",
