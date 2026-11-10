@@ -201,7 +201,8 @@
   "display_name": "risym旗舰店",
   "category": "元件电商",
   "services": [
-   "电子元件"
+   "电子元件",
+   "其他"
   ],
   "listing": "红榜",
   "grade": "全新",
@@ -1037,7 +1038,8 @@
   "display_name": "优信电子",
   "category": "元件电商",
   "services": [
-   "电子元件"
+   "电子元件",
+   "其他"
   ],
   "listing": "红榜",
   "grade": "全新",
@@ -1046,14 +1048,14 @@
   "has_url": true,
   "reason": "能用，原装国产分类较为清晰",
   "notes": "能用就行了，存在一定假货，注意避坑",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
-  "price_raw": null,
+  "price_raw": "低",
   "invoice_raw": null,
   "signals": {
    "quality": "good",
    "punctual": "unknown",
-   "price": "unknown",
+   "price": "low",
    "invoice": "unknown"
   },
   "tier": "C",
@@ -1076,9 +1078,33 @@
     "invoice_raw": null,
     "notes": "能用就行了，存在一定假货，注意避坑",
     "reason": "能用，原装国产分类较为清晰"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": "低",
+    "invoice_raw": null,
+    "notes": "种类齐全，三家互补",
+    "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "种类齐全，三家互补",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 3
  },
  {
   "id": "sup-06443f7f",
@@ -2867,7 +2893,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -2876,7 +2902,7 @@
   "shop_type": "踩雷记录",
   "audiences": [],
   "best_for": "",
-  "caution": "调试器；无线调制器断连严重，无法正常使用",
+  "caution": "调试器；无线调制器断连严重，无法正常使用；无线调制器断连严重，无法正常使用",
   "reports": [
    {
     "listing": "黑榜",
@@ -2889,9 +2915,21 @@
     "invoice_raw": null,
     "notes": "调试器；无线调制器断连严重，无法正常使用",
     "reason": "调试器；无线调制器断连严重，无法正常使用"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "无线调制器断连严重，无法正常使用",
+    "reason": "无线调制器断连严重，无法正常使用"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-71233f13",
@@ -2916,7 +2954,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -2925,7 +2963,7 @@
   "shop_type": "电子元件 / 模块",
   "audiences": [],
   "best_for": "",
-  "caution": "电源转换模块；贴错标，生产错误，客服推诿责任",
+  "caution": "电源转换模块；贴错标，生产错误，客服推诿责任；生产错误，客服推诿责任，发言极其逆天",
   "reports": [
    {
     "listing": "黑榜",
@@ -2938,9 +2976,21 @@
     "invoice_raw": null,
     "notes": "电源转换模块；贴错标，生产错误，客服推诿责任",
     "reason": "电源转换模块；贴错标，生产错误，客服推诿责任"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "生产错误，客服推诿责任，发言极其逆天",
+    "reason": "生产错误，客服推诿责任，发言极其逆天"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-adfb86a6",
@@ -2964,7 +3014,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -2973,7 +3023,7 @@
   "shop_type": "3D打印 / 手板",
   "audiences": [],
   "best_for": "",
-  "caution": "3D打印；客服沟通困难，店铺、贼墨迹，二道贩子",
+  "caution": "3D打印；客服沟通困难，店铺、贼墨迹，二道贩子；客服沟通困难，店铺、贼墨迹，二道贩子",
   "reports": [
    {
     "listing": "黑榜",
@@ -2986,9 +3036,21 @@
     "invoice_raw": null,
     "notes": "3D打印；客服沟通困难，店铺、贼墨迹，二道贩子",
     "reason": "3D打印；客服沟通困难，店铺、贼墨迹，二道贩子"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "客服沟通困难，店铺、贼墨迹，二道贩子",
+    "reason": "客服沟通困难，店铺、贼墨迹，二道贩子"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-3e09328f",
@@ -3013,7 +3075,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3022,7 +3084,7 @@
   "shop_type": "钣金 / 激光切割",
   "audiences": [],
   "best_for": "",
-  "caution": "cnc、钣金件；工期极其拖延（十天以上）",
+  "caution": "cnc、钣金件；工期极其拖延（十天以上）；工期极其拖延（十天以上）",
   "reports": [
    {
     "listing": "黑榜",
@@ -3035,9 +3097,21 @@
     "invoice_raw": null,
     "notes": "cnc、钣金件；工期极其拖延（十天以上）",
     "reason": "cnc、钣金件；工期极其拖延（十天以上）"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "工期极其拖延（十天以上）",
+    "reason": "工期极其拖延（十天以上）"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-873c25dc",
@@ -3063,7 +3137,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "bad",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3072,7 +3146,7 @@
   "shop_type": "钣金 / 激光切割",
   "audiences": [],
   "best_for": "",
-  "caution": "铝方管；制作误差大还不好说话，我们这步兵工程发射架的铝方管做的都有问题。步兵焊接差出去五六毫米结果他说这一点不影响。发射架的激光打孔还不如新来学弟手打的直",
+  "caution": "铝方管；制作误差大还不好说话，我们这步兵工程发射架的铝方管做的都有问题。步兵焊接差出去五六毫米结果他说这一点不影响。发射架的激光打孔还不如新来学弟手打的直；制作误差大还不好说话，我们这步兵工程发射架的铝方管做的都有问题。步兵焊接差出去五六毫米结果他说这一点不影响。发射架的激光打孔还不如新来学弟手打的直",
   "reports": [
    {
     "listing": "黑榜",
@@ -3085,9 +3159,21 @@
     "invoice_raw": null,
     "notes": "铝方管；制作误差大还不好说话，我们这步兵工程发射架的铝方管做的都有问题。步兵焊接差出去五六毫米结果他说这一点不影响。发射架的激光打孔还不如新来学弟手打的直",
     "reason": "铝方管；制作误差大还不好说话，我们这步兵工程发射架的铝方管做的都有问题。步兵焊接差出去五六毫米结果他说这一点不影响。发射架的激光打孔还不如新来学弟手打的直"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "制作误差大还不好说话，我们这步兵工程发射架的铝方管做的都有问题。步兵焊接差出去五六毫米结果他说这一点不影响。发射架的激光打孔还不如新来学弟手打的直",
+    "reason": "制作误差大还不好说话，我们这步兵工程发射架的铝方管做的都有问题。步兵焊接差出去五六毫米结果他说这一点不影响。发射架的激光打孔还不如新来学弟手打的直"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-640356d8",
@@ -3096,7 +3182,8 @@
   "category": "避雷/防护",
   "services": [
    "风险记录",
-   "3D打印"
+   "3D打印",
+   "紧固件"
   ],
   "listing": "黑榜",
   "grade": null,
@@ -3105,14 +3192,14 @@
   "has_url": true,
   "reason": "3D打印；乱报价，普遍偏高，PLA质量差",
   "notes": "3D打印；乱报价，普遍偏高，PLA质量差",
-  "quality_raw": null,
-  "punctual_raw": null,
-  "price_raw": null,
+  "quality_raw": "精度高，质量稳定（光固化）",
+  "punctual_raw": "准确",
+  "price_raw": "适中（存在乱报价）",
   "invoice_raw": null,
   "signals": {
    "quality": "bad",
-   "punctual": "unknown",
-   "price": "unknown",
+   "punctual": "fast",
+   "price": "mid",
    "invoice": "unknown"
   },
   "tier": "B",
@@ -3120,7 +3207,7 @@
   "shop_type": "3D打印 / 手板",
   "audiences": [],
   "best_for": "",
-  "caution": "3D打印；乱报价，普遍偏高，PLA质量差",
+  "caution": "3D打印；乱报价，普遍偏高，PLA质量差；工业级的FDM，有高标准的FDM工件推荐这家；收件人搞不明白，多次多人合并发货；PLA打印排版预览与实际切片不符，质量较差；漏件，哨兵的件发给无人机，要求补发一遍又发给无人机；乱报价，普遍偏高，PLA质量差；收件人搞不明白，多次多人合并发货",
   "reports": [
    {
     "listing": "黑榜",
@@ -3133,9 +3220,45 @@
     "invoice_raw": null,
     "notes": "3D打印；乱报价，普遍偏高，PLA质量差",
     "reason": "3D打印；乱报价，普遍偏高，PLA质量差"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "精度高，质量稳定（光固化）",
+    "punctual_raw": "准确",
+    "price_raw": "适中（存在乱报价）",
+    "invoice_raw": null,
+    "notes": "工业级的FDM，有高标准的FDM工件推荐这家；收件人搞不明白，多次多人合并发货；PLA打印排版预览与实际切片不符，质量较差；漏件，哨兵的件发给无人机，要求补发一遍又发给无人机",
+    "reason": null
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "乱报价，普遍偏高，PLA质量差",
+    "reason": "乱报价，普遍偏高，PLA质量差"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "精度高，质量稳定（光固化）",
+    "punctual_raw": "准确",
+    "price_raw": "适中（存在乱报价）",
+    "invoice_raw": null,
+    "notes": "收件人搞不明白，多次多人合并发货",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 4
  },
  {
   "id": "sup-469505a9",
@@ -3145,23 +3268,24 @@
   "services": [
    "风险记录",
    "电子元件",
-   "材料"
+   "材料",
+   "紧固件"
   ],
   "listing": "黑榜",
   "grade": null,
   "channel": "淘宝",
   "reported_at": null,
   "has_url": true,
-  "reason": "碳管；Wulfric: 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
-  "notes": "碳管；Wulfric: 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
-  "quality_raw": null,
-  "punctual_raw": null,
-  "price_raw": null,
+  "reason": "碳管； 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
+  "notes": "碳管； 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
+  "quality_raw": "稳定、精度可以",
+  "punctual_raw": "准确",
+  "price_raw": "中等",
   "invoice_raw": null,
   "signals": {
    "quality": "bad",
-   "punctual": "unknown",
-   "price": "unknown",
+   "punctual": "fast",
+   "price": "mid",
    "invoice": "unknown"
   },
   "tier": "B",
@@ -3169,7 +3293,7 @@
   "shop_type": "电子元件 / 模块",
   "audiences": [],
   "best_for": "",
-  "caution": "碳管；Wulfric: 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
+  "caution": "碳管； 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)；可以让他们帮忙挑个负公差的，加工提供STEP；精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
   "reports": [
    {
     "listing": "黑榜",
@@ -3180,11 +3304,35 @@
     "punctual_raw": null,
     "price_raw": null,
     "invoice_raw": null,
-    "notes": "碳管；Wulfric: 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
-    "reason": "碳管；Wulfric: 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)"
+    "notes": "碳管； 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
+    "reason": "碳管； 精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定、精度可以",
+    "punctual_raw": "准确",
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "可以让他们帮忙挑个负公差的，加工提供STEP",
+    "reason": null
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)",
+    "reason": "精度极差, 定了8根碳管没有一根切割面不歪的, 公差最大有1.2mm. (手切)"
    }
   ],
-  "report_count": 1
+  "report_count": 3
  },
  {
   "id": "sup-cab8cc16",
@@ -3207,7 +3355,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3216,7 +3364,7 @@
   "shop_type": "踩雷记录",
   "audiences": [],
   "best_for": "",
-  "caution": "高端二手铣刀；发货慢而且响应慢，买多也不包邮，不同的东西发货地点完全不一样，像是一家商贸公司代卖，各种拖时间，千万不要在这家买任何东西",
+  "caution": "高端二手铣刀；发货慢而且响应慢，买多也不包邮，不同的东西发货地点完全不一样，像是一家商贸公司代卖，各种拖时间，千万不要在这家买任何东西；发货慢而且响应慢，买多也不包邮，不同的东西发货地点完全不一样，像是一家商贸公司代卖，各种拖时间，千万不要在这家买任何东西",
   "reports": [
    {
     "listing": "黑榜",
@@ -3229,9 +3377,21 @@
     "invoice_raw": null,
     "notes": "高端二手铣刀；发货慢而且响应慢，买多也不包邮，不同的东西发货地点完全不一样，像是一家商贸公司代卖，各种拖时间，千万不要在这家买任何东西",
     "reason": "高端二手铣刀；发货慢而且响应慢，买多也不包邮，不同的东西发货地点完全不一样，像是一家商贸公司代卖，各种拖时间，千万不要在这家买任何东西"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "发货慢而且响应慢，买多也不包邮，不同的东西发货地点完全不一样，像是一家商贸公司代卖，各种拖时间，千万不要在这家买任何东西",
+    "reason": "发货慢而且响应慢，买多也不包邮，不同的东西发货地点完全不一样，像是一家商贸公司代卖，各种拖时间，千万不要在这家买任何东西"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-95110a6e",
@@ -3256,7 +3416,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3265,7 +3425,7 @@
   "shop_type": "CNC / 车铣",
   "audiences": [],
   "best_for": "",
-  "caution": "铝合金CNC切割，打孔；打孔没打穿。。。一共三四个孔没打穿，还得我们手工打孔，而且有的手工都打不穿，只能不用了，而且还把本来两个的件打成四个，四个的打成两个，不过后来补发了两个没收钱",
+  "caution": "铝合金CNC切割，打孔；打孔没打穿。。。一共三四个孔没打穿，还得我们手工打孔，而且有的手工都打不穿，只能不用了，而且还把本来两个的件打成四个，四个的打成两个，不过后来补发了两个没收钱；打孔没打穿。。。一共三四个孔没打穿，还得我们手工打孔，而且有的手工都打不穿，只能不用了，而且还把本来两个的件打成四个，四个的打成两个，不过后来补发了两个没收钱。纯纯一个没有经过加工培养，不懂得看图纸，对于CNC加工一点也不了解，只会无脑对着数控机器输入输出的商家",
   "reports": [
    {
     "listing": "黑榜",
@@ -3278,9 +3438,21 @@
     "invoice_raw": null,
     "notes": "铝合金CNC切割，打孔；打孔没打穿。。。一共三四个孔没打穿，还得我们手工打孔，而且有的手工都打不穿，只能不用了，而且还把本来两个的件打成四个，四个的打成两个，不过后来补发了两个没收钱",
     "reason": "铝合金CNC切割，打孔；打孔没打穿。。。一共三四个孔没打穿，还得我们手工打孔，而且有的手工都打不穿，只能不用了，而且还把本来两个的件打成四个，四个的打成两个，不过后来补发了两个没收钱"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "打孔没打穿。。。一共三四个孔没打穿，还得我们手工打孔，而且有的手工都打不穿，只能不用了，而且还把本来两个的件打成四个，四个的打成两个，不过后来补发了两个没收钱。纯纯一个没有经过加工培养，不懂得看图纸，对于CNC加工一点也不了解，只会无脑对着数控机器输入输出的商家",
+    "reason": "打孔没打穿。。。一共三四个孔没打穿，还得我们手工打孔，而且有的手工都打不穿，只能不用了，而且还把本来两个的件打成四个，四个的打成两个，不过后来补发了两个没收钱。纯纯一个没有经过加工培养，不懂得看图纸，对于CNC加工一点也不了解，只会无脑对着数控机器输入输出的商家"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-0545f0aa",
@@ -3303,7 +3475,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3312,7 +3484,7 @@
   "shop_type": "踩雷记录",
   "audiences": [],
   "best_for": "",
-  "caution": "定做导电滑环；中石油华东订做的有两路线不通电，来来回回协商过多次，不解决问题，也不承认错误",
+  "caution": "定做导电滑环；中石油华东订做的有两路线不通电，来来回回协商过多次，不解决问题，也不承认错误；中石油华东订做的有两路线不通电，来来回回协商过多次，不解决问题，也不承认错误",
   "reports": [
    {
     "listing": "黑榜",
@@ -3325,9 +3497,21 @@
     "invoice_raw": null,
     "notes": "定做导电滑环；中石油华东订做的有两路线不通电，来来回回协商过多次，不解决问题，也不承认错误",
     "reason": "定做导电滑环；中石油华东订做的有两路线不通电，来来回回协商过多次，不解决问题，也不承认错误"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "中石油华东订做的有两路线不通电，来来回回协商过多次，不解决问题，也不承认错误",
+    "reason": "中石油华东订做的有两路线不通电，来来回回协商过多次，不解决问题，也不承认错误"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-427996ee",
@@ -3348,12 +3532,12 @@
   "notes": "雕刻机刀具；铝铣刀粘刀堵排屑槽",
   "quality_raw": null,
   "punctual_raw": null,
-  "price_raw": null,
+  "price_raw": "铝铣刀粘刀",
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
-   "price": "unknown",
+   "punctual": "slow",
+   "price": "mid",
    "invoice": "unknown"
   },
   "tier": "B",
@@ -3361,7 +3545,7 @@
   "shop_type": "踩雷记录",
   "audiences": [],
   "best_for": "",
-  "caution": "雕刻机刀具；铝铣刀粘刀堵排屑槽",
+  "caution": "雕刻机刀具；铝铣刀粘刀堵排屑槽；铝铣刀粘刀；个人感觉小径刀具比较烂，其他还算可以；经常拒开发票，需要经常催，还经常发错邮箱；铝铣刀粘刀堵排屑槽；经常拒开发票，需要经常催，还经常发错邮箱；和前面，淘宝申请开票被拒了，建议直接找客服，别在这上浪费时间；个人感觉小径刀具比较烂，其他还算可以",
   "reports": [
    {
     "listing": "黑榜",
@@ -3374,9 +3558,45 @@
     "invoice_raw": null,
     "notes": "雕刻机刀具；铝铣刀粘刀堵排屑槽",
     "reason": "雕刻机刀具；铝铣刀粘刀堵排屑槽"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "铝铣刀粘刀；个人感觉小径刀具比较烂，其他还算可以；经常拒开发票，需要经常催，还经常发错邮箱",
+    "reason": null
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "铝铣刀粘刀堵排屑槽",
+    "reason": "铝铣刀粘刀堵排屑槽"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": "铝铣刀粘刀",
+    "invoice_raw": null,
+    "notes": "经常拒开发票，需要经常催，还经常发错邮箱；和前面，淘宝申请开票被拒了，建议直接找客服，别在这上浪费时间；个人感觉小径刀具比较烂，其他还算可以",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 4
  },
  {
   "id": "sup-09eb729e",
@@ -3400,7 +3620,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3409,7 +3629,7 @@
   "shop_type": "轴承 / 传动",
   "audiences": [],
   "best_for": "",
-  "caution": "丝杠，滑轨；加工一根丝杠，滑块都卡的滑不动，发货也慢的一比，让开个票也要开一年，一天催三回都没开出来",
+  "caution": "丝杠，滑轨；加工一根丝杠，滑块都卡的滑不动，发货也慢的一比，让开个票也要开一年，一天催三回都没开出来；加工一根丝杠，滑块都卡的滑不动，发货也慢的一比，让开个票也要开一年，一天催三回都没开出来",
   "reports": [
    {
     "listing": "黑榜",
@@ -3422,9 +3642,21 @@
     "invoice_raw": null,
     "notes": "丝杠，滑轨；加工一根丝杠，滑块都卡的滑不动，发货也慢的一比，让开个票也要开一年，一天催三回都没开出来",
     "reason": "丝杠，滑轨；加工一根丝杠，滑块都卡的滑不动，发货也慢的一比，让开个票也要开一年，一天催三回都没开出来"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "加工一根丝杠，滑块都卡的滑不动，发货也慢的一比，让开个票也要开一年，一天催三回都没开出来",
+    "reason": "加工一根丝杠，滑块都卡的滑不动，发货也慢的一比，让开个票也要开一年，一天催三回都没开出来"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-cd156799",
@@ -3448,7 +3680,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3457,7 +3689,7 @@
   "shop_type": "电子元件 / 模块",
   "audiences": [],
   "best_for": "",
-  "caution": "电子元件；此店铺部分商品存在异常：①SY8201磨片+耐压错误",
+  "caution": "电子元件；此店铺部分商品存在异常：①SY8201磨片+耐压错误；此店铺部分商品存在异常：①SY8201磨片+耐压错误",
   "reports": [
    {
     "listing": "黑榜",
@@ -3470,9 +3702,21 @@
     "invoice_raw": null,
     "notes": "电子元件；此店铺部分商品存在异常：①SY8201磨片+耐压错误",
     "reason": "电子元件；此店铺部分商品存在异常：①SY8201磨片+耐压错误"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "此店铺部分商品存在异常：①SY8201磨片+耐压错误",
+    "reason": "此店铺部分商品存在异常：①SY8201磨片+耐压错误"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-59037903",
@@ -3481,7 +3725,10 @@
   "category": "避雷/防护",
   "services": [
    "风险记录",
-   "包胶/轮"
+   "包胶/轮",
+   "紧固件",
+   "CNC/车铣",
+   "材料"
   ],
   "listing": "黑榜",
   "grade": null,
@@ -3490,22 +3737,22 @@
   "has_url": true,
   "reason": "定制摩擦轮、包胶轮；工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你",
   "notes": "定制摩擦轮、包胶轮；工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你",
-  "quality_raw": null,
-  "punctual_raw": null,
-  "price_raw": null,
+  "quality_raw": "稳定，精度高",
+  "punctual_raw": "准确",
+  "price_raw": "中等",
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
-   "price": "unknown",
+   "punctual": "fast",
+   "price": "mid",
    "invoice": "unknown"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
-  "shop_type": "踩雷记录",
+  "shop_type": "CNC / 车铣",
   "audiences": [],
   "best_for": "",
-  "caution": "定制摩擦轮、包胶轮；工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你",
+  "caution": "定制摩擦轮、包胶轮；工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你；铝芯只能车，没法铣，复杂的轮毂得另找cnc；这家经常拖工期，经常还没做就说明天发；工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你；深圳聚氨酯，双亲必s，比赛前半个月发摩擦轮给他们，比赛后半个月还没做好，给我们包了一圈牛屎发回来，天天催天天说明天发。区域赛英雄摩擦轮都剩个轮毂在打了，谢谢你深圳聚氨酯。做不了别做，别开店。给他个差评，跟他说这个还骂我们人品差，666；铝芯只能车，没法铣，复杂的",
   "reports": [
    {
     "listing": "黑榜",
@@ -3518,9 +3765,45 @@
     "invoice_raw": null,
     "notes": "定制摩擦轮、包胶轮；工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你",
     "reason": "定制摩擦轮、包胶轮；工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "准确",
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "铝芯只能车，没法铣，复杂的轮毂得另找cnc；这家经常拖工期，经常还没做就说明天发",
+    "reason": null
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你；深圳聚氨酯，双亲必s，比赛前半个月发摩擦轮给他们，比赛后半个月还没做好，给我们包了一圈牛屎发回来，天天催天天说明天发。区域赛英雄摩擦轮都剩个轮毂在打了，谢谢你深圳聚氨酯。做不了别做，别开店。给他个差评，跟他说这个还骂我们人品差，666",
+    "reason": "工期极其拖延（十天），付完钱就是大爷，催进度还阴阳怪气你；深圳聚氨酯，双亲必s，比赛前半个月发摩擦轮给他们，比赛后半个月还没做好，给我们包了一圈牛屎发回来，天天催天天说明天发。区域赛英雄摩擦轮都剩个轮毂在打了，谢谢你深圳聚氨酯。做不了别做，别开店。给他个差评，跟他说这个还骂我们人品差，666"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "十分拖拉",
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "铝芯只能车，没法铣，复杂的轮毂得另找cnc",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 4
  },
  {
   "id": "sup-103dcbc9",
@@ -3529,7 +3812,8 @@
   "category": "避雷/防护",
   "services": [
    "风险记录",
-   "材料"
+   "材料",
+   "紧固件"
   ],
   "listing": "黑榜",
   "grade": null,
@@ -3538,22 +3822,22 @@
   "has_url": true,
   "reason": "碳板加工；开票非常非常慢，发货也慢，消息看了也不回",
   "notes": "碳板加工；开票非常非常慢，发货也慢，消息看了也不回",
-  "quality_raw": null,
-  "punctual_raw": null,
-  "price_raw": null,
-  "invoice_raw": null,
+  "quality_raw": "精度高",
+  "punctual_raw": "需要催促，赛期比较快",
+  "price_raw": "超低",
+  "invoice_raw": "免费开票，但需要反复催",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
-   "price": "unknown",
-   "invoice": "unknown"
+   "punctual": "slow",
+   "price": "low",
+   "invoice": "yes"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
   "shop_type": "踩雷记录",
   "audiences": [],
   "best_for": "",
-  "caution": "碳板加工；开票非常非常慢，发货也慢，消息看了也不回",
+  "caution": "碳板加工；开票非常非常慢，发货也慢，消息看了也不回；自称是国内唯一一家做复杂碳管加工的，可以给碳管开槽打孔，精度可以，就是客服经常不回话需要一遍遍催；报价快，加工也挺迅速的，时不时要催；开票非常非常慢，发货也慢，消息看了也不回；今年(2023)工期较慢,多次漏件,做错,错发,并且拉黑我们队员微信.极度不推荐此加工商。；哈工程 石恪:今年(2023)工期较慢,多次漏件,做错,错发,并且拉黑我们队员微信.极度不推荐此加工商。；自称是国内唯一一家做复杂碳管加工的，可以给碳管开槽打孔",
   "reports": [
    {
     "listing": "黑榜",
@@ -3566,9 +3850,45 @@
     "invoice_raw": null,
     "notes": "碳板加工；开票非常非常慢，发货也慢，消息看了也不回",
     "reason": "碳板加工；开票非常非常慢，发货也慢，消息看了也不回"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "精度高",
+    "punctual_raw": "需要催促，赛期比较快",
+    "price_raw": "超低",
+    "invoice_raw": "免费开票，但需要反复催",
+    "notes": "自称是国内唯一一家做复杂碳管加工的，可以给碳管开槽打孔，精度可以，就是客服经常不回话需要一遍遍催；报价快，加工也挺迅速的，时不时要催",
+    "reason": null
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "开票非常非常慢，发货也慢，消息看了也不回；今年(2023)工期较慢,多次漏件,做错,错发,并且拉黑我们队员微信.极度不推荐此加工商。",
+    "reason": "开票非常非常慢，发货也慢，消息看了也不回；今年(2023)工期较慢,多次漏件,做错,错发,并且拉黑我们队员微信.极度不推荐此加工商。"
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "精度高",
+    "punctual_raw": "需要催促,赛期比较快,现在速度比较慢",
+    "price_raw": "超低",
+    "invoice_raw": "免费开票，但需要反复催",
+    "notes": "哈工程 石恪:今年(2023)工期较慢,多次漏件,做错,错发,并且拉黑我们队员微信.极度不推荐此加工商。；自称是国内唯一一家做复杂碳管加工的，可以给碳管开槽打孔，精度可以，就是客服经常不回话需要一遍遍催",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 4
  },
  {
   "id": "sup-65c3bbb5",
@@ -3593,7 +3913,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3602,7 +3922,7 @@
   "shop_type": "钣金 / 激光切割",
   "audiences": [],
   "best_for": "",
-  "caution": "钣金件；折弯折断了就帮你焊起来，技术不太行",
+  "caution": "钣金件；折弯折断了就帮你焊起来，技术不太行；折弯折断了就帮你焊起来，技术不太行",
   "reports": [
    {
     "listing": "黑榜",
@@ -3615,9 +3935,21 @@
     "invoice_raw": null,
     "notes": "钣金件；折弯折断了就帮你焊起来，技术不太行",
     "reason": "钣金件；折弯折断了就帮你焊起来，技术不太行"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "折弯折断了就帮你焊起来，技术不太行",
+    "reason": "折弯折断了就帮你焊起来，技术不太行"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-e8f88fa4",
@@ -3640,7 +3972,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3649,7 +3981,7 @@
   "shop_type": "踩雷记录",
   "audiences": [],
   "best_for": "",
-  "caution": "NX、拿铁熊猫等开发板；拿铁熊猫付完了钱告诉我没货，后来忽然有货又说没留住卖给别人了，不给退钱，最后加钱换了NX，客服一问三不知价格还高，是个从代理拿货的二道贩子",
+  "caution": "NX、拿铁熊猫等开发板；拿铁熊猫付完了钱告诉我没货，后来忽然有货又说没留住卖给别人了，不给退钱，最后加钱换了NX，客服一问三不知价格还高，是个从代理拿货的二道贩子；拿铁熊猫付完了钱告诉我没货，后来忽然有货又说没留住卖给别人了，不给退钱，最后加钱换了NX，客服一问三不知价格还高，是个从代理拿货的二道贩子",
   "reports": [
    {
     "listing": "黑榜",
@@ -3662,9 +3994,21 @@
     "invoice_raw": null,
     "notes": "NX、拿铁熊猫等开发板；拿铁熊猫付完了钱告诉我没货，后来忽然有货又说没留住卖给别人了，不给退钱，最后加钱换了NX，客服一问三不知价格还高，是个从代理拿货的二道贩子",
     "reason": "NX、拿铁熊猫等开发板；拿铁熊猫付完了钱告诉我没货，后来忽然有货又说没留住卖给别人了，不给退钱，最后加钱换了NX，客服一问三不知价格还高，是个从代理拿货的二道贩子"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "拿铁熊猫付完了钱告诉我没货，后来忽然有货又说没留住卖给别人了，不给退钱，最后加钱换了NX，客服一问三不知价格还高，是个从代理拿货的二道贩子",
+    "reason": "拿铁熊猫付完了钱告诉我没货，后来忽然有货又说没留住卖给别人了，不给退钱，最后加钱换了NX，客服一问三不知价格还高，是个从代理拿货的二道贩子"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-e48b3179",
@@ -3687,7 +4031,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3696,7 +4040,7 @@
   "shop_type": "踩雷记录",
   "audiences": [],
   "best_for": "",
-  "caution": "NX；卖家不专业，坑钱，推卸责任，不解决问题",
+  "caution": "NX；卖家不专业，坑钱，推卸责任，不解决问题；卖家不专业，坑钱，推卸责任，不解决问题",
   "reports": [
    {
     "listing": "黑榜",
@@ -3709,9 +4053,21 @@
     "invoice_raw": null,
     "notes": "NX；卖家不专业，坑钱，推卸责任，不解决问题",
     "reason": "NX；卖家不专业，坑钱，推卸责任，不解决问题"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "卖家不专业，坑钱，推卸责任，不解决问题",
+    "reason": "卖家不专业，坑钱，推卸责任，不解决问题"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-5f34fdb8",
@@ -3735,7 +4091,7 @@
   "invoice_raw": null,
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "slow",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -3744,7 +4100,7 @@
   "shop_type": "轴承 / 传动",
   "audiences": [],
   "best_for": "",
-  "caution": "轴承；有一次发货直接把各种规格的轴承一股脑装一个塑料袋里面就给我寄过来了，轴承防尘盖上还全是泥，客服还呵呵连道歉都不道一个",
+  "caution": "轴承；有一次发货直接把各种规格的轴承一股脑装一个塑料袋里面就给我寄过来了，轴承防尘盖上还全是泥，客服还呵呵连道歉都不道一个；有一次发货直接把各种规格的轴承一股脑装一个塑料袋里面就给我寄过来了，轴承防尘盖上还全是泥，客服还呵呵连道歉都不道一个",
   "reports": [
    {
     "listing": "黑榜",
@@ -3757,9 +4113,21 @@
     "invoice_raw": null,
     "notes": "轴承；有一次发货直接把各种规格的轴承一股脑装一个塑料袋里面就给我寄过来了，轴承防尘盖上还全是泥，客服还呵呵连道歉都不道一个",
     "reason": "轴承；有一次发货直接把各种规格的轴承一股脑装一个塑料袋里面就给我寄过来了，轴承防尘盖上还全是泥，客服还呵呵连道歉都不道一个"
+   },
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "有一次发货直接把各种规格的轴承一股脑装一个塑料袋里面就给我寄过来了，轴承防尘盖上还全是泥，客服还呵呵连道歉都不道一个",
+    "reason": "有一次发货直接把各种规格的轴承一股脑装一个塑料袋里面就给我寄过来了，轴承防尘盖上还全是泥，客服还呵呵连道歉都不道一个"
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-5c134f20",
@@ -3795,7 +4163,7 @@
    "engineering"
   ],
   "best_for": "竞赛 / 工程 · CNC/车铣、钣金/激光 · 可开票 / 价格低",
-  "caution": null,
+  "caution": "不可砍价，钣金技术好，但稍贵于晋辉五金；不高，表面粗糙度ra3.2都整不了,但是客服态度老好了。",
   "reports": [
    {
     "listing": null,
@@ -3808,9 +4176,21 @@
     "invoice_raw": "普票3%",
     "notes": "不可砍价，钣金技术好，但稍贵于晋辉五金",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "一般，总体尚可",
+    "punctual_raw": "需要催促",
+    "price_raw": "低",
+    "invoice_raw": "普票3%",
+    "notes": "不可砍价，钣金技术好，但稍贵于晋辉五金；不高，表面粗糙度ra3.2都整不了,但是客服态度老好了。",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-ceb0f46c",
@@ -4012,9 +4392,21 @@
     "invoice_raw": null,
     "notes": "他又觉得学生的单不值钱，去接些大单，把我们的小单挤掉，又要去接我们单，觉得学生好欺负\n最后拖了一个月的工期，每天给我的理由有以下几点\n1.材料没了\n2.停电了\n3.工人走了，换了个师傅\n4.发货的时候在另外一个筐没看到\n5.确实没注意到漏发了\n6.好吧，那天给你发货的时候东西确实没做完\n7.我这次是真的全部给你发过来了\n8.你刚刚给我发的那个主动轮链接件，我确实还没做\n9.实在不好意思,我们不接单了现在\n\n我也被坑了，拖工期拖了四五天，以下是聊天记录\n\n成都机械加工:\n地址对吧\n\n成都机械加工:\n今天没做完\n\n成都机械加工:\n按照百分之10扣\n\n我:\n行吧\n\n我:\n明天可以发吧\n\n成都机械加工:\n线切割切的比较慢\n\n我:\n所以明天还不能发？\n\n成都机械加工:\n可以发的\n\n成都机械加工:\n放心嘛\n\n我:\n嗯嗯\n\n我:\n明天再不发的话真说不过去了\n\n成都机械加工:\n放心 一定发走\n\n我:\n单号\n\n我:\n没做好是吗\n\n成都机械加工:\n我拍个照\n\n成都机械加工:\n我看下好了没\n\n成都机械加工:\n[图片]\n\n成都机械加工:\n扣\n\n成都机械加工:\n我没话说\n\n成都机械加工:\n接亏了\n\n我:\n明天发不了的话就不用做了\n\n我:\n不要了\n\n成都机械加工:\n嗯；交龙开源步兵机加工零件（不含铝方管）供应商；交龙步兵转接件、联轴器套件供应商；疯狂拖延，漏加工；真的不行，加工有误差又不肯第一时间重做；回复也不及时（一天最多两次），严重延误工期；现在老板那换了批人好像，速度挺快的，的件三天做完了",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高（我们翻车过一次，有一组件误差都超1mm了）",
+    "punctual_raw": null,
+    "price_raw": "尚可～",
+    "invoice_raw": null,
+    "notes": "交龙开源步兵机加工零件（不含铝方管）供应商；交龙步兵转接件、联轴器套件供应商",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-5e0c4763",
@@ -4153,7 +4545,7 @@
   "shop_type": "机械加工 / 其他",
   "audiences": [],
   "best_for": "谨慎参考 · 其他 · 交期反馈快 / 价格低",
-  "caution": "可以直接给stp，不用CAD，可直接给别家报价，老板打8折（强推）；老板说好的交货工期拖延很久，发消息不回，二次外包给别人加工，体验较差。；严重怀疑外包给别人加工，一些简单件拖了我三个月时间，最后得上12315上投诉才退钱；最开始说精度能保证说10个丝，我后面说如果收到货检测发现精度达不到要求，就130%退款（我这样说是因为前面做过一次，没按照图纸加工，精度达不到，特别强调要倒角的也没倒角），老板立马反水，说不做了",
+  "caution": "可以直接给stp，不用CAD，可直接给别家报价，老板打8折（强推）；老板说好的交货工期拖延很久，发消息不回，二次外包给别人加工，体验较差。；严重怀疑外包给别人加工，一些简单件拖了我三个月时间，最后得上12315上投诉才退钱；最开始说精度能保证说10个丝，我后面说如果收到货检测发现精度达不到要求，就130%退款（我这样说是因为前面做过一次，没按照图纸加工，精度达不到，特别强调要倒角的也没倒角），老板立马反水，说不做了；可以直接给stp，不用CAD，可直接给别家报价，老板打8折（",
   "reports": [
    {
     "listing": null,
@@ -4166,9 +4558,21 @@
     "invoice_raw": "免费开",
     "notes": "可以直接给stp，不用CAD，可直接给别家报价，老板打8折（强推）；老板说好的交货工期拖延很久，发消息不回，二次外包给别人加工，体验较差。；严重怀疑外包给别人加工，一些简单件拖了我三个月时间，最后得上12315上投诉才退钱；最开始说精度能保证说10个丝，我后面说如果收到货检测发现精度达不到要求，就130%退款（我这样说是因为前面做过一次，没按照图纸加工，精度达不到，特别强调要倒角的也没倒角），老板立马反水，说不做了",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "准确，比较快",
+    "price_raw": "低",
+    "invoice_raw": "免费开",
+    "notes": "可以直接给stp，不用CAD，可直接给别家报价，老板打8折（强推）；老板说好的交货工期拖延很久，发消息不回，二次外包给别人加工，体验较差。",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-d18be6a0",
@@ -4226,7 +4630,8 @@
   "category": "机械加工",
   "services": [
    "CNC/车铣",
-   "钣金/激光"
+   "钣金/激光",
+   "材料"
   ],
   "listing": null,
   "grade": null,
@@ -4266,9 +4671,21 @@
     "invoice_raw": null,
     "notes": "不锈钢的质量不错，其他材料不太行；别的地方卖50的钣金，在他这再加上几个机加工件就变成800了。还莫名其妙的让他爹我来定价，我说120，他说给我130，让我发给他。我同意了后，他就把我删了。",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "准确",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "不锈钢的质量不错，其他材料不太行；别的地方卖50的钣金，在他这再加上几个机加工件就变成800了。还莫名其妙的让他爹我来定价，我说120，他说给我130，让我发给他。我同意了后，他就把我删了。",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-91674613",
@@ -4305,7 +4722,7 @@
    "engineering"
   ],
   "best_for": "竞赛 / 工程 · CNC/车铣、钣金/激光、线切割 · 交期反馈快 / 价格低",
-  "caution": null,
+  "caution": "这家店专营线切割，可以聊，能砍价，老板技术ok；态度略差",
   "reports": [
    {
     "listing": null,
@@ -4318,9 +4735,21 @@
     "invoice_raw": null,
     "notes": "这家店专营线切割，可以聊，能砍价，老板技术ok",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "准确",
+    "price_raw": "比较低",
+    "invoice_raw": null,
+    "notes": "这家店专营线切割，可以聊，能砍价，老板技术ok；态度略差",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-13a21e2d",
@@ -4404,7 +4833,7 @@
   "shop_type": "机械加工 / 其他",
   "audiences": [],
   "best_for": "谨慎参考 · 其他 · 价格低",
-  "caution": "技术强，可小刀，别的最低400，这个260；这个必须天天催，之前拖了我两周才开始做；加工有问题，不看标注瞎加工，加工周期非常长，给了顺丰运费发中通；价格确实便宜，可以加工对精度不敏感的件，连续两次给联轴器做的不能用，倒角也稀里糊涂打成圆角两边还不一样",
+  "caution": "技术强，可小刀，别的最低400，这个260；这个必须天天催，之前拖了我两周才开始做；加工有问题，不看标注瞎加工，加工周期非常长，给了顺丰运费发中通；价格确实便宜，可以加工对精度不敏感的件，连续两次给联轴器做的不能用，倒角也稀里糊涂打成圆角两边还不一样；技术强，可小刀，别的最低400，这个260；这个必须天天催，之前拖了我两周才开始做",
   "reports": [
    {
     "listing": null,
@@ -4417,9 +4846,21 @@
     "invoice_raw": null,
     "notes": "技术强，可小刀，别的最低400，这个260；这个必须天天催，之前拖了我两周才开始做；加工有问题，不看标注瞎加工，加工周期非常长，给了顺丰运费发中通；价格确实便宜，可以加工对精度不敏感的件，连续两次给联轴器做的不能用，倒角也稀里糊涂打成圆角两边还不一样",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定，精度0.05，他自己说的，够用",
+    "punctual_raw": "得催，但总的来说还凑活",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "技术强，可小刀，别的最低400，这个260；这个必须天天催，之前拖了我两周才开始做",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-2e467077",
@@ -4436,13 +4877,13 @@
   "has_url": true,
   "reason": null,
   "notes": "美观性大于实用性，土豪专用",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "极高",
+  "punctual_raw": "免费开票",
   "price_raw": "极高",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "yes"
   },
@@ -4466,9 +4907,21 @@
     "invoice_raw": "免费开票",
     "notes": "美观性大于实用性，土豪专用",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "极高",
+    "punctual_raw": "免费开票",
+    "price_raw": "美观性大于实用性，土豪专用",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-2f0e2055",
@@ -4485,7 +4938,7 @@
   "has_url": true,
   "reason": null,
   "notes": "性能尚可，但包装方便，价格低",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -4515,9 +4968,21 @@
     "invoice_raw": null,
     "notes": "性能尚可，但包装方便，价格低",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "性能尚可，但包装方便，价格低",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-f3322b83",
@@ -4534,13 +4999,13 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等",
+  "punctual_raw": "系统自动免费开票",
   "price_raw": "中等",
   "invoice_raw": "系统自动免费开票",
   "signals": {
-   "quality": "unknown",
-   "punctual": "unknown",
+   "quality": "mixed",
+   "punctual": "mixed",
    "price": "mid",
    "invoice": "yes"
   },
@@ -4564,9 +5029,21 @@
     "invoice_raw": "系统自动免费开票",
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": "系统自动免费开票",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-38818be6",
@@ -4583,12 +5060,12 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
   "signals": {
-   "quality": "unknown",
+   "quality": "mixed",
    "punctual": "unknown",
    "price": "mid",
    "invoice": "unknown"
@@ -4614,9 +5091,21 @@
     "invoice_raw": null,
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-dd84b297",
@@ -4633,7 +5122,7 @@
   "has_url": true,
   "reason": null,
   "notes": "性能参数齐全，老板专业，高性能推荐",
-  "quality_raw": null,
+  "quality_raw": "中等偏高",
   "punctual_raw": null,
   "price_raw": "中等偏高",
   "invoice_raw": null,
@@ -4663,9 +5152,21 @@
     "invoice_raw": null,
     "notes": "性能参数齐全，老板专业，高性能推荐",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": null,
+    "price_raw": "性能参数齐全，老板专业，高性能推荐",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-83345e38",
@@ -4682,12 +5183,12 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
+  "quality_raw": "中等偏高",
   "punctual_raw": null,
   "price_raw": "中等偏高",
   "invoice_raw": null,
   "signals": {
-   "quality": "unknown",
+   "quality": "mixed",
    "punctual": "unknown",
    "price": "high",
    "invoice": "unknown"
@@ -4712,9 +5213,21 @@
     "invoice_raw": null,
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-bd4a922d",
@@ -4722,7 +5235,8 @@
   "display_name": null,
   "category": "杂项",
   "services": [
-   "工具/仪表"
+   "工具/仪表",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -4731,7 +5245,7 @@
   "has_url": true,
   "reason": null,
   "notes": "他家价格不是最便宜的，但性价比不错，高端的二手刀具远比低端的新刀要好",
-  "quality_raw": null,
+  "quality_raw": "适中",
   "punctual_raw": null,
   "price_raw": "适中",
   "invoice_raw": null,
@@ -4761,9 +5275,21 @@
     "invoice_raw": null,
     "notes": "他家价格不是最便宜的，但性价比不错，高端的二手刀具远比低端的新刀要好",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "适中",
+    "punctual_raw": null,
+    "price_raw": "他家价格不是最便宜的，但性价比不错，高端的二手刀具远比低端的新刀要好",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-eef03d04",
@@ -4780,7 +5306,7 @@
   "has_url": true,
   "reason": null,
   "notes": "客服很专业，产品附赠产品手册，各种润滑脂很全",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -4810,9 +5336,21 @@
     "invoice_raw": null,
     "notes": "客服很专业，产品附赠产品手册，各种润滑脂很全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "客服很专业，产品附赠产品手册，各种润滑脂很全",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-b4123b6f",
@@ -4829,13 +5367,13 @@
   "has_url": true,
   "reason": null,
   "notes": "这个老板很专业，有高性能润滑需求推荐这家",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等偏高",
+  "punctual_raw": "免费开票",
   "price_raw": "中等偏高",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "yes"
   },
@@ -4859,9 +5397,21 @@
     "invoice_raw": "免费开票",
     "notes": "这个老板很专业，有高性能润滑需求推荐这家",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": "免费开票",
+    "price_raw": "这个老板很专业，有高性能润滑需求推荐这家",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-0d3a26b5",
@@ -4879,13 +5429,13 @@
   "has_url": true,
   "reason": null,
   "notes": "多家品牌代理，质量相当好，但也比较贵，最鸡肋的是发票问腿，仅限个人私用",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "略高",
+  "punctual_raw": "满1500开票（约等于不开）",
   "price_raw": "略高",
   "invoice_raw": "满1500开票（约等于不开）",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "no"
   },
@@ -4911,9 +5461,21 @@
     "invoice_raw": "满1500开票（约等于不开）",
     "notes": "多家品牌代理，质量相当好，但也比较贵，最鸡肋的是发票问腿，仅限个人私用",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "略高",
+    "punctual_raw": "满1500开票（约等于不开）",
+    "price_raw": "多家品牌代理，质量相当好，但也比较贵，最鸡肋的是发票问腿，仅限个人私用",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-10501c19",
@@ -4930,7 +5492,7 @@
   "has_url": true,
   "reason": null,
   "notes": "质量还不错",
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
@@ -4960,9 +5522,21 @@
     "invoice_raw": null,
     "notes": "质量还不错",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": "质量还不错",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-77f23e3c",
@@ -4979,7 +5553,7 @@
   "has_url": true,
   "reason": null,
   "notes": "环氧基粘结剂首选",
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
@@ -5009,9 +5583,21 @@
     "invoice_raw": null,
     "notes": "环氧基粘结剂首选",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": "环氧基粘结剂首选",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-da5d2486",
@@ -5028,13 +5614,13 @@
   "has_url": true,
   "reason": null,
   "notes": "加运费税点大概平均一张915*460*3的板90元左右",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "同类最低",
+  "punctual_raw": "加税点可开",
   "price_raw": "同类最低",
   "invoice_raw": "加税点可开",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -5058,9 +5644,21 @@
     "invoice_raw": "加税点可开",
     "notes": "加运费税点大概平均一张915*460*3的板90元左右",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "同类最低",
+    "punctual_raw": "加税点可开",
+    "price_raw": "加运费税点大概平均一张915*460*3的板90元左右",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a3c4ef02",
@@ -5077,7 +5675,7 @@
   "has_url": true,
   "reason": null,
   "notes": "有减震器的配件卖，方便",
-  "quality_raw": null,
+  "quality_raw": "--*",
   "punctual_raw": null,
   "price_raw": "--*",
   "invoice_raw": null,
@@ -5107,9 +5705,21 @@
     "invoice_raw": null,
     "notes": "有减震器的配件卖，方便",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "--*",
+    "punctual_raw": null,
+    "price_raw": "有减震器的配件卖，方便",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-d73960cf",
@@ -5126,13 +5736,13 @@
   "has_url": true,
   "reason": null,
   "notes": "有很多奇奇怪怪的零件，平时逛一逛有助于拓宽思路",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "适中",
+  "punctual_raw": "需要咨询",
   "price_raw": "适中",
   "invoice_raw": "需要咨询",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
    "invoice": "unknown"
   },
@@ -5156,9 +5766,21 @@
     "invoice_raw": "需要咨询",
     "notes": "有很多奇奇怪怪的零件，平时逛一逛有助于拓宽思路",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "适中",
+    "punctual_raw": "需要咨询",
+    "price_raw": "有很多奇奇怪怪的零件，平时逛一逛有助于拓宽思路",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-8da16306",
@@ -5176,12 +5798,12 @@
   "reason": null,
   "notes": null,
   "quality_raw": null,
-  "punctual_raw": null,
+  "punctual_raw": "满1000开，表明学生满500开",
   "price_raw": null,
   "invoice_raw": "满1000开，表明学生满500开",
   "signals": {
    "quality": "unknown",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "unknown",
    "invoice": "unknown"
   },
@@ -5205,9 +5827,21 @@
     "invoice_raw": "满1000开，表明学生满500开",
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": "满1000开，表明学生满500开",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-cfe29001",
@@ -5224,13 +5858,13 @@
   "has_url": true,
   "reason": null,
   "notes": "相较于其它店铺价格优惠，质量也更为优良",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "高",
+  "punctual_raw": "工期短，交货及时",
   "price_raw": "高",
   "invoice_raw": "工期短，交货及时",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "unknown"
   },
@@ -5254,59 +5888,21 @@
     "invoice_raw": "工期短，交货及时",
     "notes": "相较于其它店铺价格优惠，质量也更为优良",
     "reason": null
-   }
-  ],
-  "report_count": 1
- },
- {
-  "id": "sup-ab67826b",
-  "name": "沪豪旗舰店",
-  "display_name": null,
-  "category": "杂项",
-  "services": [
-   "工具/仪表",
-   "材料"
-  ],
-  "listing": null,
-  "grade": null,
-  "channel": "淘宝",
-  "reported_at": null,
-  "has_url": true,
-  "reason": null,
-  "notes": "铝铣刀粘刀；个人感觉小径刀具比较烂，其他还算可以；经常拒开发票，需要经常催，还经常发错邮箱",
-  "quality_raw": null,
-  "punctual_raw": null,
-  "price_raw": null,
-  "invoice_raw": null,
-  "signals": {
-   "quality": "mixed",
-   "punctual": "unknown",
-   "price": "unknown",
-   "invoice": "unknown"
-  },
-  "tier": "B",
-  "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
-  "shop_type": "工具 / 仪表",
-  "audiences": [
-   "hobbyist"
-  ],
-  "best_for": "爱好者 · 工具/仪表、材料",
-  "caution": null,
-  "reports": [
+   },
    {
     "listing": null,
     "grade": null,
     "channel": "淘宝",
     "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
+    "quality_raw": "高",
+    "punctual_raw": "工期短，交货及时",
+    "price_raw": "相较于其它店铺价格优惠，质量也更为优良",
     "invoice_raw": null,
-    "notes": "铝铣刀粘刀；个人感觉小径刀具比较烂，其他还算可以；经常拒开发票，需要经常催，还经常发错邮箱",
+    "notes": null,
     "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-561b0325",
@@ -5323,13 +5919,13 @@
   "has_url": true,
   "reason": null,
   "notes": "套筒质量相当好，但价格感人，个人买来用还可以，团队采购的话有点烧钱。",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "略高",
+  "punctual_raw": "需要咨询",
   "price_raw": "略高",
   "invoice_raw": "需要咨询",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "unknown"
   },
@@ -5353,9 +5949,21 @@
     "invoice_raw": "需要咨询",
     "notes": "套筒质量相当好，但价格感人，个人买来用还可以，团队采购的话有点烧钱。",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "略高",
+    "punctual_raw": "需要咨询",
+    "price_raw": "套筒质量相当好，但价格感人，个人买来用还可以，团队采购的话有点烧钱。",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a5a341d1",
@@ -5372,7 +5980,7 @@
   "has_url": true,
   "reason": null,
   "notes": "各种尺寸小弹簧种类比较齐全，关键是他家默认发顺丰",
-  "quality_raw": null,
+  "quality_raw": "适中",
   "punctual_raw": null,
   "price_raw": "适中",
   "invoice_raw": null,
@@ -5402,9 +6010,21 @@
     "invoice_raw": null,
     "notes": "各种尺寸小弹簧种类比较齐全，关键是他家默认发顺丰",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "适中",
+    "punctual_raw": null,
+    "price_raw": "各种尺寸小弹簧种类比较齐全，关键是他家默认发顺丰",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a238982a",
@@ -5421,7 +6041,7 @@
   "has_url": true,
   "reason": null,
   "notes": "可零卖，一般情况200磅足矣",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -5451,9 +6071,21 @@
     "invoice_raw": null,
     "notes": "可零卖，一般情况200磅足矣",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "可零卖，一般情况200磅足矣",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-df5c1408",
@@ -5470,13 +6102,13 @@
   "has_url": true,
   "reason": null,
   "notes": "质量不错，邮费便宜，性价比高",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等",
+  "punctual_raw": "免费开票",
   "price_raw": "中等",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
    "invoice": "yes"
   },
@@ -5500,9 +6132,21 @@
     "invoice_raw": "免费开票",
     "notes": "质量不错，邮费便宜，性价比高",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": "免费开票",
+    "price_raw": "质量不错，邮费便宜，性价比高",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-80cb86fb",
@@ -5522,13 +6166,13 @@
   "notes": "中等偏高；可以开普票；-这家是少有卖深沟小直径铣刀的店家，最小可以买到直径1mm长20mm的刀，刀具质量尚可，切铝不沾刀；价格上略贵，平均每把小刀在20元左右，但操作得当的话一把小刀可以用很久",
   "quality_raw": null,
   "punctual_raw": null,
-  "price_raw": null,
-  "invoice_raw": null,
+  "price_raw": "中等偏高",
+  "invoice_raw": "可以开普票",
   "signals": {
    "quality": "mixed",
    "punctual": "unknown",
-   "price": "unknown",
-   "invoice": "unknown"
+   "price": "high",
+   "invoice": "yes"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
@@ -5550,9 +6194,21 @@
     "invoice_raw": null,
     "notes": "中等偏高；可以开普票；-这家是少有卖深沟小直径铣刀的店家，最小可以买到直径1mm长20mm的刀，刀具质量尚可，切铝不沾刀；价格上略贵，平均每把小刀在20元左右，但操作得当的话一把小刀可以用很久",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": "中等偏高",
+    "invoice_raw": "可以开普票",
+    "notes": "-这家是少有卖深沟小直径铣刀的店家，最小可以买到直径1mm长20mm的刀，刀具质量尚可，切铝不沾刀；价格上略贵，平均每把小刀在20元左右，但操作得当的话一把小刀可以用很久",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-cdc844c8",
@@ -5618,12 +6274,12 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
+  "quality_raw": "中等偏高",
   "punctual_raw": null,
   "price_raw": "中等偏高",
   "invoice_raw": null,
   "signals": {
-   "quality": "unknown",
+   "quality": "mixed",
    "punctual": "unknown",
    "price": "high",
    "invoice": "unknown"
@@ -5648,9 +6304,21 @@
     "invoice_raw": null,
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-c5c37bd5",
@@ -5685,21 +6353,8 @@
   ],
   "best_for": "爱好者 · 材料",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "线下/未知",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-d06dd5fa",
@@ -5734,21 +6389,8 @@
   ],
   "best_for": "爱好者 · 轴承",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-eaf5c416",
@@ -5817,15 +6459,15 @@
   "has_url": true,
   "reason": null,
   "notes": "中等偏高；系统自动开票；哈尔滨轴承，国产轴承，进口品质。价格偏贵，但是比进口轴承便宜，质量和NSK相差不多。主营大尺寸轴承",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "高",
+  "punctual_raw": "快",
   "price_raw": "高",
   "invoice_raw": "快",
   "signals": {
    "quality": "bad",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
-   "invoice": "unknown"
+   "invoice": "yes"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
@@ -5834,7 +6476,7 @@
    "hobbyist"
   ],
   "best_for": "爱好者 · 轴承",
-  "caution": "中等偏高；系统自动开票；哈尔滨轴承，国产轴承，进口品质。价格偏贵，但是比进口轴承便宜，质量和NSK相差不多。主营大尺寸轴承",
+  "caution": "中等偏高；系统自动开票；哈尔滨轴承，国产轴承，进口品质。价格偏贵，但是比进口轴承便宜，质量和NSK相差不多。主营大尺寸轴承；哈尔滨轴承，国产轴承，进口品质。价格偏贵，但是比进口轴承便宜，质量和NSK相差不多。主营大尺寸轴承",
   "reports": [
    {
     "listing": null,
@@ -5847,9 +6489,21 @@
     "invoice_raw": "快",
     "notes": "中等偏高；系统自动开票；哈尔滨轴承，国产轴承，进口品质。价格偏贵，但是比进口轴承便宜，质量和NSK相差不多。主营大尺寸轴承",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "高",
+    "punctual_raw": "快",
+    "price_raw": "中等偏高",
+    "invoice_raw": "系统自动开票",
+    "notes": "哈尔滨轴承，国产轴承，进口品质。价格偏贵，但是比进口轴承便宜，质量和NSK相差不多。主营大尺寸轴承",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-b2f71f8c",
@@ -5867,13 +6521,13 @@
   "reason": null,
   "notes": "它发顺丰",
   "quality_raw": null,
-  "punctual_raw": null,
-  "price_raw": null,
+  "punctual_raw": "收货后后台开票",
+  "price_raw": "它发顺丰",
   "invoice_raw": "收货后后台开票",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
-   "price": "unknown",
+   "punctual": "mixed",
+   "price": "mid",
    "invoice": "yes"
   },
   "tier": "B",
@@ -5896,9 +6550,21 @@
     "invoice_raw": "收货后后台开票",
     "notes": "它发顺丰",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": "收货后后台开票",
+    "price_raw": "它发顺丰",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-1970eb1a",
@@ -5933,21 +6599,8 @@
   ],
   "best_for": "爱好者 · 其他",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-01ed8dd3",
@@ -5964,13 +6617,13 @@
   "has_url": true,
   "reason": null,
   "notes": "两者互补；电磁阀很好",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等",
+  "punctual_raw": "免费开票",
   "price_raw": "中等",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
    "invoice": "yes"
   },
@@ -5994,9 +6647,21 @@
     "invoice_raw": "免费开票",
     "notes": "两者互补；电磁阀很好",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": "免费开票",
+    "price_raw": "两者互补",
+    "invoice_raw": null,
+    "notes": "电磁阀很好",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-80d9b6c3",
@@ -6014,12 +6679,12 @@
   "reason": null,
   "notes": null,
   "quality_raw": null,
-  "punctual_raw": null,
+  "punctual_raw": "开票拖拉，要一直催",
   "price_raw": null,
   "invoice_raw": "开票拖拉，要一直催",
   "signals": {
    "quality": "unknown",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "unknown",
    "invoice": "yes"
   },
@@ -6043,9 +6708,21 @@
     "invoice_raw": "开票拖拉，要一直催",
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": "开票拖拉，要一直催",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-fbd650ad",
@@ -6062,12 +6739,12 @@
   "has_url": false,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
   "signals": {
-   "quality": "unknown",
+   "quality": "mixed",
    "punctual": "unknown",
    "price": "low",
    "invoice": "unknown"
@@ -6092,9 +6769,21 @@
     "invoice_raw": null,
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-254dcbed",
@@ -6111,13 +6800,13 @@
   "has_url": true,
   "reason": null,
   "notes": "一家还不错的轴承店；日常研发轴承供应商，种类齐全，发货快",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等",
+  "punctual_raw": "免费开票",
   "price_raw": "中等",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
    "invoice": "yes"
   },
@@ -6141,9 +6830,21 @@
     "invoice_raw": "免费开票",
     "notes": "一家还不错的轴承店；日常研发轴承供应商，种类齐全，发货快",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": "免费开票",
+    "price_raw": "一家还不错的轴承店",
+    "invoice_raw": null,
+    "notes": "日常研发轴承供应商，种类齐全，发货快",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-0e5184ca",
@@ -6160,7 +6861,7 @@
   "has_url": true,
   "reason": null,
   "notes": "上银性价比低，这家足以",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -6190,9 +6891,21 @@
     "invoice_raw": null,
     "notes": "上银性价比低，这家足以",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "上银性价比低，这家足以",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-efc62500",
@@ -6209,12 +6922,12 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
   "signals": {
-   "quality": "unknown",
+   "quality": "mixed",
    "punctual": "unknown",
    "price": "low",
    "invoice": "unknown"
@@ -6239,9 +6952,21 @@
     "invoice_raw": null,
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-6aa0ed17",
@@ -6258,7 +6983,7 @@
   "has_url": true,
   "reason": null,
   "notes": "挺便宜的",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -6288,9 +7013,21 @@
     "invoice_raw": null,
     "notes": "挺便宜的",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "挺便宜的",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a25ba081",
@@ -6307,13 +7044,13 @@
   "has_url": true,
   "reason": null,
   "notes": "两者互补",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等偏低",
+  "punctual_raw": "税点3%",
   "price_raw": "中等偏低",
   "invoice_raw": "税点3%",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -6337,9 +7074,21 @@
     "invoice_raw": "税点3%",
     "notes": "两者互补",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": "税点3%",
+    "price_raw": "两者互补",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-643dc7d8",
@@ -6374,21 +7123,8 @@
   ],
   "best_for": "爱好者 · 材料",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "线下/未知",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-47ae4d89",
@@ -6405,13 +7141,13 @@
   "has_url": true,
   "reason": null,
   "notes": "紧固件次选；杭电 很多人都知道的店，多仓库发货，速度很快，东西也全",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "低（但比坚威稍稍贵一点）",
+  "punctual_raw": "免费开票",
   "price_raw": "低（但比坚威稍稍贵一点）",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -6435,9 +7171,21 @@
     "invoice_raw": "免费开票",
     "notes": "紧固件次选；杭电 很多人都知道的店，多仓库发货，速度很快，东西也全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低（但比坚威稍稍贵一点）",
+    "punctual_raw": "免费开票",
+    "price_raw": "紧固件次选",
+    "invoice_raw": null,
+    "notes": "杭电 很多人都知道的店，多仓库发货，速度很快，东西也全",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-c6a81d32",
@@ -6454,13 +7202,13 @@
   "has_url": true,
   "reason": null,
   "notes": "种类齐全，但稍贵",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等偏高",
+  "punctual_raw": "58起开，税点3%",
   "price_raw": "中等偏高",
   "invoice_raw": "58起开，税点3%",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "yes"
   },
@@ -6484,9 +7232,21 @@
     "invoice_raw": "58起开，税点3%",
     "notes": "种类齐全，但稍贵",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": "58起开，税点3%",
+    "price_raw": "种类齐全，但稍贵",
+    "invoice_raw": "现在满158起开票了",
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-49aeaab2",
@@ -6503,13 +7263,13 @@
   "has_url": true,
   "reason": null,
   "notes": "交叉滚子轴承的型号很全",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等偏低",
+  "punctual_raw": "免费开票",
   "price_raw": "中等偏低",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -6533,9 +7293,21 @@
     "invoice_raw": "免费开票",
     "notes": "交叉滚子轴承的型号很全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": "免费开票",
+    "price_raw": "交叉滚子轴承的型号很全",
+    "invoice_raw": null,
+    "notes": "诺丁汉 俣琦：外圈孔没有精度，一批件买了四个RU85标注孔大小5.5mm，实际6mm+，跟客服沟通客服说该位置没有精度要求",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-6879bb70",
@@ -6552,15 +7324,15 @@
   "has_url": true,
   "reason": null,
   "notes": "四孔5.5一个，三孔5元；联系客服开票，电子发票；四孔太贵了，三孔的相较于其他的商家便宜一点",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "偏高",
+  "punctual_raw": "快",
   "price_raw": "偏高",
   "invoice_raw": "快",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
-   "invoice": "unknown"
+   "invoice": "yes"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
@@ -6582,9 +7354,21 @@
     "invoice_raw": "快",
     "notes": "四孔5.5一个，三孔5元；联系客服开票，电子发票；四孔太贵了，三孔的相较于其他的商家便宜一点",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "偏高",
+    "punctual_raw": "快",
+    "price_raw": "四孔5.5一个，三孔5元",
+    "invoice_raw": "联系客服开票，电子发票",
+    "notes": "四孔太贵了，三孔的相较于其他的商家便宜一点；一批六孔中大部分孔是歪的，尤其是两端",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-f278c77a",
@@ -6601,13 +7385,13 @@
   "has_url": true,
   "reason": null,
   "notes": "中等偏贵",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "稳定",
+  "punctual_raw": "准确",
   "price_raw": "稳定",
   "invoice_raw": "准确",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
    "invoice": "unknown"
   },
@@ -6631,9 +7415,21 @@
     "invoice_raw": "准确",
     "notes": "中等偏贵",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定",
+    "punctual_raw": "准确",
+    "price_raw": "中等偏贵",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a7f82830",
@@ -6668,21 +7464,8 @@
   ],
   "best_for": "爱好者 · 其他",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-835cf286",
@@ -6699,7 +7482,7 @@
   "has_url": true,
   "reason": null,
   "notes": "平方计价，PC板的厚度会有偏差",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -6729,9 +7512,21 @@
     "invoice_raw": null,
     "notes": "平方计价，PC板的厚度会有偏差",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "平方计价，PC板的厚度会有偏差",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-cd8b7756",
@@ -6748,7 +7543,7 @@
   "has_url": true,
   "reason": null,
   "notes": "某宝上性价比最高的扎带，质量极其NB，强推",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -6778,9 +7573,21 @@
     "invoice_raw": null,
     "notes": "某宝上性价比最高的扎带，质量极其NB，强推",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "某宝上性价比最高的扎带，质量极其NB，强推",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-3e1efdad",
@@ -6796,7 +7603,7 @@
   "reported_at": null,
   "has_url": false,
   "reason": null,
-  "notes": "便宜是挺便宜的；南科大 上次买合金侠第二天就到货了，购物体验挺好的；发货速度快，切割精度较高，除了要累计开票没什么问题；现在要满500开票",
+  "notes": "便宜是挺便宜的；金侠第二天就到货了，购物体验挺好的；发货速度快，切割精度较高，除了要累计开票没什么问题；现在要满500开票",
   "quality_raw": null,
   "punctual_raw": null,
   "price_raw": "中等偏低",
@@ -6825,7 +7632,7 @@
     "punctual_raw": null,
     "price_raw": "中等偏低",
     "invoice_raw": null,
-    "notes": "便宜是挺便宜的；南科大 上次买合金侠第二天就到货了，购物体验挺好的；发货速度快，切割精度较高，除了要累计开票没什么问题；现在要满500开票",
+    "notes": "便宜是挺便宜的；金侠第二天就到货了，购物体验挺好的；发货速度快，切割精度较高，除了要累计开票没什么问题；现在要满500开票",
     "reason": null
    }
   ],
@@ -6846,13 +7653,13 @@
   "has_url": true,
   "reason": null,
   "notes": "轴承首选，但服务态度很差；价格是真便宜，客服经常不在线。客服态度极差!!!!!!还故意拖着不发货。；2021年12月买的轴承，客服表示不开票",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "低",
+  "punctual_raw": "200起开，普票税点1%",
   "price_raw": "低",
   "invoice_raw": "200起开，普票税点1%",
   "signals": {
    "quality": "bad",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -6863,7 +7670,7 @@
    "hobbyist"
   ],
   "best_for": "爱好者 · 轴承 · 可开票 / 价格低",
-  "caution": "轴承首选，但服务态度很差；价格是真便宜，客服经常不在线。客服态度极差!!!!!!还故意拖着不发货。；2021年12月买的轴承，客服表示不开票",
+  "caution": "轴承首选，但服务态度很差；价格是真便宜，客服经常不在线。客服态度极差!!!!!!还故意拖着不发货。；2021年12月买的轴承，客服表示不开票；价格是真便宜，客服经常不在线。客服态度极差!!!!!!还故意拖着不发货。；2021年12月买的轴承，客服表示不开票",
   "reports": [
    {
     "listing": null,
@@ -6876,9 +7683,21 @@
     "invoice_raw": "200起开，普票税点1%",
     "notes": "轴承首选，但服务态度很差；价格是真便宜，客服经常不在线。客服态度极差!!!!!!还故意拖着不发货。；2021年12月买的轴承，客服表示不开票",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": "200起开，普票税点1%",
+    "price_raw": "轴承首选，但服务态度很差",
+    "invoice_raw": null,
+    "notes": "价格是真便宜，客服经常不在线。客服态度极差!!!!!!还故意拖着不发货。；2021年12月买的轴承，客服表示不开票",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-3a5c9aa9",
@@ -6895,13 +7714,13 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "低",
+  "punctual_raw": "免费开票",
   "price_raw": "低",
   "invoice_raw": "免费开票",
   "signals": {
-   "quality": "unknown",
-   "punctual": "unknown",
+   "quality": "mixed",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -6925,9 +7744,21 @@
     "invoice_raw": "免费开票",
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": "免费开票",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "眼高手低，瞧不起新队伍",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-07e3f6ae",
@@ -6944,13 +7775,13 @@
   "has_url": true,
   "reason": null,
   "notes": "高强度紧固件首选，质量很好，各种紧固件齐全",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "低",
+  "punctual_raw": "免费开票",
   "price_raw": "低",
   "invoice_raw": "免费开票",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -6974,9 +7805,21 @@
     "invoice_raw": "免费开票",
     "notes": "高强度紧固件首选，质量很好，各种紧固件齐全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": "免费开票",
+    "price_raw": "高强度紧固件首选，质量很好，各种紧固件齐全",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-fc60f189",
@@ -6993,7 +7836,7 @@
   "has_url": false,
   "reason": null,
   "notes": "型号比品正轴承店全",
-  "quality_raw": null,
+  "quality_raw": "中等偏高",
   "punctual_raw": null,
   "price_raw": "中等偏高",
   "invoice_raw": null,
@@ -7023,9 +7866,21 @@
     "invoice_raw": null,
     "notes": "型号比品正轴承店全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": null,
+    "price_raw": "玻纤",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-18a8f9d2",
@@ -7042,13 +7897,13 @@
   "has_url": true,
   "reason": null,
   "notes": "现在是100起开了，普票3%税点",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "低",
+  "punctual_raw": "50起开，普票税点3%，3元起",
   "price_raw": "低",
   "invoice_raw": "50起开，普票税点3%，3元起",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -7072,9 +7927,21 @@
     "invoice_raw": "50起开，普票税点3%，3元起",
     "notes": "现在是100起开了，普票3%税点",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": "50起开，普票税点3%，3元起",
+    "price_raw": null,
+    "invoice_raw": "现在是100起开了，普票3%税点",
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-12562cd3",
@@ -7091,15 +7958,15 @@
   "has_url": true,
   "reason": null,
   "notes": "价格中登，邮费中等；河工程 发票很快；铝管没有贴膜，表面多少有一点点划痕，服务很好，凹陷的一点的能直接补发，高精开料机30一次，精度0.1，切面光滑，体验很不错",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "开料机精度0.1，无贴膜",
+  "punctual_raw": "交货快",
   "price_raw": "开料机精度0.1，无贴膜",
   "invoice_raw": "交货快",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
-   "invoice": "unknown"
+   "invoice": "yes"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
@@ -7108,7 +7975,7 @@
    "hobbyist"
   ],
   "best_for": "爱好者 · 材料",
-  "caution": null,
+  "caution": "客服态度贼差，加工费很高",
   "reports": [
    {
     "listing": null,
@@ -7121,9 +7988,21 @@
     "invoice_raw": "交货快",
     "notes": "价格中登，邮费中等；河工程 发票很快；铝管没有贴膜，表面多少有一点点划痕，服务很好，凹陷的一点的能直接补发，高精开料机30一次，精度0.1，切面光滑，体验很不错",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "开料机精度0.1，无贴膜",
+    "punctual_raw": "交货快",
+    "price_raw": "价格中登，邮费中等",
+    "invoice_raw": "河工程 发票很快",
+    "notes": "客服态度贼差，加工费很高",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-48cab52d",
@@ -7131,7 +8010,8 @@
   "display_name": null,
   "category": "标准件",
   "services": [
-   "紧固件"
+   "紧固件",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -7142,12 +8022,12 @@
   "notes": "不锈钢紧固件首选",
   "quality_raw": null,
   "punctual_raw": null,
-  "price_raw": null,
+  "price_raw": "不锈钢紧固件首选",
   "invoice_raw": null,
   "signals": {
    "quality": "good",
    "punctual": "unknown",
-   "price": "unknown",
+   "price": "mid",
    "invoice": "unknown"
   },
   "tier": "B",
@@ -7170,9 +8050,21 @@
     "invoice_raw": null,
     "notes": "不锈钢紧固件首选",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": "不锈钢紧固件首选",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-6476b139",
@@ -7189,7 +8081,7 @@
   "has_url": false,
   "reason": null,
   "notes": "沈建简锋 大口径轴承较为便宜",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -7219,9 +8111,21 @@
     "invoice_raw": null,
     "notes": "沈建简锋 大口径轴承较为便宜",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "沈建简锋 大口径轴承较为便宜",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a7f00c65",
@@ -7317,9 +8221,21 @@
     "invoice_raw": null,
     "notes": "质优价廉，种类齐全；江大 刚开始在他家买的时候开票贼痛快，过了一段时间后再买的时候说说不满1000不给开，最后商量加税点可以开，但是加完税点之后一直各种理由不给开票，最后连消息都不回了",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": "质优价廉，种类齐全",
+    "invoice_raw": null,
+    "notes": "江大 刚开始在他家买的时候开票贼痛快，过了一段时间后再买的时候说说不满1000不给开，最后商量加税点可以开，但是加完税点之后一直各种理由不给开票，最后连消息都不回了",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-4d3b4482",
@@ -7336,7 +8252,7 @@
   "has_url": true,
   "reason": null,
   "notes": "种类齐全",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -7366,9 +8282,21 @@
     "invoice_raw": null,
     "notes": "种类齐全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "种类齐全",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-83c3e5cb",
@@ -7435,13 +8363,13 @@
   "has_url": true,
   "reason": null,
   "notes": "宁工 激光切的铝方管，老板人贼好。工时也蛮快的。",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "较高",
+  "punctual_raw": "交货快，一周内",
   "price_raw": "偏高",
   "invoice_raw": "交货快",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "unknown"
   },
@@ -7467,9 +8395,33 @@
     "invoice_raw": "交货快",
     "notes": "宁工 激光切的铝方管，老板人贼好。工时也蛮快的。",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "较高",
+    "punctual_raw": null,
+    "price_raw": "宁工 激光切的铝方管，老板人贼好。工时也蛮快的。",
+    "invoice_raw": null,
+    "notes": "民大:激光加工，质量高，速度快，价格低，老板人贼好，发货包装也很板正",
+    "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "高",
+    "punctual_raw": "交货快，一周内",
+    "price_raw": "挺便宜的",
+    "invoice_raw": null,
+    "notes": "发货速度快，切割精度较高，除了要累计开票没什么问题",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 3
  },
  {
   "id": "sup-b7b2784d",
@@ -7504,21 +8456,8 @@
   ],
   "best_for": "爱好者 · 其他",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "线下/未知",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-50d6b23d",
@@ -7526,7 +8465,8 @@
   "display_name": null,
   "category": "标准件",
   "services": [
-   "轴承"
+   "轴承",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -7535,13 +8475,13 @@
   "has_url": true,
   "reason": null,
   "notes": "价格适中但是全是顶流品牌的轴承所以实际上很贵，可用于比较重要或者需要氪金的地方，质量非常好，开票快递服务态度都不错。",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "高",
+  "punctual_raw": "快",
   "price_raw": "高",
   "invoice_raw": "快",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "unknown"
   },
@@ -7565,9 +8505,21 @@
     "invoice_raw": "快",
     "notes": "价格适中但是全是顶流品牌的轴承所以实际上很贵，可用于比较重要或者需要氪金的地方，质量非常好，开票快递服务态度都不错。",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "高",
+    "punctual_raw": "快",
+    "price_raw": "价格适中但是全是顶流品牌的轴承所以实际上很贵，可用于比较重要或者需要氪金的地方，质量非常好，开票快递服务态度都不错。",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-77c8d441",
@@ -7584,12 +8536,12 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
+  "quality_raw": "中等偏高",
   "punctual_raw": null,
   "price_raw": "中等偏高",
   "invoice_raw": null,
   "signals": {
-   "quality": "unknown",
+   "quality": "mixed",
    "punctual": "unknown",
    "price": "high",
    "invoice": "unknown"
@@ -7614,9 +8566,21 @@
     "invoice_raw": null,
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-1b908d19",
@@ -7633,13 +8597,13 @@
   "has_url": true,
   "reason": null,
   "notes": "气动零件种类齐全",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等偏高",
+  "punctual_raw": "100起开",
   "price_raw": "中等偏高",
   "invoice_raw": "100起开",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "unknown"
   },
@@ -7663,9 +8627,21 @@
     "invoice_raw": "100起开",
     "notes": "气动零件种类齐全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": "100起开",
+    "price_raw": "气动零件种类齐全",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-87cf0619",
@@ -7682,13 +8658,13 @@
   "has_url": true,
   "reason": null,
   "notes": "有的轴承安邦没有，看发货地址是邢台的中国轴承大世界",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "偏高",
+  "punctual_raw": "免费开票，无门槛",
   "price_raw": "偏高",
   "invoice_raw": "免费开票，无门槛",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "high",
    "invoice": "yes"
   },
@@ -7712,9 +8688,21 @@
     "invoice_raw": "免费开票，无门槛",
     "notes": "有的轴承安邦没有，看发货地址是邢台的中国轴承大世界",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "偏高",
+    "punctual_raw": "免费开票，无门槛",
+    "price_raw": "有的轴承安邦没有，看发货地址是邢台的中国轴承大世界",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-859d4893",
@@ -7731,7 +8719,7 @@
   "has_url": true,
   "reason": null,
   "notes": "可精确切割，可打孔，可攻丝，态度好",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -7761,9 +8749,21 @@
     "invoice_raw": null,
     "notes": "可精确切割，可打孔，可攻丝，态度好",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "可精确切割，可打孔，可攻丝，态度好",
+    "invoice_raw": null,
+    "notes": "玻纤",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-b24492c9",
@@ -7798,21 +8798,8 @@
   ],
   "best_for": "爱好者 · 材料",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "线下/未知",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-8accb861",
@@ -7829,7 +8816,7 @@
   "has_url": true,
   "reason": null,
   "notes": "买得多较优惠，铝管尽量统一购买",
-  "quality_raw": null,
+  "quality_raw": "偏低",
   "punctual_raw": null,
   "price_raw": "偏低",
   "invoice_raw": null,
@@ -7859,9 +8846,21 @@
     "invoice_raw": null,
     "notes": "买得多较优惠，铝管尽量统一购买",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "偏低",
+    "punctual_raw": null,
+    "price_raw": "买得多较优惠，铝管尽量统一购买",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-cae41edc",
@@ -7878,13 +8877,13 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "0",
+  "punctual_raw": "200以下10块税，200以上3%",
   "price_raw": "低",
   "invoice_raw": "200以下10块税，200以上3%",
   "signals": {
-   "quality": "unknown",
-   "punctual": "unknown",
+   "quality": "mixed",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "unknown"
   },
@@ -7908,9 +8907,21 @@
     "invoice_raw": "200以下10块税，200以上3%",
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "0",
+    "punctual_raw": "200以下10块税，200以上3%",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-96f7f795",
@@ -7945,21 +8956,8 @@
   ],
   "best_for": "爱好者 · 材料",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-a5e13283",
@@ -7976,15 +8974,15 @@
   "has_url": true,
   "reason": null,
   "notes": "中等；累计200开票；微型轴承，还有一些非标轴承，尺寸非常全，包装发货也不错",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等",
+  "punctual_raw": "快",
   "price_raw": "中等",
   "invoice_raw": "快",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
-   "invoice": "unknown"
+   "invoice": "yes"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
@@ -8006,9 +9004,21 @@
     "invoice_raw": "快",
     "notes": "中等；累计200开票；微型轴承，还有一些非标轴承，尺寸非常全，包装发货也不错",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": "快",
+    "price_raw": "中等",
+    "invoice_raw": "累计200开票",
+    "notes": "微型轴承，还有一些非标轴承，尺寸非常全，包装发货也不错",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a2a7cba6",
@@ -8016,7 +9026,8 @@
   "display_name": null,
   "category": "标准件",
   "services": [
-   "轴承"
+   "轴承",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -8025,7 +9036,7 @@
   "has_url": true,
   "reason": null,
   "notes": "种类齐全，运费便宜",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -8055,9 +9066,21 @@
     "invoice_raw": null,
     "notes": "种类齐全，运费便宜",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "种类齐全，运费便宜",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-728fe792",
@@ -8065,7 +9088,8 @@
   "display_name": null,
   "category": "标准件",
   "services": [
-   "材料"
+   "材料",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -8074,13 +9098,13 @@
   "has_url": true,
   "reason": null,
   "notes": "挤压角件非常强悍，铝型材种类齐全，价格合适",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "适中",
+  "punctual_raw": "需要咨询",
   "price_raw": "适中",
   "invoice_raw": "需要咨询",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "mid",
    "invoice": "unknown"
   },
@@ -8104,9 +9128,21 @@
     "invoice_raw": "需要咨询",
     "notes": "挤压角件非常强悍，铝型材种类齐全，价格合适",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "适中",
+    "punctual_raw": "需要咨询",
+    "price_raw": "挤压角件非常强悍，铝型材种类齐全，价格合适",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-48f718bc",
@@ -8141,21 +9177,8 @@
   ],
   "best_for": "爱好者 · 紧固件",
   "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": null,
-    "punctual_raw": null,
-    "price_raw": null,
-    "invoice_raw": null,
-    "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
+  "reports": [],
+  "report_count": 0
  },
  {
   "id": "sup-ee67c466",
@@ -8172,13 +9195,13 @@
   "has_url": true,
   "reason": null,
   "notes": "发货快",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "中等偏低",
+  "punctual_raw": "普票5%税点，100起开",
   "price_raw": "中等偏低",
   "invoice_raw": "普票5%税点，100起开",
   "signals": {
    "quality": "good",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "yes"
   },
@@ -8202,9 +9225,21 @@
     "invoice_raw": "普票5%税点，100起开",
     "notes": "发货快",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": "普票5%税点，100起开",
+    "price_raw": "发货快",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-64ee1cf8",
@@ -8221,7 +9256,7 @@
   "has_url": false,
   "reason": null,
   "notes": "之前金科报价1800，他家花了1100；客服态度贼差，加工费很高",
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
@@ -8251,9 +9286,21 @@
     "invoice_raw": null,
     "notes": "之前金科报价1800，他家花了1100；客服态度贼差，加工费很高",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": "之前金科报价1800，他家花了1100 。 北交:尺寸出错不认账",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-5ff13b4e",
@@ -8270,13 +9317,13 @@
   "has_url": true,
   "reason": null,
   "notes": "种类齐全 啥型号轴承都能找到 老板人好 说下是学校的老板很热情；各种标准型号轴承都能找到 种类齐全",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "最低价拿",
+  "punctual_raw": "快",
   "price_raw": "最低价拿",
   "invoice_raw": "快",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "unknown"
   },
@@ -8300,9 +9347,21 @@
     "invoice_raw": "快",
     "notes": "种类齐全 啥型号轴承都能找到 老板人好 说下是学校的老板很热情；各种标准型号轴承都能找到 种类齐全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "最低价拿",
+    "punctual_raw": "快",
+    "price_raw": "种类齐全 啥型号轴承都能找到 老板人好 说下是学校的老板很热情",
+    "invoice_raw": null,
+    "notes": "各种标准型号轴承都能找到 种类齐全",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-fe17c57a",
@@ -8319,7 +9378,7 @@
   "has_url": true,
   "reason": null,
   "notes": "RM官方用黑白板，偏贵",
-  "quality_raw": null,
+  "quality_raw": "偏高",
   "punctual_raw": null,
   "price_raw": "偏高",
   "invoice_raw": null,
@@ -8349,9 +9408,21 @@
     "invoice_raw": null,
     "notes": "RM官方用黑白板，偏贵",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "偏高",
+    "punctual_raw": null,
+    "price_raw": "RM官方用黑白板，偏贵",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a5e51c13",
@@ -8368,7 +9439,7 @@
   "has_url": true,
   "reason": null,
   "notes": "可切割，尺寸精确",
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
@@ -8398,9 +9469,21 @@
     "invoice_raw": null,
     "notes": "可切割，尺寸精确",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": "可切割，尺寸精确",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-163049e2",
@@ -8408,7 +9491,8 @@
   "display_name": null,
   "category": "标准件",
   "services": [
-   "材料"
+   "材料",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -8417,7 +9501,7 @@
   "has_url": false,
   "reason": null,
   "notes": "挺不错的，个人买铝管的首选；哈理工 谈好价钱之后，代购再去找的时候直接坐地起价，购物体验不佳",
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
@@ -8447,9 +9531,21 @@
     "invoice_raw": null,
     "notes": "挺不错的，个人买铝管的首选；哈理工 谈好价钱之后，代购再去找的时候直接坐地起价，购物体验不佳",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": "挺不错的，个人买铝管的首选",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-cf0c3286",
@@ -8467,7 +9563,7 @@
   "has_url": true,
   "reason": null,
   "notes": "为数不多卖铝柱的店之一，各种规格、长度均有，也有特殊颜色和外形的，还有六面螺母之类杂项铝件；在这里可以买到很多奇怪的、非标的铝五金件，挺有意思，但是价格偏贵",
-  "quality_raw": null,
+  "quality_raw": "中等偏高",
   "punctual_raw": null,
   "price_raw": "中等偏高",
   "invoice_raw": null,
@@ -8497,9 +9593,21 @@
     "invoice_raw": null,
     "notes": "为数不多卖铝柱的店之一，各种规格、长度均有，也有特殊颜色和外形的，还有六面螺母之类杂项铝件；在这里可以买到很多奇怪的、非标的铝五金件，挺有意思，但是价格偏贵",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": null,
+    "price_raw": "为数不多卖铝柱的店之一，各种规格、长度均有，也有特殊颜色和外形的，还有六面螺母之类杂项铝件",
+    "invoice_raw": null,
+    "notes": "在这里可以买到很多奇怪的、非标的铝五金件，挺有意思，但是价格偏贵",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-d03efc14",
@@ -8516,7 +9624,7 @@
   "has_url": true,
   "reason": null,
   "notes": "种类齐全，三家互补",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -8546,9 +9654,21 @@
     "invoice_raw": null,
     "notes": "种类齐全，三家互补",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "种类齐全，三家互补",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-0f262c14",
@@ -8565,12 +9685,12 @@
   "has_url": true,
   "reason": null,
   "notes": null,
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
   "signals": {
-   "quality": "unknown",
+   "quality": "mixed",
    "punctual": "unknown",
    "price": "low",
    "invoice": "unknown"
@@ -8595,9 +9715,21 @@
     "invoice_raw": null,
     "notes": null,
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-945256f3",
@@ -8614,7 +9746,7 @@
   "has_url": true,
   "reason": null,
   "notes": "大功率的扭子开关相当好",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -8644,9 +9776,21 @@
     "invoice_raw": null,
     "notes": "大功率的扭子开关相当好",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "大功率的扭子开关相当好",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-8e137f1c",
@@ -8712,7 +9856,7 @@
   "has_url": true,
   "reason": null,
   "notes": "质量很好，性价比高",
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
@@ -8742,9 +9886,21 @@
     "invoice_raw": null,
     "notes": "质量很好，性价比高",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": "质量很好，性价比高",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-36d3610b",
@@ -8761,7 +9917,7 @@
   "has_url": true,
   "reason": null,
   "notes": "种类全",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -8791,9 +9947,21 @@
     "invoice_raw": null,
     "notes": "种类全",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "种类全",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-6101e1f3",
@@ -8801,7 +9969,8 @@
   "display_name": null,
   "category": "电子",
   "services": [
-   "其他"
+   "其他",
+   "电子元件"
   ],
   "listing": null,
   "grade": null,
@@ -8810,7 +9979,7 @@
   "has_url": true,
   "reason": null,
   "notes": "种类全，质量好",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -8840,58 +10009,21 @@
     "invoice_raw": null,
     "notes": "种类全，质量好",
     "reason": null
-   }
-  ],
-  "report_count": 1
- },
- {
-  "id": "sup-5548a7f4",
-  "name": "深圳市优信电子科技有限公司",
-  "display_name": null,
-  "category": "电子",
-  "services": [
-   "电子元件"
-  ],
-  "listing": null,
-  "grade": null,
-  "channel": "淘宝",
-  "reported_at": null,
-  "has_url": true,
-  "reason": null,
-  "notes": "种类齐全，三家互补",
-  "quality_raw": null,
-  "punctual_raw": null,
-  "price_raw": "低",
-  "invoice_raw": null,
-  "signals": {
-   "quality": "mixed",
-   "punctual": "unknown",
-   "price": "low",
-   "invoice": "unknown"
-  },
-  "tier": "B",
-  "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
-  "shop_type": "电子元件 / 模块",
-  "audiences": [
-   "hobbyist"
-  ],
-  "best_for": "爱好者 · 电子元件 · 价格低",
-  "caution": null,
-  "reports": [
+   },
    {
     "listing": null,
     "grade": null,
     "channel": "淘宝",
     "reported_at": null,
-    "quality_raw": null,
+    "quality_raw": "低",
     "punctual_raw": null,
-    "price_raw": "低",
+    "price_raw": "种类全，质量好",
     "invoice_raw": null,
-    "notes": "种类齐全，三家互补",
+    "notes": null,
     "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-668de8b4",
@@ -8908,7 +10040,7 @@
   "has_url": true,
   "reason": null,
   "notes": "基本参数都有，但没有电机曲线，输出轴可定轴",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -8938,9 +10070,21 @@
     "invoice_raw": null,
     "notes": "基本参数都有，但没有电机曲线，输出轴可定轴",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "基本参数都有，但没有电机曲线，输出轴可定轴",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-6ee93e06",
@@ -8957,7 +10101,7 @@
   "has_url": true,
   "reason": null,
   "notes": "编码器首选",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -8987,9 +10131,21 @@
     "invoice_raw": null,
     "notes": "编码器首选",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "编码器首选",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-5d847e8b",
@@ -9006,7 +10162,7 @@
   "has_url": true,
   "reason": null,
   "notes": "种类齐全，三家互补",
-  "quality_raw": null,
+  "quality_raw": "低",
   "punctual_raw": null,
   "price_raw": "低",
   "invoice_raw": null,
@@ -9036,9 +10192,21 @@
     "invoice_raw": null,
     "notes": "种类齐全，三家互补",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": null,
+    "price_raw": "种类齐全，三家互补",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-e42743d8",
@@ -9046,7 +10214,8 @@
   "display_name": null,
   "category": "电子",
   "services": [
-   "电子元件"
+   "电子元件",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -9055,7 +10224,7 @@
   "has_url": true,
   "reason": null,
   "notes": "自研模块不要错过",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -9085,9 +10254,21 @@
     "invoice_raw": null,
     "notes": "自研模块不要错过",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "自研模块不要错过",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-80eef11f",
@@ -9104,7 +10285,7 @@
   "has_url": true,
   "reason": null,
   "notes": "种类稍微少一点，但钕铁硼磁铁不错",
-  "quality_raw": null,
+  "quality_raw": "中等偏低",
   "punctual_raw": null,
   "price_raw": "中等偏低",
   "invoice_raw": null,
@@ -9134,9 +10315,21 @@
     "invoice_raw": null,
     "notes": "种类稍微少一点，但钕铁硼磁铁不错",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏低",
+    "punctual_raw": null,
+    "price_raw": "种类稍微少一点，但钕铁硼磁铁不错",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-8220586a",
@@ -9153,7 +10346,7 @@
   "has_url": true,
   "reason": null,
   "notes": "可讲价",
-  "quality_raw": null,
+  "quality_raw": "中等",
   "punctual_raw": null,
   "price_raw": "中等",
   "invoice_raw": null,
@@ -9183,9 +10376,21 @@
     "invoice_raw": null,
     "notes": "可讲价",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "可讲价",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-50e991d6",
@@ -9232,58 +10437,6 @@
     "price_raw": "中等",
     "invoice_raw": null,
     "notes": "可加工大直径包胶轮",
-    "reason": null
-   }
-  ],
-  "report_count": 1
- },
- {
-  "id": "sup-221472d8",
-  "name": "亿昌泰3D企业店",
-  "display_name": null,
-  "category": "螺钉紧固",
-  "services": [
-   "紧固件",
-   "3D打印"
-  ],
-  "listing": null,
-  "grade": null,
-  "channel": "淘宝",
-  "reported_at": null,
-  "has_url": true,
-  "reason": null,
-  "notes": "工业级的FDM，有高标准的FDM工件推荐这家；收件人搞不明白，多次多人合并发货；PLA打印排版预览与实际切片不符，质量较差；漏件，哨兵的件发给无人机，要求补发一遍又发给无人机",
-  "quality_raw": "精度高，质量稳定（光固化）",
-  "punctual_raw": "准确",
-  "price_raw": "适中（存在乱报价）",
-  "invoice_raw": null,
-  "signals": {
-   "quality": "good",
-   "punctual": "fast",
-   "price": "mid",
-   "invoice": "unknown"
-  },
-  "tier": "B",
-  "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
-  "shop_type": "标准件 / 紧固件",
-  "audiences": [
-   "hobbyist",
-   "competition",
-   "engineering"
-  ],
-  "best_for": "爱好者 / 竞赛 / 工程 · 紧固件、3D打印 · 交期反馈快",
-  "caution": "工业级的FDM，有高标准的FDM工件推荐这家；收件人搞不明白，多次多人合并发货；PLA打印排版预览与实际切片不符，质量较差；漏件，哨兵的件发给无人机，要求补发一遍又发给无人机",
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": "精度高，质量稳定（光固化）",
-    "punctual_raw": "准确",
-    "price_raw": "适中（存在乱报价）",
-    "invoice_raw": null,
-    "notes": "工业级的FDM，有高标准的FDM工件推荐这家；收件人搞不明白，多次多人合并发货；PLA打印排版预览与实际切片不符，质量较差；漏件，哨兵的件发给无人机，要求补发一遍又发给无人机",
     "reason": null
    }
   ],
@@ -9346,7 +10499,8 @@
   "category": "螺钉紧固",
   "services": [
    "紧固件",
-   "钣金/激光"
+   "钣金/激光",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -9386,56 +10540,6 @@
     "price_raw": "适中",
     "invoice_raw": null,
     "notes": null,
-    "reason": null
-   }
-  ],
-  "report_count": 1
- },
- {
-  "id": "sup-bfe59dab",
-  "name": "博卡碳纤维科技",
-  "display_name": null,
-  "category": "螺钉紧固",
-  "services": [
-   "紧固件",
-   "材料"
-  ],
-  "listing": null,
-  "grade": null,
-  "channel": "淘宝",
-  "reported_at": null,
-  "has_url": true,
-  "reason": null,
-  "notes": "可以让他们帮忙挑个负公差的，加工提供STEP",
-  "quality_raw": "稳定、精度可以",
-  "punctual_raw": "准确",
-  "price_raw": "中等",
-  "invoice_raw": null,
-  "signals": {
-   "quality": "good",
-   "punctual": "fast",
-   "price": "mid",
-   "invoice": "unknown"
-  },
-  "tier": "B",
-  "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
-  "shop_type": "标准件 / 紧固件",
-  "audiences": [
-   "hobbyist"
-  ],
-  "best_for": "爱好者 · 紧固件、材料 · 交期反馈快",
-  "caution": "可以让他们帮忙挑个负公差的，加工提供STEP",
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": "稳定、精度可以",
-    "punctual_raw": "准确",
-    "price_raw": "中等",
-    "invoice_raw": null,
-    "notes": "可以让他们帮忙挑个负公差的，加工提供STEP",
     "reason": null
    }
   ],
@@ -9487,9 +10591,21 @@
     "invoice_raw": null,
     "notes": "报价很直接，工期稍长；青海大学 加工比较准确、工期短；东：加工精度尚可，报价直接、加工费是真得贵，做玻钎比河北多点贵1/4 到1/3，碳板也贵一些",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "精度高",
+    "punctual_raw": "准确",
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "准确；青海大学 加工比较准确、工期短",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-df95e386",
@@ -9497,7 +10613,8 @@
   "display_name": null,
   "category": "螺钉紧固",
   "services": [
-   "紧固件"
+   "紧固件",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -9547,7 +10664,8 @@
   "category": "螺钉紧固",
   "services": [
    "紧固件",
-   "3D打印"
+   "3D打印",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -9588,9 +10706,21 @@
     "invoice_raw": null,
     "notes": "虽然这三个店铺里都是写的沙盘模型，但是私聊能做3D打印，不可FDM。快递不单独说明的话会发“跨越速运”，这个快递很烦人，必须本人当面签字收货，上着课呢不停的打电话，挂了打挂了打，只要不接就一直打。",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "加工精度不错，sw导出stl的精度设置建议加高",
+    "punctual_raw": "准确，发货很快",
+    "price_raw": "中等偏高",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-bde23ada",
@@ -9638,9 +10768,21 @@
     "invoice_raw": "无",
     "notes": "多讲价",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": "准确",
+    "price_raw": "中等偏低",
+    "invoice_raw": null,
+    "notes": "多讲价；无",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-fdbb7b4c",
@@ -9649,7 +10791,8 @@
   "category": "螺钉紧固",
   "services": [
    "紧固件",
-   "材料"
+   "材料",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -9688,9 +10831,21 @@
     "invoice_raw": "给开票",
     "notes": "加工需要排好版给加工，工时一般三天（最好多催），总体感觉还行；玻纤板定制常用厂家，但是注意孔和槽有可能会开小；加工公差0.3mm，比较大",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "稳定，精度可以接受",
+    "punctual_raw": "需要催促，但是可以加急",
+    "price_raw": "适中",
+    "invoice_raw": "给开票",
+    "notes": "加工需要排好版给加工，工时一般三天（最好多催），总体感觉还行",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-7d382cd8",
@@ -9698,7 +10853,8 @@
   "display_name": null,
   "category": "螺钉紧固",
   "services": [
-   "紧固件"
+   "紧固件",
+   "材料"
   ],
   "listing": null,
   "grade": null,
@@ -9724,7 +10880,7 @@
    "hobbyist"
   ],
   "best_for": "爱好者 · 紧固件 · 价格低",
-  "caution": "加工异型的减震片/密封圈，质量很不错，老板态度好，可以砍价",
+  "caution": "加工异型的减震片/密封圈，质量很不错，老板态度好，可以砍价；加工异型的减震片/密封圈，质量很不错，老板态度好，可以砍价；玻纤板定制常用厂家，但是注意孔和槽有可能会开小",
   "reports": [
    {
     "listing": null,
@@ -9737,63 +10893,21 @@
     "invoice_raw": null,
     "notes": "加工异型的减震片/密封圈，质量很不错，老板态度好，可以砍价",
     "reason": null
-   }
-  ],
-  "report_count": 1
- },
- {
-  "id": "sup-f158f4c7",
-  "name": "深圳聚氨酯包胶",
-  "display_name": null,
-  "category": "螺钉紧固",
-  "services": [
-   "紧固件",
-   "CNC/车铣",
-   "包胶/轮",
-   "材料"
-  ],
-  "listing": null,
-  "grade": null,
-  "channel": "淘宝",
-  "reported_at": null,
-  "has_url": true,
-  "reason": null,
-  "notes": "铝芯只能车，没法铣，复杂的轮毂得另找cnc；这家经常拖工期，经常还没做就说明天发",
-  "quality_raw": "稳定，精度高",
-  "punctual_raw": "准确",
-  "price_raw": "中等",
-  "invoice_raw": null,
-  "signals": {
-   "quality": "good",
-   "punctual": "fast",
-   "price": "mid",
-   "invoice": "unknown"
-  },
-  "tier": "B",
-  "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
-  "shop_type": "标准件 / 紧固件",
-  "audiences": [
-   "hobbyist",
-   "competition",
-   "engineering"
-  ],
-  "best_for": "爱好者 / 竞赛 / 工程 · 紧固件、CNC/车铣、包胶/轮 · 交期反馈快",
-  "caution": null,
-  "reports": [
+   },
    {
     "listing": null,
     "grade": null,
     "channel": "淘宝",
     "reported_at": null,
-    "quality_raw": "稳定，精度高",
-    "punctual_raw": "准确",
-    "price_raw": "中等",
+    "quality_raw": "精度不错",
+    "punctual_raw": "板材加工，玻纤、pom、铁氟龙",
+    "price_raw": "低",
     "invoice_raw": null,
-    "notes": "铝芯只能车，没法铣，复杂的轮毂得另找cnc；这家经常拖工期，经常还没做就说明天发",
+    "notes": "加工异型的减震片/密封圈，质量很不错，老板态度好，可以砍价；玻纤板定制常用厂家，但是注意孔和槽有可能会开小",
     "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
  },
  {
   "id": "sup-a2637980",
@@ -9846,62 +10960,13 @@
   "report_count": 1
  },
  {
-  "id": "sup-066ac1e1",
-  "name": "碳维观止",
-  "display_name": null,
-  "category": "螺钉紧固",
-  "services": [
-   "紧固件",
-   "材料"
-  ],
-  "listing": null,
-  "grade": null,
-  "channel": "淘宝",
-  "reported_at": null,
-  "has_url": true,
-  "reason": null,
-  "notes": "自称是国内唯一一家做复杂碳管加工的，可以给碳管开槽打孔，精度可以，就是客服经常不回话需要一遍遍催；报价快，加工也挺迅速的，时不时要催",
-  "quality_raw": "精度高",
-  "punctual_raw": "需要催促，赛期比较快",
-  "price_raw": "超低",
-  "invoice_raw": "免费开票，但需要反复催",
-  "signals": {
-   "quality": "good",
-   "punctual": "slow",
-   "price": "low",
-   "invoice": "yes"
-  },
-  "tier": "B",
-  "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
-  "shop_type": "标准件 / 紧固件",
-  "audiences": [
-   "hobbyist"
-  ],
-  "best_for": "爱好者 · 紧固件、材料 · 可开票 / 价格低",
-  "caution": null,
-  "reports": [
-   {
-    "listing": null,
-    "grade": null,
-    "channel": "淘宝",
-    "reported_at": null,
-    "quality_raw": "精度高",
-    "punctual_raw": "需要催促，赛期比较快",
-    "price_raw": "超低",
-    "invoice_raw": "免费开票，但需要反复催",
-    "notes": "自称是国内唯一一家做复杂碳管加工的，可以给碳管开槽打孔，精度可以，就是客服经常不回话需要一遍遍催；报价快，加工也挺迅速的，时不时要催",
-    "reason": null
-   }
-  ],
-  "report_count": 1
- },
- {
   "id": "sup-b95b0834",
   "name": "红妆机械",
   "display_name": null,
   "category": "螺钉紧固",
   "services": [
-   "紧固件"
+   "紧固件",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -9950,7 +11015,8 @@
   "display_name": null,
   "category": "螺钉紧固",
   "services": [
-   "紧固件"
+   "紧固件",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -10099,7 +11165,8 @@
   "category": "螺钉紧固",
   "services": [
    "紧固件",
-   "材料"
+   "材料",
+   "其他"
   ],
   "listing": null,
   "grade": null,
@@ -10116,7 +11183,7 @@
    "quality": "mixed",
    "punctual": "fast",
    "price": "low",
-   "invoice": "unknown"
+   "invoice": "yes"
   },
   "tier": "B",
   "origin": "《供应商名录》表（社区实战反馈，已去署名与链接）",
@@ -10138,9 +11205,33 @@
     "invoice_raw": "可以赊账",
     "notes": "有时忘做和漏做，最好排好版再给他加工；可加工碳管，误差0.2，售后好，辽宁省内三天到货，可讲价，免费开票",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "精度高",
+    "punctual_raw": "准确",
+    "price_raw": "偏低",
+    "invoice_raw": "免费开票",
+    "notes": "有时忘做和漏做，最好排好版再给他加工；可加工碳管，误差0.2，售后好，辽宁省内三天到货，可讲价，免费开票",
+    "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "价格很是可以",
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 3
  },
  {
   "id": "sup-e6e93c6e",
@@ -10157,13 +11248,13 @@
   "has_url": false,
   "reason": null,
   "notes": "种类齐全，质量较好",
-  "quality_raw": null,
-  "punctual_raw": null,
+  "quality_raw": "质量好，价格便宜",
+  "punctual_raw": "快",
   "price_raw": "质量好，价格便宜",
   "invoice_raw": "快",
   "signals": {
    "quality": "mixed",
-   "punctual": "unknown",
+   "punctual": "mixed",
    "price": "low",
    "invoice": "unknown"
   },
@@ -10187,8 +11278,1528 @@
     "invoice_raw": "快",
     "notes": "种类齐全，质量较好",
     "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "质量好，价格便宜",
+    "punctual_raw": "快",
+    "price_raw": "种类齐全，质量较好",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
    }
   ],
-  "report_count": 1
+  "report_count": 2
+ },
+ {
+  "name": "千丞达",
+  "display_name": null,
+  "category": "机械加工",
+  "services": [
+   "CNC/车铣"
+  ],
+  "listing": "红榜",
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": "价格公道交期快，大家可以试试",
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "good",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "CNC / 车铣",
+  "audiences": [
+   "competition",
+   "engineering"
+  ],
+  "best_for": "竞赛 / 工程 · CNC/车铣",
+  "caution": null,
+  "reports": [
+   {
+    "listing": "红榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "价格公道交期快，大家可以试试",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-aa1f54b3"
+ },
+ {
+  "name": "XC厂长工作室",
+  "display_name": null,
+  "category": "避雷/防护",
+  "services": [
+   "风险记录",
+   "CNC/车铣",
+   "材料"
+  ],
+  "listing": "黑榜",
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": "精度极差，3.2的孔打成3.6，铝连接件40毫米长度做成41.2，发票很慢很慢，拖将近一个月，工期也很长，接单先拖一周那种；接单时说可以做，工期一周，实际半个月都没做好，催发货了就装死，连续三天发消息读不回，打电话不接，最后说他已读不回就让退款，再找他做我TM就是智障",
+  "notes": "精度极差，3.2的孔打成3.6，铝连接件40毫米长度做成41.2，发票很慢很慢，拖将近一个月，工期也很长，接单先拖一周那种；接单时说可以做，工期一周，实际半个月都没做好，催发货了就装死，连续三天发消息读不回，打电话不接，最后说他已读不回就让退款，再找他做我TM就是智障",
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "bad",
+   "punctual": "slow",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "CNC / 车铣",
+  "audiences": [],
+  "best_for": "",
+  "caution": "精度极差，3.2的孔打成3.6，铝连接件40毫米长度做成41.2，发票很慢很慢，拖将近一个月，工期也很长，接单先拖一周那种；接单时说可以做，工期一周，实际半个月都没做好，催发货了就装死，连续三天发消息读不回，打电话不接，最后说他已读不回就让退款，再找他做我TM就是智障",
+  "reports": [
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "精度极差，3.2的孔打成3.6，铝连接件40毫米长度做成41.2，发票很慢很慢，拖将近一个月，工期也很长，接单先拖一周那种；接单时说可以做，工期一周，实际半个月都没做好，催发货了就装死，连续三天发消息读不回，打电话不接，最后说他已读不回就让退款，再找他做我TM就是智障",
+    "reason": "精度极差，3.2的孔打成3.6，铝连接件40毫米长度做成41.2，发票很慢很慢，拖将近一个月，工期也很长，接单先拖一周那种；接单时说可以做，工期一周，实际半个月都没做好，催发货了就装死，连续三天发消息读不回，打电话不接，最后说他已读不回就让退款，再找他做我TM就是智障"
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-0c13a637"
+ },
+ {
+  "name": "华兴五金包胶",
+  "display_name": null,
+  "category": "避雷/防护",
+  "services": [
+   "风险记录",
+   "包胶/轮"
+  ],
+  "listing": "黑榜",
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": "不按照图纸加工，而且包胶质量有问题，还拖延工期，经常催还拖延了快五六天的时间",
+  "notes": "不按照图纸加工，而且包胶质量有问题，还拖延工期，经常催还拖延了快五六天的时间",
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "bad",
+   "punctual": "slow",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "踩雷记录",
+  "audiences": [],
+  "best_for": "",
+  "caution": "不按照图纸加工，而且包胶质量有问题，还拖延工期，经常催还拖延了快五六天的时间",
+  "reports": [
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "不按照图纸加工，而且包胶质量有问题，还拖延工期，经常催还拖延了快五六天的时间",
+    "reason": "不按照图纸加工，而且包胶质量有问题，还拖延工期，经常催还拖延了快五六天的时间"
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-df82c5d6"
+ },
+ {
+  "name": "张大头闭环伺服",
+  "display_name": null,
+  "category": "避雷/防护",
+  "services": [
+   "风险记录",
+   "电机/驱动",
+   "紧固件"
+  ],
+  "listing": "黑榜",
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": "虚假发货延迟发货一周客服态度差电机上四颗螺丝滑三个，电机接口松，质量巨差无比；你什么时候催他他什么时候发货，起步一周",
+  "notes": "虚假发货延迟发货一周客服态度差电机上四颗螺丝滑三个，电机接口松，质量巨差无比；你什么时候催他他什么时候发货，起步一周",
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "bad",
+   "punctual": "slow",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "踩雷记录",
+  "audiences": [],
+  "best_for": "",
+  "caution": "虚假发货延迟发货一周客服态度差电机上四颗螺丝滑三个，电机接口松，质量巨差无比；你什么时候催他他什么时候发货，起步一周",
+  "reports": [
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "虚假发货延迟发货一周客服态度差电机上四颗螺丝滑三个，电机接口松，质量巨差无比；你什么时候催他他什么时候发货，起步一周",
+    "reason": "虚假发货延迟发货一周客服态度差电机上四颗螺丝滑三个，电机接口松，质量巨差无比；你什么时候催他他什么时候发货，起步一周"
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-1776d468"
+ },
+ {
+  "name": "温州易精密",
+  "display_name": null,
+  "category": "避雷/防护",
+  "services": [
+   "风险记录",
+   "CNC/车铣",
+   "钣金/激光"
+  ],
+  "listing": "黑榜",
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": "精度超级差，发货超级慢，客服消息已读不回",
+  "notes": "精度超级差，发货超级慢，客服消息已读不回",
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "bad",
+   "punctual": "slow",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "钣金 / 激光切割",
+  "audiences": [],
+  "best_for": "",
+  "caution": "精度超级差，发货超级慢，客服消息已读不回",
+  "reports": [
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "精度超级差，发货超级慢，客服消息已读不回",
+    "reason": "精度超级差，发货超级慢，客服消息已读不回"
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-ed2c8a1b"
+ },
+ {
+  "name": "精辉雕刻机",
+  "display_name": null,
+  "category": "避雷/防护",
+  "services": [
+   "风险记录"
+  ],
+  "listing": "黑榜",
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": "质量堪忧，机器8月买的，原装主轴次年4月坏的，又换了根新轴俩月联轴器脱了，主轴是杰斯特2.2KW 220V主轴。其他小问题：X轴限位可识别区过小，有几率冲出限位。傻波一商家，机器坏了耽误加工！！！！！！！！！啊啊啊啊！！！！！！！",
+  "notes": "质量堪忧，机器8月买的，原装主轴次年4月坏的，又换了根新轴俩月联轴器脱了，主轴是杰斯特2.2KW 220V主轴。其他小问题：X轴限位可识别区过小，有几率冲出限位。傻波一商家，机器坏了耽误加工！！！！！！！！！啊啊啊啊！！！！！！！",
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "bad",
+   "punctual": "slow",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "踩雷记录",
+  "audiences": [],
+  "best_for": "",
+  "caution": "质量堪忧，机器8月买的，原装主轴次年4月坏的，又换了根新轴俩月联轴器脱了，主轴是杰斯特2.2KW 220V主轴。其他小问题：X轴限位可识别区过小，有几率冲出限位。傻波一商家，机器坏了耽误加工！！！！！！！！！啊啊啊啊！！！！！！！",
+  "reports": [
+   {
+    "listing": "黑榜",
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": "质量堪忧，机器8月买的，原装主轴次年4月坏的，又换了根新轴俩月联轴器脱了，主轴是杰斯特2.2KW 220V主轴。其他小问题：X轴限位可识别区过小，有几率冲出限位。傻波一商家，机器坏了耽误加工！！！！！！！！！啊啊啊啊！！！！！！！",
+    "reason": "质量堪忧，机器8月买的，原装主轴次年4月坏的，又换了根新轴俩月联轴器脱了，主轴是杰斯特2.2KW 220V主轴。其他小问题：X轴限位可识别区过小，有几率冲出限位。傻波一商家，机器坏了耽误加工！！！！！！！！！啊啊啊啊！！！！！！！"
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-54cebaa6"
+ },
+ {
+  "name": "京霖电线",
+  "display_name": null,
+  "category": "元件电商",
+  "services": [
+   "电子元件"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "unknown",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "电子元件 / 模块",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 电子元件",
+  "caution": null,
+  "reports": [],
+  "report_count": 0,
+  "id": "sup-e0e7aa53"
+ },
+ {
+  "name": "嘉熠电子",
+  "display_name": null,
+  "category": "元件电商",
+  "services": [
+   "电子元件"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "unknown",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "电子元件 / 模块",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 电子元件",
+  "caution": null,
+  "reports": [],
+  "report_count": 0,
+  "id": "sup-1e5ff2d5"
+ },
+ {
+  "name": "携诚达电子",
+  "display_name": null,
+  "category": "元件电商",
+  "services": [
+   "电子元件"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "unknown",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "电子元件 / 模块",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 电子元件",
+  "caution": null,
+  "reports": [],
+  "report_count": 0,
+  "id": "sup-2fbb1144"
+ },
+ {
+  "name": "金猿电子插头店",
+  "display_name": null,
+  "category": "元件电商",
+  "services": [
+   "电子元件"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "unknown",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "电子元件 / 模块",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 电子元件",
+  "caution": null,
+  "reports": [],
+  "report_count": 0,
+  "id": "sup-1b214b27"
+ },
+ {
+  "name": "FGF",
+  "display_name": null,
+  "category": "机械加工",
+  "services": [
+   "CNC/车铣",
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "铝件价格还可以，能稳定发货，能完全平替掉王老板；说是，有优惠",
+  "quality_raw": "稳定，精度高",
+  "punctual_raw": "准确，比较快",
+  "price_raw": "对比下来低，",
+  "invoice_raw": "免费开票",
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "low",
+   "invoice": "yes"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "CNC / 车铣",
+  "audiences": [
+   "hobbyist",
+   "competition",
+   "engineering"
+  ],
+  "best_for": "爱好者 / 竞赛 / 工程 · CNC/车铣、材料 · 可开票 / 价格低",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "准确，比较快",
+    "price_raw": "对比下来低，",
+    "invoice_raw": "免费开票",
+    "notes": "铝件价格还可以，能稳定发货，能完全平替掉王老板；说是，有优惠",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-2677b593"
+ },
+ {
+  "name": "亿欣达精密机械",
+  "display_name": null,
+  "category": "机械加工",
+  "services": [
+   "CNC/车铣",
+   "钣金/激光"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": "加工难度大的件都可加工，就是会小贵，不过做工极精细，客服态度好",
+  "quality_raw": "稳定，精度高",
+  "punctual_raw": "准确",
+  "price_raw": "略高",
+  "invoice_raw": "免费开",
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "high",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "CNC / 钣金综合",
+  "audiences": [
+   "competition",
+   "engineering"
+  ],
+  "best_for": "竞赛 / 工程 · CNC/车铣、钣金/激光",
+  "caution": "加工难度大的件都可加工，就是会小贵，不过做工极精细，客服态度好",
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "准确",
+    "price_raw": "略高",
+    "invoice_raw": "免费开",
+    "notes": "加工难度大的件都可加工，就是会小贵，不过做工极精细，客服态度好",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-3e493df8"
+ },
+ {
+  "name": "求是线切割快走丝中走丝加工",
+  "display_name": null,
+  "category": "机械加工",
+  "services": [
+   "线切割"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "技术可以，态度也很好；可",
+  "quality_raw": "较高",
+  "punctual_raw": "基本准时",
+  "price_raw": "中等",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "线切割 / 焊接 / 表面处理",
+  "audiences": [
+   "competition",
+   "engineering"
+  ],
+  "best_for": "竞赛 / 工程 · 线切割",
+  "caution": "技术可以，态度也很好；可",
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "较高",
+    "punctual_raw": "基本准时",
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "技术可以，态度也很好；可",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-596fb160"
+ },
+ {
+  "name": "诚品金科",
+  "display_name": null,
+  "category": "机械加工",
+  "services": [
+   "CNC/车铣",
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "2023年做错件情况较多",
+  "quality_raw": "稳定，尚可",
+  "punctual_raw": "存在反复拖延情况",
+  "price_raw": "尚可,近期有上浮",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "CNC / 车铣",
+  "audiences": [
+   "competition",
+   "engineering"
+  ],
+  "best_for": "竞赛 / 工程 · CNC/车铣",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "稳定，尚可",
+    "punctual_raw": "存在反复拖延情况",
+    "price_raw": "尚可,近期有上浮",
+    "invoice_raw": null,
+    "notes": "2023年做错件情况较多",
+    "reason": null
+   },
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等偏高",
+    "punctual_raw": null,
+    "price_raw": "种类全，可代加工，但加工费贵",
+    "invoice_raw": null,
+    "notes": "只要是铝件都可以加工，但是cnc价格贼贵，只在他这做铝方管；交龙 要高强度提醒铝管壁厚，1整成了1.2和1.5",
+    "reason": null
+   }
+  ],
+  "report_count": 2,
+  "id": "sup-0bb006b8"
+ },
+ {
+  "name": "SCUT",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "店在河南，寄到福建只要两天，一般加工花三天，到手基本上五天；开票快，正常2到3天发货。碳板厚度严重不均匀，一个长条件左边5.0右边4.7，这还是提醒之后的，没提醒的很多件都要有厚度误差，客服态度可以，有问题的件可以重新做，可以提供step，但是其实是客服帮忙转dwg了，量多的建议还是提供dwg或者dxf",
+  "quality_raw": "工期短质量好",
+  "punctual_raw": null,
+  "price_raw": "中等",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "bad",
+   "punctual": "unknown",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料",
+  "caution": "店在河南，寄到福建只要两天，一般加工花三天，到手基本上五天；开票快，正常2到3天发货。碳板厚度严重不均匀，一个长条件左边5.0右边4.7，这还是提醒之后的，没提醒的很多件都要有厚度误差，客服态度可以，有问题的件可以重新做，可以提供step，但是其实是客服帮忙转dwg了，量多的建议还是提供dwg或者dxf",
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "工期短质量好",
+    "punctual_raw": null,
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "店在河南，寄到福建只要两天，一般加工花三天，到手基本上五天；开票快，正常2到3天发货。碳板厚度严重不均匀，一个长条件左边5.0右边4.7，这还是提醒之后的，没提醒的很多件都要有厚度误差，客服态度可以，有问题的件可以重新做，可以提供step，但是其实是客服帮忙转dwg了，量多的建议还是提供dwg或者dxf",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-c099e598"
+ },
+ {
+  "name": "东莞亿鑫金属",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": "交货快",
+  "price_raw": "铝方管价格可以，并且能黑色氧化和喷砂，其他没试过",
+  "invoice_raw": "免费开票",
+  "signals": {
+   "quality": "unknown",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "yes"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料 · 可开票",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": "交货快",
+    "price_raw": "铝方管价格可以，并且能黑色氧化和喷砂，其他没试过",
+    "invoice_raw": "免费开票",
+    "notes": null,
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-d0d5318d"
+ },
+ {
+  "name": "凯鲸旗舰店（大同碳板）",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "无",
+  "quality_raw": "价格实惠",
+  "punctual_raw": "非常准确",
+  "price_raw": "价格中等，但是加工质量好",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "mixed",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "价格实惠",
+    "punctual_raw": "非常准确",
+    "price_raw": "价格中等，但是加工质量好",
+    "invoice_raw": null,
+    "notes": "无",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-939840e1"
+ },
+ {
+  "name": "匠爱五金专营店",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "其他"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "unknown",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "杂项 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 其他",
+  "caution": null,
+  "reports": [],
+  "report_count": 0,
+  "id": "sup-3a971867"
+ },
+ {
+  "name": "多点碳纤维（同公司多店）",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": "老板人好，加工速度快，精度高；比较过好几家店铺的价格，这家是最低的，并且加工精度不错",
+  "quality_raw": "稳定，精度高",
+  "punctual_raw": "准确",
+  "price_raw": "偏低",
+  "invoice_raw": "免费开",
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "low",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料 · 价格低",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": "准确",
+    "price_raw": "偏低",
+    "invoice_raw": "免费开",
+    "notes": "老板人好，加工速度快，精度高；比较过好几家店铺的价格，这家是最低的，并且加工精度不错",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-40b409a1"
+ },
+ {
+  "name": "广东传动配件",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "包胶/轮"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": "低",
+  "punctual_raw": "100以下税金5元，100以上1%",
+  "price_raw": "种类齐全，质量尚可",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "mixed",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "包胶 / 轮",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 包胶/轮",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": "100以下税金5元，100以上1%",
+    "price_raw": "种类齐全，质量尚可",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-771314fd"
+ },
+ {
+  "name": "广州雷米机械",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": "铝件价格还可以，玻纤有点贵，但如果是老客有需要可以偶尔要求玻纤加急做。可以提需求不发工程图，对方会提醒这样但精度一般。急件可以提要求，非常快。",
+  "quality_raw": "如果没有工程图会说精度不保证",
+  "punctual_raw": "准确",
+  "price_raw": "尚可",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "如果没有工程图会说精度不保证",
+    "punctual_raw": "准确",
+    "price_raw": "尚可",
+    "invoice_raw": null,
+    "notes": "铝件价格还可以，玻纤有点贵，但如果是老客有需要可以偶尔要求玻纤加急做。可以提需求不发工程图，对方会提醒这样但精度一般。急件可以提要求，非常快。",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-70400e2e"
+ },
+ {
+  "name": "斐帝星旗舰店",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "其他"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": "上乘",
+  "punctual_raw": "不错",
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "mixed",
+   "punctual": "mixed",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "杂项 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 其他",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "上乘",
+    "punctual_raw": "不错",
+    "price_raw": null,
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-5712406a"
+ },
+ {
+  "name": "河北多点碳",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "3000块钱以内的碳板工期大概两三天，可存钱；精度不错，加工比较快，支持碳板和玻纤加工和零售，型号比较全，可以让他们做避空",
+  "quality_raw": "精度高",
+  "punctual_raw": "准确",
+  "price_raw": "中等",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "精度高",
+    "punctual_raw": "准确",
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "3000块钱以内的碳板工期大概两三天，可存钱；精度不错，加工比较快，支持碳板和玻纤加工和零售，型号比较全，可以让他们做避空",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-4762375d"
+ },
+ {
+  "name": "深圳益峰绝缘",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "老板好，要是东西做的有问题主动退钱，有时会给多做几份；三次侧孔没打。但是三次重新做，最后退钱给我了",
+  "quality_raw": "材料好，精度可，有细微毛刺和刀纹",
+  "punctual_raw": "准确，比较快",
+  "price_raw": "尚可",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "mixed",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "材料好，精度可，有细微毛刺和刀纹",
+    "punctual_raw": "准确，比较快",
+    "price_raw": "尚可",
+    "invoice_raw": null,
+    "notes": "老板好，要是东西做的有问题主动退钱，有时会给多做几份；三次侧孔没打。但是三次重新做，最后退钱给我了",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-937a36f1"
+ },
+ {
+  "name": "禾鑫富铖机电有限公司",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "其他"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": "技术强，可砍价",
+  "quality_raw": "稳定，精度高",
+  "punctual_raw": null,
+  "price_raw": "中等",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "good",
+   "punctual": "unknown",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "杂项 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 其他",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "稳定，精度高",
+    "punctual_raw": null,
+    "price_raw": "中等",
+    "invoice_raw": null,
+    "notes": "技术强，可砍价",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-14aaf4e1"
+ },
+ {
+  "name": "蓝模办公",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": null,
+  "signals": {
+   "quality": "unknown",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料",
+  "caution": null,
+  "reports": [],
+  "report_count": 0,
+  "id": "sup-cb05f0b3"
+ },
+ {
+  "name": "蚁克碳纤维",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": "这家做碳板做得很不错（游标卡尺量不出来尺寸差），个人找这家定制过几次，不过没开过发票，有需求的话可以问问客服",
+  "quality_raw": "精度高",
+  "punctual_raw": "准确，比较快",
+  "price_raw": "适中",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "bad",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料",
+  "caution": "这家做碳板做得很不错（游标卡尺量不出来尺寸差），个人找这家定制过几次，不过没开过发票，有需求的话可以问问客服",
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "精度高",
+    "punctual_raw": "准确，比较快",
+    "price_raw": "适中",
+    "invoice_raw": null,
+    "notes": "这家做碳板做得很不错（游标卡尺量不出来尺寸差），个人找这家定制过几次，不过没开过发票，有需求的话可以问问客服",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-21027c78"
+ },
+ {
+  "name": "达绝缘材料vcccvcc",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "材料"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "线下/未知",
+  "reported_at": null,
+  "has_url": false,
+  "reason": null,
+  "notes": "西南不到一小时就把整辆英雄的玻纤报价出来了，并且发货制作也很快，价格也算合理",
+  "quality_raw": "精度可以",
+  "punctual_raw": "准确",
+  "price_raw": "中等偏低",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "good",
+   "punctual": "mixed",
+   "price": "low",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "材料 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 材料 · 价格低",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "线下/未知",
+    "reported_at": null,
+    "quality_raw": "精度可以",
+    "punctual_raw": "准确",
+    "price_raw": "中等偏低",
+    "invoice_raw": null,
+    "notes": "西南不到一小时就把整辆英雄的玻纤报价出来了，并且发货制作也很快，价格也算合理",
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-22780c58"
+ },
+ {
+  "name": "阳光模型(德是宝旗舰店)",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "电子元件"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": "中等",
+  "punctual_raw": null,
+  "price_raw": "质量好，种类全，功率端子首选",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "mixed",
+   "punctual": "unknown",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "杂项 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 电子元件",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "中等",
+    "punctual_raw": null,
+    "price_raw": "质量好，种类全，功率端子首选",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-99ab5f21"
+ },
+ {
+  "name": "鼎力传动",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "包胶/轮"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": "快",
+  "price_raw": "各类传动齐全，中间的孔还可以定制各种形状，客服态度好，可以直接看sw草图截图",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "unknown",
+   "punctual": "mixed",
+   "price": "mid",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "包胶 / 轮",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 包胶/轮",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": "快",
+    "price_raw": "各类传动齐全，中间的孔还可以定制各种形状，客服态度好，可以直接看sw草图截图",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-a85639d9"
+ },
+ {
+  "name": "鼎基电子",
+  "display_name": null,
+  "category": "杂项",
+  "services": [
+   "电子元件"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": "低",
+  "punctual_raw": "快",
+  "price_raw": "厦大地鼠：便宜，态度好，但是回复速度一般，下班时间不回消息",
+  "invoice_raw": null,
+  "signals": {
+   "quality": "mixed",
+   "punctual": "mixed",
+   "price": "low",
+   "invoice": "unknown"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "杂项 / 耗材",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 电子元件 · 价格低",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": "低",
+    "punctual_raw": "快",
+    "price_raw": "厦大地鼠：便宜，态度好，但是回复速度一般，下班时间不回消息",
+    "invoice_raw": null,
+    "notes": null,
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-557519ee"
+ },
+ {
+  "name": "荣图进口轴承",
+  "display_name": null,
+  "category": "标准件",
+  "services": [
+   "轴承"
+  ],
+  "listing": null,
+  "grade": null,
+  "channel": "淘宝",
+  "reported_at": null,
+  "has_url": true,
+  "reason": null,
+  "notes": null,
+  "quality_raw": null,
+  "punctual_raw": null,
+  "price_raw": null,
+  "invoice_raw": "发票上的销售方名称与店铺名称不一致，且不能开具一致性证明",
+  "signals": {
+   "quality": "unknown",
+   "punctual": "unknown",
+   "price": "unknown",
+   "invoice": "no"
+  },
+  "tier": "B",
+  "origin": "《RM、RC 供应商名录》表（社区实战反馈，已去署名与链接）",
+  "shop_type": "轴承 / 传动",
+  "audiences": [
+   "hobbyist"
+  ],
+  "best_for": "爱好者 · 轴承",
+  "caution": null,
+  "reports": [
+   {
+    "listing": null,
+    "grade": null,
+    "channel": "淘宝",
+    "reported_at": null,
+    "quality_raw": null,
+    "punctual_raw": null,
+    "price_raw": null,
+    "invoice_raw": "发票上的销售方名称与店铺名称不一致，且不能开具一致性证明",
+    "notes": null,
+    "reason": null
+   }
+  ],
+  "report_count": 1,
+  "id": "sup-95117dc1"
  }
 ]

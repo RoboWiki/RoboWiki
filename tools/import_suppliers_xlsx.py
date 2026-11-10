@@ -49,7 +49,7 @@ RE_URL = re.compile(r"https?://\S+")
 RE_PHONE = re.compile(r"1[3-9]\d{9}")
 RE_QQ = re.compile(r"(?i)(QQ|微信|wechat|vx|v信)\s*[:：]?\s*[\w-]{5,}")
 RE_MAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+")
-SCHOOLS = ("哈工大", "哈深", "哈威", "北理", "深技大", "长春工大", "北工大", "武工大",
+SCHOOLS = ("哈工大", "哈深", "哈威", "北理", "深技大", "长春工大", "北工大", "武工大", "沈理", "东南", "哈工威", "中石大", "闽江", "南科大",
            "昆山", "河北轨道", "交大", "华科", "浙大", "电子科大", "西交", "南航", "北航",
            "大连理工", "北信科", "河南科大", "河北科大", "安信工", "大工", "辽科",
            "北华", "山科", "合工大", "东北大学", "西工大", "南理工")
@@ -59,11 +59,12 @@ PERSON_NAMES = (
     "王伟至", "柏宇", "小黑", "田佳畅", "李东东", "李泽", "斯基", "垫底群员",
     "黄磊", "马烁然", "靳博瑜", "杨涛", "代力源", "富华", "菱锯脂鲤", "蒋威",
     "搞心态", "程瀚", "闵一帆", "徐倚帆", "周柏年", "蔡伟卓", "韩绪", "灰灰",
-    "高晴阳", "一头牛", "张瀚文", "赵红亚",
+    "高晴阳", "一头牛", "张瀚文", "赵红亚", "张博文", "吴嘉桐", "靳博瑜",
 )
 RE_PERSON = re.compile(
     r"(?:" + "|".join(SCHOOLS) + r")[\s　]*[\u4e00-\u9fa5]{0,4}\s*[:：]?")
 RE_NAME = re.compile(r"(?:" + "|".join(PERSON_NAMES) + r")\s*[:：]?")
+RE_EN_NAME = re.compile(r"[A-Za-z][A-Za-z0-9_.-]{1,20}\s*[:：]")
 RE_SCHOOL = re.compile(r"(?:" + "|".join(SCHOOLS) + r")")
 
 CATEGORY_ALIASES = {
@@ -112,6 +113,7 @@ def scrub(text: Any, limit: int = 700) -> str | None:
     t = RE_QQ.sub("（联系方式已隐去）", t)
     t = RE_PERSON.sub("", t)                 # 学校 + 姓名 + 冒号整体去掉
     t = RE_NAME.sub("", t)                   # 残留昵称 / 姓名
+    t = RE_EN_NAME.sub("", t)                # 英文昵称 / 论坛 ID
     t = RE_SCHOOL.sub("", t)                 # 单独出现的院校名
     t = re.sub(r"[；;]{2,}", "；", t)
     t = re.sub(r"^[；;：:\s]+", "", t)
@@ -183,6 +185,8 @@ def price_signal(raw: str | None) -> str:
 
 def invoice_signal(raw: str | None) -> str:
     t = str(raw or "")
+    if any(x in t for x in ("不能开具", "无法开具", "开不了", "不能开", "不一致")):
+        return "no"
     if any(x in t for x in ("不开", "无票", "税点")):
         return "no" if ("不开" in t or "无票" in t) else "yes"
     if any(x in t for x in ("开票", "发票", "普票", "专票", "税点")):
