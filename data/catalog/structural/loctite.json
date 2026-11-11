@@ -1,0 +1,27 @@
+[
+ {
+  "category": "structural",
+  "subtype": "adhesive",
+  "subtype_label": "胶粘与锁固",
+  "id": "loctite-243",
+  "vendor": "乐泰 LOCTITE",
+  "vendor_cn": "乐泰",
+  "model": "243",
+  "title": "乐泰 243 中强度螺纹锁固胶（50 ml）",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-11",
+  "price_cny": null,
+  "origin": "乐泰 243 产品资料（中强度厌氧型螺纹锁固胶，2026-11-11 核对）",
+  "notes": "中强度厌氧型螺纹锁固胶，适合需要拆卸的螺栓连接；隔绝空气固化，适用于金属螺纹。按说明书清洁螺纹、涂胶并按规定扭矩拧紧。",
+  "search": "乐泰 243 螺纹锁固胶 中强度 50ml",
+  "specs": {
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "size_mm": "50 ml（常见规格）",
+   "material": "厌氧型螺纹锁固胶"
+  }
+ }
+]

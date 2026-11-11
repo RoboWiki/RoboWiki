@@ -57,7 +57,7 @@ jobs:
             - 附件：`${{ env.ASSET }}`、`SHA256SUMS.txt`、`MANIFEST.json`
             - 校验：`sha256sum -c SHA256SUMS.txt`（Windows：`Get-FileHash <file> -Algorithm SHA256`）
             - 口径：见 `schema/semantics.json` 的 `version` 与站点 `/method`；`MANIFEST.json` 记了该版本与条目数
-            - 说明：数据以 A/B/C 分级，A 级逐项核对过厂商手册；缺失一律 `null`，不填猜测值
+            - 说明：参数按厂商资料核对；缺失一律 `null`，不填猜测值
           files: |
             dist/${{ env.ASSET }}
             dist/SHA256SUMS.txt

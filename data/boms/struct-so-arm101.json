@@ -28,7 +28,7 @@
       "catalog_part_id": "feetech-sts3215-7v4",
       "supplier_id": null,
       "equipment_id": null,
-      "notes": "站内条目 STS3215（7.4V 19 kg·cm）规格书即 STS3215-C001 数据表，减速比 1:345，据此精确匹配。"
+      "notes": "站内条目 ST-3215-C001（原 STS3215 7.4V 19 kg·cm）规格书即 STS3215-C001 数据表，减速比 1:345，据此精确匹配。"
     },
     {
       "id": "line-002",
@@ -47,7 +47,7 @@
       "catalog_part_id": null,
       "supplier_id": null,
       "equipment_id": null,
-      "notes": "站内只有通用 STS3215 7.4V 与 ST-3215-C018，无 C044 独立条目（站内条目备注也说明 C044/C046/C047 参数不同、不并入一行），故不匹配。"
+      "notes": "站内只有 ST-3215-C001 与 ST-3215-C018，无 C044 独立条目（站内条目备注也说明 C044/C046/C047 参数不同、不并入一行），故不匹配。"
     },
     {
       "id": "line-003",

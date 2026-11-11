@@ -51,52 +51,27 @@
  },
  {
   "category": "structural",
-  "subtype": "plate",
-  "subtype_label": "板材与加工件",
-  "id": "yiheda-cf-3mm",
+  "subtype": "profile",
+  "subtype_label": "型材",
+  "id": "yiheda-3030",
   "vendor": "怡合达 Yiheda",
   "vendor_cn": "怡合达",
-  "model": "3 mm 碳纤维板",
-  "title": "3 mm 碳纤维板",
+  "model": "3030 欧标",
+  "title": "3030 欧标铝型材",
   "url": null,
   "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-11-08",
+  "last_checked": "2026-11-11",
   "price_cny": null,
-  "origin": "通用标准件规格（3K 碳板）",
-  "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。3 mm 是 RM 车架与云台最常见的碳板厚度。",
-  "search": "碳纤维板 3mm 3K 碳板 加工",
+  "origin": "通用标准件规格（欧标 30 系列）",
+  "notes": "标准件按公称规格收录：只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。3030 用于中等承重框架与设备底座。",
+  "search": "3030 铝型材 欧标 30x30 框架",
   "specs": {
    "image_url": null,
    "image_source": null,
    "doc_url": null,
-   "size_mm": "3 mm 厚",
-   "material": "3K 碳纤维"
-  }
- },
- {
-  "category": "structural",
-  "subtype": "fastener",
-  "subtype_label": "螺钉与紧固",
-  "id": "yiheda-m3x8",
-  "vendor": "怡合达 Yiheda",
-  "vendor_cn": "怡合达",
-  "model": "M3×8 内六角",
-  "title": "M3×8 内六角圆柱头螺钉",
-  "url": "https://www.yhdfa.com/products/C01C1_1?productModel=TAC01-M3-L8",
-  "source_tier": "B",
-  "verified": true,
-  "last_checked": "2026-11-08",
-  "price_cny": null,
-  "origin": "通用标准件规格（GB/T 70.1 公称）",
-  "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。M3×8 是结构件最通用的紧固规格。官方对应 TAC01-M3-L8（半牙，12.9 级，ML40Cr，DIN912）。",
-  "search": "M3 8 内六角 螺钉 12.9级",
-  "specs": {
-   "image_url": "/parts/yiheda-m3x8.jpg",
-   "image_source": "怡合达官方 TAC01-M3-L8 商品图（yhdfa.com，2026-11-08 采集，裁切单颗 TAC01 半牙钉）",
-   "doc_url": null,
-   "size_mm": "M3 × 8 mm",
-   "material": "12.9 级合金钢"
+   "size_mm": "30 × 30 mm",
+   "material": "6063 铝合金"
   }
  }
 ]

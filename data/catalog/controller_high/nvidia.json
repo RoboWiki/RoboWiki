@@ -11,7 +11,7 @@
   "source_tier": "A",
   "verified": true,
   "last_checked": "2026-10-28",
-  "price_cny": null,
+  "price_cny": 31999,
   "specs": {
    "soc": "Tegra Orin (AGX Orin 64GB)",
    "cpu": "12× Cortex-A78AE @2.2GHz",
@@ -48,8 +48,8 @@
    ],
    "repo_license": "NOASSERTION"
   },
-  "notes": "官方开发者套件 = AGX Orin 64GB 模组 + 载板 + 散热；275 TOPS（INT8 稀疏）、2048 CUDA + 64 Tensor Cores、12×A78AE@2.2GHz、64GB 256-bit LPDDR5 204.8GB/s、64GB eMMC 5.1、15–60W 可调；10GbE + GbE、16-lane MIPI CSI（最多 6 路）、40-pin 排针含 1× CAN、PCIe x16 插槽（x8 通道）。110×110×71.65mm。官方定价 $3499（2026-07 由 $1999 上调）；国内渠道含税报价差异大，暂不取人民币公开价。TOPS 口径与 Orin Nano/NX 的稀疏标称不同，跨平台不要直接按 TOPS 比值估性能。 本站目前只核到 64 GB 这一档；同型号其它内存版本参数待补，价格也不同。",
-  "origin": "NVIDIA 官网 Jetson AGX Orin 规格表 + Jetson AGX Orin Developer Kit User Guide 核对（2026-10-28）",
+  "notes": "官方开发者套件 = AGX Orin 64GB 模组 + 载板 + 散热；275 TOPS（INT8 稀疏）、2048 CUDA + 64 Tensor Cores、12×A78AE@2.2GHz、64GB 256-bit LPDDR5 204.8GB/s、64GB eMMC 5.1、15–60W 可调；10GbE + GbE、16-lane MIPI CSI（最多 6 路）、40-pin 排针含 1× CAN、PCIe x16 插槽（x8 通道）。110×110×71.65mm。官方定价 $3499（2026-07 由 $1999 上调）；国内渠道含税报价差异大，此处记渠道报价（2026-11-11），以实际成交价为准。TOPS 口径与 Orin Nano/NX 的稀疏标称不同，跨平台不要直接按 TOPS 比值估性能。 本站目前只核到 64 GB 这一档；同型号其它内存版本参数待补，价格也不同。",
+  "origin": "NVIDIA 官网 Jetson AGX Orin 规格表 + Jetson AGX Orin Developer Kit User Guide 核对（2026-10-28） + 渠道报价（2026-11-11）",
   "subtype_label": "单板计算机"
  },
  {
@@ -63,9 +63,9 @@
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-10-28",
-  "price_cny": null,
-  "origin": "厂商公开资料（待逐项核对）",
-  "notes": "算力是 Orin Nano 的两倍多、内存带宽更大；功耗与散热要求也高一档，小机身四足要提前算散热。 产品图待补（抓到的不是产品本体）。 本站这一条对应 **16 GB** 版本（内存是参数，不写进型号名）；同型号还有其它容量版本，选型时先确认容量再比价格。 本站目前只核到 16 GB 这一档；同型号其它内存版本参数待补，价格也不同。",
+  "price_cny": 5399,
+  "origin": "厂商公开资料（待逐项核对） + 渠道报价（2026-11-11）",
+  "notes": "算力是 Orin Nano 的两倍多、内存带宽更大；功耗与散热要求也高一档，小机身四足要提前算散热。 产品图待补（抓到的不是产品本体）。 本站这一条对应 **16 GB** 版本（内存是参数，不写进型号名）；同型号还有其它容量版本，选型时先确认容量再比价格。 本站目前只核到 16 GB 这一档；同型号其它内存版本参数待补，价格也不同。 价格来自渠道报价（2026-11-11），以实际成交价为准。",
   "specs": {
    "image_url": "/parts/jetson-orin-nx-16gb.jpg",
    "image_source": "ccc 分支（Dichen33 提交）",
@@ -115,9 +115,9 @@
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-10-28",
-  "price_cny": null,
-  "origin": "厂商公开资料（待逐项核对）",
-  "notes": "四足/人形做感知与策略推理的常见下限：8 GB 内存同时跑相机流 + 策略会很紧。「Super 模式」需 JetPack 6.2 以上，算力标称才到 40 TOPS。 产品图待补（抓到的不是产品本体）。 本站这一条对应 **8 GB** 版本（内存是参数，不写进型号名）；同型号还有其它容量版本，选型时先确认容量再比价格。 本站目前只核到 8 GB 这一档；同型号其它内存版本参数待补，价格也不同。",
+  "price_cny": 2999,
+  "origin": "厂商公开资料（待逐项核对） + 渠道报价（2026-11-11）",
+  "notes": "四足/人形做感知与策略推理的常见下限：8 GB 内存同时跑相机流 + 策略会很紧。「Super 模式」需 JetPack 6.2 以上，算力标称才到 40 TOPS。 产品图待补（抓到的不是产品本体）。 本站这一条对应 **8 GB** 版本（内存是参数，不写进型号名）；同型号还有其它容量版本，选型时先确认容量再比价格。 本站目前只核到 8 GB 这一档；同型号其它内存版本参数待补，价格也不同。 价格来自渠道报价（2026-11-11），以实际成交价为准。",
   "specs": {
    "image_url": "/parts/jetson-orin-nano-super-8gb.jpg",
    "image_source": "ccc 分支（Dichen33 提交）",

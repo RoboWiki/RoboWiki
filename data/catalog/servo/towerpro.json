@@ -12,9 +12,9 @@
   "source_tier": "B",
   "verified": true,
   "last_checked": "2026-11-08",
-  "price_cny": null,
-  "origin": "TowerPro MG995 公开参数（55 g、13 kg·cm、0.20 s/60°、40.7×19.7×42.9 mm）",
-  "notes": "标称 13 kg·cm ≈ 1.27 N·m（按 1 kgf·cm = 0.098 N·m 折算），0.20 s/60°；电压范围未在公开页确认，留空。",
+  "price_cny": 20,
+  "origin": "TowerPro MG995 公开参数（55 g、13 kg·cm、0.20 s/60°、40.7×19.7×42.9 mm） + 渠道报价（2026-11-11）",
+  "notes": "标称 13 kg·cm ≈ 1.27 N·m（按 1 kgf·cm = 0.098 N·m 折算），0.20 s/60°；电压范围未在公开页确认，留空。 价格来自渠道报价（2026-11-11），以实际成交价为准。",
   "search": "MG995 舵机 13kg 金属齿轮",
   "specs": {
    "image_url": "/parts/towerpro-mg995.jpg",

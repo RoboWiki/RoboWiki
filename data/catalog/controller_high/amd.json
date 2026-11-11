@@ -12,9 +12,9 @@
   "source_tier": "B",
   "verified": false,
   "last_checked": "2026-11-11",
-  "price_cny": null,
-  "origin": "AMD Ryzen 7 7840HS 官方产品页（8C/16T Zen 4、Radeon 780M、Ryzen AI NPU 16 TOPS、DDR5-5600、35–54W）+ 通用迷你主机形态；未绑定具体整机厂（2026-11-11）",
-  "notes": "通用 7840H/7840HS 迷你主机条目，不对应具体整机品牌。CPU/GPU/NPU 为 AMD 官方规格；接口数量、内存/硬盘容量、持续功耗与散热策略随整机厂变化，购买前按具体机型核对。适合作为 RL 机上推理、视觉/导航感知上位机；无原生 CAN，需要 USB-CAN(FD) 桥接。价格按整机配置浮动，留空询价。",
+  "price_cny": 1500,
+  "origin": "AMD Ryzen 7 7840HS 官方产品页（8C/16T Zen 4、Radeon 780M、Ryzen AI NPU 16 TOPS、DDR5-5600、35–54W）+ 通用迷你主机形态；未绑定具体整机厂（2026-11-11） + 渠道报价（2026-11-11）",
+  "notes": "通用 7840H/7840HS 迷你主机条目，不对应具体整机品牌。CPU/GPU/NPU 为 AMD 官方规格；接口数量、内存/硬盘容量、持续功耗与散热策略随整机厂变化，购买前按具体机型核对。适合作为 RL 机上推理、视觉/导航感知上位机；无原生 CAN，需要 USB-CAN(FD) 桥接。价格按整机配置浮动，此处记渠道报价（2026-11-11），以实际成交价为准。",
   "specs": {
    "soc": "AMD Ryzen 7 7840H / 7840HS（Phoenix）",
    "cpu": "8× Zen 4，16 线程，最高 5.1 GHz",

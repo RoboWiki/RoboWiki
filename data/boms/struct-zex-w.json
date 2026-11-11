@@ -28,7 +28,7 @@
    "catalog_part_id": null,
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "原表类别“传动件”；站内 misumi-gt2-20t 为 GT2 20 齿，齿形不同不匹配"
+   "notes": "原表类别“传动件”；站内已不收录同步带轮，需按齿形外购"
   },
   {
    "id": "line-002",
@@ -47,7 +47,7 @@
    "catalog_part_id": null,
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "站内 misumi-2gt-6 为 2GT-6 开口带，HTD5M 弧齿不同不匹配"
+   "notes": "站内已不收录同步带，HTD5M 弧齿需外购"
   },
   {
    "id": "line-003",
@@ -902,7 +902,7 @@
    "catalog_part_id": null,
    "supplier_id": null,
    "equipment_id": null,
-   "notes": "目录 yiheda-cf-3mm 是通用 3mm 板材，本行是定制切割件，不匹配"
+   "notes": "目录已不收录 3mm 板材；本行是定制切割件，需按图纸外协"
   },
   {
    "id": "line-048",

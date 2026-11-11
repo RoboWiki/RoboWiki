@@ -994,10 +994,11 @@
   {
    "id": "module",
    "name": "模块与转接",
-   "hint": "USB 转 CAN / 485、CAN/TTL 转 485、灯效与其他小板",
+   "hint": "USB 转 CAN / 485、CAN/TTL 转 485、载板、灯效与其他小板",
    "subtypes": {
     "can": "CAN 模块",
     "adapter": "USB / 总线转接",
+    "carrier": "载板",
     "led": "灯效模块"
    },
    "keys": [
@@ -1407,7 +1408,8 @@
     "slipring": "滑环",
     "mechanism": "机构件（夹爪 / 吸盘 / 拨盘）",
     "gear": "齿轮",
-    "spring": "弹簧"
+    "spring": "弹簧",
+    "adhesive": "胶粘与锁固"
    },
    "keys": [
     {
@@ -2229,10 +2231,6 @@
    "slug": "daheng",
    "cn": "大恒图像"
   },
-  "轮趣科技 Wheeltec": {
-   "slug": "wheeltec",
-   "cn": "轮趣科技"
-  },
   "瓴控 LKTECH": {
    "slug": "lktech",
    "cn": "瓴控"
@@ -2380,6 +2378,14 @@
   "AidLux": {
    "slug": "aidlux",
    "cn": "阿加犀"
+  },
+  "乐泰 LOCTITE": {
+   "slug": "loctite",
+   "cn": "乐泰"
+  },
+  "通用舵机": {
+   "slug": "generic-servo",
+   "cn": "通用舵机"
   }
  }
 }

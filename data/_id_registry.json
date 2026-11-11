@@ -464,7 +464,7 @@
   },
   "damiao-dm-orin-nx": {
    "added": "2026-11-07",
-   "category": "controller_high",
+   "category": "module",
    "model": "DM-ORIN NX V2.X"
   },
   "damiao-dm-orin-nx-v1-1": {
@@ -686,6 +686,11 @@
    "category": "remote_controller",
    "model": "DT7"
   },
+  "dji-matrice-4d-battery": {
+   "added": "2026-11-11",
+   "category": "battery",
+   "model": "Matrice 4D 系列电池"
+  },
   "dji-pm01": {
    "added": "2026-11-04",
    "category": "module",
@@ -830,7 +835,15 @@
   "espressif-esp32-devkit": {
    "added": "2026-11-08",
    "category": "controller_high",
-   "model": "ESP32 DevKit"
+   "model": "ESP32 DevKit",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求删除 ESP32，改用 ESP32-S3-DevKitC-1"
+  },
+  "espressif-esp32-s3-devkitc-1": {
+   "added": "2026-11-11",
+   "category": "controller_low",
+   "model": "ESP32-S3-DevKitC-1"
   },
   "feetech-5264-cable": {
    "added": "2026-10-31",
@@ -860,7 +873,7 @@
   "feetech-sts3215-7v4": {
    "added": "2026-10-31",
    "category": "servo",
-   "model": "STS3215（7.4V 19 kg·cm）"
+   "model": "ST-3215-C001"
   },
   "feifei-6s-222v-xt60": {
    "added": "2026-11-01",
@@ -963,10 +976,18 @@
    "removed_at": "2026-11-08",
    "removed_reason": "2026-11-08 用户删除飞飞模型/福来翔航模电池（见 data/_backup/2026-11-08-drop-feifei-fulaixiang）"
   },
+  "generic-129-screw": {
+   "added": "2026-11-11",
+   "category": "structural",
+   "model": "12.9 级内六角螺钉"
+  },
   "generic-ammo-chain": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "弹链"
+   "model": "弹链",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "generic-bms-3-6s": {
    "added": "2026-11-08",
@@ -976,22 +997,56 @@
   "generic-feed-plate": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "拨盘（供弹）"
+   "model": "拨盘（供弹）",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
+  },
+  "generic-lock-nut": {
+   "added": "2026-11-11",
+   "category": "structural",
+   "model": "防松螺母"
+  },
+  "generic-mg90": {
+   "added": "2026-11-11",
+   "alias_of": "generic-mg90s",
+   "category": "servo",
+   "model": "MG90",
+   "renamed_at": "2026-11-11"
+  },
+  "generic-mg90s": {
+   "added": "2026-11-11",
+   "category": "servo",
+   "model": "MG90S",
+   "renamed_from": [
+    "generic-mg90"
+   ]
   },
   "generic-quick-release": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "快拆组件"
+   "model": "快拆组件",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "generic-rocker-switch": {
    "added": "2026-11-08",
    "category": "power",
    "model": "船型开关 15A"
   },
+  "generic-shoulder-screw": {
+   "added": "2026-11-11",
+   "category": "structural",
+   "model": "塞打螺丝（轴肩螺钉）"
+  },
   "generic-steering-module": {
    "added": "2026-11-08",
    "category": "wheel",
    "model": "舵轮模组",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类",
    "renamed_from": [
     "wheeltec-steering-module"
    ]
@@ -2265,7 +2320,10 @@
   "kendryte-k210": {
    "added": "2026-11-08",
    "category": "controller_high",
-   "model": "K210"
+   "model": "K210",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求删除 K210，只保留 K230"
   },
   "kendryte-k230": {
    "added": "2026-11-08",
@@ -2310,10 +2368,18 @@
    "removed_at": "2026-11-08",
    "removed_reason": "2026-11-08 暂缓：MF9025 公开页面未查到可核验扭矩参数，执行器 schema 要求至少一项扭矩；查到再补"
   },
+  "loctite-243": {
+   "added": "2026-11-11",
+   "category": "structural",
+   "model": "243"
+  },
   "loongson-2k0300": {
    "added": "2026-11-08",
    "category": "controller_low",
-   "model": "2K0300"
+   "model": "2K0300",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求删除 2K0300"
   },
   "magntek-mt6701": {
    "added": "2026-11-08",
@@ -2483,52 +2549,82 @@
   "misumi-2gt-6": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "2GT-6"
+   "model": "2GT-6",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-6203-2rs": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "6203-2RS"
+   "model": "6203-2RS",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-6802-2rs": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "6802-2RS"
+   "model": "6802-2RS",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-gear-1m-20t": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "1M 20T 直齿轮"
+   "model": "1M 20T 直齿轮",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-gt2-20t": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "GT2 20T"
+   "model": "GT2 20T",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-mgn12h": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "MGN12H"
+   "model": "MGN12H",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-mr105-2rs": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "MR105-2RS"
+   "model": "MR105-2RS",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-rb4510": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "RB4510 交叉滚子轴承"
+   "model": "RB4510 交叉滚子轴承",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-spring-comp": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "压缩弹簧"
+   "model": "压缩弹簧",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "misumi-xru3515": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "XRU3515 交叉滚子轴承"
+   "model": "XRU3515 交叉滚子轴承",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "mit-3phase-integrated": {
    "added": "2026-11-01",
@@ -3074,7 +3170,10 @@
   "senring-capsule-6w": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "帽式滑环 6 路"
+   "model": "帽式滑环 6 路",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "sens-bosch-bmi088": {
    "added": "2026-10-31",
@@ -3185,7 +3284,10 @@
   "smc-suction-cup": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "气动吸盘"
+   "model": "气动吸盘",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "snapmaker-artisan": {
    "added": "2026-11-08",
@@ -5022,6 +5124,9 @@
    "added": "2026-11-08",
    "category": "wheel",
    "model": "主动轮 100 mm",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类",
    "renamed_from": [
     "wheeltec-friction-100"
    ]
@@ -5036,7 +5141,10 @@
   "wheeltec-gripper": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "舵机夹爪"
+   "model": "舵机夹爪",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "wheeltec-mecanum-100": {
    "added": "2026-11-08",
@@ -5093,7 +5201,10 @@
   "wheeltec-track-rubber": {
    "added": "2026-11-08",
    "category": "wheel",
-   "model": "橡胶履带"
+   "model": "橡胶履带",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "worldsemi-ws2811": {
    "added": "2026-11-08",
@@ -5153,6 +5264,11 @@
    "category": "structural",
    "model": "2020 欧标"
   },
+  "yiheda-3030": {
+   "added": "2026-11-11",
+   "category": "structural",
+   "model": "3030 欧标"
+  },
   "yiheda-4040": {
    "added": "2026-11-08",
    "category": "structural",
@@ -5161,12 +5277,18 @@
   "yiheda-cf-3mm": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "3 mm 碳纤维板"
+   "model": "3 mm 碳纤维板",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "yiheda-m3x8": {
    "added": "2026-11-08",
    "category": "structural",
-   "model": "M3×8 内六角"
+   "model": "M3×8 内六角",
+   "removed": true,
+   "removed_at": "2026-11-11",
+   "removed_reason": "用户要求精简轮组/结构件品类"
   },
   "灵足-robstride-el05": {
    "added": "2026-10-31",

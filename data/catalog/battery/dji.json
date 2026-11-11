@@ -114,5 +114,38 @@
    "voltage_V": 22.8,
    "energy_wh": 129.96
   }
+ },
+ {
+  "category": "battery",
+  "subtype": "smart",
+  "subtype_label": "智能电池",
+  "id": "dji-matrice-4d-battery",
+  "vendor": "大疆 DJI",
+  "vendor_cn": "大疆",
+  "model": "Matrice 4D 系列电池",
+  "title": "大疆 DJI Matrice 4D 系列电池",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-11",
+  "price_cny": 1999,
+  "origin": "DJI Matrice 4D 系列电池用户手册 v1.0（型号 BPX230-6768-22.14）+ RM2026 机甲大师赛物资购买说明附件 / RC2026 附录（2026-11-11 截图）",
+  "notes": "DJI Matrice 4D 系列智能飞行电池，型号 BPX230-6768-22.14。6S Li-ion（LiNiMnCoO2），6768 mAh / 22.14 V / 149.9 Wh，重 640 g；充电限制电压 25.5 V，最大充电功率 240 W（1.8C），放电倍率 4C，循环 400 次，充电温度 5–45 ℃，支持低温自加热充电。官方标称前飞 54 分钟 / 悬停 47 分钟（实验室无风条件）。需使用大疆机场 3 或 Matrice 4D 系列 240W 充电管家充电。2026 物资表：市场价 1999 元，教育折扣 600 元，仅支持淘宝店购买。",
+  "search": "DJI Matrice 4D 电池 BPX230 6768 22.14 149.9Wh 6S",
+  "specs": {
+   "image_url": "/parts/dji-matrice-4d-battery.jpg",
+   "image_source": "DJI 官方产品图（用户提供）",
+   "doc_url": null,
+   "doc_pdf": null,
+   "chem": "Li-ion 6S（LiNiMnCoO2，智能电池）",
+   "capacity_mah": 6768,
+   "voltage_V": 22.14,
+   "energy_wh": 149.9,
+   "discharge_rate_c": 4,
+   "current_rated_A": null,
+   "v_charge_V": 25.5,
+   "mass_g": 640,
+   "iface": "DJI Matrice 4D 系列电池接口（智能通讯）"
+  }
  }
 ]
