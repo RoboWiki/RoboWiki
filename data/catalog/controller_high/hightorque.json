@@ -15,6 +15,7 @@
   "price_cny": 3999,
   "specs": {
    "mcu": "STM32F103C8T6",
+   "npu_tops": 6,
    "clock_mhz": 72,
    "flash_kb": 64,
    "ram_kb": 20,
@@ -70,6 +71,7 @@
   "price_cny": null,
   "specs": {
    "mcu": null,
+   "npu_tops": 6,
    "clock_mhz": null,
    "flash_kb": null,
    "ram_kb": null,

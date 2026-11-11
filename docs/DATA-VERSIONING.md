@@ -37,12 +37,12 @@
 当前基线（`data-v2026.11.2`）：
 
 ```json
-{"parts": 329, "robots": 21, "software": 22, "materials": 27, "processes": 9,
- "ids": 622, "semantics_version": "1.1.0", "assets": 425}
+{"parts": 418, "robots": 42, "software": 22, "materials": 32, "processes": 9,
+ "ids": 953, "semantics_version": "1.1.0", "assets": 690}
 ```
 
-`parts` 含 3 条 C 级电池线索；站点与 API 只投影 A/B，所以页面目录是 **326**。
-这个差异是预期口径，不是缺失。
+`parts` 含设备库 69 台；站点部件库只投影非设备条目，所以页面目录是 **349**
+（下一版加入 RDK S100 / S100P 后为 420 / 351）。这个差异是预期口径，不是缺失。
 
 ## 发布
 
@@ -80,7 +80,7 @@ SHA256SUMS 可重算。失败退出码 1，不发布。
   "release_asset": "robowiki-data-v2026.11.2.tar.gz",
   "sha256": "<tar.gz 的 SHA-256>",
   "manifest_sha256": "<MANIFEST 的 SHA-256>",
-  "counts": {"parts": 329, "materials": 27, "processes": 9, "ids": 622}
+  "counts": {"parts": 418, "materials": 32, "processes": 9, "ids": 953}
 }
 ```
 

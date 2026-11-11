@@ -21,15 +21,15 @@ def test_counts_are_stable():
     from pipeline.load import load_parts
 
     parts = load_parts()
-    assert len(parts) == 390
+    assert len(parts) == 420
     robots = []
     for p in sorted((ROOT / "data" / "robots").glob("*.json")):
         robots.extend(json.loads(p.read_text(encoding="utf-8")))
-    assert len(robots) == 16
+    assert len(robots) == 42
     sw = json.loads((ROOT / "data" / "software.json").read_text(encoding="utf-8"))
     assert len(sw["items"]) == 22
     sups = json.loads((ROOT / "data" / "suppliers.json").read_text(encoding="utf-8"))
-    assert len(sups) == 208
+    assert len(sups) == 234
 
 
 def test_asset_provenance_distinguishes_missing_from_explicit_null():

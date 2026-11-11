@@ -22,7 +22,7 @@ EXPECTED_IDS = {
     "jst-gh-1p25", "jst-sh-1p0", "jst-xh-2p5", "jst-ph-2p0", "jst-zh-1p5",
     # Amass 大电流 + 电源/信号混合
     "amass-xt30", "amass-xt60", "amass-xt90", "amass-mr30",
-    "amass-xt30-2p2", "amass-xt90-2p2",
+    "amass-xt30-2p2", "amass-xt90-2p2", "amass-xt30u-2p2-f",
     # 常见 B 级连接器
     "cjt-a2541-8p", "xunpu-fpc-05-24p",
     "degson-2edg-381-2p", "degson-2edg-508-2p",

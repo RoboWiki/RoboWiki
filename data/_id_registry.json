@@ -807,6 +807,16 @@
    "category": "remote_controller",
    "model": "VT13"
   },
+  "drobotics-rdk-s100": {
+   "added": "2026-11-11",
+   "category": "controller_high",
+   "model": "RDK S100"
+  },
+  "drobotics-rdk-s100p": {
+   "added": "2026-11-11",
+   "category": "controller_high",
+   "model": "RDK S100P"
+  },
   "drobotics-rdk-x5": {
    "added": "2026-10-31",
    "category": "controller_high",

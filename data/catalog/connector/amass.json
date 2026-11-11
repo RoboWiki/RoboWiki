@@ -320,6 +320,11 @@
    "current_rated_A": 15,
    "voltage_rated_V": 500,
    "iface": "XT30(2+2)",
+   "use_cases": [
+    "ZEX-W 电源 + 信号混合线束（母头端）",
+    "与 XT30PB(2+2)-M 配对，走 2 路电源 + 2 路信号",
+    "小电流电池/传感器混合接口"
+   ],
    "mount_type": "线端 / 母头",
    "image_url": null,
    "doc_url": "https://www.china-amass.com/download/"
