@@ -48,7 +48,13 @@
    "temp_range": null,
    "dims": "Φ50×47.4 mm",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -100,7 +106,13 @@
    "temp_range": null,
    "dims": "Φ50×47.4 mm",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -152,7 +164,13 @@
    "temp_range": null,
    "dims": "Φ60×56 mm",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -204,7 +222,13 @@
    "temp_range": null,
    "dims": "Φ75×56 mm",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -256,7 +280,13 @@
    "temp_range": null,
    "dims": "140.5×71.5×36.9 mm（长×宽×高，od_mm 取长边）",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -308,7 +338,13 @@
    "temp_range": null,
    "dims": "115×61.9×37 mm（长×宽×高，od_mm 取长边）",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -360,7 +396,13 @@
    "temp_range": null,
    "dims": "Φ50×53 mm",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -412,7 +454,13 @@
    "temp_range": null,
    "dims": "Φ44×44.9 mm",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -464,7 +512,13 @@
    "temp_range": null,
    "dims": "Φ75×35 mm",
    "i_stall_A": null,
-   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf"
+   "doc_pdf": "https://cdn.hightorque.cn/pdf/book.hightorque.cn/Module0603E.pdf",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   }
  },
  {
@@ -516,7 +570,13 @@
    "image_url": "/parts/hightorque-htdw-3532-02-dne.jpg",
    "image_source": "高擎《20261104 新模组产品手册》产品图（PDF）",
    "doc_url": "https://www.hightorque.cn/",
-   "dims": "Φ35×36.1 mm"
+   "dims": "Φ35×36.1 mm",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   },
   "search": "高擎 hightorque htdw-3532-02-dne 关节模组 行星减速 can canfd"
  },
@@ -569,7 +629,13 @@
    "image_url": "/parts/hightorque-htdw-4438-30-ne-jc.jpg",
    "image_source": "高擎《20261104 新模组产品手册》产品图（PDF）",
    "doc_url": "https://www.hightorque.cn/",
-   "dims": "Φ44×44.9 mm"
+   "dims": "Φ44×44.9 mm",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   },
   "search": "高擎 hightorque htdw-4438-30-ne-jc 关节模组 行星减速 can canfd"
  },
@@ -622,7 +688,13 @@
    "image_url": "/parts/hightorque-htdw-5022-02-dne.jpg",
    "image_source": "高擎《20261104 新模组产品手册》产品图（PDF）",
    "doc_url": "https://www.hightorque.cn/",
-   "dims": "Φ50×47.4 mm"
+   "dims": "Φ50×47.4 mm",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   },
   "search": "高擎 hightorque htdw-5022-02-dne 关节模组 行星减速 can canfd"
  },
@@ -675,7 +747,13 @@
    "image_url": "/parts/hightorque-htdw-6036-02-cne.jpg",
    "image_source": "高擎《20261104 新模组产品手册》产品图（PDF）",
    "doc_url": "https://www.hightorque.cn/",
-   "dims": "Φ60×56 mm"
+   "dims": "Φ60×56 mm",
+   "insulation_class": null,
+   "humidity": null,
+   "insulation_voltage": null,
+   "storage_temp_C": null,
+   "rated_power_W": null,
+   "noise_dB": null
   },
   "search": "高擎 hightorque htdw-6036-02-cne 关节模组 行星减速 can canfd"
  }

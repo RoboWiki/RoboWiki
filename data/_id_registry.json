@@ -541,6 +541,121 @@
    "removed_at": "2026-11-07",
    "removed_reason": "产品线收敛：删除非保留厂商/品类条目"
   },
+  "directdrive-hmd045044-p": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "HMD045044-P"
+  },
+  "directdrive-hmd061061-p": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "HMD061061-P"
+  },
+  "directdrive-hmd085066-p": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "HMD085066-P"
+  },
+  "directdrive-hmd100057-p": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "HMD100057-P"
+  },
+  "directdrive-hmd108090-p": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "HMD108090-P"
+  },
+  "directdrive-m0503c-211": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0503C_211"
+  },
+  "directdrive-m0601c-111": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0601C_111"
+  },
+  "directdrive-m0601c-411": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0601C_411"
+  },
+  "directdrive-m0602c-112": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0602C_112"
+  },
+  "directdrive-m0603a-111": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0603A_111"
+  },
+  "directdrive-m0603a-411": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0603A_411"
+  },
+  "directdrive-m0603b-224": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0603B_224"
+  },
+  "directdrive-m0701a-111": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M0701A_111"
+  },
+  "directdrive-m1502d-133": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M1502D_133"
+  },
+  "directdrive-m1502d-233": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M1502D_233"
+  },
+  "directdrive-m1502e-111": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M1502E_111"
+  },
+  "directdrive-m1503a-211": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M1503A_211"
+  },
+  "directdrive-m1503a-311": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M1503A_311"
+  },
+  "directdrive-m1505a222": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M1505A222"
+  },
+  "directdrive-m1505b111": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "M1505B111"
+  },
+  "directdrive-p0610a": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "P0610A"
+  },
+  "directdrive-p1010a": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "P1010A"
+  },
+  "directdrive-p1010b": {
+   "added": "2026-11-11",
+   "category": "actuator",
+   "model": "P1010B"
+  },
   "dji-c610": {
    "added": "2026-10-31",
    "category": "esc",

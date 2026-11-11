@@ -224,7 +224,8 @@ KNOWN_SPEC_KEYS = {
     "armature_kgm2", "voltage_V", "voltage_range_V", "kt_Nm_per_A", "r_phase_ohm",
     "l_phase_uh", "pole_pairs", "i_peak_A", "i_rated_A", "frictionloss_Nm",
     "damping_Nms_rad", "encoder", "comm", "driver_integrated", "ip",
-    "image_url", "image_source",
+    "image_url", "image_source", "rated_power_W", "noise_dB",
+    "insulation_class", "insulation_voltage", "storage_temp_C", "humidity",
     # 上位机
     "soc", "cpu", "cores", "cpu_arch", "gpu", "cuda_cores", "npu_tops", "ram_gb",
     "ram_bw_gbs", "storage_gb", "power_idle_w", "power_max_w", "os", "cuda", "ros2",

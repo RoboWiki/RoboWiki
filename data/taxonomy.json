@@ -24,6 +24,11 @@
      "unit": " N·m"
     },
     {
+     "k": "speed_noload_rpm",
+     "label": "空载转速",
+     "unit": " rpm"
+    },
+    {
      "k": "gear",
      "label": "减速比",
      "unit": ":1"
@@ -34,14 +39,24 @@
      "unit": " kg"
     },
     {
-     "k": "armature_kgm2",
-     "label": "转子惯量",
-     "unit": ""
-    },
-    {
      "k": "voltage_V",
      "label": "电压",
      "unit": " V"
+    },
+    {
+     "k": "od_mm",
+     "label": "外径",
+     "unit": " mm"
+    },
+    {
+     "k": "l_mm",
+     "label": "长度",
+     "unit": " mm"
+    },
+    {
+     "k": "armature_kgm2",
+     "label": "转子惯量",
+     "unit": ""
     }
    ],
    "sorts": [
@@ -1558,6 +1573,10 @@
   "灵足 RobStride": {
    "slug": "lingzu-robstride",
    "cn": "灵足时代"
+  },
+  "本末科技 DirectDrive": {
+   "slug": "directdrive",
+   "cn": "本末科技"
   },
   "乐迪 RadioLink": {
    "slug": "radiolink",

@@ -2,9 +2,9 @@
 
 由 `tools/analyze_boms.py` 从 `data/boms/*.json` 生成；价格按各机官方 BOM 原币种统计，不换算、不估补。
 
-- 方案库全开源整机：16 台
-- 官方 BOM 已结构化：15 台
-- 官方 BOM 未发布、仅有器件骨架：OpenDoge V1.1（EL05 电机）
+- 方案库全开源整机：24 台
+- 官方 BOM 已结构化：22 台
+- 官方 BOM 未发布、仅有器件骨架：灵足 EL-A3、OpenDoge V1.1（EL05 电机）
 
 ## 逐机概览
 
@@ -12,66 +12,100 @@
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Amazing Hand | 13 | 103 | 153.68 EUR | 0 | 0/13 |
 | DOLY DIY / Maker Edition | 43 | 73 | 0.00 USD | 43 | 0/0 |
-| HTDW4438 MiniDog | 29 | 100 | 15,182.45 CNY | 1 | 0/28 |
+| G-Exo 下肢外骨骼（V2.2） | 25 | 44 | 4,611.00 CNY | 0 | 2/25 |
+| HTDW4438 MiniDog | 29 | 100 | 15,182.45 CNY | 1 | 1/28 |
+| LeRobot Humanoid（12 DOF 双足平台） | 128 | 520 | 0.00 USD | 128 | 0/0 |
 | Open Duck Mini V2 | 29 | 55 | 432.34 EUR | 0 | 1/29 |
 | OpenArm 2.0（双臂） | 79 | 557 | 0.00 USD | 79 | 0/0 |
 | PAROL6 | 62 | 375 | 0.00 USD | 62 | 0/0 |
 | ROBOTO 01（RP1） | 444 | 1898 | 0.00 CNY | 444 | 0/0 |
-| ROBOTO Origin（RPO） | 63 | 832 | 49,672.53 CNY | 23 | 2/40 |
+| ROBOTO Origin（RPO） | 63 | 832 | 49,672.53 CNY | 23 | 3/40 |
 | SO-100 | 6 | 19 | 244.00 USD | 0 | 1/6 |
 | SO-101 | 8 | 19 | 229.88 USD | 0 | 1/8 |
 | Sesame Robot | 31 | 96 | 0.00 USD | 31 | 0/0 |
-| XLeRobot 0.4 | 20 | 49 | 1,055.15 USD | 1 | 0/19 |
-| ZEX-W | 75 | 184 | 18,195.96 CNY | 0 | 8/75 |
+| XLeRobot 0.4 | 20 | 49 | 1,055.15 USD | 1 | 1/19 |
+| ZEX-W | 75 | 184 | 18,195.96 CNY | 0 | 9/75 |
 | reBot Arm B601 (DM) | 83 | 431 | 1,623.35 USD | 56 | 3/27 |
-| 达妙 OpenDoge（OpenDog01） | 85 | 234 | 17,653.11 CNY | 45 | 2/40 |
+| reBot Arm B601 (RS) | 79 | 368 | 1,466.98 USD | 58 | 2/21 |
+| 达妙 AGV 四转四驱 | 27 | 139 | 4,563.54 CNY | 2 | 3/25 |
+| 达妙 OpenDoge（OpenDog01） | 85 | 234 | 17,653.11 CNY | 45 | 3/40 |
+| 达妙双足人形 | 57 | 123 | 14,779.45 CNY | 47 | 1/10 |
+| 达妙开源轮足仓（机加版） | 54 | 102 | 3,578.30 CNY | 29 | 1/25 |
+| 高擎 Panthera-HT | 103 | 345 | 0.00 CNY | 103 | 0/0 |
 
 ## BOM 品类分布
 
 | BOM 品类 | 行数 | 站内落点 |
 | --- | ---: | --- |
-| `fastener` | 265 | structural.fastener |
-| `structural` | 253 | structural.plate |
-| `wiring` | 147 | connector.cable / terminal |
-| `printed_part` | 100 | structural.printed（新增） |
-| `transmission` | 58 | structural.bearing / belt / gear / shaft |
-| `actuator` | 43 | actuator / servo |
-| `misc` | 42 | open_hw.accessory |
-| `power` | 30 | power / battery / charger |
-| `pcb` | 26 | open_hw.control / module |
-| `interface` | 22 | remote_controller / power.switch |
-| `tooling` | 17 | 设备库（工具 / 仪表） |
-| `consumable` | 15 | 材料库 / 设备耗材 |
-| `sensor` | 9 | imu / sensor |
-| `compute` | 9 | controller_high.sbc |
+| `fastener` | 403 | structural.fastener |
+| `structural` | 334 | structural.plate |
+| `printed_part` | 222 | structural.printed（新增） |
+| `wiring` | 183 | connector.cable / terminal |
+| `transmission` | 92 | structural.bearing / belt / gear / shaft |
+| `actuator` | 64 | actuator / servo |
+| `misc` | 47 | open_hw.accessory |
+| `power` | 38 | power / battery / charger |
+| `interface` | 28 | remote_controller / power.switch |
+| `pcb` | 27 | open_hw.control / module |
+| `tooling` | 20 | 设备库（工具 / 仪表） |
+| `consumable` | 18 | 材料库 / 设备耗材 |
+| `compute` | 14 | controller_high.sbc |
+| `sensor` | 12 | imu / sensor |
+| `actuator_driver` | 8 | motor_driver |
+| `controller` | 8 | controller_low.mcu |
+| `thermal` | 8 | open_hw.accessory（暂） |
 | `perception` | 8 | camera / lidar |
-| `actuator_driver` | 7 | motor_driver |
-| `thermal` | 7 | open_hw.accessory（暂） |
-| `controller` | 5 | controller_low.mcu |
 | `cable_management` | 5 | connector.cable |
-| `service` | 2 | 采购库（加工 / 打样） |
+| `service` | 4 | 采购库（加工 / 打样） |
 
 ## 跨机型共用件
 
 | 件（规范化名称） | 使用机型数 | 机型 |
 | --- | ---: | --- |
-| powersupply | 4 | struct-parol6, struct-rebot-b601, struct-so-arm100, struct-so-arm101 |
-| screwdriverset | 3 | struct-rebot-b601, struct-so-arm100, struct-so-arm101 |
+| powersupply | 5 | struct-parol6, struct-rebot-b601, struct-rebot-b601-rs, struct-so-arm100, struct-so-arm101 |
+| screwdriverset | 4 | struct-rebot-b601, struct-rebot-b601-rs, struct-so-arm100, struct-so-arm101 |
+| bearing | 3 | struct-lerobot-humanoid, struct-rebot-b601, struct-rebot-b601-rs |
+| 轴承 | 3 | struct-open-duck-mini, struct-openarm, struct-panthera-ht |
+| 1206贴片电阻120r | 2 | struct-damiao-bipedal, struct-damiao-open-dog |
+| 16awg电源线 | 2 | struct-damiao-bipedal, struct-damiao-open-dog |
+| 304stainlesssteelphillipscountersunkheadscrew | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| 304stainlesssteelphillipspanheadscrew | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| 3in1iecinletsocket | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| armhandle | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| brushlessmotor | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| canusbdriverboard | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| gear | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| gh1254p胶壳 | 2 | struct-damiao-bipedal, struct-damiao-open-dog |
+| gripperconnectora | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| gripperconnectorb | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| gripperfinger | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| gripperhorizontallimit | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| gripperslidermetalbracket | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| gripperslidersupportbracket | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| hexnut | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| linearrail | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| link5 | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| lowerarmleftfiller | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| lowerarmrightfiller | 2 | struct-rebot-b601, struct-rebot-b601-rs |
 | microsd卡 | 2 | struct-open-duck-mini, struct-xlerobot |
+| motor1bearingmount | 2 | struct-rebot-b601, struct-rebot-b601-rs |
 | motorcontrolboard | 2 | struct-so-arm100, struct-so-arm101 |
-| tableclamp4pcs | 2 | struct-so-arm100, struct-so-arm101 |
-| usbccable2pcs | 2 | struct-so-arm100, struct-so-arm101 |
-| 内六角圆柱头螺钉m38 | 2 | struct-roboparty-roboto-origin, struct-roboparty-roboto01 |
-| 内六角圆柱头螺钉m410 | 2 | struct-roboparty-roboto-origin, struct-roboparty-roboto01 |
-| 内六角圆柱头螺钉m48 | 2 | struct-roboparty-roboto-origin, struct-roboparty-roboto01 |
-| 扬声器 | 2 | struct-doly-diy, struct-open-duck-mini |
-| 精密螺丝刀套装 | 2 | struct-sesame-robot, struct-xlerobot |
-| 航模锂电池 | 2 | struct-damiao-open-dog, struct-zex-w |
-| 轴承 | 2 | struct-open-duck-mini, struct-openarm |
+| outputport | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| poweracwiring | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| powercord | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| rack | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| raspberrypi5 | 2 | struct-lerobot-humanoid, struct-xlerobot |
+| roboticarmbaselink | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| roboticarmbaseplatform | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| ros无线手柄 | 2 | struct-damiao-bipedal, struct-damiao-open-dog |
+| screw | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| siliconepad | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| sliderblock | 2 | struct-rebot-b601, struct-rebot-b601-rs |
+| slidertogripperextension | 2 | struct-rebot-b601, struct-rebot-b601-rs |
 
 ## 站内目录覆盖
 
-- 已标价 BOM 行：285；精确匹配到站内部件：18（6.3%）
+- 已标价 BOM 行：391；精确匹配到站内部件：32（8.2%）
 - 未匹配的条目按 `data/boms/_discoveries/*.md` 的候选清单处理；只有确认厂商型号与参数后才进目录。
 
 ## 发现与缺口
