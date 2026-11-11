@@ -33,5 +33,40 @@
    "repo_urls": [],
    "repo_license": null
   }
+ },
+ {
+  "id": "hightorque-7can-box",
+  "category": "module",
+  "subtype": "can",
+  "subtype_label": "CAN 模块",
+  "vendor": "High Torque Robotics 高擎动力",
+  "vendor_cn": "高擎动力",
+  "model": "7路 CAN 通用盒子",
+  "title": "高擎动力 7 路 CAN 通用盒子",
+  "url": "https://www.hightorque.cn/product?id=2100",
+  "source_tier": "A",
+  "verified": 1,
+  "last_checked": "2026-11-05",
+  "price_cny": null,
+  "specs": {
+   "iface": "XT60(2+4) 24–50 V 输入；7× XT30(2+2) 48 V + CAN 输出；1× XT30 48 V 输出；1× XT30 12 V 输出；USB3.0 Type-C 与电脑通信；USB2 读取 IMU；USB3 给通信芯片烧录固件；CAN GH1.25-2P、JTAG GH1.25-6P、UART GH1.25-4P；2× Debug UART；拨码开关切换 USB；2 个电源按键",
+   "can": 7,
+   "canfd": true,
+   "can_speed_mbps": 5,
+   "voltage_V": 48,
+   "connector": "XT60(2+4) 24–50 V 输入；7× XT30(2+2) 48 V + CAN 输出；USB3.0 Type-C",
+   "isolation": null,
+   "dims": null,
+   "weight_g": null,
+   "image_url": "/parts/hightorque-7can-box.jpg",
+   "image_source": "广州灵动方程《电机资料库》4.3.4 通用盒子硬件接口说明「通用盒子7路CAN功率板接口」标注图（https://lingdongfangcheng.feishu.cn/wiki/Vyb2wB6kgiTonZkHbGycKH0NnNb，2026-11-05 下载）",
+   "doc_url": "https://lingdongfangcheng.feishu.cn/wiki/Vyb2wB6kgiTonZkHbGycKH0NnNb",
+   "doc_pdf": null,
+   "repo_urls": [],
+   "repo_license": null
+  },
+  "notes": "USB-CAN 总线桥接盒（7 路 XT30(2+2) 48V+CAN 输出），本身不带实时 MCU；无上位机时不能单独承担控制。官方名称为「7 路 CAN 通用盒子」，是不带 RK3588 核心板/算力模块的通信 + 电源盒子：盒内为 7 路 CAN 功率板（MCU STM32F103C8T6、IMU YIS130）和 HYAI-311UAV_O_V10 底板（RK3588 底板，核心板位置留空），需自备核心板或外接上位机使用。与带算力的 RoboBox-7C / 「7 路 CAN 主控盒子控制器」共用 7 路 CAN 功率板；官网产品页 id=2100 描述的是带算力版本，通用盒子的功率与通信参数与其功率板部分一致。接口：XT60(2+4) 24–50 V 输入；7× XT30(2+2) 48 V + CAN 输出；1× XT30 48 V 输出；1× XT30 12 V 输出；USB3.0 Type-C 与电脑通信；USB2 读取 IMU；USB3 给通信芯片烧录固件；CAN GH1.25-2P、JTAG GH1.25-6P、UART GH1.25-4P；2 路 Debug UART；拨码开关切换 USB；2 个电源按键（一个控制通信/上板电源及 XT30 输出，一个控制 7 路 XT30(2+2) 电机输出）。7 路 CAN/FDCAN（5 Mbps）；CAN1/2 持续 30 A，CAN3/4、CAN5/6/7 各 20 A；输入输出范围均为 24–50 V。官方未单列通用盒子产品页，尺寸、重量、价格均未给，相关字段留空；产品图取自 4.3.4「通用盒子7路CAN功率板接口」标注图。未提集成 FOC 功率级，foc_axes 留空。 硬件：MCU STM32F103C8T6（72 MHz，64 KB Flash / 20 KB RAM）；板载 IMU YIS130；2× UART；输入 24–50 V（标称 48 V，上限 50 V）；上位通信 USB3.0 Type-C / CAN / FDCAN / Debug UART（需外接上位机或核心板）。",
+  "origin": "高擎官网 7 路 CAN 主控盒子控制器产品页及《7 路 CAN 主控盒子说明书》（2026-11-05 核对）+ 广州灵动方程《电机资料库》4.3.4 通用盒子硬件接口说明；名称按官方「7 路 CAN 通用盒子」",
+  "search": "高擎 hightorque 7路 can 通用盒子 功率板 stm32f103c8t6 7can 不带算力 hyai-311uav 灵动方程"
  }
 ]

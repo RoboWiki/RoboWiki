@@ -167,7 +167,8 @@
    "hint": "推理与感知",
    "subtypes": {
     "sbc": "单板计算机",
-    "module": "计算模组"
+    "module": "计算模组",
+    "mini_pc": "迷你主机"
    },
    "keys": [
     {
@@ -993,9 +994,10 @@
   {
    "id": "module",
    "name": "模块与转接",
-   "hint": "USB 转 CAN / CAN FD、灯效与其他小板",
+   "hint": "USB 转 CAN / 485、CAN/TTL 转 485、灯效与其他小板",
    "subtypes": {
     "can": "CAN 模块",
+    "adapter": "USB / 总线转接",
     "led": "灯效模块"
    },
    "keys": [
@@ -1022,6 +1024,11 @@
     {
      "k": "voltage_V",
      "label": "供电",
+     "unit": " V"
+    },
+    {
+     "k": "voltage_range_V",
+     "label": "电压范围",
      "unit": " V"
     },
     {
@@ -1605,6 +1612,10 @@
   "NVIDIA": {
    "slug": "nvidia",
    "cn": "英伟达"
+  },
+  "AMD": {
+   "slug": "amd",
+   "cn": "AMD"
   },
   "PJRC": {
    "slug": "pjrc",
