@@ -1,0 +1,38 @@
+[
+ {
+  "category": "remote_controller",
+  "subtype": "radio",
+  "subtype_label": "板控",
+  "id": "flysky-fs-i6x",
+  "vendor": "FlySky 富斯",
+  "vendor_cn": "富斯",
+  "model": "FS-i6X",
+  "title": "富斯 FlySky FS-i6X 2.4GHz 遥控器",
+  "url": "https://www.flysky-cn.com/fsi6x",
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-12",
+  "price_cny": 169,
+  "origin": "富斯官网 FS-i6X 规格页（2026-11-12 核对）+ 用户提供价格与产品图（2026-11-12）",
+  "notes": "6–10 通道（默认 6），2.4GHz AFHDS 2A，4096 分辨率；4×AA 供电，STN 128×64 点阵 LCD，174×89×190mm、392g，工作温度 -10~60℃；双天线、PS/2 PPM 数据口，支持在线升级。官方未给遥控距离；常见套装搭配 FS-iA6B 六通道接收机，实际以商家套装为准。价格 ¥169 为渠道报价（2026-11-12）。",
+  "search": "富斯 flysky FS-i6X i6X 遥控器 6通道 10通道 2.4G AFHDS 2A",
+  "specs": {
+   "image_url": "/parts/flysky-fs-i6x.png",
+   "image_source": "用户提供 FS-i6X 产品图（2026-11-12）",
+   "doc_url": "https://www.flysky-cn.com/i6x-canshu-1",
+   "doc_pdf": null,
+   "channels": 6,
+   "frequency_ghz": 2.4,
+   "control_range_m": null,
+   "protocol": "AFHDS 2A",
+   "voltage_V": null,
+   "battery": "4× AA（1.5 V）",
+   "weight_g": 392,
+   "dims": "174 × 89 × 190 mm",
+   "resolution": "4096",
+   "display": "STN 128×64 点阵 LCD",
+   "temp_range": "-10 ~ +60 ℃",
+   "repo_urls": []
+  }
+ }
+]

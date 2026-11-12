@@ -45,6 +45,21 @@
    "category": "equipment",
    "model": "DL32 Pro"
   },
+  "alientek-dm40a": {
+   "added": "2026-11-12",
+   "category": "equipment",
+   "model": "DM40A"
+  },
+  "alientek-dm40b": {
+   "added": "2026-11-12",
+   "category": "equipment",
+   "model": "DM40B"
+  },
+  "alientek-dm40c": {
+   "added": "2026-11-12",
+   "category": "equipment",
+   "model": "DM40C"
+  },
   "alientek-dp100": {
    "added": "2026-11-08",
    "category": "equipment",
@@ -827,6 +842,21 @@
    "category": "controller_high",
    "model": "RDK X5"
   },
+  "dslogic-plus": {
+   "added": "2026-11-12",
+   "category": "equipment",
+   "model": "DSLogic Plus"
+  },
+  "dslogic-u2basic": {
+   "added": "2026-11-12",
+   "category": "equipment",
+   "model": "DSLogic U2Basic"
+  },
+  "dslogic-u2pro16": {
+   "added": "2026-11-12",
+   "category": "equipment",
+   "model": "DSLogic U2Pro16"
+  },
   "elegoo-saturn-4-ultra": {
    "added": "2026-11-09",
    "category": "equipment",
@@ -887,6 +917,11 @@
    "added": "2026-11-01",
    "category": "battery",
    "model": "6S 平铺 21700"
+  },
+  "flysky-fs-i6x": {
+   "added": "2026-11-12",
+   "category": "remote_controller",
+   "model": "FS-i6X"
   },
   "fnirsi-1013d": {
    "added": "2026-11-08",
@@ -3183,7 +3218,7 @@
   "sens-hipnuc-hi12m0": {
    "added": "2026-10-31",
    "category": "imu",
-   "model": "HI12M0"
+   "model": "HI12M0-MI1-000"
   },
   "sens-ldrobot-ld14": {
    "added": "2026-10-31",
@@ -3267,6 +3302,11 @@
    "added": "2026-10-31",
    "category": "imu",
    "model": "YIS320"
+  },
+  "sick-ds35-b15221": {
+   "added": "2026-11-12",
+   "category": "sensor",
+   "model": "DS35-B15221"
   },
   "sick-dt35-b15251": {
    "added": "2026-11-08",
@@ -5129,6 +5169,11 @@
    "added": "2026-10-31",
    "category": "connector",
    "model": "GX12-2P 2芯航空插头"
+  },
+  "wfly-et08a": {
+   "added": "2026-11-12",
+   "category": "remote_controller",
+   "model": "ET08A"
   },
   "wheeltec-active-100": {
    "added": "2026-11-08",

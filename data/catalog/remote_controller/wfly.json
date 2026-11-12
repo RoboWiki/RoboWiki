@@ -1,0 +1,38 @@
+[
+ {
+  "category": "remote_controller",
+  "subtype": "radio",
+  "subtype_label": "板控",
+  "id": "wfly-et08a",
+  "vendor": "天地飞 WFly",
+  "vendor_cn": "天地飞",
+  "model": "ET08A",
+  "title": "天地飞 WFly ET08A 2.4GHz 8 通道遥控器",
+  "url": null,
+  "source_tier": "B",
+  "verified": true,
+  "last_checked": "2026-11-12",
+  "price_cny": 169,
+  "origin": "天地飞 ET08A 中文说明书规格页（2026-11-12 核对）+ 用户提供价格与产品图（2026-11-12）",
+  "notes": "8 通道 2.4GHz 双向遥控器，全通道 4096 分辨率；工作电压 3.7–6V（1S 锂电），工作电流 150mA；适用直升机、固定翼、多旋翼、机器人、车、船。常见套装搭配 RF206S 接收机，实际以商家套装为准；官方手册未列遥控距离、尺寸与重量。价格 ¥169 为渠道报价。",
+  "search": "天地飞 WFly ET08A 遥控器 8通道 2.4G 4096 板控",
+  "specs": {
+   "image_url": "/parts/wfly-et08a.png",
+   "image_source": "用户提供 ET08A 产品图（2026-11-12）",
+   "doc_url": null,
+   "doc_pdf": "https://www.wflysz.com/wflyftp/ET08A/ET08A%20CN%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+   "channels": 8,
+   "frequency_ghz": 2.4,
+   "control_range_m": null,
+   "protocol": "2.4GHz 双向 / 4096 分辨率",
+   "voltage_V": null,
+   "battery": "1S 锂电 3.7–6 V",
+   "weight_g": null,
+   "resolution": "4096",
+   "display": "128×64 点阵 LCD",
+   "current_out": "150 mA（工作电流）",
+   "temp_range": null,
+   "repo_urls": []
+  }
+ }
+]

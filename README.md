@@ -9,8 +9,8 @@
 站点代码在 [RoboWiki/RoboWiki.github.io](https://github.com/RoboWiki/RoboWiki.github.io)，线上地址 <https://robowiki.org.cn/>。
 
 ```
-404 条目录数据（部件库 335 + 设备库 69） · 32 种材料 + 9 种工艺
-42 台整机 · 22 个软件 · 234 家渠道 · 692 张产品图
+413 条目录数据（部件库 344 + 设备库 69） · 32 种材料 + 9 种工艺
+42 台整机 · 22 个软件 · 234 家渠道 · 699 张产品图
 ```
 
 ## 仓库职责

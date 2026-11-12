@@ -40,5 +40,19 @@
   "detail": "首次购买可享 490 元/个（限购 2 个，原价 1500 元/个）。需在商品页选择对应规格或咨询客服。",
   "url": "天猫 Unitree 宇树旗舰店",
   "expires_on": "2027-12-31"
+ },
+ {
+  "id": "unitree-s288-edu",
+  "vendor": "宇树 Unitree",
+  "part_id": "unitree-s288",
+  "kind": "edu",
+  "title": "S288 学生特惠 ¥79",
+  "price_cny": 79,
+  "detail": "学生特惠 79 元/个（限购 5 个，原价 159 元/个）。需学生身份或教育证明；具体资格、库存与购买方式以宇树官方店铺/客服确认为准。",
+  "url": "宇树 Unitree 官方店铺（天猫）",
+  "starts_on": null,
+  "expires_on": null,
+  "source": "宇树天猫商品页 + 用户确认（2026-11-12）",
+  "demo": false
  }
 ]

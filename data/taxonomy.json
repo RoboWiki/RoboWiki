@@ -2386,6 +2386,18 @@
   "通用舵机": {
    "slug": "generic-servo",
    "cn": "通用舵机"
+  },
+  "DreamSourceLab DSLogic": {
+   "slug": "dslogic",
+   "cn": "梦源实验室"
+  },
+  "FlySky 富斯": {
+   "slug": "flysky",
+   "cn": "富斯"
+  },
+  "天地飞 WFly": {
+   "slug": "wfly",
+   "cn": "天地飞"
   }
  }
 }
