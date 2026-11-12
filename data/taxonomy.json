@@ -1699,9 +1699,21 @@
    "slug": "luxonis",
    "cn": "Luxonis"
   },
+  "博升光电 Berxel": {
+   "slug": "berxel",
+   "cn": "博升光电"
+  },
+  "EPSON": {
+   "slug": "epson",
+   "cn": "爱普生"
+  },
   "Manifold Tech": {
    "slug": "manifold",
    "cn": "留形科技"
+  },
+  "Velodyne": {
+   "slug": "velodyne",
+   "cn": "Velodyne"
   },
   "Movella Xsens": {
    "slug": "xsens",

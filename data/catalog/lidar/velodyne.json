@@ -1,0 +1,51 @@
+[
+ {
+  "category": "lidar",
+  "subtype": "mechanical",
+  "subtype_label": "机械式",
+  "id": "sens-velodyne-vlp-16",
+  "vendor": "Velodyne",
+  "vendor_cn": "Velodyne",
+  "model": "VLP-16",
+  "title": "Velodyne VLP-16 16 线机械式激光雷达",
+  "url": "https://ouster.com/products/hardware/vlp-16",
+  "source_tier": "A",
+  "verified": true,
+  "last_checked": "2026-11-12",
+  "price_cny": null,
+  "origin": "Velodyne PUCK VLP-16 官方规格表（16 线 / 100 m / 约 30 万点每秒 / 830 g / 约 8 W / IP67）+ Ouster 继承产品页（2026-11-12 核对）；价格未标，产品已属 legacy，需库存或二手渠道询价",
+  "notes": "经典 16 线机械旋转雷达：360°×30°、100 m、约 30 万点/s（双回波约 60 万）、5–20 Hz 可调，905 nm Class 1。约 8 W、830 g、Ø103×72 mm、IP67，100BASE-T 以太网并支持 GPS/PPS 授时。优点是 ROS/ROS 2 驱动成熟、点云格式通用、360° 水平视场适合建图与越野；缺点是机械旋转件寿命与抗震不如固态，体积重量对小型四足偏大，且已属 legacy 产品（Velodyne 现属 Ouster），新机需找库存或二手渠道。价格未标；采购前确认转速、回波模式以及线缆/接口盒是否齐全。",
+  "search": "VLP-16 16线 机械激光雷达 100m Velodyne",
+  "specs": {
+   "range_m": 100,
+   "range_note": "官方标称最大 100 m，实际随目标反射率与环境光变化",
+   "points_per_s": 300000,
+   "points_note": "单回波约 30 万点/s；双回波模式约 60 万点/s",
+   "channel": 16,
+   "accuracy": "±3 cm（典型）",
+   "fov": "360° H × 30° V（±15°）",
+   "angular_resolution": "水平 0.1°–0.4°（随转速）；垂直 2°",
+   "fps": 20,
+   "fps_note": "5–20 Hz（300–1200 rpm）可调，最高 20 Hz",
+   "wavelength_nm": 905,
+   "eye_safety": "Class 1 人眼安全",
+   "returns": "单回波 / 双回波（最强 + 最后）",
+   "iface": "100BASE-T 以太网；GPS/PPS 时间同步",
+   "voltage_V": 12,
+   "voltage_range": "9–18 V",
+   "power_w": 8,
+   "mass_kg": 0.83,
+   "size_mm": "Ø103 × 72",
+   "temp_range_C": "-10 ~ +60 ℃（存储 -40 ~ +105 ℃）",
+   "ip": "IP67",
+   "doc_url": "https://ouster.com/products/hardware/vlp-16",
+   "doc_pdf": null,
+   "repo_urls": [
+    "https://github.com/ros-drivers/velodyne"
+   ],
+   "repo_license": "BSD-3-Clause",
+   "image_url": "/parts/velodyne-vlp-16.png",
+   "image_source": "用户提供的 VLP-16 产品图（已裁去水印），2026-11-12 收录"
+  }
+ }
+]

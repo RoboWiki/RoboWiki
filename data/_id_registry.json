@@ -3210,10 +3210,25 @@
    "removed_at": "2026-11-11",
    "removed_reason": "用户要求精简轮组/结构件品类"
   },
+  "sens-berxel-ihawk-p100r": {
+   "added": "2026-11-12",
+   "category": "camera",
+   "model": "iHawk P100R"
+  },
   "sens-bosch-bmi088": {
    "added": "2026-10-31",
    "category": "imu",
    "model": "BMI088"
+  },
+  "sens-epson-m-g354pd0": {
+   "added": "2026-11-12",
+   "category": "imu",
+   "model": "M-G354PD0"
+  },
+  "sens-epson-m-g365pdc1": {
+   "added": "2026-11-12",
+   "category": "imu",
+   "model": "M-G365PDC1"
   },
   "sens-hipnuc-hi12m0": {
    "added": "2026-10-31",
@@ -3274,6 +3289,11 @@
    "added": "2026-10-31",
    "category": "imu",
    "model": "ICM-42688-P"
+  },
+  "sens-velodyne-vlp-16": {
+   "added": "2026-11-12",
+   "category": "lidar",
+   "model": "VLP-16"
   },
   "sens-witmotion-jy901s": {
    "added": "2026-11-12",
