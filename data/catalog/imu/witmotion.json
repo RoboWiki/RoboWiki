@@ -1,18 +1,18 @@
 [
  {
-  "id": "sens-witmotion-wt901",
+  "id": "sens-witmotion-jy901s",
   "category": "imu",
   "subtype": "imu_module",
   "subtype_label": "IMU 模组",
   "vendor": "WitMotion 维特智能",
   "vendor_cn": "深圳市维特智能科技",
-  "model": "WT901",
-  "title": "维特智能 WT901",
-  "url": "https://www.wit-motion.com/Module/84.html",
-  "source_tier": "A",
+  "model": "JY901S",
+  "title": "维特智能 JY901S",
+  "url": null,
+  "source_tier": "B",
   "verified": true,
-  "last_checked": "2026-10-28",
-  "price_cny": null,
+  "last_checked": "2026-11-12",
+  "price_cny": 100,
   "specs": {
    "gyro_range_dps": 2000,
    "accel_range_g": 16,
@@ -26,16 +26,17 @@
    "size_mm": null,
    "weight_g": null,
    "resolution": "0.061 °/s/LSB；0.0005 g/LSB",
-   "image_url": "/parts/witmotion-wt901.png",
-   "image_source": "ccc 分支（Dichen33 提交）",
-   "doc_url": "https://www.wit-motion.com/Module/84.html",
-   "doc_pdf": "https://cdn.shopify.com/s/files/1/0673/6848/5000/files/WitMotion-WT9011DCL_Manual.pdf",
+   "image_url": null,
+   "image_source": null,
+   "doc_url": null,
+   "doc_pdf": null,
    "repo_urls": [
     "https://github.com/WITMOTION/WitStandardProtocol_JY901"
    ],
    "repo_license": "NO-LICENSE"
   },
-  "notes": "9 轴（陀螺 + 加速度 + 磁力计），陀螺 ±2000 °/s、加速度 ±16 g、磁力 ±2 Gauss；输出速率 0.2–200 Hz；UART 4800–230400 bps，硬件 I²C 400 kHz；倾斜精度 0.2°，9 轴航向 0.1°（需磁校准）。官网规格表未列供电电压、尺寸和重量，未填；价格随渠道波动，官网未公开单价。WT901 与 JY901S 协议同源，但外形与接口版本多，下单前确认后缀。",
-  "origin": "WitMotion WT901 产品页 + WitStandardProtocol_JY901 官方示例仓库核对（2026-10-28）；手册链接转载自 aifitlab 商品页（第三方 CDN，2026-10-31 抓取），未与厂商官网域名核对"
+  "notes": "维特智能 JY901S 9 轴姿态模块，与 WT901 同系列：陀螺 ±2000 °/s、加速度 ±16 g、磁力 ±2 Gauss；输出 0.2–200 Hz；UART / I²C，协议与 JY901 系列一致。不同批次外形与接口版本较多，下单前确认后缀；具体供电、尺寸与重量以实物手册为准。价格 ¥100 为渠道报价。",
+  "origin": "WitMotion JY901S 系列口径（沿用 WT901/JY901 协议与量程；2026-11-12 用户确认）+ 渠道报价（2026-11-12）",
+  "search": "JY901S 维特智能 9轴 IMU 陀螺 加速度 磁力计 UART I2C"
  }
 ]

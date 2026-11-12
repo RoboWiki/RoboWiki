@@ -3240,10 +3240,20 @@
    "category": "imu",
    "model": "ICM-42688-P"
   },
+  "sens-witmotion-jy901s": {
+   "added": "2026-11-12",
+   "category": "imu",
+   "model": "JY901S",
+   "renamed_from": [
+    "sens-witmotion-wt901"
+   ]
+  },
   "sens-witmotion-wt901": {
    "added": "2026-10-31",
+   "alias_of": "sens-witmotion-jy901s",
    "category": "imu",
-   "model": "WT901"
+   "model": "WT901",
+   "renamed_at": "2026-11-12"
   },
   "sens-xsens-mti-3": {
    "added": "2026-10-31",
