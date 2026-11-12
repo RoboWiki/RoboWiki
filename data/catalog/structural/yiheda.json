@@ -17,8 +17,8 @@
   "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。2020 是车架与传感器支架最常用的轻型型材。",
   "search": "2020 铝型材 欧标 20x20 框架",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/yiheda-2020.png",
+   "image_source": "用户提供的 2020 欧标铝型材产品渲染，2026-11-12 收录",
    "doc_url": null,
    "size_mm": "20 × 20 mm",
    "material": "6063 铝合金"
@@ -42,8 +42,8 @@
   "notes": "标准件按公称规格收录：这里只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。4040 用于承重车架与升降立柱。",
   "search": "4040 铝型材 欧标 40x40 框架",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/yiheda-4040.png",
+   "image_source": "用户提供的 4040 欧标铝型材产品渲染，2026-11-12 收录",
    "doc_url": null,
    "size_mm": "40 × 40 mm",
    "material": "6063 铝合金"
@@ -67,8 +67,8 @@
   "notes": "标准件按公称规格收录：只写可核验的公称尺寸，不写供应商料号与额定载荷；采购时按规格选型号。3030 用于中等承重框架与设备底座。",
   "search": "3030 铝型材 欧标 30x30 框架",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/yiheda-3030.png",
+   "image_source": "用户提供的 3030 欧标铝型材产品渲染，2026-11-12 收录",
    "doc_url": null,
    "size_mm": "30 × 30 mm",
    "material": "6063 铝合金"

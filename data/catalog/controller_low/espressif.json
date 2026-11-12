@@ -17,8 +17,8 @@
   "notes": "搭载 ESP32-S3-WROOM-1/1U/2 模组，Wi-Fi 2.4 GHz + BLE 5；官方在售 N16R8（16 MB Flash + 8 MB PSRAM）与 N32R16V（32 MB + 16 MB PSRAM），N8 系列已停产，下单前确认物料编号。v1.1 的 RGB LED 接 GPIO38（首版接 GPIO48）。板载 Micro-USB 转 UART（最高 3 Mbps）与全速 USB OTG 各 1 路，USB OTG 可做 JTAG/CDC。TWAI 控制器需外接 CAN 收发器才能上总线。适合无线调试、遥控接收与传感器节点。 价格来自渠道报价（2026-11-11），以实际成交价为准。",
   "search": "ESP32-S3 开发板 WiFi 蓝牙 USB OTG",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/esp32-s3-devkitc-1.png",
+   "image_source": "Espressif 官方等轴产品图（ESP32-S3-DevKitC-1 v1.1），用户提供，2026-11-12 收录",
    "doc_url": "https://docs.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#id1",
    "doc_pdf": null,
    "soc": "ESP32-S3",

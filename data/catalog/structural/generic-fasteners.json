@@ -17,8 +17,8 @@
   "notes": "通用高强度螺钉，按公称等级与螺纹规格收录；具体长度、头型与表面处理按采购清单选。12.9 级适用于高预紧力连接，拧紧扭矩按润滑与螺纹规格核对。",
   "search": "12.9 级 内六角螺钉 M3 M4 M5 M8",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/generic-129-screw.jpg",
+   "image_source": "用户提供的产品参考图（12.9 级内六角螺钉），2026-11-12 收录",
    "doc_url": null,
    "size_mm": "M3–M8（按需）",
    "material": "合金钢 12.9 级"
@@ -42,8 +42,8 @@
   "notes": "通用防松螺母，尼龙圈或金属锁紧结构；按 M3–M8 螺纹规格采购。重复拆装后需检查锁紧力，高温工况优先金属锁紧结构。",
   "search": "防松螺母 尼龙锁紧螺母 M3 M4 M5 M8",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/generic-lock-nut.png",
+   "image_source": "用户提供的产品参考图（尼龙防松螺母），2026-11-12 收录",
    "doc_url": null,
    "size_mm": "M3–M8（按需）",
    "material": "碳钢镀锌 / 不锈钢（按需）"
@@ -67,8 +67,8 @@
   "notes": "轴肩螺钉用于定位或铰接，光杆段与螺纹段分开标注；按轴径、肩长和螺纹规格采购，避免用普通螺钉代替。",
   "search": "塞打螺丝 轴肩螺钉 定位螺钉",
   "specs": {
-   "image_url": null,
-   "image_source": null,
+   "image_url": "/parts/generic-shoulder-screw.png",
+   "image_source": "用户提供的产品参考图（塞打螺丝 / 轴肩螺钉），2026-11-12 收录",
    "doc_url": null,
    "size_mm": "M3–M8（按需）",
    "material": "合金钢 / 不锈钢（按需）"
