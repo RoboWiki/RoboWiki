@@ -37,7 +37,7 @@
 | 足端/打印耗材（TPU/橡胶、PLA/PETG/尼龙） | “可 3D 打印也可 CNC”，足端建议 TPU/橡胶 | 无耗材品类 | https://github.com/OpenDogeRobotics/OpenDoge_origin#robot-specification |
 | CNC 加工服务 | 机身大型件建议 CNC 铝合金 | 无外协加工/服务品类 | https://github.com/OpenDogeRobotics/OpenDoge_hardware/blob/main/README.md |
 | 物理急停 / 断电开关 | 上电前必检项，要求能物理切断电机 24 V | `equipment`、`power` 均无“急停”子类 | 同上调试与上机操作手册 |
-| 整机套件/散件包 | 官方无套件；社区教程（GOUJIAO）在教“自己买齐” | 站内无套件商品形态 | https://github.com/OpenDogeRobotics/GOUJIAO |
+| 整机套件/散件包 | 官方无套件；公开教程（GOUJIAO）在教“自己买齐” | 站内无套件商品形态 | https://github.com/OpenDogeRobotics/GOUJIAO |
 
 ## ② 高价值、但部件库缺失的件
 
@@ -73,7 +73,7 @@
   - 灵足 RobStride 官网（EL05 原厂）https://www.robstride.com/
   - 达妙 DAMIAO（DM-IMU-L1 原厂仓库，站内条目 `damiao-dm-imu-l1` 的 url）https://gitee.com/kit-miao/dm-imu
   - 香橙派官方产品页（Orange Pi 5）http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html
-- 社区教学口径（**非官方 BOM，不得写入 BOM**）：GOUJIAO 教程写“EL05 约 400 元/个，12 个约 4800 元，加打印件总成本约 8000 元”。
+- 公开教学口径（**非官方 BOM，不得写入 BOM**）：GOUJIAO 教程写“EL05 约 400 元/个，12 个约 4800 元，加打印件总成本约 8000 元”。
   https://github.com/OpenDogeRobotics/GOUJIAO/blob/main/content/docs/02-hardware/actuators.mdx
   https://github.com/OpenDogeRobotics/GOUJIAO/blob/main/content/docs/02-hardware/hardware-architecture.mdx
 
@@ -82,7 +82,7 @@
 1. **“链路完整、BOM 缺失”是 OpenDoge 最大的反差**：CAD/URDF/MJCF/训练/部署/浏览器仿真全通，唯独 BOM 与装配文档缺失，且官方自己标了 ⬜。适合在方案页做成“资料完整度”徽标案例：机械/固件/仿真 ✅，BOM ❌。
 2. **电压规格站内为空，但官方文档有 24 V**：`opendoge.json` 的 `voltage_V` / `voltage_range_V` 为 null，而部署手册明确“电机独立 24 V 动力电”“CHIWU 的 24 V 不要与电机动力电共开关”。这是可补的硬参数（本次不改 robots 数据）。
 3. **BOM 口径提醒**：README 说 “CHIWU 4×CAN”，部署日志里却是 `/dev/USB2CAN0` + `/dev/USB2CAN1` 两个 SOULDE 设备——很可能是一块板出两个 USB-CAN 设备（各 2 路）。页面若写“4 路 CAN 模块”应同时给出这个细节，否则用户按“一块 USB-CAN 就能跑”买会踩坑。
-4. **12 个 EL05 是成本主体**：按站内 EL05 参考价 `¥299`（2026-10-31 历史值）估 12 个约 ¥3.6k，而社区教程按 ~¥400/个说 ¥4.8k。两套口径差 30%，正好可以做成“参考价 vs 社区实付”对照（BOM 本身仍不填价）。
+4. **12 个 EL05 是成本主体**：按站内 EL05 参考价 `¥299`（2026-10-31 历史值）估 12 个约 ¥3.6k，而公开教程按 ~¥400/个说 ¥4.8k。两套口径差 30%，正好可以做成“参考价 vs 外部实付”对照（BOM 本身仍不填价）。
 5. **许可分裂**：train/deploy/站点 Apache-2.0、description BSD、hardware 仓未见明确 LICENSE。做硬件复刻页时必须提示“CAD 许可未明示”，这是全开源方案里少见的许可空洞。
    证据：https://github.com/OpenDogeRobotics/OpenDoge_origin#license
 6. **实物已走起来、RL 还在调**：README 写“PD 站立 OK、RL 行走仍在调”，并给出高频抖动/CAN 回包时序/IMU 噪声三类问题的实测记录。这类“真实失败记录”对 RoboWiki 复刻者价值极高，建议在方案页直接外链 hardware issue log。
