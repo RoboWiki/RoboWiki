@@ -9,8 +9,8 @@
 站点代码在 [RoboWiki/RoboWiki.github.io](https://github.com/RoboWiki/RoboWiki.github.io)，线上地址 <https://robowiki.org.cn/>。
 
 ```
-413 条目录数据（部件库 338 + 设备库 75） · 32 种材料 + 9 种工艺
-42 台整机 · 22 个软件 · 234 家渠道 · 700 张产品图
+417 条目录数据（部件库 342 + 设备库 75） · 32 种材料 + 9 种工艺
+42 台整机 · 22 个软件 · 234 家渠道 · 712 张产品图
 ```
 
 ## 仓库职责
@@ -18,6 +18,7 @@
 | 目录 | 内容 |
 |---|---|
 | `data/` | 唯一事实源：`catalog/`、`robots/`、`materials/`、`offers/`、`software.json`、`suppliers.json`、`taxonomy.json`、评分/实测快照与注册表 |
+| `.github/ISSUE_TEMPLATE/` | 评分、实测、纠错、文章投稿表单；Issue 是用户内容的数据源 |
 | `schema/` | 数据契约：字段、类型、枚举、口径与 `semantics.version` |
 | `assets/parts/` | 随条目托管的产品图；版权归原厂/原商城，出处逐条写在 `image_source` |
 | `pipeline/` | `validate` 数据闸门，以及评分 / 实测快照的导入逻辑 |
@@ -26,6 +27,16 @@
 | `tests/` | 数据闸门、语义、分类与发布物测试 |
 
 **站点仓不保存数据副本。** 它通过 `data.lock.json` 锁定本仓的 `data-v*` release，构建时下载并校验 SHA-256。
+
+## Issue 即数据
+
+评分、实测、纠错和文章投稿都放在本仓 Issues：
+
+- `rating` / `review`：站点构建时按标签拉取并聚合，不写数据库；
+- `data-fix`：维护者按数据发布流程修改，改动说明留在 Issue；
+- `article`：审核后进入教程库。
+
+Issue 只通过 GitHub 账号提交，不需要站内注册。
 
 ## 快速开始
 
@@ -72,7 +83,7 @@ python tools/export_data.py --out .tmp-data-export --tag data-v2026.11.11.2
 
 - 纠参数、补数据：直接改对应 JSON 后提 PR；先跑 `python -m pipeline validate`。
 - 新增型号：先在 `data/_id_registry.json` 登记 ID，再补 `data/catalog/<category>/`。
-- 写实测 / 评分：走站点仓库的 issue 表单或互动端，快照由 `pipeline/ingest_*` 聚合，**不要手改快照**。
+- 写实测 / 评分：走本仓的 Issue 表单，快照由 `pipeline/ingest_*` 聚合，**不要手改快照**。
 - 产品图：放进 `assets/parts/`，并在条目里写 `image_source` 与 `last_checked`。
 
 完整流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。

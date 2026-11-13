@@ -16,6 +16,7 @@ dependencies = [
 dev = [
     "pytest>=8",
     "jsonschema>=4.21",
+    "pyyaml>=6",
 ]
 tools = [
     "pillow>=10",
