@@ -66,7 +66,7 @@
   "title": "高擎动力 4 路 CAN 主控盒子",
   "url": "https://lingdongfangcheng.feishu.cn/wiki/KdsOwj02NiNbsDkUjRuc0e68ndb",
   "source_tier": "B",
-  "verified": 1,
+  "verified": true,
   "last_checked": "2026-11-05",
   "price_cny": null,
   "specs": {
@@ -105,9 +105,11 @@
    "size_mm": null,
    "doc_url": "https://lingdongfangcheng.feishu.cn/wiki/KdsOwj02NiNbsDkUjRuc0e68ndb",
    "repo_urls": [],
-   "repo_license": null
+   "repo_license": null,
+   "soc": "RK3588",
+   "cpu": "4×Cortex-A76 + 4×Cortex-A55"
   },
-  "notes": "资料库称「4 路 CAN 主控盒子」，由 RK3588 系统板和 4 路 CAN 底板组成；底板分功率部分和通信部分，通信部分把 4 路 FDCAN 转成串口交给系统板。接口：XT60(2+4) 24–48 V 输入、4× XT30(2+2) 电机接口、RK3588 系统板接口、电机控制按钮、系统板供电按钮（长按）。系统板为 RK3588 八核 4×Cortex-A76 + 4×Cortex-A55，GPU + 6 TOPS NPU，板载 eMMC/DDR，带 USB2.0/3.0、HDMI、TF、Mini-PCIe（4G/WiFi）、Type-C、调试串口和音频接口。资料未给尺寸、重量、价格、FDCAN 速率和底板 MCU 型号，相关字段留空；未提集成 FOC 功率级，foc_axes 留空。仅见于广州灵动方程维护的公开《电机资料库》4.3.3，高擎官网未单列该型号，厂商归属按同库高擎产品体系判断，待官方确认；产品图取自该文档「整体构成」照片（飞书公开页面，2026-11-05 下载）。",
+  "notes": "资料库称「4 路 CAN 主控盒子」，由 RK3588 系统板和 4 路 CAN 底板组成；主控/SoC 是 RK3588（八核 4×Cortex-A76 + 4×Cortex-A55，GPU + 6 TOPS NPU），不是「RK3588 协议」：底板通信部分把 4 路 FDCAN 转成串口交给 RK3588 系统板。接口：XT60(2+4) 24–48 V 输入、4× XT30(2+2) 电机接口、RK3588 系统板接口、电机控制按钮、系统板供电按钮（长按）。系统板板载 eMMC/DDR，带 USB2.0/3.0、HDMI、TF、Mini-PCIe（4G/WiFi）、Type-C、调试串口和音频接口。资料未给尺寸、重量、价格、FDCAN 速率和底板 MCU 型号，相关字段留空；未提集成 FOC 功率级，foc_axes 留空。仅见于广州灵动方程维护的公开《电机资料库》4.3.3，高擎官网未单列该型号，厂商归属按同库高擎产品体系判断，待官方确认；产品图取自该文档「整体构成」照片（飞书公开页面，2026-11-05 下载）。",
   "origin": "广州灵动方程《电机资料库》4.3.3 4路CAN主控盒子（2026-11-05 核对）",
   "search": "高擎 hightorque 4路can 主控盒子 rk3588 4can fdcan 灵动方程"
  }
