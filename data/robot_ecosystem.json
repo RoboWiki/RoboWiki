@@ -1624,7 +1624,7 @@
     "工具/资料": 3,
     "仿真": 2,
     "BOM/复现": 4,
-    "社区复刻": 1
+    "外部复刻": 1
    },
    "projects": [
     {
@@ -1660,7 +1660,7 @@
     {
      "name": "microduck-s288",
      "role": "训练",
-     "desc": "MicroDuck S288 社区复刻：结构/电控/标定/RL 训练/真机部署 + 预训练 ONNX 与中文教程",
+     "desc": "MicroDuck S288 外部复刻：结构/电控/标定/RL 训练/真机部署 + 预训练 ONNX 与中文教程",
      "url": "https://github.com/zj281136/microduck-s288"
     },
     {
@@ -1690,8 +1690,8 @@
     {
      "name": "microduck-replica",
      "url": "https://github.com/fanhao375/microduck-replica",
-     "role": "社区复刻",
-     "desc": "社区整机复刻主线：可烧录镜像、中控、装配视频与逆向 BOM。"
+     "role": "外部复刻",
+     "desc": "外部整机复刻主线：可烧录镜像、中控、装配视频与逆向 BOM。"
     },
     {
      "name": "microduck-replica-cad",
@@ -1780,7 +1780,7 @@
     "官方项目": 2,
     "官方 SDK": 3,
     "控制/MPC": 1,
-    "社区复刻": 1
+    "外部复刻": 1
    },
    "projects": [
     {
@@ -1834,7 +1834,7 @@
     {
      "name": "a1_sim_py",
      "url": "https://github.com/lnotspotl/a1_sim_py",
-     "role": "社区复刻",
+     "role": "外部复刻",
      "desc": "A1 PyBullet 仿真资产与运行环境。"
     }
    ],
@@ -2053,7 +2053,7 @@
     "官方项目": 2,
     "工具/资料": 1,
     "训练": 1,
-    "社区复刻": 1
+    "外部复刻": 1
    },
    "projects": [
     {
@@ -2095,8 +2095,8 @@
     {
      "name": "unitree_h1_humanoid-gym",
      "url": "https://github.com/ZhangXG001/unitree_h1_humanoid-gym",
-     "role": "社区复刻",
-     "desc": "社区 H1 行走 RL 训练与验证。"
+     "role": "外部复刻",
+     "desc": "外部 H1 行走 RL 训练与验证。"
     }
    ],
    "note": "官方仓库 + 参考库项目（按 URL 去重）"
@@ -2257,7 +2257,7 @@
     "训练": 2,
     "部署": 1,
     "工具/资料": 2,
-    "社区复刻": 1
+    "外部复刻": 1
    },
    "projects": [
     {
@@ -2299,11 +2299,11 @@
     {
      "name": "open-duck-mini-hat",
      "url": "https://github.com/blublear/open-duck-mini-hat",
-     "role": "社区复刻",
-     "desc": "社区树莓派 HAT，简化整机接线。"
+     "role": "外部复刻",
+     "desc": "外部树莓派 HAT，简化整机接线。"
     }
    ],
-   "note": "官方仓库 + 社区构建指南（按 URL 去重）"
+   "note": "官方仓库 + 外部构建指南（按 URL 去重）"
   },
   "parol6": {
    "label": "PAROL6 桌面六轴机械臂",
@@ -2358,7 +2358,7 @@
      "desc": "可选自适应电动夹爪（CERN-OHL-S-2.0）。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "rebot-b601": {
    "label": "reBot 开源机械臂 B601",
@@ -2421,7 +2421,7 @@
      "desc": "B601 的 LeRobot 遥操作实现（MIT）。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "doly-diy": {
    "label": "DOLY 桌面轮式双小臂机器人（DIY 版）",
@@ -2444,7 +2444,7 @@
      "desc": "DOLY 使用的 WM8960 音频驱动（GPL-3.0）。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "openarm": {
    "label": "OpenArm 七自由度开源人形臂",
@@ -2532,7 +2532,7 @@
      "desc": "dora-rs 策略推理与评测。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "xlerobot": {
    "label": "XLeRobot 低成本家用双臂移动机器人",
@@ -2582,7 +2582,7 @@
      "desc": "浏览器内 MuJoCo + 3DGS 仿真与可视化。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "lerobot-humanoid": {
    "label": "LeRobot 人形机器人（下肢平台）",
@@ -2638,7 +2638,7 @@
      "desc": "LeRobot 主框架，人形实现尚未并入主干。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "sesame-robot": {
    "label": "Sesame 开源迷你四足机器人",
@@ -2678,16 +2678,16 @@
      "name": "sesame-robot-sim",
      "url": "https://github.com/one-for-all/sesame-robot-sim",
      "role": "仿真",
-     "desc": "社区 Rust/WebAssembly 三维仿真。"
+     "desc": "开源 Rust/WebAssembly 三维仿真。"
     },
     {
      "name": "sesame-ml",
      "url": "https://github.com/lukehollis/sesame-ml",
      "role": "训练",
-     "desc": "社区 ML/RL 工具：CAD 派生 MJCF、校验过的 URDF、任务与策略评估。"
+     "desc": "开源 ML/RL 工具：CAD 派生 MJCF、校验过的 URDF、任务与策略评估。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "petoi-opencat": {
    "label": "Petoi OpenCat 开源四足机器人框架",
@@ -2735,7 +2735,7 @@
      "desc": "已归档的早期 OpenCat 仓库。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "xgo-duck": {
    "label": "XGO-Duck 双足机器鸭",
@@ -2778,7 +2778,7 @@
      "desc": "上游原型与板载软件参考（Apache-2.0）。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "asimov-1": {
    "label": "Asimov 1 开源人形机器人",
@@ -2833,7 +2833,7 @@
      "desc": "开源人形吊装/支撑架。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "amazing-hand": {
    "label": "Amazing Hand 开源灵巧手",
@@ -2842,7 +2842,7 @@
     "官方项目": 2,
     "官方 SDK": 2,
     "工具/资料": 1,
-    "社区复刻": 1
+    "外部复刻": 1
    },
    "projects": [
     {
@@ -2873,16 +2873,16 @@
      "name": "AmazingHandControl",
      "url": "https://github.com/Betatester777/AmazingHandControl",
      "role": "工具/资料",
-     "desc": "社区 GUI/CLI：单指控制、反馈读取、动作录制回放。"
+     "desc": "开源 GUI/CLI：单指控制、反馈读取、动作录制回放。"
     },
     {
      "name": "AmazingHand with SG90 force control",
      "url": "https://github.com/joanbox24/AmazingHand-with-sg90-servo-force-control",
-     "role": "社区复刻",
-     "desc": "社区改版：SG90 舵机替代 SCS0009 并加入力控。"
+     "role": "外部复刻",
+     "desc": "外部改版：SG90 舵机替代 SCS0009 并加入力控。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "roboto-origin": {
    "label": "RoboParty ROBOTO Origin 开源人形",
@@ -2943,7 +2943,7 @@
      "desc": "RPO 导航与定位应用模块（GPL-3.0）。"
     }
    ],
-   "note": "官方仓库 + 社区复刻（按 URL 去重）"
+   "note": "官方仓库 + 外部复刻（按 URL 去重）"
   },
   "htdw4438": {
    "label": "高擎 HTDW4438 MiniDog 桌面级四足",

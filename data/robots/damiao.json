@@ -15,7 +15,7 @@
   "openness": "full",
   "price_cny": null,
   "origin": "Gitee 仓库 README 与 硬件/ 目录：BOM 表（电控 + 机械 + 线材）、整机 STEP、腿部/躯干加工图纸、接线图、电源板与分电板工程文件；2026-11-09 核对",
-  "notes": "社区也把该机称作 OpenDoge（达妙 DM6248P 电机版）；它与 OpenDogeRobotics 的 OpenDoge V1.1（EL05 电机）是两个厂商的同名项目，硬件、BOM 与生态互不通用。达妙科技开源的 12 自由度四足，12 × DM6248P 关节电机 + 达妙 USB 双路 CANFD + 达妙 IMU + NUC（BOM 配置 ORIN NX 载板）。控制主线是 NMPC + WBC，仓库注明强化学习部分仍在调试。硬件包是完整的一套：机械和电控 BOM 表、整机 STEP、腿部与躯干加工图纸、NUC 接线图，以及 24V 转 19.5V 电源板和四足分电板的工程/打板文件。仓库没有 LICENSE 文件，默认保留所有权利，复用机械图或 PCB 前要先联系作者确认授权。整机质量与外形尺寸仓库未公布，参数留空。",
+  "notes": "公开资料也把该机称作 OpenDoge（达妙 DM6248P 电机版）；它与 OpenDogeRobotics 的 OpenDoge V1.1（EL05 电机）是两个厂商的同名项目，硬件、BOM 与生态互不通用。达妙科技开源的 12 自由度四足，12 × DM6248P 关节电机 + 达妙 USB 双路 CANFD + 达妙 IMU + NUC（BOM 配置 ORIN NX 载板）。控制主线是 NMPC + WBC，仓库注明强化学习部分仍在调试。硬件包是完整的一套：机械和电控 BOM 表、整机 STEP、腿部与躯干加工图纸、NUC 接线图，以及 24V 转 19.5V 电源板和四足分电板的工程/打板文件。仓库没有 LICENSE 文件，默认保留所有权利，复用机械图或 PCB 前要先联系作者确认授权。整机质量与外形尺寸仓库未公布，参数留空。",
   "specs": {
    "dof": 12,
    "mass_kg": null,
