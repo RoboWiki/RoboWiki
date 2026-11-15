@@ -6,7 +6,7 @@
 
 **RoboWiki 的唯一数据事实源：部件、整机、材料、工艺、软件、渠道、评分快照与产品图。**
 
-站点代码在 [RoboWiki/RoboWiki.github.io](https://github.com/RoboWiki/RoboWiki.github.io)，线上地址 <https://robowiki.org.cn/>。
+站点代码在 [RoboWiki/RoboWiki.github.io](https://github.com/RoboWiki/RoboWiki.github.io)，线上地址 <https://robowiki.github.io/>。
 
 ```
 417 条目录数据（部件库 342 + 设备库 75） · 32 种材料 + 9 种工艺
