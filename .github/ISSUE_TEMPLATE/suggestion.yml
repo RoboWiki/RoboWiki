@@ -1,0 +1,51 @@
+name: 提建议 / 反馈
+description: 功能、内容、体验上的想法或不满。不需要懂 git。
+title: "[建议] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **不需要会写代码**。说清「在什么场景下、遇到什么 / 想要什么、期望的样子」，
+        维护者会按优先级排期；采纳与否都会在这条 issue 里回复。
+
+        如果是具体部件的参数错了 / 缺了，请改用「数据纠错 / 补充」表单，那条走数据发布流程。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 建议类型
+      options:
+        - 新功能 / 新页面
+        - 现有功能改进
+        - 内容 / 数据组织
+        - 界面 / 体验 / 可读性
+        - 性能 / 兼容性
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 场景与问题
+      description: 你在做什么的时候遇到了什么，或希望站点能做什么。越具体越容易被采纳。
+      placeholder: 例：在部件库对比两个电机时，希望把扭矩曲线叠在同一张图上…
+    validations:
+      required: true
+
+  - type: textarea
+    id: expectation
+    attributes:
+      label: 期望的样子（可选）
+      description: 你理想中的结果，或参考链接 / 截图。
+    validations:
+      required: false
+
+  - type: input
+    id: page
+    attributes:
+      label: 相关页面 / 部件（可选）
+      placeholder: https://…/parts/actuator/… 或部件型号
+    validations:
+      required: false
